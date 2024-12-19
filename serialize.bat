@@ -1,9 +1,12 @@
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\PL - Dark.esp" -o "Spriggit/PL - Dark" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\PL - Default.esp" -o "Spriggit/PL - Default" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Placed Light - Spots.esp" -o "Spriggit/Placed Light - Spots" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Placed Light Exteriors.esp" -o "Spriggit/Placed Light Exteriors" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Placed Light.esm" -o "Spriggit/Placed Light" -g SkyrimSE -p Spriggit.Json
+@echo off
+setlocal enabledelayedexpansion
 
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Misc Patches\NOTWL - Lanterns.esp" -o "Spriggit\Misc Patches\NOTWL - Lanterns" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Misc Patches\Placed Light - CC.esp" -o "Spriggit\Misc Patches\Placed Light - CC" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Misc Patches\Placed Light Exteriors - NOTWL 3 patch.esp" -o "Spriggit\Misc Patches\Placed Light Exteriors - NOTWL 3 patch" -g SkyrimSE -p Spriggit.Json
+set "folderPath=%~dp0package\"
+for %%e in (.esp .esm) do (
+    for /r "%folderPath%" %%f in (*%%e) do (
+        set "relativePath=%%f"
+        set "relativePath=!relativePath:%folderPath%=!"
+        SpriggitCLI\Spriggit.CLI.exe serialize -i "package\!relativePath!" -o "Spriggit/!relativePath:~0,-4!" -g SkyrimSE -p Spriggit.Json
+    )
+)
+endlocal

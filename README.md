@@ -4,10 +4,9 @@
 ## Dev setup
 - Download [SpriggitCLI.zip](https://github.com/Mutagen-Modding/Spriggit/releases/tag/0.35.1) and place it in `SpriggitCLI` folder (git ignored so it wont show up in git)
 
-### Serialize
-- Copy content from zip into `package`
-- Make sure `serialize.bat` matches the esp/esm files from package
-- Delete `Spriggit` folder
+### Serialize (Get content from esp/esm into git)
+- Make sure `package` folder have latest esp/esm files
+- If you deleted/renamed any esp/esm delete subfolder for it under `Spriggit` folder
 - Run `serialize.bat`
 - Commit changes
 

@@ -7,7 +7,7 @@ IF exist "dist" (
 xcopy /s /d /i /EXCLUDE:exclusions.txt package dist
 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Dark" -o "dist/PL - Dark.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Darkest" -o "dist/PL - Darkest.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Default" -o "dist/PL - Default.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light - Spots" -o "dist/Placed Light - Spots.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light Exteriors" -o "dist/Placed Light Exteriors.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light" -o "dist/Placed Light.esm"
