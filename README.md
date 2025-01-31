@@ -2,7 +2,7 @@
 - [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/135488)
 
 ## Dev setup
-- Download [SpriggitCLI.zip](https://github.com/Mutagen-Modding/Spriggit/releases/tag/0.35.1) and place it in `SpriggitCLI` folder (git ignored so it wont show up in git)
+- Download [SpriggitCLI.zip](https://github.com/Mutagen-Modding/Spriggit/releases/latest) and place it in `SpriggitCLI` folder (git ignored so it wont show up in git)
 
 ### Serialize (Get content from esp/esm into git)
 - Make sure `package` folder have latest esp/esm files
