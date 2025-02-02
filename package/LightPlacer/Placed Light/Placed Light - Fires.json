@@ -126,5 +126,115 @@
         }
       }
     ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            203,
+            144,
+            78
+          ],
+          "fade": 2.0,
+          "light": "MagicLightWhite01",
+          "radius": 98
+        },
+        "points": [
+          [
+            -0.31,
+            -0.0,
+            2.16
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "!kenan\\realistic fireplaces\\rf-ember-log.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            203,
+            144,
+            78
+          ],
+          "fade": 1.2,
+          "shadowDepthBias": 26.00,
+          "light": "WRFireLightShadow01",
+          "radius": 512,
+          "flags": "Shadow"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            200
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "!kenan\\realistic fireplaces\\rf-FIREPLACE-ON.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            203,
+            144,
+            78
+          ],
+          "fade": 1.2,
+          "shadowDepthBias": 26.00,
+          "light": "WRFireLightShadow01",
+          "radius": 300,
+          "flags": "Shadow|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            200.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "!kenan\\realistic fireplaces\\rf-campfire-on.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "color": [
+            203,
+            144,
+            78
+          ],
+          "fade": 2.0,
+          "shadowDepthBias": 26.00,
+          "light": "WRFireLightShadow01",
+          "radius": 300,
+          "flags": "Shadow|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            200
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "!kenan\\realistic fireplaces\\rf-campfire-land-on.nif"
+    ]
   }
 ]

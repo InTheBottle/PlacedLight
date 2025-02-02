@@ -1,34 +1,33 @@
 [
   {
-    "addonNodes": [49, 64],
+    "models": [
+      "clutter\\imperial\\impcandle01.nif",
+      "clutter\\imperial\\impcandle01_B.nif",
+      "clutter\\imperial\\impcandle01_C.nif",
+      "clutter\\imperial\\impcandle01_D.nif",
+      "clutter\\imperial\\impcandle01_E.nif",
+      "clutter\\imperial\\impcandle01_F.nif",
+      "clutter\\imperial\\impcandle01_G.nif",
+      "clutter\\imperial\\impcandle01_H.nif",
+      "clutter\\imperial\\impcandle01_I.nif",
+      "clutter\\imperial\\impcandle01_J.nif",
+      "clutter\\imperial\\impcandle01_K.nif",
+      "clutter\\silver\\silvercandlestick01.nif",
+      "clutter\\silver\\silvercandlestick03.nif",
+      "clutter\\sovngarde\\sovcandlestick01.nif",
+      "clutter\\sovngarde\\sovcandlestick03.nif",
+      "clutter\\sovngarde\\sovcandlestick01static.nif",
+      "clutter\\sovngarde\\sovcandlestick03static.nif",
+      "clutter\\candles\\candlehorntable01.nif",
+      "clutter\\candles\\candlehornwall01.nif"
+    ],
     "lights": [
       {
-        "whiteList": [
-          "clutter\\imperial\\impcandle01.nif",
-          "clutter\\imperial\\impcandle01_B.nif",
-          "clutter\\imperial\\impcandle01_C.nif",
-          "clutter\\imperial\\impcandle01_D.nif",
-          "clutter\\imperial\\impcandle01_E.nif",
-          "clutter\\imperial\\impcandle01_F.nif",
-          "clutter\\imperial\\impcandle01_G.nif",
-          "clutter\\imperial\\impcandle01_H.nif",
-          "clutter\\imperial\\impcandle01_I.nif",
-          "clutter\\imperial\\impcandle01_J.nif",
-          "clutter\\imperial\\impcandle01_K.nif",
-          "clutter\\silver\\silvercandlestick01.nif",
-          "clutter\\silver\\silvercandlestick03.nif",
-          "clutter\\sovngarde\\sovcandlestick01.nif",
-          "clutter\\sovngarde\\sovcandlestick03.nif",
-          "clutter\\sovngarde\\sovcandlestick01static.nif",
-          "clutter\\sovngarde\\sovcandlestick03static.nif",
-          "clutter\\candles\\candlehorntable01.nif",
-          "clutter\\candles\\candlehornwall01.nif"
-        ],
+        "points": [[0.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 1.0,
-          "offset": [0.0, 0.0, 0.0],
+          "fade": 1.1,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -188,63 +187,62 @@
     ]
   },
   {
-    "addonNodes": [49],
+    "models": [
+      "clutter\\silver\\SilverCandleStick01_B.nif",
+      "clutter\\silver\\SilverCandleStick01_C.nif",
+      "clutter\\silver\\SilverCandleStick01_D.nif",
+      "clutter\\silver\\SilverCandleStick01_E.nif",
+      "clutter\\silver\\SilverCandleStick01_F.nif",
+      "clutter\\silver\\SilverCandleStick01_G.nif",
+      "clutter\\silver\\SilverCandleStick01_H.nif",
+      "clutter\\silver\\SilverCandleStick01_I.nif",
+      "clutter\\silver\\SilverCandleStick01_J.nif",
+      "clutter\\silver\\SilverCandleStick03_B.nif",
+      "clutter\\silver\\SilverCandleStick03_C.nif",
+      "clutter\\silver\\SilverCandleStick03_D.nif",
+      "clutter\\silver\\SilverCandleStick03_E.nif",
+      "clutter\\silver\\SilverCandleStick03_F.nif",
+      "clutter\\silver\\SilverCandleStick03_G.nif",
+      "clutter\\silver\\SilverCandleStick03_H.nif",
+      "clutter\\silver\\SilverCandleStick03_I.nif",
+      "clutter\\silver\\SilverCandleStick03_J.nif"
+    ],
     "lights": [
       {
-        "whiteList": [
-          "clutter\\silver\\SilverCandleStick01_B.nif",
-          "clutter\\silver\\SilverCandleStick01_C.nif",
-          "clutter\\silver\\SilverCandleStick01_D.nif",
-          "clutter\\silver\\SilverCandleStick01_E.nif",
-          "clutter\\silver\\SilverCandleStick01_F.nif",
-          "clutter\\silver\\SilverCandleStick01_G.nif",
-          "clutter\\silver\\SilverCandleStick01_H.nif",
-          "clutter\\silver\\SilverCandleStick01_I.nif",
-          "clutter\\silver\\SilverCandleStick01_J.nif",
-          "clutter\\silver\\SilverCandleStick03_B.nif",
-          "clutter\\silver\\SilverCandleStick03_C.nif",
-          "clutter\\silver\\SilverCandleStick03_D.nif",
-          "clutter\\silver\\SilverCandleStick03_E.nif",
-          "clutter\\silver\\SilverCandleStick03_F.nif",
-          "clutter\\silver\\SilverCandleStick03_G.nif",
-          "clutter\\silver\\SilverCandleStick03_H.nif",
-          "clutter\\silver\\SilverCandleStick03_I.nif",
-          "clutter\\silver\\SilverCandleStick03_J.nif"
-        ],
+        "points": [[0.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 1.0,
+          "fade": 1.1,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
     ]
   },
   {
-    "addonNodes": [49, 64],
+    "models": [
+      "clutter\\imperial\\impwallsconcecandle01.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_B.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_C.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_D.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_E.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_F.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_G.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_H.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_I.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_J.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_K.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_L.nif",
+      "clutter\\imperial\\ImpWallSconceCandle01_M.nif",
+      "clutter\\imperial\\impwallsconcecandle02.nif"
+    ],
     "lights": [
       {
-        "whiteList": [
-          "clutter\\imperial\\impwallsconcecandle01.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_B.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_C.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_D.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_E.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_F.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_G.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_H.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_I.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_J.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_K.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_L.nif",
-          "clutter\\imperial\\ImpWallSconceCandle01_M.nif",
-          "clutter\\imperial\\impwallsconcecandle02.nif"
-        ],
+        "points": [[0.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 1.0,
-          "offset": [0.0, 0.0, 0.0],
+          "fade": 1.1,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
