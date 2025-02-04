@@ -53,19 +53,10 @@
     ]
   },
   "WaterHeight": -2.1474836E+09,
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
   "ImageSpace": "04E261:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C7B52:Skyrim.esm",
-      "Base": "08E796:Skyrim.esm",
-      "Radius": 200.85901,
-      "Placement": {
-        "Position": "112, -4128, 1616"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0B9401:Skyrim.esm",
@@ -95,6 +86,15 @@
       "Placement": {
         "Position": "-734.1535, 3945.7979, 1441.2516",
         "Rotation": "-0.28697306, -1.3127375, 0.724818"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C7B52:Skyrim.esm",
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 200.85901,
+      "Placement": {
+        "Position": "112, -4128, 1616"
       }
     }
   ],

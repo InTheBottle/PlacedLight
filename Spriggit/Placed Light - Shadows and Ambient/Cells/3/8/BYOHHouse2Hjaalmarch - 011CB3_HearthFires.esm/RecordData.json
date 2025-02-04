@@ -79,6 +79,24 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0122EB:HearthFires.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -259.53217,
+      "LightData": {
+        "FadeOffset": 0.48683,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE0A:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "011D30:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "650.1585, 18.133026, 122.979996"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "01231B:HearthFires.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -238.74817,
@@ -97,20 +115,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0122EB:HearthFires.esm",
+      "FormKey": "0009F8:HearthFires.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -259.53217,
+      "Radius": -144.02197,
       "LightData": {
-        "FadeOffset": 0.48683,
+        "FadeOffset": 0.6259638,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE0A:HearthFires.esm",
       "EnableParent": {
-        "Reference": "011D30:HearthFires.esm",
+        "Reference": "011F3A:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "650.1585, 18.133026, 122.979996"
+        "Position": "2.4327102, 1064.7987, 98.45056"
       }
     },
     {
@@ -135,24 +153,6 @@
       "Placement": {
         "Position": "-584.478, 23.008026, 172.63228",
         "Rotation": "0, 0, 4.712389"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0009F8:HearthFires.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -144.02197,
-      "LightData": {
-        "FadeOffset": 0.6259638,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE0A:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "011F3A:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "2.4327102, 1064.7987, 98.45056"
       }
     }
   ],

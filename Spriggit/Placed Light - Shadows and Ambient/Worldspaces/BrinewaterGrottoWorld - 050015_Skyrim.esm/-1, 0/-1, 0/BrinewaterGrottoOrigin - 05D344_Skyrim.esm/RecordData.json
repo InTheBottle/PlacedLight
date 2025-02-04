@@ -11,40 +11,12 @@
   ],
   "Grid": {
     "Point": "-2, 2",
-    "Flags": "258807552"
+    "Flags": "16416512"
   },
   "WaterHeight": -2.1474836E+09,
   "AcousticSpace": "01989F:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "082F8B:Skyrim.esm",
-      "Base": "01F8B0:Skyrim.esm",
-      "Radius": 334.87146,
-      "LocationReference": "05F428:Skyrim.esm",
-      "Placement": {
-        "Position": "-4447.464, 9341.61, 332.19202"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "05F460:Skyrim.esm",
-      "MajorRecordFlagsRaw": 131072,
-      "SkyrimMajorRecordFlags": [
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "01FD9B:Skyrim.esm",
-      "Radius": 477.77905,
-      "LightData": {
-        "FadeOffset": 0.2056998,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "05F428:Skyrim.esm",
-      "Placement": {
-        "Position": "-7643.869, 9684.056, 470.30334"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "05F45E:Skyrim.esm",
@@ -75,6 +47,34 @@
       "LocationReference": "05F428:Skyrim.esm",
       "Placement": {
         "Position": "-6436.563, 10554.764, 189.38998"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "082F8B:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 334.87146,
+      "LocationReference": "05F428:Skyrim.esm",
+      "Placement": {
+        "Position": "-4447.464, 9341.61, 332.19202"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05F460:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 477.77905,
+      "LightData": {
+        "FadeOffset": 0.2056998,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "05F428:Skyrim.esm",
+      "Placement": {
+        "Position": "-7643.869, 9684.056, 470.30334"
       }
     }
   ],

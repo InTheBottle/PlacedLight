@@ -1,6 +1,11 @@
 {
   "FormKey": "028EDF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Skuldafn04",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Skuldafn South Tower"
@@ -54,19 +59,19 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0668DB:Skyrim.esm",
-      "FormVersion": 35,
       "Base": "088242:Skyrim.esm",
       "Radius": 427.53394,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.2720001,
         "ShadowDepthBias": 26.195938
       },
+      "LocationReference": "0192AB:Skyrim.esm",
       "Placement": {
         "Position": "133.66916, 644.14435, 985.10034"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

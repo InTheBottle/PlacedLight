@@ -57,6 +57,23 @@
   "AcousticSpace": "0FF495:Skyrim.esm",
   "Music": "00EEB9:Dawnguard.esm",
   "ImageSpace": "019964:Dawnguard.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00F6A1:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 3072,
+      "EditorID": "DLC1dunHarkonShrineLight",
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "InitiallyDisabled"
+      ],
+      "Base": "00F6A2:Dawnguard.esm",
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "1275.5955, 1894.2561, 9164.566"
+      }
+    }
+  ],
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -73,6 +90,20 @@
       "Placement": {
         "Position": "938.08154, 1641.2412, 9724.549",
         "Rotation": "5.7595863, 5.358161, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019E32:Dawnguard.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": 428.07495,
+      "LightData": {
+        "FadeOffset": -0.29426628,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "2180.772, 2636.4912, 9361.271"
       }
     },
     {
@@ -98,20 +129,6 @@
       "LocationReference": "00357D:Dawnguard.esm",
       "Placement": {
         "Position": "2108.9233, 1086.5164, 9381.793"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "019E32:Dawnguard.esm",
-      "Base": "088248:Skyrim.esm",
-      "Radius": 428.07495,
-      "LightData": {
-        "FadeOffset": -0.29426628,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00357D:Dawnguard.esm",
-      "Placement": {
-        "Position": "2180.772, 2636.4912, 9361.271"
       }
     }
   ],

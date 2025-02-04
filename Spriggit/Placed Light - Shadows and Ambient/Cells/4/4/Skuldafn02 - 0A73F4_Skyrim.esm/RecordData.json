@@ -1,6 +1,11 @@
 {
   "FormKey": "0A73F4:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Skuldafn02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Skuldafn Temple"
@@ -54,19 +59,37 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0668AA:Skyrim.esm",
-      "FormVersion": 35,
       "Base": "088242:Skyrim.esm",
       "Radius": 296.90625,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 0.5656234,
         "ShadowDepthBias": 23.391174
       },
+      "LocationReference": "0192AB:Skyrim.esm",
       "Placement": {
         "Position": "2184.7107, 20274.871, 2510.1824"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06689E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "036464:Skyrim.esm",
+      "Radius": 781.55835,
+      "LightData": {
+        "FadeOffset": 0.87031806,
+        "ShadowDepthBias": 30.91848
+      },
+      "LocationReference": "0192AB:Skyrim.esm",
+      "Placement": {
+        "Position": "4123.8433, 13678.038, 1942.9535"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

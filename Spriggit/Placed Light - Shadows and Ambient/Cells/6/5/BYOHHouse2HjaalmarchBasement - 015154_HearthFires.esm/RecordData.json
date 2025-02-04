@@ -1,6 +1,11 @@
 {
   "FormKey": "015154:HearthFires.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BYOHHouse2HjaalmarchBasement",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Windstad Manor, Cellar"
@@ -47,17 +52,19 @@
   "Location": "00BE0A:HearthFires.esm",
   "Owner": "000DB1:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
+  "UnknownGroupData": 1,
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0152B0:HearthFires.esm",
-      "FormVersion": 43,
       "Base": "088242:Skyrim.esm",
       "Radius": 128.61813,
       "LightData": {
         "FadeOffset": 0.96712697,
         "ShadowDepthBias": 17.200445
       },
+      "LocationReference": "00BE0A:HearthFires.esm",
       "EnableParent": {
         "Reference": "015175:HearthFires.esm",
         "Unknown": "0x000000"
@@ -67,5 +74,8 @@
         "Rotation": "0, 1.5707964, 0.7853982"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

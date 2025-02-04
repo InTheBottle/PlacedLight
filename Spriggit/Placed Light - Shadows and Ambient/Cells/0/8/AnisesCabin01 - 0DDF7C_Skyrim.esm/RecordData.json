@@ -1,9 +1,11 @@
 {
   "FormKey": "0DDF7C:Skyrim.esm",
-  "MajorRecordFlagsRaw": 131072,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 393216,
   "EditorID": "AnisesCabin01",
   "SkyrimMajorRecordFlags": [
-    "Dangerous_OffLimits_InteriorCell"
+    "Dangerous_OffLimits_InteriorCell",
+    "Compressed"
   ],
   "Name": {
     "TargetLanguage": "English",
@@ -64,22 +66,20 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0FEBEF:Skyrim.esm",
-      "FormVersion": 37,
       "Base": "088242:Skyrim.esm",
       "Radius": -10.701981,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.6970956,
         "ShadowDepthBias": 32.0
       },
+      "LocationReference": "0D9537:Skyrim.esm",
       "Placement": {
         "Position": "1852.0867, -820.59717, 4183.4927"
       }
     }
   ],
   "MajorFlags": [
-    "OffLimits"
+    "OffLimits",
+    "0x40000"
   ]
 }

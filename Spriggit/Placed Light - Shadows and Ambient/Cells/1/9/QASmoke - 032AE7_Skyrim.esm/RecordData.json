@@ -1,6 +1,11 @@
 {
   "FormKey": "032AE7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "QASmoke",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Editor Smoke Test Cell"
@@ -49,26 +54,7 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF1:Skyrim.esm",
-      "FormVersion": 37,
-      "Base": "088242:Skyrim.esm",
-      "Placement": {
-        "Position": "2496, 2304, 7104"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF2:Skyrim.esm",
-      "FormVersion": 37,
-      "Base": "088242:Skyrim.esm",
-      "Placement": {
-        "Position": "2752, 1792, 7168"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C2CF3:Skyrim.esm",
-      "FormVersion": 37,
       "Base": "088242:Skyrim.esm",
       "Placement": {
         "Position": "2496, 1792, 7168"
@@ -76,17 +62,23 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF4:Skyrim.esm",
-      "FormVersion": 37,
+      "FormKey": "0C2CF6:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Placement": {
-        "Position": "2240, 1792, 7168"
+        "Position": "2240, 2304, 7104"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2CF2:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Placement": {
+        "Position": "2752, 1792, 7168"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0C2CF5:Skyrim.esm",
-      "FormVersion": 37,
       "Base": "088242:Skyrim.esm",
       "Placement": {
         "Position": "2752, 2304, 7104"
@@ -94,12 +86,22 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF6:Skyrim.esm",
-      "FormVersion": 37,
+      "FormKey": "0C2CF4:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Placement": {
-        "Position": "2240, 2304, 7104"
+        "Position": "2240, 1792, 7168"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2CF1:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Placement": {
+        "Position": "2496, 2304, 7104"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

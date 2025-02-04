@@ -40,7 +40,7 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "258807808"
+      "Flags": "16416512"
     },
     "WaterHeight": 3.4028235E+38,
     "Regions": [
@@ -49,20 +49,36 @@
     "Persistent": [
       {
         "MutagenObjectType": "PlacedObject",
-        "FormKey": "00505E:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073875968,
+        "FormKey": "00D258:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073744896,
+        "EditorID": "DLC1TempleDoorLightUpperRef",
         "SkyrimMajorRecordFlags": [
           "0x400",
           "InitiallyDisabled",
-          "Dangerous_OffLimits_InteriorCell",
           "0x40000000"
         ],
-        "Base": "08824C:Skyrim.esm",
-        "Radius": -168.72134,
+        "Base": "00D259:Dawnguard.esm",
+        "Radius": -52.662323,
         "LocationReference": "00A87C:Dawnguard.esm",
         "Placement": {
-          "Position": "-8794.712, -9109.768, 8926.788",
-          "Rotation": "0, 0, 0.0071998467"
+          "Position": "-22422.568, -13285.49, 8931.317"
+        }
+      },
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00D25A:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073744896,
+        "EditorID": "DLC1TempleDoorLightLowerRef",
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "0x40000000"
+        ],
+        "Base": "00D259:Dawnguard.esm",
+        "Radius": 27.128693,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-22422.568, -13285.49, 8327.511"
         }
       },
       {
@@ -85,6 +101,24 @@
         "Placement": {
           "Position": "-2435.1873, 16601.184, 2133.0352",
           "Rotation": "0, 0, 2.1731894"
+        }
+      },
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00505E:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073875968,
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "Dangerous_OffLimits_InteriorCell",
+          "0x40000000"
+        ],
+        "Base": "08824C:Skyrim.esm",
+        "Radius": -168.72134,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-8794.712, -9109.768, 8926.788",
+          "Rotation": "0, 0, 0.0071998467"
         }
       }
     ],

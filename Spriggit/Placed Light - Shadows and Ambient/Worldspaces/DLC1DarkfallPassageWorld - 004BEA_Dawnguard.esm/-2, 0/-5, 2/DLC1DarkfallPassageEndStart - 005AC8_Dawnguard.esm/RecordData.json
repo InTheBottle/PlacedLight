@@ -6,13 +6,31 @@
   ],
   "Grid": {
     "Point": "-38, 18",
-    "Flags": "258807808"
+    "Flags": "16416512"
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
     "014C2F:Dawnguard.esm"
   ],
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01136A:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "00EFE3:Dawnguard.esm",
+      "Radius": 317.23224,
+      "LightData": {
+        "FadeOffset": 3.1131191,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0162AC:Dawnguard.esm",
+      "Placement": {
+        "Position": "-155437.62, 74158.73, -1379.19"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "006FFB:Dawnguard.esm",

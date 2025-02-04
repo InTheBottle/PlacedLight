@@ -1,0 +1,77 @@
+{
+  "FormKey": "05015D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "NarzulburBasement",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mauhulakh's Cellar"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0345A4:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "020A00:Skyrim.esm",
+  "Owner": "02C006:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "Music": "0B9DCB:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D5772:Skyrim.esm",
+      "Base": "0691D2:Skyrim.esm",
+      "Radius": 100.26044,
+      "LightData": {
+        "FadeOffset": 1.0047109,
+        "ShadowDepthBias": 15.455235
+      },
+      "LocationReference": "020A00:Skyrim.esm",
+      "Placement": {
+        "Position": "2507.1895, 1866.9968, 227.87518"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

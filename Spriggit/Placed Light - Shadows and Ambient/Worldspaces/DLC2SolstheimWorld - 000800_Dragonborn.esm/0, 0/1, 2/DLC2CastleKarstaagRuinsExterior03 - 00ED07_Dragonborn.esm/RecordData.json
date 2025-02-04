@@ -12,7 +12,7 @@
   ],
   "Grid": {
     "Point": "8, 22",
-    "Flags": "258807808"
+    "Flags": "16416768"
   },
   "MaxHeightData": {
     "Offset": 256.0,
@@ -53,16 +53,27 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "02F78F:Skyrim.esm",
-    "03414D:Dragonborn.esm",
-    "029F3B:Dragonborn.esm",
-    "02ADC6:Dragonborn.esm",
+    "028649:Dragonborn.esm",
     "01B9A9:Dragonborn.esm",
-    "028649:Dragonborn.esm"
+    "02ADC6:Dragonborn.esm",
+    "029F3B:Dragonborn.esm",
+    "03414D:Dragonborn.esm",
+    "02F78F:Skyrim.esm"
   ],
   "Location": "01429E:Dragonborn.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "024825:Dragonborn.esm",
+      "Base": "01FEDA:Dragonborn.esm",
+      "Scale": 2.0,
+      "LocationReference": "01429E:Dragonborn.esm",
+      "Placement": {
+        "Position": "32871.883, 91037.91, 6313.109",
+        "Rotation": "0.15854265, -0.62667644, 0.238379"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "039E3F:Dragonborn.esm",
@@ -83,17 +94,6 @@
       "Placement": {
         "Position": "33148.715, 91463.26, 6307.9004",
         "Rotation": "-0.11210391, 0.14512618, 6.111526"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "024825:Dragonborn.esm",
-      "Base": "01FEDA:Dragonborn.esm",
-      "Scale": 2.0,
-      "LocationReference": "01429E:Dragonborn.esm",
-      "Placement": {
-        "Position": "32871.883, 91037.91, 6313.109",
-        "Rotation": "0.15854265, -0.62667644, 0.238379"
       }
     },
     {

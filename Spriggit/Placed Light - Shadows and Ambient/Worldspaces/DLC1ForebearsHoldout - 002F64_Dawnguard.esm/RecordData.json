@@ -35,6 +35,47 @@
   "ObjectBoundsMin": "-2, -2",
   "ObjectBoundsMax": "4, 4",
   "Music": "00EEB9:Dawnguard.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "TopCell": {
+    "FormKey": "002F82:Dawnguard.esm",
+    "IsCompressed": true,
+    "MajorRecordFlagsRaw": 263168,
+    "SkyrimMajorRecordFlags": [
+      "0x400",
+      "Compressed"
+    ],
+    "Flags": [
+      "HasWater"
+    ],
+    "Grid": {
+      "Flags": "16416512"
+    },
+    "WaterHeight": 3.4028235E+38,
+    "Persistent": [
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00312B:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1024,
+        "EditorID": "DLC1VQ03BarrierLight",
+        "SkyrimMajorRecordFlags": [
+          "0x400"
+        ],
+        "Base": "10D99E:Skyrim.esm",
+        "Radius": 1247.4695,
+        "LightData": {
+          "FadeOffset": 1.6546614,
+          "ShadowDepthBias": 1.0
+        },
+        "LocationReference": "00357F:Dawnguard.esm",
+        "Placement": {
+          "Position": "-1652.0941, 660.87524, 1705.413"
+        }
+      }
+    ],
+    "MajorFlags": [
+      "Persistent",
+      "0x40000"
+    ]
+  },
   "SubCellsUnknown": 1
 }

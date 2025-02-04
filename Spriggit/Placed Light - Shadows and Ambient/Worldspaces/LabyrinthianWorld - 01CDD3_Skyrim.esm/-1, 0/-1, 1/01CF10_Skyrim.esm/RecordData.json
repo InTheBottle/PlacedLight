@@ -1,12 +1,16 @@
 {
   "FormKey": "01CF10:Skyrim.esm",
-  "FormVersion": 39,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater"
   ],
   "Grid": {
     "Point": "-2, 9",
-    "Flags": "5495808"
+    "Flags": "16416512"
   },
   "WaterHeight": -2.1474836E+09,
   "AcousticSpace": "01AA4D:Skyrim.esm",
@@ -15,19 +19,19 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "01DADF:Skyrim.esm",
-      "FormVersion": 37,
       "Base": "088242:Skyrim.esm",
       "Radius": 178.423,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.4034572,
         "ShadowDepthBias": 17.013695
       },
+      "LocationReference": "0EAA62:Skyrim.esm",
       "Placement": {
         "Position": "-8146.8286, 39052.27, 3402.7014"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

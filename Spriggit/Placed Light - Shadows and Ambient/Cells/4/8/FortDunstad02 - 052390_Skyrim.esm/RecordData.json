@@ -1,6 +1,11 @@
 {
   "FormKey": "052390:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortDunstad02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Dunstad Prison"
@@ -54,20 +59,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "069109:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 666.1857,
+      "LightData": {
+        "FadeOffset": 0.9706489,
+        "ShadowDepthBias": 29.660446
+      },
+      "LocationReference": "01917E:Skyrim.esm",
+      "Placement": {
+        "Position": "277.69547, 216.39003, 2029.4183"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "069111:Skyrim.esm",
-      "FormVersion": 34,
       "Base": "088242:Skyrim.esm",
       "Radius": 330.4624,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.1904702,
         "ShadowDepthBias": 24.209862
       },
+      "LocationReference": "01917E:Skyrim.esm",
       "Placement": {
         "Position": "-1895.904, -1411.478, 2809.2007"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

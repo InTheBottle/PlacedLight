@@ -1,6 +1,11 @@
 {
   "FormKey": "0681DD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BoulderfallCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Boulderfall Cave"
@@ -54,19 +59,33 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0D3C6D:Skyrim.esm",
-      "FormVersion": 39,
       "Base": "088242:Skyrim.esm",
       "Radius": 618.3445,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.7835093,
         "ShadowDepthBias": 29.075142
       },
+      "LocationReference": "0F52DA:Skyrim.esm",
       "Placement": {
         "Position": "1592.5065, 1090.5303, 50.43737"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3C6F:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 198.01804,
+      "LightData": {
+        "FadeOffset": 1.400352,
+        "ShadowDepthBias": 20.341343
+      },
+      "LocationReference": "0F52DA:Skyrim.esm",
+      "Placement": {
+        "Position": "2036.443, -123.12433, 180.60074"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

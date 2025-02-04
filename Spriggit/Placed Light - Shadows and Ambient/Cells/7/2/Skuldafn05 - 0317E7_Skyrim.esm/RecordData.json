@@ -1,6 +1,11 @@
 {
   "FormKey": "0317E7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Skuldafn05",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Skuldafn North Tower"
@@ -54,19 +59,19 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0668EB:Skyrim.esm",
-      "FormVersion": 35,
       "Base": "088242:Skyrim.esm",
       "Radius": 351.57593,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 0.6297132,
         "ShadowDepthBias": 24.685402
       },
+      "LocationReference": "0192AB:Skyrim.esm",
       "Placement": {
         "Position": "58.638535, 622.195, 898.0583"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

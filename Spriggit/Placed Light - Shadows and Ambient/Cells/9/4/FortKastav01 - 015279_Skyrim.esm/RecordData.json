@@ -1,6 +1,11 @@
 {
   "FormKey": "015279:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortKastav01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Kastav Prison"
@@ -54,19 +59,19 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0691B7:Skyrim.esm",
-      "FormVersion": 39,
       "Base": "088242:Skyrim.esm",
       "Radius": 223.6814,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.1280682,
         "ShadowDepthBias": 21.25013
       },
+      "LocationReference": "019182:Skyrim.esm",
       "Placement": {
         "Position": "4907.3096, -2726.8096, -310.17413"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }
