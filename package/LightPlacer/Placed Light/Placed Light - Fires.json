@@ -17,8 +17,8 @@
         "points": [[0, 0, 75]],
         "data": {
           "light": "LightCampFire01",
-          "radius": 400.0,
-          "fade": 1.2,
+          "radius": 256.0,
+          "fade": 0.8,
           "flags": "IgnoreScale"
         }
       }
@@ -36,7 +36,7 @@
         "data": {
           "light": "LightCampFire01",
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 0.8,
           "flags": "IgnoreScale"
         }
       }
@@ -51,7 +51,7 @@
           "light": "LightCampFire01",
           "color": [0, 127, 255],
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 0.8,
           "flags": "IgnoreScale"
         }
       }
@@ -70,10 +70,10 @@
         "points": [[0, 0, 50]],
         "data": {
           "light": "LightCampFire01",
-          "radius": 512.0,
-          "fade": 1.5,
+          "radius": 400.0,
+          "fade": 0.8,
           "shadowDepthBias": 26.0,
-          "flags": "IgnoreScale|Shadow"
+          "flags": "IgnoreScale"
         }
       }
     ]
@@ -118,9 +118,9 @@
         "data": {
           "light": "LightCampFire01",
           "radius": 512.0,
-          "fade": 1.5,
+          "fade": 0.8,
           "shadowDepthBias": 26.0,
-          "flags": "IgnoreScale|Shadow"
+          "flags": "IgnoreScale"
         }
       }
     ]

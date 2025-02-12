@@ -19,3 +19,4 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Carbon LightB
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\NOTWL - Lanterns" -o "dist\Misc Patches\NOTWL - Lanterns.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - Creation Club" -o "dist\Misc Patches\Placed Light - Creation Club.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light Exteriors - NOTWL 3 patch" -o "dist\Misc Patches\Placed Light Exteriors - NOTWL 3 patch.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\HDR - Interiors" -o "dist\Misc Patches\HDR - Interiors.esp"
