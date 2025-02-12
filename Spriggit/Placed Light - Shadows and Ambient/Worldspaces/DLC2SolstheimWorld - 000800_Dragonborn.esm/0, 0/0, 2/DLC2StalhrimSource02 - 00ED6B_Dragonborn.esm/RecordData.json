@@ -59,26 +59,7 @@
     "028649:Dragonborn.esm",
     "02F78F:Skyrim.esm"
   ],
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0347A8:Dragonborn.esm",
-      "MajorRecordFlagsRaw": 131072,
-      "SkyrimMajorRecordFlags": [
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "08E79A:Skyrim.esm",
-      "Radius": 122.83063,
-      "LightData": {
-        "FadeOffset": -1.087512,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "016E2A:Dragonborn.esm",
-      "Placement": {
-        "Position": "29125.229, 79081.51, 7708.823"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0347A5:Dragonborn.esm",
@@ -99,20 +80,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0347AA:Dragonborn.esm",
+      "FormKey": "0347A8:Dragonborn.esm",
       "MajorRecordFlagsRaw": 131072,
       "SkyrimMajorRecordFlags": [
         "Dangerous_OffLimits_InteriorCell"
       ],
       "Base": "08E79A:Skyrim.esm",
-      "Radius": -6.124832,
+      "Radius": 122.83063,
       "LightData": {
         "FadeOffset": -1.087512,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "016E2A:Dragonborn.esm",
       "Placement": {
-        "Position": "29191.7, 78787.734, 7620.8413"
+        "Position": "29125.229, 79081.51, 7708.823"
       }
     },
     {
@@ -131,6 +112,24 @@
       "LocationReference": "016E2A:Dragonborn.esm",
       "Placement": {
         "Position": "28858.713, 78542.836, 7722.9043"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0347AA:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "08E79A:Skyrim.esm",
+      "Radius": -6.124832,
+      "LightData": {
+        "FadeOffset": -1.087512,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "016E2A:Dragonborn.esm",
+      "Placement": {
+        "Position": "29191.7, 78787.734, 7620.8413"
       }
     }
   ],

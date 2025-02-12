@@ -54,22 +54,7 @@
   "LockList": "01845D:Dragonborn.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "033917:Dragonborn.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0351AC:Dragonborn.esm",
-      "Base": "03523F:Dragonborn.esm",
-      "Radius": 194.51074,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A1F:Dragonborn.esm",
-      "Placement": {
-        "Position": "-627.5993, 1046.3793, -197.67639"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0336D6:Dragonborn.esm",
@@ -101,17 +86,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "035240:Dragonborn.esm",
+      "FormKey": "033D1C:Dragonborn.esm",
       "Base": "03523F:Dragonborn.esm",
-      "Radius": 53.72931,
+      "Radius": -203.55594,
       "LightData": {
         "FadeOffset": 1.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A1F:Dragonborn.esm",
       "Placement": {
-        "Position": "-1424.027, -13.668202, -208",
-        "Rotation": "0, 1.0249995, 0"
+        "Position": "-885.3692, -414.8684, -208"
       }
     },
     {
@@ -130,16 +114,31 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "033D1C:Dragonborn.esm",
+      "FormKey": "0351AC:Dragonborn.esm",
       "Base": "03523F:Dragonborn.esm",
-      "Radius": -203.55594,
+      "Radius": 194.51074,
       "LightData": {
         "FadeOffset": 1.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A1F:Dragonborn.esm",
       "Placement": {
-        "Position": "-885.3692, -414.8684, -208"
+        "Position": "-627.5993, 1046.3793, -197.67639"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "035240:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": 53.72931,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A1F:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1424.027, -13.668202, -208",
+        "Rotation": "0, 1.0249995, 0"
       }
     }
   ],

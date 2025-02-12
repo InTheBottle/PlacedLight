@@ -1,0 +1,34 @@
+{
+  "FormKey": "0C275B:Skyrim.esm",
+  "MajorRecordFlagsRaw": 131072,
+  "EditorID": "MS06RitualLightEvil",
+  "SkyrimMajorRecordFlags": [
+    "Dangerous_OffLimits_InteriorCell"
+  ],
+  "ObjectBounds": {
+    "First": "-6695, -5089, -2279",
+    "Second": "3972, 5416, 5720"
+  },
+  "Model": {
+    "File": "Effects\\MS06PotemaSummon.nif",
+    "Data": "0x0200000007000000000000006C6AC81F6464730038973CEA777C517064647300582C5533F38462D964647300582C553387890EFE64647300582C5533994D4BBA6464730038973CEAC4C16EB16464730038973CEACF238B7F6464730038973CEA"
+  },
+  "Time": -1,
+  "Radius": 1024,
+  "Color": "#001F2975",
+  "Flags": [
+    "Dynamic",
+    "Pulse",
+    "PortalStrict"
+  ],
+  "FalloffExponent": 1.0,
+  "FOV": 90.0,
+  "NearClip": 1.0,
+  "FlickerPeriod": 0.3,
+  "FlickerIntensityAmplitude": 0.2,
+  "FlickerMovementAmplitude": 2.0,
+  "FadeValue": 3.0,
+  "MajorFlags": [
+    "PortalStrict"
+  ]
+}

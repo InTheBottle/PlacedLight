@@ -59,21 +59,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "011AB1:Dawnguard.esm",
-      "Base": "0059C2:Dawnguard.esm",
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "24363.293, 14394.91, 123.066185",
-        "Rotation": "-0.09754986, 0.1545084, 0.99833804"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "011AA4:Dawnguard.esm",
       "Base": "0059C2:Dawnguard.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
         "Position": "22206.336, 13109.716, 169.3665",
+        "Rotation": "-0.17388974, 0.055737462, 0.30103555"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "011AA9:Dawnguard.esm",
+      "Base": "0059C2:Dawnguard.esm",
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "22264.6, 13800.744, 134.07732",
         "Rotation": "-0.17388974, 0.055737462, 0.30103555"
       }
     },
@@ -89,26 +89,12 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "011AA9:Dawnguard.esm",
+      "FormKey": "011AB1:Dawnguard.esm",
       "Base": "0059C2:Dawnguard.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "22264.6, 13800.744, 134.07732",
-        "Rotation": "-0.17388974, 0.055737462, 0.30103555"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0179BD:Dawnguard.esm",
-      "Base": "0059C2:Dawnguard.esm",
-      "Radius": 146.56235,
-      "LightData": {
-        "FadeOffset": 6.9563556,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "22640, 16096, 384"
+        "Position": "24363.293, 14394.91, 123.066185",
+        "Rotation": "-0.09754986, 0.1545084, 0.99833804"
       }
     },
     {
@@ -124,6 +110,20 @@
       "Placement": {
         "Position": "21648.615, 14812.659, 1341.32",
         "Rotation": "0, 0, 3.3331888"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0179BD:Dawnguard.esm",
+      "Base": "0059C2:Dawnguard.esm",
+      "Radius": 146.56235,
+      "LightData": {
+        "FadeOffset": 6.9563556,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "22640, 16096, 384"
       }
     }
   ],

@@ -18,17 +18,18 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0AC41B:Skyrim.esm",
-      "MajorRecordFlagsRaw": 131072,
+      "FormKey": "06998C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
       "SkyrimMajorRecordFlags": [
+        "0x10000",
         "Dangerous_OffLimits_InteriorCell"
       ],
       "Base": "0897B5:Skyrim.esm",
-      "Radius": 241.39984,
+      "Radius": 1278.0046,
       "LocationReference": "018EE1:Skyrim.esm",
       "Placement": {
-        "Position": "-3334.6995, 2275.4775, 1417.0259",
-        "Rotation": "0, 0, 5.633188"
+        "Position": "-3125.994, 1713.4371, 1836.3086",
+        "Rotation": "0, 0, 6.083187"
       }
     },
     {
@@ -44,6 +45,22 @@
       "LocationReference": "018EE1:Skyrim.esm",
       "Placement": {
         "Position": "-2455.2886, 2966.5156, 1202.3271",
+        "Rotation": "0, 0, 5.633188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "093D7D:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0897B5:Skyrim.esm",
+      "Radius": 241.39984,
+      "LocationReference": "018EE1:Skyrim.esm",
+      "Placement": {
+        "Position": "-1771.0894, 1839.1083, 1202.3271",
         "Rotation": "0, 0, 5.633188"
       }
     },
@@ -94,33 +111,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "06998C:Skyrim.esm",
-      "MajorRecordFlagsRaw": 196608,
+      "FormKey": "0AC41B:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
       "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0897B5:Skyrim.esm",
-      "Radius": 1278.0046,
-      "LocationReference": "018EE1:Skyrim.esm",
-      "Placement": {
-        "Position": "-3125.994, 1713.4371, 1836.3086",
-        "Rotation": "0, 0, 6.083187"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "093D7D:Skyrim.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
         "Dangerous_OffLimits_InteriorCell"
       ],
       "Base": "0897B5:Skyrim.esm",
       "Radius": 241.39984,
       "LocationReference": "018EE1:Skyrim.esm",
       "Placement": {
-        "Position": "-1771.0894, 1839.1083, 1202.3271",
+        "Position": "-3334.6995, 2275.4775, 1417.0259",
         "Rotation": "0, 0, 5.633188"
       }
     }

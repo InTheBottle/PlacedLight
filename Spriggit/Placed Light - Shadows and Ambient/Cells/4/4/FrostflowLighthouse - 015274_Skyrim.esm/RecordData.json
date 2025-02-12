@@ -59,6 +59,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0471AD:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 84.72656,
+      "LightData": {
+        "FadeOffset": 2.1776621,
+        "ShadowDepthBias": 14.310318
+      },
+      "LocationReference": "019186:Skyrim.esm",
+      "Placement": {
+        "Position": "1208.0105, -473.03522, 813.4822",
+        "Rotation": "0, 0, 1.518997"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0471B2:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
       "Radius": 42.79373,
@@ -87,6 +102,20 @@
       "Placement": {
         "Position": "1340.3899, -973.8434, 777.5873",
         "Rotation": "0, 0, 1.3089969"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D09E0:Skyrim.esm",
+      "Base": "0E2149:Skyrim.esm",
+      "Radius": 519.7046,
+      "LightData": {
+        "FadeOffset": -0.568478,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019186:Skyrim.esm",
+      "Placement": {
+        "Position": "-2127.1196, -238.27074, -818.167"
       }
     },
     {
@@ -125,35 +154,6 @@
       "LocationReference": "019186:Skyrim.esm",
       "Placement": {
         "Position": "-3563.021, -433.6587, -1146.5662"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D09E0:Skyrim.esm",
-      "Base": "0E2149:Skyrim.esm",
-      "Radius": 519.7046,
-      "LightData": {
-        "FadeOffset": -0.568478,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019186:Skyrim.esm",
-      "Placement": {
-        "Position": "-2127.1196, -238.27074, -818.167"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0471AD:Skyrim.esm",
-      "Base": "036464:Skyrim.esm",
-      "Radius": 84.72656,
-      "LightData": {
-        "FadeOffset": 2.1776621,
-        "ShadowDepthBias": 14.310318
-      },
-      "LocationReference": "019186:Skyrim.esm",
-      "Placement": {
-        "Position": "1208.0105, -473.03522, 813.4822",
-        "Rotation": "0, 0, 1.518997"
       }
     }
   ],

@@ -60,6 +60,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E07FA:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -205.38544,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F884:Skyrim.esm",
+      "Placement": {
+        "Position": "-1058.7568, -130.13217, 315.53015"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0809:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -106.58423,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01F884:Skyrim.esm",
+      "Placement": {
+        "Position": "-1184.331, 75.60483, 90.0348"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E080C:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -249.91534,
@@ -90,20 +118,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0809:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -106.58423,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01F884:Skyrim.esm",
-      "Placement": {
-        "Position": "-1184.331, 75.60483, 90.0348"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E082D:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -242.9921,
@@ -115,20 +129,6 @@
       "Placement": {
         "Position": "-1696.9512, 6.882599, 166.39165",
         "Rotation": "0, 0, 5.508188"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E07FA:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -205.38544,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F884:Skyrim.esm",
-      "Placement": {
-        "Position": "-1058.7568, -130.13217, 315.53015"
       }
     }
   ],

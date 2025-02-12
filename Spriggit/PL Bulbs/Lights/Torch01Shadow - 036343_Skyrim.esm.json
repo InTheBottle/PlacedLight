@@ -1,0 +1,33 @@
+{
+  "FormKey": "036343:Skyrim.esm",
+  "EditorID": "Torch01Shadow",
+  "ObjectBounds": {
+    "First": "-9, -10, -2",
+    "Second": "9, 42, 6"
+  },
+  "Model": {
+    "File": "Weapons\\Torch\\torch.nif",
+    "Data": "0x020000000700000000000000A74147496464730038973CEA62F091FC6464730038973CEA27D2F2956464730038973CEAA821F67864647300582C55330D8D35E364647300F028269BB7DC3C7A64647300F028269BA935E99A64647300F028269B"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Torch"
+  },
+  "Time": 240,
+  "Radius": 512,
+  "Color": "#00AC652A",
+  "Flags": [
+    "Dynamic",
+    "CanBeCarried",
+    "Flicker",
+    "ShadowOmnidirectional"
+  ],
+  "FalloffExponent": 1.0,
+  "FOV": 90.0,
+  "NearClip": 18.0,
+  "FlickerPeriod": 0.6667,
+  "FlickerIntensityAmplitude": 0.5,
+  "FlickerMovementAmplitude": 2.0,
+  "FadeValue": 1.35,
+  "Sound": "03CDEA:Skyrim.esm"
+}
