@@ -6,14 +6,14 @@ IF exist "dist" (
 
 xcopy /s /d /i /EXCLUDE:exclusions.txt package dist
 
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Bright" -o "dist/PL - Bright.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Dark" -o "dist/PL - Dark.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Default" -o "dist/PL - Default.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Nightmare" -o "dist/PL - Nightmare.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Bright" -o "dist\PL - Bright.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Dark" -o "dist\PL - Dark.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Default" -o "dist\PL - Default.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Nightmare" -o "dist\PL - Nightmare.esp"
 
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light" -o "dist/Placed Light.esm"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light Exteriors" -o "dist/Placed Light Exteriors.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light - Shadows and Ambient" -o "dist/Placed Light - Shadows and Ambient.esm"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light" -o "dist\Placed Light.esm"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light Exteriors" -o "dist\Placed Light Exteriors.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light - Shadows and Ambient" -o "dist\Placed Light - Shadows and Ambient.esm"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\HDR - Interiors" -o "dist\HDR - Interiors.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL Bulbs" -o "dist\PL Bulbs.esp"
 
