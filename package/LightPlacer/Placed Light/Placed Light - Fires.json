@@ -1,7 +1,6 @@
 [
   {
     "models": [
-      "effects\\fxfirepit01.nif",
       "effects\\fxfirewithemberslogs01.nif",
       "effects\\fxfirewithemberslogs02.nif",
       "effects\\fxfirewithemberslogs03.nif",
@@ -18,6 +17,22 @@
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
+          "fade": 0.8,
+          "flags": "IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "effects\\fxfirepit01.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0, 0, 90]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 320.0,
           "fade": 0.8,
           "flags": "IgnoreScale"
         }

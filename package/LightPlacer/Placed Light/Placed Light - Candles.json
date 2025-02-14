@@ -1,14 +1,9 @@
 [
   {
     "models": [
-      "dynamiccandles\\candlehornwall01.nif",
-      "DynamicCandles\\candlehornwall01.nif",
-      "DynamicCandles\\impcandle01off.nif",
-      "DynamicCandles\\mwcandle01off.nif",
       "DynamicCandles\\arcandleplate01.nif",
       "DynamicCandles\\arcandleplate01off.nif",
-      "DynamicCandles\\arcandleplate02.nif",
-      "DynamicCandles\\candlehornfloor01off.nif"
+      "DynamicCandles\\arcandleplate02.nif"
     ],
     "lights": [
       {
@@ -16,7 +11,39 @@
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 0.8,
+          "fade": 1.2,
+          "flags": "PortalStrict|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "DynamicCandles\\candlehornwall01.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, -25.0, 45.0]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 64.0,
+          "fade": 1.2,
+          "flags": "PortalStrict|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\candles\\candlehornwall01.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, -25.0, 45.0]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 64.0,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -50,7 +77,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 0.8,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -90,7 +117,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 100.0,
-          "fade": 0.8,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -107,7 +134,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 200.0,
-          "fade": 0.8,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -139,7 +166,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 200.0,
-          "fade": 0.8,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -157,7 +184,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 220.0,
-          "fade": 1.0,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -167,7 +194,6 @@
     "models": [
       "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
       "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
-      "clutter\\candles\\candlehornfloor01.nif",
       "clutter\\imperial\\impcandelabracandle01.nif",
       "clutter\\imperial\\impcandelabracandle02.nif"
     ],
@@ -177,7 +203,23 @@
         "data": {
           "light": "PL_Candle",
           "radius": 220.0,
-          "fade": 1.0,
+          "fade": 1.2,
+          "flags": "PortalStrict|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\candles\\candlehornfloor01.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 130.0]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 220.0,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -236,7 +278,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 1.0,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }
@@ -265,7 +307,7 @@
         "data": {
           "light": "PL_Candle",
           "radius": 75.0,
-          "fade": 1.0,
+          "fade": 1.2,
           "flags": "PortalStrict|IgnoreScale"
         }
       }

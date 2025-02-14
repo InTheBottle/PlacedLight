@@ -13,7 +13,7 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Nightmare" -o "dist\P
 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light" -o "dist\Placed Light.esm"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light Exteriors" -o "dist\Placed Light Exteriors.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light - Shadows and Ambient" -o "dist\Placed Light - Shadows and Ambient.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light - Shadows and Ambient" -o "dist\Placed Light - Shadows and Ambient.esl"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\HDR - Interiors" -o "dist\HDR - Interiors.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL Bulbs" -o "dist\PL Bulbs.esp"
 

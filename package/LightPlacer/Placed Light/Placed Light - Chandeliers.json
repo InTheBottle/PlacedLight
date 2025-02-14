@@ -4,8 +4,6 @@
       "clutter\\imperial\\impchandelliercandle01.nif",
       "clutter\\imperial\\impchandelliercandle02.nif",
       "clutter\\imperial\\impchandelliercandle03.nif",
-      "clutter\\candles\\candlehornchandelier01.nif",
-      "clutter\\candles\\candlehornchandelier02.nif",
       "dlc01\\architecture\\snowelfruins\\seruinschandelier01.nif"
     ],
     "lights": [
@@ -13,7 +11,7 @@
         "points": [[0.0, 0.0, 10.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 320.0,
+          "radius": 256.0,
           "fade": 1.0,
           "flags": "PortalStrict|NoExternalEmittance"
         }
@@ -23,6 +21,32 @@
         "data": {
           "light": "PL_Candle",
           "radius": 350.0,
+          "fade": 0.7,
+          "flags": "PortalStrict|NoExternalEmittance"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\candles\\candlehornchandelier01.nif",
+      "clutter\\candles\\candlehornchandelier02.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 10.0]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 128.0,
+          "fade": 1.0,
+          "flags": "PortalStrict|NoExternalEmittance"
+        }
+      },
+      {
+        "points": [[0.0, 0.0, -50.0]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 300.0,
           "fade": 0.7,
           "flags": "PortalStrict|NoExternalEmittance"
         }
