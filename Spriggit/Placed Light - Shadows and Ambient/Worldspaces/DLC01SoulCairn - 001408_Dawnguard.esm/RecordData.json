@@ -29,7 +29,7 @@
   "ObjectBoundsMax": "80, 52",
   "Music": "007012:Dawnguard.esm",
   "HdLodDiffuseTexture": "data\\Textures\\landscape\\mountains\\mountainslab02.dds",
-  "HdLodNormalTexture": "data\\Textures\\landscape\\mountains\\mountainslab02_n.dds",
+  "HdLodNormalTexture": "data\\Textures\\landscape\\mountains\\Mountainslab02_n.dds",
   "TopCell": {
     "FormKey": "0028B9:Dawnguard.esm",
     "IsCompressed": true,
@@ -42,10 +42,26 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "16416512"
+      "Flags": "16487680"
     },
     "WaterHeight": 3.4028235E+38,
     "Persistent": [
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "005602:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 3072,
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled"
+        ],
+        "Base": "00BF49:Dawnguard.esm",
+        "Scale": 1.45,
+        "LocationReference": "003B8F:Dawnguard.esm",
+        "Placement": {
+          "Position": "-24181.629, 10015.448, 1379.772",
+          "Rotation": "0, 0, 3.8831887"
+        }
+      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "010170:Dawnguard.esm",
@@ -979,22 +995,6 @@
         "Placement": {
           "Position": "-15592.681, -2395.8765, 1354.2753",
           "Rotation": "0, 0, 4.9831877"
-        }
-      },
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "005602:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 3072,
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled"
-        ],
-        "Base": "00BF49:Dawnguard.esm",
-        "Scale": 1.45,
-        "LocationReference": "003B8F:Dawnguard.esm",
-        "Placement": {
-          "Position": "-24181.629, 10015.448, 1379.772",
-          "Rotation": "0, 0, 3.8831887"
         }
       },
       {
