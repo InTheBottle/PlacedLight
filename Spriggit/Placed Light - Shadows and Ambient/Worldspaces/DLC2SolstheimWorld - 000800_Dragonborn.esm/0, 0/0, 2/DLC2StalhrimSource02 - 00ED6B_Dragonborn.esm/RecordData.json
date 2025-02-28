@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "7, 19",
-    "Flags": "16487680"
+    "Flags": "836366848"
   },
   "MaxHeightData": {
     "Offset": 7552.0,
@@ -59,25 +59,8 @@
     "03414D:Dragonborn.esm",
     "02A201:Dragonborn.esm"
   ],
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0347A5:Dragonborn.esm",
-      "MajorRecordFlagsRaw": 131072,
-      "SkyrimMajorRecordFlags": [
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "08E79A:Skyrim.esm",
-      "Radius": 122.83063,
-      "LightData": {
-        "FadeOffset": -1.087512,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "016E2A:Dragonborn.esm",
-      "Placement": {
-        "Position": "29395.076, 78460.52, 7708.823"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0347A8:Dragonborn.esm",
@@ -94,6 +77,24 @@
       "LocationReference": "016E2A:Dragonborn.esm",
       "Placement": {
         "Position": "29125.229, 79081.51, 7708.823"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0347A5:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "08E79A:Skyrim.esm",
+      "Radius": 122.83063,
+      "LightData": {
+        "FadeOffset": -1.087512,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "016E2A:Dragonborn.esm",
+      "Placement": {
+        "Position": "29395.076, 78460.52, 7708.823"
       }
     },
     {

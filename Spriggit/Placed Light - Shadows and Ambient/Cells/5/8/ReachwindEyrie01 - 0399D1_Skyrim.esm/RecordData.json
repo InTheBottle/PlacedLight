@@ -55,7 +55,22 @@
   "EncounterZone": "0B23A6:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "012FD8:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0FEBF7:Skyrim.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": -14.513214,
+      "LightData": {
+        "FadeOffset": 0.594839,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0B23A5:Skyrim.esm",
+      "Placement": {
+        "Position": "-202.94167, 128.2508, 123.00336"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "039B05:Skyrim.esm",
@@ -77,34 +92,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0FEBF6:Skyrim.esm",
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": -32.41957,
-      "LightData": {
-        "FadeOffset": 0.34704506,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0B23A5:Skyrim.esm",
-      "Placement": {
-        "Position": "195.58365, -34.121784, 231.24295"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0FEBF7:Skyrim.esm",
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": -14.513214,
-      "LightData": {
-        "FadeOffset": 0.594839,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0B23A5:Skyrim.esm",
-      "Placement": {
-        "Position": "-202.94167, 128.2508, 123.00336"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0FEBF9:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -120,6 +107,20 @@
       "Placement": {
         "Position": "0.9424963, -16.958971, 606.5259",
         "Rotation": "1.5707977, 0, 1.5708023"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0FEBF6:Skyrim.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": -32.41957,
+      "LightData": {
+        "FadeOffset": 0.34704506,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0B23A5:Skyrim.esm",
+      "Placement": {
+        "Position": "195.58365, -34.121784, 231.24295"
       }
     }
   ],

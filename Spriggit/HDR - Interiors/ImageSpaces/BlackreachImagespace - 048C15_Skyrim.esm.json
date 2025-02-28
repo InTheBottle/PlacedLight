@@ -3,13 +3,13 @@
   "EditorID": "BlackreachImagespace",
   "Hdr": {
     "EyeAdaptSpeed": 100.0,
-    "BloomBlurRadius": 10.0,
-    "BloomThreshold": 0.8,
-    "BloomScale": 2.0,
-    "ReceiveBloomThreshold": 2.0,
+    "BloomBlurRadius": 7.0,
+    "BloomThreshold": 0.05,
+    "BloomScale": 0.5,
+    "ReceiveBloomThreshold": 1.0,
     "White": 0.1,
-    "SunlightScale": 0.5,
-    "SkyScale": 0.2
+    "SunlightScale": 1.0,
+    "SkyScale": 1.0
   },
   "Cinematic": {
     "Saturation": 1.0,
@@ -17,13 +17,13 @@
     "Contrast": 1.0
   },
   "Tint": {
-    "Amount": 0.2,
-    "Color": "#000184D1"
+    "Amount": 0.4,
+    "Color": "#0000ACFF"
   },
   "DepthOfField": {
-    "Strength": 0.7,
-    "Distance": 7500.0,
-    "Range": 4096.0,
+    "Strength": 1.0,
+    "Range": 10000.0,
+    "BlurRadius": 3,
     "Sky": true
   }
 }

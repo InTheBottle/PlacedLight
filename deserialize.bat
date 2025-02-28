@@ -6,6 +6,7 @@ IF exist "dist" (
 
 xcopy /s /d /i /EXCLUDE:exclusions.txt package dist
 
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Even Brighter" -o "dist\PL - Even Brighter.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Bright" -o "dist\PL - Bright.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Dark" -o "dist\PL - Dark.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Default" -o "dist\PL - Default.esp"
@@ -22,4 +23,4 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\NOTWL - Lante
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - Creation Club" -o "dist\Misc Patches\Placed Light - Creation Club.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light Exteriors - NOTWL 3 patch" -o "dist\Misc Patches\Placed Light Exteriors - NOTWL 3 patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - USSEP Patch" -o "dist\Misc Patches\Placed Light - USSEP Patch.esp"
-
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Lumo - Placed Light Exteriors" -o "dist\Misc Patches\Lumo - Placed Light Exteriors.esp"

@@ -35,7 +35,7 @@
   "ObjectBoundsMin": "-2, -2",
   "ObjectBoundsMax": "4, 4",
   "Music": "00EEB9:Dawnguard.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
   "TopCell": {
     "FormKey": "002F82:Dawnguard.esm",
     "IsCompressed": true,
@@ -48,9 +48,10 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "16487680"
+      "Flags": "836366848"
     },
     "WaterHeight": 3.4028235E+38,
+    "PersistentUnknownGroupData": 1,
     "Persistent": [
       {
         "MutagenObjectType": "PlacedObject",
@@ -76,5 +77,6 @@
       "Persistent",
       "0x40000"
     ]
-  }
+  },
+  "SubCellsUnknown": 1
 }

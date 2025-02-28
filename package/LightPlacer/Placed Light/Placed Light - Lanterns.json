@@ -115,5 +115,26 @@
         }
       }
     ]
+  },
+  {
+    "models": [
+      "clutter\\common\\candlelanternwithcandle01.nif",
+      "sialivi\\movablelantern08a.nif",
+      "sialivi\\movablelantern09a.nif",
+      "sialivi\\movablelantern10a.nif",
+      "sialivi\\movablelanternNL01a.nif",
+      "sialivi\\movablelanternSM01a.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 5.0]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 100.0,
+          "fade": 1.5,
+          "flags": "IgnoreScale"
+        }
+      }
+    ]
   }
 ]

@@ -57,19 +57,22 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "06D546:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "UnknownGroupData": 1,
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5262:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
+      "FormKey": "0E52B7:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -280.2317,
       "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 50.0
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "020076:Skyrim.esm",
       "Placement": {
-        "Position": "1093.041, 157.99414, 348.6947",
-        "Rotation": "0, 0, 4.7081904"
+        "Position": "522.8088, 75.304565, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
       }
     },
     {
@@ -103,17 +106,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E52B7:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
+      "FormKey": "0E5262:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "020076:Skyrim.esm",
       "Placement": {
-        "Position": "522.8088, 75.304565, 430.12177",
-        "Rotation": "0, 0, 6.2081857"
+        "Position": "1093.041, 157.99414, 348.6947",
+        "Rotation": "0, 0, 4.7081904"
       }
     }
   ],

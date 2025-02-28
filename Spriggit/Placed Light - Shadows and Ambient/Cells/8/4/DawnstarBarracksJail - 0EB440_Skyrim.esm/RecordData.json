@@ -55,36 +55,8 @@
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "0B9DCE:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EB457:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -114.8988,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "02005C:Skyrim.esm",
-      "Placement": {
-        "Position": "776.952, -205.71071, 160.94221",
-        "Rotation": "0, 0, 1.6000005"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EB46B:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -91.564606,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "02005C:Skyrim.esm",
-      "Placement": {
-        "Position": "1565.7318, 380.22116, 170.457"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0EB4CD:Skyrim.esm",
@@ -111,6 +83,35 @@
       "LocationReference": "02005C:Skyrim.esm",
       "Placement": {
         "Position": "1573.0874, -218.63072, 158.83975"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EB46B:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -91.564606,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "02005C:Skyrim.esm",
+      "Placement": {
+        "Position": "1565.7318, 380.22116, 170.457"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EB457:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -114.8988,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "02005C:Skyrim.esm",
+      "Placement": {
+        "Position": "776.952, -205.71071, 160.94221",
+        "Rotation": "0, 0, 1.6000005"
       }
     }
   ],

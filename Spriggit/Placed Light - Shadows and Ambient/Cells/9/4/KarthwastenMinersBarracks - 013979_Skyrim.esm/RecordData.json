@@ -57,6 +57,8 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "0B9DCB:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "UnknownGroupData": 1,
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -74,20 +76,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0B4B:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -106.58423,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01F7C0:Skyrim.esm",
-      "Placement": {
-        "Position": "-1216.331, 75.60483, 90.0348"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E0B4E:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -249.91534,
@@ -98,6 +86,21 @@
       "LocationReference": "01F7C0:Skyrim.esm",
       "Placement": {
         "Position": "-890.50854, -99.35535, 176.66989",
+        "Rotation": "0, 0, 5.508188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0B76:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -242.9921,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7C0:Skyrim.esm",
+      "Placement": {
+        "Position": "-1728.9512, 6.882599, 166.39165",
         "Rotation": "0, 0, 5.508188"
       }
     },
@@ -118,17 +121,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0B76:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -242.9921,
+      "FormKey": "0E0B4B:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -106.58423,
       "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "01F7C0:Skyrim.esm",
       "Placement": {
-        "Position": "-1728.9512, 6.882599, 166.39165",
-        "Rotation": "0, 0, 5.508188"
+        "Position": "-1216.331, 75.60483, 90.0348"
       }
     }
   ],

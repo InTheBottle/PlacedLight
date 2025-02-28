@@ -55,6 +55,7 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "033917:Dragonborn.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -73,6 +74,19 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0355D3:Dragonborn.esm",
+      "Base": "018FE5:Skyrim.esm",
+      "Radius": 103.16025,
+      "LightData": {
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A22:Dragonborn.esm",
+      "Placement": {
+        "Position": "-713.1006, -485.31915, -125.83264"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "02B02C:Dragonborn.esm",
       "Base": "02EDFC:Skyrim.esm",
       "Radius": 26.561218,
@@ -84,19 +98,6 @@
       "Placement": {
         "Position": "-692.54944, 121.20285, 102.35426",
         "Rotation": "0, 0, 1.5699995"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0355D3:Dragonborn.esm",
-      "Base": "018FE5:Skyrim.esm",
-      "Radius": 103.16025,
-      "LightData": {
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A22:Dragonborn.esm",
-      "Placement": {
-        "Position": "-713.1006, -485.31915, -125.83264"
       }
     },
     {

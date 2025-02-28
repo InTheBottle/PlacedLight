@@ -26,8 +26,8 @@
   "DistantLodMultiplier": 1.0,
   "ObjectBoundsMin": "-16, -13",
   "ObjectBoundsMax": "12, 15",
-  "HdLodDiffuseTexture": "data\\Textures\\landscape\\mountains\\mountainslab02.dds",
-  "HdLodNormalTexture": "data\\Textures\\landscape\\mountains\\Mountainslab02_n.dds",
+  "HdLodDiffuseTexture": "data\\textures\\landscape\\mountains\\mountainslab02.dds",
+  "HdLodNormalTexture": "data\\textures\\landscape\\mountains\\mountainslab02_n.dds",
   "TopCell": {
     "FormKey": "000EA6:Dawnguard.esm",
     "IsCompressed": true,
@@ -40,13 +40,53 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "16487680"
+      "Flags": "836366848"
     },
     "WaterHeight": 3.4028235E+38,
     "Regions": [
       "018C4E:Dawnguard.esm"
     ],
+    "PersistentUnknownGroupData": 1,
     "Persistent": [
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "019ACC:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073875968,
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "Dangerous_OffLimits_InteriorCell",
+          "0x40000000"
+        ],
+        "Base": "0B9E26:Skyrim.esm",
+        "Radius": 15.663635,
+        "LightData": {
+          "FadeOffset": 1.3308301,
+          "ShadowDepthBias": 18.616558
+        },
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-2435.1873, 16601.184, 2133.0352",
+          "Rotation": "0, 0, 2.1731894"
+        }
+      },
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00D25A:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073744896,
+        "EditorID": "DLC1TempleDoorLightLowerRef",
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "0x40000000"
+        ],
+        "Base": "00D259:Dawnguard.esm",
+        "Radius": 27.128693,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-22422.568, -13285.49, 8327.511"
+        }
+      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "00505E:Dawnguard.esm",
@@ -81,50 +121,12 @@
         "Placement": {
           "Position": "-22422.568, -13285.49, 8931.317"
         }
-      },
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "00D25A:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073744896,
-        "EditorID": "DLC1TempleDoorLightLowerRef",
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "0x40000000"
-        ],
-        "Base": "00D259:Dawnguard.esm",
-        "Radius": 27.128693,
-        "LocationReference": "00A87C:Dawnguard.esm",
-        "Placement": {
-          "Position": "-22422.568, -13285.49, 8327.511"
-        }
-      },
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "019ACC:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073875968,
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "Dangerous_OffLimits_InteriorCell",
-          "0x40000000"
-        ],
-        "Base": "0B9E26:Skyrim.esm",
-        "Radius": 15.663635,
-        "LightData": {
-          "FadeOffset": 1.3308301,
-          "ShadowDepthBias": 18.616558
-        },
-        "LocationReference": "00A87C:Dawnguard.esm",
-        "Placement": {
-          "Position": "-2435.1873, 16601.184, 2133.0352",
-          "Rotation": "0, 0, 2.1731894"
-        }
       }
     ],
     "MajorFlags": [
       "Persistent",
       "0x40000"
     ]
-  }
+  },
+  "SubCellsUnknown": 1
 }

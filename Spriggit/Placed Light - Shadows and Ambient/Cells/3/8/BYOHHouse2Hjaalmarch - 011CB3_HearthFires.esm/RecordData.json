@@ -57,25 +57,8 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0009F8:HearthFires.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -144.02197,
-      "LightData": {
-        "FadeOffset": 0.6259638,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE0A:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "011F3A:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "2.4327102, 1064.7987, 98.45056"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "000BA2:HearthFires.esm",
@@ -120,20 +103,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01231B:HearthFires.esm",
+      "FormKey": "0009F8:HearthFires.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -238.74817,
+      "Radius": -144.02197,
       "LightData": {
-        "FadeOffset": 0.028655887,
+        "FadeOffset": 0.6259638,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE0A:HearthFires.esm",
       "EnableParent": {
-        "Reference": "011D21:HearthFires.esm",
+        "Reference": "011F3A:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "2.4327102, 933.7616, 294.16077"
+        "Position": "2.4327102, 1064.7987, 98.45056"
       }
     },
     {
@@ -152,6 +135,24 @@
       },
       "Placement": {
         "Position": "-18.069624, 1014.0419, 112"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01231B:HearthFires.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -238.74817,
+      "LightData": {
+        "FadeOffset": 0.028655887,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE0A:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "011D21:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2.4327102, 933.7616, 294.16077"
       }
     }
   ],

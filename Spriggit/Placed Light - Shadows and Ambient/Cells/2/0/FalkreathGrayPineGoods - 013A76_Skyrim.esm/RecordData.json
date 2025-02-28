@@ -60,6 +60,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "081DF9:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -123.92496,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0200C5:Skyrim.esm",
+      "Placement": {
+        "Position": "-1286.716, -135.34218, 162.15858"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "081DFC:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -340.54486,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0200C5:Skyrim.esm",
+      "Placement": {
+        "Position": "-1699.3726, 71.94003, 144.25206"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0819BA:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -318.81903,
@@ -89,20 +117,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "081DF9:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -123.92496,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0200C5:Skyrim.esm",
-      "Placement": {
-        "Position": "-1286.716, -135.34218, 162.15858"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "081DFB:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -111.61731,
@@ -113,20 +127,6 @@
       "LocationReference": "0200C5:Skyrim.esm",
       "Placement": {
         "Position": "-1499.955, -61.575127, 468.01898"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "081DFC:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -340.54486,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0200C5:Skyrim.esm",
-      "Placement": {
-        "Position": "-1699.3726, 71.94003, 144.25206"
       }
     }
   ],
