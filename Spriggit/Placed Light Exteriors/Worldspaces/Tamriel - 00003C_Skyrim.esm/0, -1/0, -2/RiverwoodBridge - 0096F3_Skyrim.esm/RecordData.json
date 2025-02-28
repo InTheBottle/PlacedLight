@@ -1,13 +1,18 @@
 {
   "FormKey": "0096F3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiverwoodBridge",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater",
     "HandChanged"
   ],
   "Grid": {
     "Point": "5, -10",
-    "Flags": "18460928"
+    "Flags": "1040628480"
   },
   "OcclusionData": "0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000004000041051F0000000000000000000000000000000000000000000000000000BEF3F90000601FFF07200300000000000000000000F0FF00FCE91F00000000000660470000F054502E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
   "MaxHeightData": {
@@ -49,13 +54,13 @@
   },
   "WaterHeight": -250.0,
   "Regions": [
-    "0D517E:Skyrim.esm",
-    "0C5859:Skyrim.esm",
-    "0C5858:Skyrim.esm",
-    "092045:Skyrim.esm",
-    "08EED7:Skyrim.esm",
+    "02A72D:Skyrim.esm",
     "03554C:Skyrim.esm",
-    "02A72D:Skyrim.esm"
+    "08EED7:Skyrim.esm",
+    "092045:Skyrim.esm",
+    "0C5858:Skyrim.esm",
+    "0C5859:Skyrim.esm",
+    "0D517E:Skyrim.esm"
   ],
   "Location": "013163:Skyrim.esm",
   "Water": "001232:Update.esm",
@@ -63,20 +68,15 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000812:Placed Light Exteriors.esp",
-      "Base": "02D847:Skyrim.esm",
+      "FormKey": "0000B0:Placed Light Exteriors.esp",
+      "MajorRecordFlagsRaw": 32768,
+      "SkyrimMajorRecordFlags": [
+        "VisibleWhenDistant"
+      ],
+      "Base": "022F1F:Skyrim.esm",
       "Placement": {
-        "Position": "23235.467, -37744.62, 111.01899",
-        "Rotation": "0, 0, 4.6831894"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0000B1:Placed Light Exteriors.esp",
-      "Base": "07EA40:Skyrim.esm",
-      "Placement": {
-        "Position": "21636.047, -37845.65, 336.79077",
-        "Rotation": "0.16437685, 6.1687336, 2.1737552"
+        "Position": "21443.746, -37913.297, -126.37243",
+        "Rotation": "0.01688606, 5.998995, 5.3827085"
       }
     },
     {
@@ -90,16 +90,24 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0000B0:Placed Light Exteriors.esp",
-      "MajorRecordFlagsRaw": 32768,
-      "SkyrimMajorRecordFlags": [
-        "VisibleWhenDistant"
-      ],
-      "Base": "022F1F:Skyrim.esm",
+      "FormKey": "0000B1:Placed Light Exteriors.esp",
+      "Base": "07EA40:Skyrim.esm",
       "Placement": {
-        "Position": "21443.746, -37913.297, -126.37243",
-        "Rotation": "0.01688606, 5.998995, 5.3827085"
+        "Position": "21636.047, -37845.65, 336.79077",
+        "Rotation": "0.16437685, 6.1687336, 2.1737552"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000812:Placed Light Exteriors.esp",
+      "Base": "02D847:Skyrim.esm",
+      "Placement": {
+        "Position": "23235.467, -37744.62, 111.01899",
+        "Rotation": "0, 0, 4.6831894"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

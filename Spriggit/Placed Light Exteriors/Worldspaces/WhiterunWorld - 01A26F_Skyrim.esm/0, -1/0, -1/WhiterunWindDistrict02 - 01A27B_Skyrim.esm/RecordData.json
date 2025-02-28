@@ -1,12 +1,17 @@
 {
   "FormKey": "01A27B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunWindDistrict02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater"
   ],
   "Grid": {
     "Point": "5, -1",
-    "Flags": "18461443"
+    "Flags": "1040628483"
   },
   "OcclusionData": "0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001880900000000000000000000040000CB023F0020AEFFAF01D83B0009FC3FFE0B2C100000000000000000000004000041010000000000000000000000000000000000000000000000000000001E7BF9FFFE7F060FBCBFFEFFFF2300E0FFE96F0000F0FF03FCFF7F0000101C00FEEFFD00FCF15D502E304000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000100000040044000000000006A0FF002CB01C000E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000006000001C81F00002C038013780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
   "MaxHeightData": {
@@ -48,30 +53,19 @@
   },
   "WaterHeight": -2.1474836E+09,
   "Regions": [
-    "0E8EC5:Skyrim.esm",
+    "070408:Skyrim.esm",
     "071FCA:Skyrim.esm",
-    "070408:Skyrim.esm"
+    "0E8EC5:Skyrim.esm"
   ],
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "082797:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0CD824:Skyrim.esm",
-      "Scale": 0.87,
-      "LocationReference": "018A56:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
+      "FormKey": "000D75:Placed Light Exteriors.esp",
+      "Base": "0D8759:Skyrim.esm",
       "Placement": {
-        "Position": "23971.957, -3671.2588, -30000"
+        "Position": "22288.846, -3846.7097, -2954.3982",
+        "Rotation": "0, 0, 0.60000056"
       }
     },
     {
@@ -92,6 +86,56 @@
       },
       "Placement": {
         "Position": "23972.445, -3670.7795, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000D74:Placed Light Exteriors.esp",
+      "Base": "02D847:Skyrim.esm",
+      "Placement": {
+        "Position": "22335.447, -3778.3884, -2701.4363",
+        "Rotation": "0, 0, 0.60000056"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "082839:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "08278D:Skyrim.esm",
+      "LocationReference": "018A56:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "22286.668, -3835.6763, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "082797:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0CD824:Skyrim.esm",
+      "Scale": 0.87,
+      "LocationReference": "018A56:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "23971.957, -3671.2588, -30000"
       }
     },
     {
@@ -117,26 +161,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "082839:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "08278D:Skyrim.esm",
-      "LocationReference": "018A56:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "22286.668, -3835.6763, -30000"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "08283A:Skyrim.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -158,20 +182,11 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D74:Placed Light Exteriors.esp",
-      "Base": "02D847:Skyrim.esm",
-      "Placement": {
-        "Position": "22335.447, -3778.3884, -2701.4363",
-        "Rotation": "0, 0, 0.60000056"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D75:Placed Light Exteriors.esp",
+      "FormKey": "000D78:Placed Light Exteriors.esp",
       "Base": "0D8759:Skyrim.esm",
       "Placement": {
-        "Position": "22288.846, -3846.7097, -2954.3982",
-        "Rotation": "0, 0, 0.60000056"
+        "Position": "23232.068, -3284.7378, -3080.575",
+        "Rotation": "0, 0, 3.8831882"
       }
     },
     {
@@ -182,15 +197,9 @@
         "Position": "23176.293, -3345.801, -2827.613",
         "Rotation": "0, 0, 3.8831882"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D78:Placed Light Exteriors.esp",
-      "Base": "0D8759:Skyrim.esm",
-      "Placement": {
-        "Position": "23232.068, -3284.7378, -3080.575",
-        "Rotation": "0, 0, 3.8831882"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

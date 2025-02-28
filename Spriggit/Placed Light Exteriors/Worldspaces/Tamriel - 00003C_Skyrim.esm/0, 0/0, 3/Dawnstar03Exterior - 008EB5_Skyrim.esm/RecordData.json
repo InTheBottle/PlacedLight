@@ -1,12 +1,17 @@
 {
   "FormKey": "008EB5:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Dawnstar03Exterior",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater"
   ],
   "Grid": {
     "Point": "7, 25",
-    "Flags": "18460928"
+    "Flags": "1040628480"
   },
   "OcclusionData": "0x0300000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000004000001002F0020BEBF8F23981B0000FCBF2E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E2A001700000000000080FB3A2000608FADECE0E6FF000004A0030000000000061F80FF970700000000C0000000000000000000000000000000000000000000040000000020002001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E5E070000E08A7F01008001003100091C00000000F007070000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
   "MaxHeightData": {
@@ -48,14 +53,23 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "0C5859:Skyrim.esm",
-    "0C5853:Skyrim.esm",
+    "090032:Skyrim.esm",
     "099A93:Skyrim.esm",
-    "090032:Skyrim.esm"
+    "0C5853:Skyrim.esm",
+    "0C5859:Skyrim.esm"
   ],
   "Location": "018A50:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000D71:Placed Light Exteriors.esp",
+      "Base": "02D847:Skyrim.esm",
+      "Placement": {
+        "Position": "31884.672, 102489.64, -13015.228",
+        "Rotation": "0, 0, 6.183192"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "000D72:Placed Light Exteriors.esp",
@@ -67,29 +81,11 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D69:Placed Light Exteriors.esp",
-      "Base": "0D8759:Skyrim.esm",
-      "Placement": {
-        "Position": "28791.318, 104448.08, -13901.345",
-        "Rotation": "0, 0, 2.1000063"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "00004B:Placed Light Exteriors.esp",
+      "FormKey": "000D68:Placed Light Exteriors.esp",
       "Base": "02D847:Skyrim.esm",
       "Placement": {
-        "Position": "32694.56, 105929.7, -13546.255",
-        "Rotation": "0, 0, 5.5831876"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D71:Placed Light Exteriors.esp",
-      "Base": "02D847:Skyrim.esm",
-      "Placement": {
-        "Position": "31884.672, 102489.64, -13015.228",
-        "Rotation": "0, 0, 6.183192"
+        "Position": "28862.193, 104405.58, -13648.272",
+        "Rotation": "0, 0, 2.0831935"
       }
     },
     {
@@ -103,12 +99,24 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D68:Placed Light Exteriors.esp",
+      "FormKey": "00004B:Placed Light Exteriors.esp",
       "Base": "02D847:Skyrim.esm",
       "Placement": {
-        "Position": "28862.193, 104405.58, -13648.272",
-        "Rotation": "0, 0, 2.0831935"
+        "Position": "32694.56, 105929.7, -13546.255",
+        "Rotation": "0, 0, 5.5831876"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000D69:Placed Light Exteriors.esp",
+      "Base": "0D8759:Skyrim.esm",
+      "Placement": {
+        "Position": "28791.318, 104448.08, -13901.345",
+        "Rotation": "0, 0, 2.1000063"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }
