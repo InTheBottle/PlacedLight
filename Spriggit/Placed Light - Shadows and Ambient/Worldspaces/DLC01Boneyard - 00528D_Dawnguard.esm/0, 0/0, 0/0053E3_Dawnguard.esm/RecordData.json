@@ -10,7 +10,7 @@
   ],
   "Grid": {
     "Point": "0, 1",
-    "Flags": "836366848"
+    "Flags": "1769376000"
   },
   "MaxHeightData": {
     "HeightMap": [
@@ -53,24 +53,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01797C:Dawnguard.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "0059C2:Dawnguard.esm",
-      "Radius": 302.12335,
-      "LightData": {
-        "FadeOffset": 3.2223554,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "1296, 5936, 336"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0127F3:Dawnguard.esm",
       "MajorRecordFlagsRaw": 196608,
       "SkyrimMajorRecordFlags": [
@@ -91,20 +73,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01798F:Dawnguard.esm",
+      "FormKey": "01797C:Dawnguard.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "0059C2:Dawnguard.esm",
-      "Radius": 461.82147,
+      "Radius": 302.12335,
       "LightData": {
-        "FadeOffset": 4.652924,
+        "FadeOffset": 3.2223554,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "3456, 7696, 864"
+        "Position": "1296, 5936, 336"
       }
     },
     {
@@ -141,6 +123,24 @@
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
         "Position": "1904, 7616, 704"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01798F:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0059C2:Dawnguard.esm",
+      "Radius": 461.82147,
+      "LightData": {
+        "FadeOffset": 4.652924,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "3456, 7696, 864"
       }
     }
   ],

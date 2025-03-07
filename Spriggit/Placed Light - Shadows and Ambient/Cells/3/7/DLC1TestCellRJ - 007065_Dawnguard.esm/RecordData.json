@@ -51,7 +51,21 @@
   "WaterHeight": 0.0,
   "SkyAndWeatherFromRegion": "0C5855:Skyrim.esm",
   "Music": "01BA72:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00E373:Dawnguard.esm",
+      "Base": "02EDED:Skyrim.esm",
+      "Radius": 48.478424,
+      "LightData": {
+        "FadeOffset": 0.5812535,
+        "ShadowDepthBias": 10.761856
+      },
+      "Placement": {
+        "Position": "8240, 1088, 2864"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "00E36F:Dawnguard.esm",
@@ -72,19 +86,6 @@
       "Radius": 678.1315,
       "Placement": {
         "Position": "4314.3545, 838.1279, 476.52902"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "00E373:Dawnguard.esm",
-      "Base": "02EDED:Skyrim.esm",
-      "Radius": 48.478424,
-      "LightData": {
-        "FadeOffset": 0.5812535,
-        "ShadowDepthBias": 10.761856
-      },
-      "Placement": {
-        "Position": "8240, 1088, 2864"
       }
     }
   ],

@@ -52,19 +52,20 @@
   "AcousticSpace": "0FF495:Skyrim.esm",
   "Music": "01BA72:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0775B3:Skyrim.esm",
+      "FormKey": "077605:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
-      "Radius": 7.258667,
+      "Radius": -114.73013,
       "LightData": {
         "FadeOffset": 1.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "0D16E6:Skyrim.esm",
       "Placement": {
-        "Position": "0, -1248, 256"
+        "Position": "323, 569, 217"
       }
     },
     {
@@ -78,6 +79,20 @@
       "LocationReference": "0D16E6:Skyrim.esm",
       "Placement": {
         "Position": "585.8485, -348.9559, 130.61139"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "077CDD:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -291.53452,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0D16E6:Skyrim.esm",
+      "Placement": {
+        "Position": "-571.4131, -341.1383, 130.61139"
       }
     },
     {
@@ -97,30 +112,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "077CDD:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -291.53452,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0D16E6:Skyrim.esm",
-      "Placement": {
-        "Position": "-571.4131, -341.1383, 130.61139"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "077605:Skyrim.esm",
+      "FormKey": "0775B3:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
-      "Radius": -114.73013,
+      "Radius": 7.258667,
       "LightData": {
         "FadeOffset": 1.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "0D16E6:Skyrim.esm",
       "Placement": {
-        "Position": "323, 569, 217"
+        "Position": "0, -1248, 256"
       }
     }
   ],

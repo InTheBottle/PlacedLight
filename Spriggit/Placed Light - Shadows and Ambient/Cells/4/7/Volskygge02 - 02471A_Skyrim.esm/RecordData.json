@@ -51,34 +51,20 @@
   "EncounterZone": "03EC87:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "04055A:Skyrim.esm",
+      "FormKey": "0407D1:Skyrim.esm",
       "Base": "02EDFC:Skyrim.esm",
-      "Radius": 690.1701,
+      "Radius": 374.98877,
       "LightData": {
-        "FadeOffset": 0.7237216,
-        "ShadowDepthBias": 30.689999
+        "FadeOffset": 0.89244163,
+        "ShadowDepthBias": 31.0
       },
       "LocationReference": "0192C2:Skyrim.esm",
       "Placement": {
-        "Position": "-3789.3513, 405.2541, 1430.6176",
-        "Rotation": "0, 0, 1.5707967"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F0E35:Skyrim.esm",
-      "Base": "0B7DE5:Skyrim.esm",
-      "Radius": 340.7235,
-      "LightData": {
-        "FadeOffset": 4.2932057,
-        "ShadowDepthBias": 24.444473
-      },
-      "LocationReference": "0192C2:Skyrim.esm",
-      "Placement": {
-        "Position": "894.40686, -2654.614, 246.28189"
+        "Position": "-586.0476, 6157.059, -777.18243"
       }
     },
     {
@@ -93,34 +79,6 @@
       "LocationReference": "0192C2:Skyrim.esm",
       "Placement": {
         "Position": "-199.24403, 737.59906, -626.4135"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0407D3:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 509.7033,
-      "LightData": {
-        "FadeOffset": 0.6926317,
-        "ShadowDepthBias": 36.14
-      },
-      "LocationReference": "0192C2:Skyrim.esm",
-      "Placement": {
-        "Position": "-2383.1577, 5177.358, -749.62836"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0407D1:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 374.98877,
-      "LightData": {
-        "FadeOffset": 0.89244163,
-        "ShadowDepthBias": 31.0
-      },
-      "LocationReference": "0192C2:Skyrim.esm",
-      "Placement": {
-        "Position": "-586.0476, 6157.059, -777.18243"
       }
     },
     {
@@ -149,6 +107,31 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "04055A:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 690.1701,
+      "LightData": {
+        "FadeOffset": 0.7237216,
+        "ShadowDepthBias": 30.689999
+      },
+      "LocationReference": "0192C2:Skyrim.esm",
+      "Placement": {
+        "Position": "-3789.3513, 405.2541, 1430.6176",
+        "Rotation": "0, 0, 1.5707967"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F0E6C:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 104.50592,
+      "LocationReference": "0192C2:Skyrim.esm",
+      "Placement": {
+        "Position": "-4043.1887, -2093.2815, 720.03827"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F0E6A:Skyrim.esm",
       "Base": "01F8B0:Skyrim.esm",
       "Radius": 58.935944,
@@ -163,12 +146,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F0E6C:Skyrim.esm",
-      "Base": "01F8B0:Skyrim.esm",
-      "Radius": 104.50592,
+      "FormKey": "0F0E35:Skyrim.esm",
+      "Base": "0B7DE5:Skyrim.esm",
+      "Radius": 340.7235,
+      "LightData": {
+        "FadeOffset": 4.2932057,
+        "ShadowDepthBias": 24.444473
+      },
       "LocationReference": "0192C2:Skyrim.esm",
       "Placement": {
-        "Position": "-4043.1887, -2093.2815, 720.03827"
+        "Position": "894.40686, -2654.614, 246.28189"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0407D3:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 509.7033,
+      "LightData": {
+        "FadeOffset": 0.6926317,
+        "ShadowDepthBias": 36.14
+      },
+      "LocationReference": "0192C2:Skyrim.esm",
+      "Placement": {
+        "Position": "-2383.1577, 5177.358, -749.62836"
       }
     }
   ],

@@ -53,7 +53,38 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DA55E:Skyrim.esm",
+      "Base": "02EE07:Skyrim.esm",
+      "Radius": 315.0052,
+      "LightData": {
+        "FovOffset": 52.0141,
+        "FadeOffset": 3.3983893,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0209F4:Skyrim.esm",
+      "Placement": {
+        "Position": "-1404.6873, -1009.7267, -44.338314",
+        "Rotation": "0, -0.37079614, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D62A3:Skyrim.esm",
+      "Base": "05C677:Skyrim.esm",
+      "Radius": -69.11281,
+      "LightData": {
+        "FadeOffset": 0.5529462,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0209F4:Skyrim.esm",
+      "Placement": {
+        "Position": "-981.8032, -1026.1235, -39.78858"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0D62A1:Skyrim.esm",
@@ -80,36 +111,6 @@
       "LocationReference": "0209F4:Skyrim.esm",
       "Placement": {
         "Position": "-977.4144, -2018.232, -10.961514"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D62A3:Skyrim.esm",
-      "Base": "05C677:Skyrim.esm",
-      "Radius": -69.11281,
-      "LightData": {
-        "FadeOffset": 0.5529462,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0209F4:Skyrim.esm",
-      "Placement": {
-        "Position": "-981.8032, -1026.1235, -39.78858"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DA55E:Skyrim.esm",
-      "Base": "02EE07:Skyrim.esm",
-      "Radius": 315.0052,
-      "LightData": {
-        "FovOffset": 52.0141,
-        "FadeOffset": 3.3983893,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0209F4:Skyrim.esm",
-      "Placement": {
-        "Position": "-1404.6873, -1009.7267, -44.338314",
-        "Rotation": "0, -0.37079614, 0"
       }
     }
   ],

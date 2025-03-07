@@ -58,31 +58,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E04F6:Skyrim.esm",
+      "FormKey": "0E0518:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -172.7529,
+      "Radius": -140.18274,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "020064:Skyrim.esm",
       "Placement": {
-        "Position": "1181.8833, -659.70593, 543.9248"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E052A:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "020064:Skyrim.esm",
-      "Placement": {
-        "Position": "1225.6267, -841.1863, 430.12177",
-        "Rotation": "0, 0, 6.2081857"
+        "Position": "926.77637, -659.70593, 543.9248"
       }
     },
     {
@@ -102,16 +87,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0518:Skyrim.esm",
+      "FormKey": "0E052A:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -140.18274,
+      "Radius": -280.2317,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "020064:Skyrim.esm",
       "Placement": {
-        "Position": "926.77637, -659.70593, 543.9248"
+        "Position": "1225.6267, -841.1863, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
       }
     },
     {
@@ -126,6 +112,20 @@
       "Placement": {
         "Position": "1061.041, -418.00586, 348.6947",
         "Rotation": "0, 0, 4.7081904"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E04F6:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -172.7529,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020064:Skyrim.esm",
+      "Placement": {
+        "Position": "1181.8833, -659.70593, 543.9248"
       }
     }
   ],

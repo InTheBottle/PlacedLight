@@ -69,6 +69,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0351AC:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": 194.51074,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A1F:Dragonborn.esm",
+      "Placement": {
+        "Position": "-627.5993, 1046.3793, -197.67639"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0336D6:Dragonborn.esm",
       "Base": "0336E7:Dragonborn.esm",
       "Radius": 264.50507,
@@ -98,6 +112,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0349F9:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -200.98157,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019A1F:Dragonborn.esm",
+      "Placement": {
+        "Position": "-568.7198, 1.7005222, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "035240:Dragonborn.esm",
       "Base": "03523F:Dragonborn.esm",
       "Radius": 53.72931,
@@ -109,34 +137,6 @@
       "Placement": {
         "Position": "-1424.027, -13.668202, -208",
         "Rotation": "0, 1.0249995, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0351AC:Dragonborn.esm",
-      "Base": "03523F:Dragonborn.esm",
-      "Radius": 194.51074,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A1F:Dragonborn.esm",
-      "Placement": {
-        "Position": "-627.5993, 1046.3793, -197.67639"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0349F9:Dragonborn.esm",
-      "Base": "0336E8:Dragonborn.esm",
-      "Radius": -200.98157,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019A1F:Dragonborn.esm",
-      "Placement": {
-        "Position": "-568.7198, 1.7005222, -208"
       }
     }
   ],

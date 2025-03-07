@@ -1,12 +1,17 @@
 {
   "FormKey": "05D33E:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrineWaterGrottoToEEW",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater"
   ],
   "Grid": {
     "Point": "-3, 2",
-    "Flags": "836366592"
+    "Flags": "1769376000"
   },
   "WaterHeight": -200.0,
   "AcousticSpace": "01989F:Skyrim.esm",
@@ -31,5 +36,8 @@
         "Position": "-8873.705, 10949.397, 180.07367"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

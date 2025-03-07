@@ -56,50 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0338B1:Dragonborn.esm",
-      "Base": "0327BF:Dragonborn.esm",
-      "Radius": 219.57217,
-      "LightData": {
-        "FadeOffset": 5.3130627,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142BB:Dragonborn.esm",
-      "Placement": {
-        "Position": "-3344, 1192, 522.9217"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0315DD:Dragonborn.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 82.39157,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 1.5423234,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142BB:Dragonborn.esm",
-      "Placement": {
-        "Position": "-3434.2405, -3599.7688, 1100.156"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "020D95:Dragonborn.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 1.8085632,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 2.8090253,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142BB:Dragonborn.esm",
-      "Placement": {
-        "Position": "-7304.769, -93.78883, 2378.3904"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0315DE:Dragonborn.esm",
       "Base": "08824B:Skyrim.esm",
       "Emittance": "075492:Skyrim.esm",
@@ -110,21 +66,6 @@
       "LocationReference": "0142BB:Dragonborn.esm",
       "Placement": {
         "Position": "-3710.2554, -1436.948, 1509.7838"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "031602:Dragonborn.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 74.65793,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 1.816438,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142BB:Dragonborn.esm",
-      "Placement": {
-        "Position": "-1285.5118, 640.39484, 1755.2704"
       }
     },
     {
@@ -144,6 +85,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "031602:Dragonborn.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 74.65793,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.816438,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142BB:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1285.5118, 640.39484, 1755.2704"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0338B6:Dragonborn.esm",
       "Base": "08824B:Skyrim.esm",
       "Radius": -23.32579,
@@ -155,6 +111,50 @@
       "LocationReference": "0142BB:Dragonborn.esm",
       "Placement": {
         "Position": "-3406.2769, 381.6024, 414.41644"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0315DD:Dragonborn.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 82.39157,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.5423234,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142BB:Dragonborn.esm",
+      "Placement": {
+        "Position": "-3434.2405, -3599.7688, 1100.156"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0338B1:Dragonborn.esm",
+      "Base": "0327BF:Dragonborn.esm",
+      "Radius": 219.57217,
+      "LightData": {
+        "FadeOffset": 5.3130627,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142BB:Dragonborn.esm",
+      "Placement": {
+        "Position": "-3344, 1192, 522.9217"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "020D95:Dragonborn.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 1.8085632,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.8090253,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142BB:Dragonborn.esm",
+      "Placement": {
+        "Position": "-7304.769, -93.78883, 2378.3904"
       }
     }
   ],

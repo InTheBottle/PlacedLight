@@ -57,21 +57,40 @@
   "Persistent": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0176FA:Dragonborn.esm",
+      "FormKey": "0176F9:Dragonborn.esm",
       "MajorRecordFlagsRaw": 66560,
       "SkyrimMajorRecordFlags": [
         "0x400",
         "0x10000"
       ],
-      "Base": "030CE9:Dragonborn.esm",
-      "Radius": 303.49005,
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 467.90485,
       "LightData": {
-        "FadeOffset": 0.9086206,
+        "FadeOffset": 0.1242404,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
-        "Position": "-128, -7072, 1488"
+        "Position": "-1273.8082, -3530.1958, 765.07904"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "031D2E:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 66560,
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "0x10000"
+      ],
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 153.04349,
+      "LightData": {
+        "FadeOffset": 0.7627485,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142B4:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1488.1914, -1304.459, -1124.7007"
       }
     },
     {
@@ -96,39 +115,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0176FB:Dragonborn.esm",
-      "MajorRecordFlagsRaw": 1024,
-      "SkyrimMajorRecordFlags": [
-        "0x400"
-      ],
-      "Base": "0879AC:Skyrim.esm",
-      "Radius": 43.928345,
-      "LightData": {
-        "FadeOffset": 0.8897197,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142B4:Dragonborn.esm",
-      "Placement": {
-        "Position": "-2176.639, -7069.312, 1772.3145"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "031D2E:Dragonborn.esm",
+      "FormKey": "0176FA:Dragonborn.esm",
       "MajorRecordFlagsRaw": 66560,
       "SkyrimMajorRecordFlags": [
         "0x400",
         "0x10000"
       ],
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": 153.04349,
+      "Base": "030CE9:Dragonborn.esm",
+      "Radius": 303.49005,
       "LightData": {
-        "FadeOffset": 0.7627485,
+        "FadeOffset": 0.9086206,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
-        "Position": "-1488.1914, -1304.459, -1124.7007"
+        "Position": "-128, -7072, 1488"
       }
     },
     {
@@ -152,21 +153,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0176F9:Dragonborn.esm",
-      "MajorRecordFlagsRaw": 66560,
+      "FormKey": "0176FB:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 1024,
       "SkyrimMajorRecordFlags": [
-        "0x400",
-        "0x10000"
+        "0x400"
       ],
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": 467.90485,
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 43.928345,
       "LightData": {
-        "FadeOffset": 0.1242404,
+        "FadeOffset": 0.8897197,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
-        "Position": "-1273.8082, -3530.1958, 765.07904"
+        "Position": "-2176.639, -7069.312, 1772.3145"
       }
     }
   ],
@@ -188,6 +188,24 @@
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
         "Position": "3599.6543, -1777.0963, 135.5322"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "030CEB:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 282.3207,
+      "LightData": {
+        "FadeOffset": 0.2199508,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142B4:Dragonborn.esm",
+      "Placement": {
+        "Position": "-618.929, -5236.765, 1065.7335"
       }
     },
     {
@@ -216,24 +234,6 @@
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
         "Position": "80.14791, 245.15599, 400.1"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "030CEB:Dragonborn.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": 282.3207,
-      "LightData": {
-        "FadeOffset": 0.2199508,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142B4:Dragonborn.esm",
-      "Placement": {
-        "Position": "-618.929, -5236.765, 1065.7335"
       }
     },
     {
