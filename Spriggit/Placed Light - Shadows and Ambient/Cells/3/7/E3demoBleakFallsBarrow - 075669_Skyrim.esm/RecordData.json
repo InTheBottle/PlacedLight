@@ -1,11 +1,6 @@
 {
   "FormKey": "075669:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "E3demoBleakFallsBarrow",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bleak Falls Barrow"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -52,7 +47,7 @@
   "LightingTemplate": "03128D:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "0998BE:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\bleakfallscube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\BleakFallsCube_e.dds",
   "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "0998BF:Skyrim.esm",
@@ -487,8 +482,5 @@
         "Position": "-485.0615, -6021.146, -3250.428"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

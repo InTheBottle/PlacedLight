@@ -1,11 +1,6 @@
 {
   "FormKey": "0165B3:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunBelethorsGeneralGoods",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Belethor's General Goods"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -153,8 +148,5 @@
         "Rotation": "3.141591, 3.6627745E-07, 3.4208455"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "01382E:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShorsStoneRedbellyMine",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Redbelly Mine"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -85,8 +80,5 @@
         "Position": "1017.8654, -260.2304, 175.3337"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

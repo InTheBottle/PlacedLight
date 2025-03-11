@@ -1,11 +1,9 @@
 {
   "FormKey": "0547F0:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 393216,
+  "MajorRecordFlagsRaw": 131072,
   "EditorID": "MarkarthWizardsQuarters03",
   "SkyrimMajorRecordFlags": [
-    "Dangerous_OffLimits_InteriorCell",
-    "Compressed"
+    "Dangerous_OffLimits_InteriorCell"
   ],
   "Name": {
     "TargetLanguage": "English",
@@ -17,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -114,7 +112,6 @@
     }
   ],
   "MajorFlags": [
-    "OffLimits",
-    "0x40000"
+    "OffLimits"
   ]
 }

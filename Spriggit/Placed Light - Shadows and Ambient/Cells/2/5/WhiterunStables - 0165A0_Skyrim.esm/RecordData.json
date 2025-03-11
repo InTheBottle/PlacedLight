@@ -1,11 +1,6 @@
 {
   "FormKey": "0165A0:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunStables",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Whiterun Stables"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -122,8 +117,5 @@
         "Position": "-317.71564, 517.8382, 216.8071"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

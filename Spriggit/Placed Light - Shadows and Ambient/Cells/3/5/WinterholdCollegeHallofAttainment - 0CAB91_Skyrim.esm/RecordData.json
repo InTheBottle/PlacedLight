@@ -1,11 +1,6 @@
 {
   "FormKey": "0CAB91:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WinterholdCollegeHallofAttainment",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hall of Attainment"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -208,8 +203,5 @@
         "Position": "456.098, -532.7186, 138.41597"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

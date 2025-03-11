@@ -1,11 +1,6 @@
 {
   "FormKey": "01D09A:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Ragnvald03",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ragnvald Canal"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -50,7 +45,7 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "01928F:Skyrim.esm",
   "Water": "0CC7B4:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "03EC57:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
@@ -141,8 +136,5 @@
         "Position": "5807.4204, 1186.435, 7144.974"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

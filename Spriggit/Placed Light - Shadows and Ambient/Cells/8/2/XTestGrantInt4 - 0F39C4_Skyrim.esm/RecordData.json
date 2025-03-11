@@ -1,11 +1,6 @@
 {
   "FormKey": "0F39C4:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "XTestGrantInt4",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Magic Visuals Test Hall"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -63,8 +58,5 @@
         "Position": "-47.094986, -1748.8739, 158.91318"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

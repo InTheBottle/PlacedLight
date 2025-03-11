@@ -1,11 +1,6 @@
 {
   "FormKey": "015290:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DuskglowCrevice01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Duskglow Crevice"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -50,7 +45,7 @@
   "LightingTemplate": "01952F:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "019172:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\shinydull_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\ShinyDull_e.dds",
   "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "03EC10:Skyrim.esm",
@@ -367,8 +362,5 @@
         "Position": "2685.8672, 10115.77, -1246.8179"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

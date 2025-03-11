@@ -1,11 +1,6 @@
 {
   "FormKey": "06CCBB:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShroudHearthBarrow01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Shroud Hearth Barrow"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -498,8 +493,5 @@
         "Position": "-3986.392, 2856.372, -921.4308"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

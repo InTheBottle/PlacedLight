@@ -1,11 +1,6 @@
 {
   "FormKey": "068B99:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "PotemasCatacombs01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Potema's Catacombs"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "LightingTemplate": "03128B:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "01928C:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "03EC54:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
@@ -300,8 +295,5 @@
         "Rotation": "0, 0, 1.0146537"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

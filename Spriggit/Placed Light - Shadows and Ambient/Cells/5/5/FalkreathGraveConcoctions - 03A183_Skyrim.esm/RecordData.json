@@ -1,11 +1,6 @@
 {
   "FormKey": "03A183:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathGraveConcoctions",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Grave Concoctions"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -128,8 +123,5 @@
         "Position": "-460.03882, 111.52081, 96.439964"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

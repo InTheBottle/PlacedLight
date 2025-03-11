@@ -1,11 +1,6 @@
 {
   "FormKey": "013810:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WinterholdCollegeArcanaeum",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Arcanaeum"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -152,8 +147,5 @@
         "Position": "-565.5526, 318.1008, 130.61139"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

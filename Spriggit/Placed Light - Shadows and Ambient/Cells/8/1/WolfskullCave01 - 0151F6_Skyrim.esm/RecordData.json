@@ -1,11 +1,6 @@
 {
   "FormKey": "0151F6:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WolfskullCave01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Wolfskull Cave"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -131,8 +126,5 @@
         "Rotation": "-1.5707967, -1.4707965, 1.5707967"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "001DBA:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1DawnguardHQ01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Dawnguard"
@@ -18,7 +13,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -436,8 +431,5 @@
         "Rotation": "0, 0, 3.1415927"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

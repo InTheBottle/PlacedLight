@@ -1,11 +1,6 @@
 {
   "FormKey": "015200:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "TrevasWatch01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Treva's Watch"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -95,8 +90,5 @@
         "Position": "1548.0211, -123.93577, 1010.78754"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

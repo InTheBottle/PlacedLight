@@ -1,11 +1,6 @@
 {
   "FormKey": "058663:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Mzinchaleft03",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Mzinchaleft Gatehouse"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -203,8 +198,5 @@
         "Position": "-2609.0696, 7057.5215, -965.75397"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "010A8B:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1zFalmerValley03",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Forgotten Vale Cave"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -158,8 +153,5 @@
         "Position": "-1734.4043, 1433.8391, -868.38605"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

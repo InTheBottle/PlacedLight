@@ -1,11 +1,6 @@
 {
   "FormKey": "015231:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "PinemoonCave01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Pinemoon Cave"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -139,8 +134,5 @@
         "Position": "2547.0498, -3863.7656, 244.1631"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

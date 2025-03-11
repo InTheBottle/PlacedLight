@@ -1,11 +1,6 @@
 {
   "FormKey": "015284:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortFellhammer01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Fellhammer Garrison"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -96,8 +91,5 @@
         "Position": "55.149536, 339.81107, 147.63046"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

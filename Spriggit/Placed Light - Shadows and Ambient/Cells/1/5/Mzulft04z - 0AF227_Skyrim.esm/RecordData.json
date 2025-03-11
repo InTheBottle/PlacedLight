@@ -1,11 +1,6 @@
 {
   "FormKey": "0AF227:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Mzulft04z",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dwarven Storeroom"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -96,8 +91,5 @@
         "Position": "-309.05795, -18.375412, 81.17975"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

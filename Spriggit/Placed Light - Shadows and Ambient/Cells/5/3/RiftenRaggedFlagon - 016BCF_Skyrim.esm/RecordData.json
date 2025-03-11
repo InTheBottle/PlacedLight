@@ -1,11 +1,6 @@
 {
   "FormKey": "016BCF:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenRaggedFlagon",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Ragged Flagon"
@@ -18,7 +13,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -54,7 +49,7 @@
   "WaterHeight": 0.0,
   "Location": "02264A:Skyrim.esm",
   "Owner": "0A2522:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
   "SkyAndWeatherFromRegion": "07042E:Skyrim.esm",
   "AcousticSpace": "108E60:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -111,8 +106,5 @@
         "Position": "210.13397, 1874.0082, 34.93219"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

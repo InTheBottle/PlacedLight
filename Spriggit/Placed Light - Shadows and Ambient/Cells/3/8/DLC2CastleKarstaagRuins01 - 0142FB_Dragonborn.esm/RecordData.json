@@ -1,11 +1,6 @@
 {
   "FormKey": "0142FB:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2CastleKarstaagRuins01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Castle Karstaag Caverns"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -49,7 +44,7 @@
   "WaterHeight": 0.0,
   "Location": "01429E:Dragonborn.esm",
   "Water": "015427:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\caveicecubemap_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveIceCubeMap_e.dds",
   "AcousticSpace": "02B3AE:Skyrim.esm",
   "EncounterZone": "01429F:Dragonborn.esm",
   "Music": "05228A:Skyrim.esm",
@@ -754,8 +749,5 @@
         "Position": "-4127.348, 1995.9165, 2046.1991"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

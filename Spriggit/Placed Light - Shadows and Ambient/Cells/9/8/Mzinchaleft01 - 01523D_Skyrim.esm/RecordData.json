@@ -1,11 +1,6 @@
 {
   "FormKey": "01523D:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Mzinchaleft01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Mzinchaleft"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -49,7 +44,7 @@
   "LightingTemplate": "087999:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "019280:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
   "AcousticSpace": "0F993E:Skyrim.esm",
   "EncounterZone": "03EC49:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -545,8 +540,5 @@
         "Position": "-10621.445, 2038.4368, -1779.2034"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

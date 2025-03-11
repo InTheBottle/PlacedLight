@@ -1,11 +1,6 @@
 {
   "FormKey": "0165A7:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunTempleofKynareth",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Temple of Kynareth"
@@ -19,7 +14,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -53,7 +48,7 @@
   "Location": "01F87D:Skyrim.esm",
   "Water": "074EEA:Skyrim.esm",
   "Owner": "0ECC44:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
   "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
   "AcousticSpace": "10F90D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
@@ -242,8 +237,5 @@
         "Position": "-9.816984, 1028.3412, 238.70374"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

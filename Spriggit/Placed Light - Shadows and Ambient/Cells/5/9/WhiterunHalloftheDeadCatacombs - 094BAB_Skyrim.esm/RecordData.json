@@ -1,11 +1,6 @@
 {
   "FormKey": "094BAB:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunHalloftheDeadCatacombs",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Whiterun Catacombs"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -111,8 +106,5 @@
         "Position": "-126.04918, -2248.8123, 4.539444"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

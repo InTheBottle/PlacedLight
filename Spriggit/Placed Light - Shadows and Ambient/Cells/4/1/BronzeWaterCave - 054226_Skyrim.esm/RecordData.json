@@ -1,11 +1,6 @@
 {
   "FormKey": "054226:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BronzeWaterCave",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bronze Water Cave"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -116,8 +111,5 @@
         "Position": "3541.8035, 1571.5195, -5852.7197"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

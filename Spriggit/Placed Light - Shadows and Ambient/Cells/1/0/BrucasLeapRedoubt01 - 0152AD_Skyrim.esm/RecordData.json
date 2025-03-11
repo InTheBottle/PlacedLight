@@ -1,11 +1,6 @@
 {
   "FormKey": "0152AD:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrucasLeapRedoubt01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bruca's Leap Redoubt"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -107,8 +102,5 @@
         "Position": "1172.5283, 1965.7074, 223.14902"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

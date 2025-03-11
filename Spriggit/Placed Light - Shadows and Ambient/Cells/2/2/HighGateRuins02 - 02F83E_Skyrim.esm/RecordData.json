@@ -1,11 +1,6 @@
 {
   "FormKey": "02F83E:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HighGateRuins02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "High Gate Ruins Catacombs"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -129,8 +124,5 @@
         "Position": "513.95087, -389.41882, 109.48178"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

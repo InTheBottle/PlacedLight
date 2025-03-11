@@ -1,11 +1,6 @@
 {
   "FormKey": "0152A7:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "CronvangrHall01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Cronvangr Cave"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -193,8 +188,5 @@
         "Position": "-2366.866, 679.1608, -176.71133"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

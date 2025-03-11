@@ -1,10 +1,8 @@
 {
   "FormKey": "095C44:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 786432,
+  "MajorRecordFlagsRaw": 524288,
   "EditorID": "Sovngarde01",
   "SkyrimMajorRecordFlags": [
-    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -17,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -186,7 +184,6 @@
     }
   ],
   "MajorFlags": [
-    "0x40000",
     "CantWait"
   ]
 }

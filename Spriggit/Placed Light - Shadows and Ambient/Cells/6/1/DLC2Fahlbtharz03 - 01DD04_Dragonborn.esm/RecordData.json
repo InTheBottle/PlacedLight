@@ -1,11 +1,6 @@
 {
   "FormKey": "01DD04:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2Fahlbtharz03",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fahlbtharz Boilery"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -166,8 +161,5 @@
         "Position": "1968.8875, 2126.204, 6920.8403"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "0154D5:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1VampireCastleZCell2",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Volkihar East Tower"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -95,8 +90,5 @@
         "Position": "2249.256, 1602.3389, 6988.063"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

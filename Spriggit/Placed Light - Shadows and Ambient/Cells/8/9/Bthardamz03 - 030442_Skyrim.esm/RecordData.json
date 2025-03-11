@@ -1,11 +1,6 @@
 {
   "FormKey": "030442:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Bthardamz03",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bthardamz Arcanex"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -571,8 +566,5 @@
         "Rotation": "0, 0, 2.023908"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

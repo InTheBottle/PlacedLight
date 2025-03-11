@@ -1,11 +1,6 @@
 {
   "FormKey": "015282:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortDunstad01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Dunstad"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -50,7 +45,7 @@
   "LightingTemplate": "06909B:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "01917E:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "03EC1C:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -92,8 +87,5 @@
         "Position": "-1021.6763, -10.473339, 592.1554"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

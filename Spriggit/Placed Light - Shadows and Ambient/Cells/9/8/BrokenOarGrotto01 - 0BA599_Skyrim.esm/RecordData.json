@@ -1,11 +1,6 @@
 {
   "FormKey": "0BA599:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrokenOarGrotto01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Broken Oar Grotto"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -52,7 +47,7 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "019153:Skyrim.esm",
   "Water": "033DA7:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "SkyAndWeatherFromRegion": "10FE79:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "03EBFC:Skyrim.esm",
@@ -300,8 +295,5 @@
         "Position": "1096.4119, 4410.5054, 8277.245"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

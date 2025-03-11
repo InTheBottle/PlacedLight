@@ -1,11 +1,6 @@
 {
   "FormKey": "016200:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "GloomboundMine01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Gloombound Mine"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -127,8 +122,5 @@
         "Position": "376.4285, 307.1827, 267.0235"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

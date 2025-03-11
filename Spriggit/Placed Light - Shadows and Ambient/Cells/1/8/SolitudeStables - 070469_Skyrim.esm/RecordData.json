@@ -1,11 +1,6 @@
 {
   "FormKey": "070469:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeStables",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Solitude Stables"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -114,8 +109,5 @@
         "Rotation": "3.6410658, 4.712389, 5.77704"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

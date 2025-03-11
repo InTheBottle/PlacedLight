@@ -1,11 +1,6 @@
 {
   "FormKey": "0580A2:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunJail02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Guard Barracks"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -106,8 +101,5 @@
         "Position": "3276.5667, 737.0808, 7372.4224"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

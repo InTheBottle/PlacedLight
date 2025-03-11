@@ -1,11 +1,6 @@
 {
   "FormKey": "015258:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "IlinaltasDeep01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ilinalta's Deep"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -49,7 +44,7 @@
   "LightingTemplate": "08CDDA:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "01919C:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "03EC3C:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -939,8 +934,5 @@
         "Position": "-68.17377, 6302.297, -122.64235"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

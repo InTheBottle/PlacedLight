@@ -1,11 +1,6 @@
 {
   "FormKey": "00285A:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1VampireCastleDungeon02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Volkihar Ruins"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "017776:Dawnguard.esm",
   "WaterHeight": 0.0,
   "Location": "00357E:Dawnguard.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "003580:Dawnguard.esm",
   "Music": "00EEB9:Dawnguard.esm",
@@ -460,8 +455,5 @@
         "Rotation": "0, 1.5707964, 3.106686"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "013A8C:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DarkwaterCrossingVernersHouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Verner and Annekke's House"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -129,8 +124,5 @@
         "Position": "-1677.9121, -763.0478, 77.954285"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "016BD0:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenThievesGuildHeadquarters",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Ragged Flagon - Cistern"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "022650:Skyrim.esm",
   "Owner": "029DA9:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "0D7B9F:Skyrim.esm",
@@ -163,8 +158,5 @@
         "Rotation": "0, 0, 2.6529005"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

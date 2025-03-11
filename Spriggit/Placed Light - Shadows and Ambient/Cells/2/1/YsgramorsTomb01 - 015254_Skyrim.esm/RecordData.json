@@ -1,11 +1,6 @@
 {
   "FormKey": "015254:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "YsgramorsTomb01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ysgramor's Tomb"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "WaterHeight": 0.0,
   "Location": "019265:Skyrim.esm",
   "Water": "0E3812:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "SkyAndWeatherFromRegion": "02F778:Skyrim.esm",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "03EC91:Skyrim.esm",
@@ -172,8 +167,5 @@
         "Position": "294.6344, -79.55687, -302.19385"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

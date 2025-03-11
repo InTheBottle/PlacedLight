@@ -1,11 +1,6 @@
 {
   "FormKey": "0161E7:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhistlingMine01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Whistling Mine"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -50,7 +45,7 @@
   "WaterHeight": 0.0,
   "Location": "072B1D:Skyrim.esm",
   "Owner": "10F4AB:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\shinydull_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\ShinyDull_e.dds",
   "Music": "094BDD:Skyrim.esm",
   "ImageSpace": "0A28E6:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
@@ -156,8 +151,5 @@
         "Position": "1335.2103, -2166.9758, 351.48538"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

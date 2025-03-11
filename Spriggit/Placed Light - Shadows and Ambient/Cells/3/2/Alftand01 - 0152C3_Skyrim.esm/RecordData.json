@@ -1,11 +1,6 @@
 {
   "FormKey": "0152C3:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Alftand01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Alftand Glacial Ruins"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -50,7 +45,7 @@
   "LightingTemplate": "08E78E:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "018EE1:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\caveicecubemap_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveIceCubeMap_e.dds",
   "AcousticSpace": "0E3247:Skyrim.esm",
   "EncounterZone": "03EBE6:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
@@ -738,8 +733,5 @@
         "Rotation": "0, 0, 5.743186"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

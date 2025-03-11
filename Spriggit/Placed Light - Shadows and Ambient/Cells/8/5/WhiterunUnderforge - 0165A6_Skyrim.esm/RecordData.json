@@ -1,11 +1,6 @@
 {
   "FormKey": "0165A6:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunUnderforge",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Underforge"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -162,8 +157,5 @@
         "Position": "-59.96782, 816.24146, -163.96901"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

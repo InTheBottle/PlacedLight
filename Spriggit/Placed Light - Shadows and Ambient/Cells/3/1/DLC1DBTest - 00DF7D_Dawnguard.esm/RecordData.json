@@ -1,11 +1,6 @@
 {
   "FormKey": "00DF7D:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1DBTest",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Quick Test Cell"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -76,8 +71,5 @@
         "Position": "11952.768, -1367.4248, 7104"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "054B70:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Mzulft02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Mzulft Boilery"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "08810A:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "019281:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "AcousticSpace": "0F993E:Skyrim.esm",
   "EncounterZone": "03EC4C:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -752,8 +747,5 @@
         "Position": "1986.5371, 18944.29, -73.60813"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

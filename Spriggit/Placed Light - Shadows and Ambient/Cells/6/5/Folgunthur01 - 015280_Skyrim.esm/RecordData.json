@@ -1,11 +1,6 @@
 {
   "FormKey": "015280:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Folgunthur01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Folgunthur"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -150,8 +145,5 @@
         "Position": "643.47046, 8195.145, -1237.9103"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

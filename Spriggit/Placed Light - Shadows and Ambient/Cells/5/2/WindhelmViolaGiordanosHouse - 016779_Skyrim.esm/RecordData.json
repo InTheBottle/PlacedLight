@@ -1,11 +1,6 @@
 {
   "FormKey": "016779:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmViolaGiordanosHouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Viola Giordano's House"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -84,8 +79,5 @@
         "Position": "1152.532, -3325.1685, 91.52811"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,9 @@
 {
   "FormKey": "0DDF7C:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 393216,
+  "MajorRecordFlagsRaw": 131072,
   "EditorID": "AnisesCabin01",
   "SkyrimMajorRecordFlags": [
-    "Dangerous_OffLimits_InteriorCell",
-    "Compressed"
+    "Dangerous_OffLimits_InteriorCell"
   ],
   "Name": {
     "TargetLanguage": "English",
@@ -18,7 +16,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -53,7 +51,7 @@
   "WaterHeight": 0.0,
   "Location": "0D9537:Skyrim.esm",
   "Owner": "0DDF86:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
   "AcousticSpace": "0E3261:Skyrim.esm",
   "EncounterZone": "0D9546:Skyrim.esm",
@@ -76,7 +74,6 @@
     }
   ],
   "MajorFlags": [
-    "OffLimits",
-    "0x40000"
+    "OffLimits"
   ]
 }

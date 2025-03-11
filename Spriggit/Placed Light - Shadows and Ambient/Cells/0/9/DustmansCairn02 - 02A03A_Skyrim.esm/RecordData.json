@@ -1,11 +1,6 @@
 {
   "FormKey": "02A03A:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DustmansCairn02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dustman's Crypt"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -153,8 +148,5 @@
         "Position": "5924.988, -1120.7515, -1472.2587"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

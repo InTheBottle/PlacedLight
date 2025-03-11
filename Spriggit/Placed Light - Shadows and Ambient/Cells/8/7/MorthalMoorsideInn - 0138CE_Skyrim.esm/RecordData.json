@@ -1,11 +1,6 @@
 {
   "FormKey": "0138CE:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MorthalMoorsideInn",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Moorside Inn"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -155,8 +150,5 @@
         "Position": "1178.954, 503.64426, 289.1277"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

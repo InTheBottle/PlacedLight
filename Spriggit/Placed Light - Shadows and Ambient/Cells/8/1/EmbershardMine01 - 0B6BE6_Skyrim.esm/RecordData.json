@@ -1,11 +1,6 @@
 {
   "FormKey": "0B6BE6:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "EmbershardMine01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Embershard Mine"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "WaterHeight": 0.0,
   "Location": "0B712C:Skyrim.esm",
   "Water": "033DA7:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\minecube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\MineCube_e.dds",
   "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
   "AcousticSpace": "0FD93A:Skyrim.esm",
   "EncounterZone": "0D9545:Skyrim.esm",
@@ -263,8 +258,5 @@
         "Position": "269.22708, 3709.3982, 8673.878"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

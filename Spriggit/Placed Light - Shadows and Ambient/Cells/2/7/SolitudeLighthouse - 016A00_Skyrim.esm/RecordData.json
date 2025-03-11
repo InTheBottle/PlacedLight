@@ -1,11 +1,6 @@
 {
   "FormKey": "016A00:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeLighthouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Solitude Lighthouse"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -85,8 +80,5 @@
         "Position": "664.18634, -1278.2849, 132"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

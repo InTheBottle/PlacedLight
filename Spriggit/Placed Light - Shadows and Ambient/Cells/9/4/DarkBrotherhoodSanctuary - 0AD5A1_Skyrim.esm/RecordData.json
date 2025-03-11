@@ -1,11 +1,6 @@
 {
   "FormKey": "0AD5A1:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DarkBrotherhoodSanctuary",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dark Brotherhood Sanctuary"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "LightingTemplate": "0300E2:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "03444E:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "EncounterZone": "03EC06:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
@@ -596,8 +591,5 @@
         "Position": "-242.63045, 146.38577, -481.59457"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

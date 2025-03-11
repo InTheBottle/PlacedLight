@@ -1,11 +1,6 @@
 {
   "FormKey": "0C7348:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HallOfTheVigilant01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hall of the Vigilant"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -151,8 +146,5 @@
         "Position": "-38.042877, -1.1069155, 168.52469"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

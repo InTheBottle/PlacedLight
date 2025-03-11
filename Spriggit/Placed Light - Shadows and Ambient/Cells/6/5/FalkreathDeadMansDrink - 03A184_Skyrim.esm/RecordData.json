@@ -1,11 +1,6 @@
 {
   "FormKey": "03A184:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathDeadMansDrink",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dead Man's Drink"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -159,8 +154,5 @@
         "Position": "422.2652, -101.1095, 158.96646"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

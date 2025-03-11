@@ -1,11 +1,6 @@
 {
   "FormKey": "017B6A:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2HrothmundsBarrow01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hrothmund's Barrow"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -222,8 +217,5 @@
         "Position": "2786.1697, 5177.859, -367.0081"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

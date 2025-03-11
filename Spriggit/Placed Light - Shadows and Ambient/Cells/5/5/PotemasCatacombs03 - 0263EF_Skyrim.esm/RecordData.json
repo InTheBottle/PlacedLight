@@ -1,11 +1,6 @@
 {
   "FormKey": "0263EF:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "PotemasCatacombs03",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Potema's Sanctum"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -202,8 +197,5 @@
         "Rotation": "0, 0, 5.4081883"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "015281:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "JaphetsFolly01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Sea Cave"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "01952F:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "019178:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\caveicecubemap_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveIceCubeMap_e.dds",
   "AcousticSpace": "02B3AE:Skyrim.esm",
   "EncounterZone": "03EC16:Skyrim.esm",
   "Music": "05228A:Skyrim.esm",
@@ -166,8 +161,5 @@
         "Position": "2207.7124, 657.4384, 97.14133"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

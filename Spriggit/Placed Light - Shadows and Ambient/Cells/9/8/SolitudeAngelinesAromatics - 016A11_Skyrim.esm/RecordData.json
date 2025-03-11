@@ -1,11 +1,6 @@
 {
   "FormKey": "016A11:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeAngelinesAromatics",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Angeline's Aromatics"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -200,8 +195,5 @@
         "Position": "-148.35583, -554.1015, 310.1534"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

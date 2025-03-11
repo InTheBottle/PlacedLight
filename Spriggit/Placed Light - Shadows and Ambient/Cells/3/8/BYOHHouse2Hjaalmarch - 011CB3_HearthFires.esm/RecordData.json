@@ -1,11 +1,6 @@
 {
   "FormKey": "011CB3:HearthFires.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BYOHHouse2Hjaalmarch",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Windstad Manor"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -152,8 +147,5 @@
         "Position": "2.4327102, 1064.7987, 98.45056"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

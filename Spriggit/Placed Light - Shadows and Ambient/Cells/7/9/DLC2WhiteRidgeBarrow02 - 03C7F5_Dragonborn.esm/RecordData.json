@@ -1,11 +1,6 @@
 {
   "FormKey": "03C7F5:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2WhiteRidgeBarrow02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "White Ridge Sanctum"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -243,8 +238,5 @@
         "Position": "10476.21, -4674.372, -1493.8502"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

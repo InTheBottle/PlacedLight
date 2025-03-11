@@ -1,11 +1,6 @@
 {
   "FormKey": "09AA4A:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "NightcallerTemple01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Nightcaller Temple"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -174,8 +169,5 @@
         "Position": "2638.9165, 1892.4563, 981.5537"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

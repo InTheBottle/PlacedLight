@@ -1,11 +1,6 @@
 {
   "FormKey": "02BCD7:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WinterholdCollegeMidden01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Midden"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -239,8 +234,5 @@
         "Rotation": "0.24000098, -1.1207969, 6.243186"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

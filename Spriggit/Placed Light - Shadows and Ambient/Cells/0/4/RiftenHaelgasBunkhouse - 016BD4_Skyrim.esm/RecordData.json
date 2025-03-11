@@ -1,11 +1,6 @@
 {
   "FormKey": "016BD4:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenHaelgasBunkhouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Haelga's Bunkhouse"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -95,8 +90,5 @@
         "Position": "-712.22504, -67.440025, 362.19815"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

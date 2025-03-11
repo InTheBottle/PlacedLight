@@ -1,11 +1,6 @@
 {
   "FormKey": "0152B0:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrokenHelmHollow01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Broken Helm Hollow"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -112,8 +107,5 @@
         "Position": "297.42078, 2094.3499, 453.4392"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

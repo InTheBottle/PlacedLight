@@ -1,11 +1,6 @@
 {
   "FormKey": "054D0E:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ColdRockPass01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Cold Rock Pass"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -52,7 +47,7 @@
   "LightingTemplate": "08E78E:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "0BC0A3:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\caveicecubemap_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveIceCubeMap_e.dds",
   "SkyAndWeatherFromRegion": "0C5858:Skyrim.esm",
   "AcousticSpace": "02B961:Skyrim.esm",
   "EncounterZone": "0BC0A4:Skyrim.esm",
@@ -255,8 +250,5 @@
         "Rotation": "0, 0, 5.2531896"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

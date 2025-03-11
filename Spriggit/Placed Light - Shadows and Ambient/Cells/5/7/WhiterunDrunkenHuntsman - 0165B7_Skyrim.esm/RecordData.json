@@ -1,11 +1,6 @@
 {
   "FormKey": "0165B7:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunDrunkenHuntsman",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Drunken Huntsman"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -156,8 +151,5 @@
         "Position": "-420.25735, -1254.8749, 204.92853"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

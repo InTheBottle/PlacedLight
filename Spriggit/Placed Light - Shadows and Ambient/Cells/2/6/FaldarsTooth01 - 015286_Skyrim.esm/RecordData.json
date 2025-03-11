@@ -1,11 +1,6 @@
 {
   "FormKey": "015286:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FaldarsTooth01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Faldar's Tooth"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -176,8 +171,5 @@
         "Position": "2894.0103, -2643.7202, -828.2626"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

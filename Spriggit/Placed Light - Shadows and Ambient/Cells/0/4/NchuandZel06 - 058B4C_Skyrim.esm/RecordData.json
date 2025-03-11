@@ -1,11 +1,6 @@
 {
   "FormKey": "058B4C:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "NchuandZel06",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Nchuand-Zel Control"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -313,8 +308,5 @@
         "Position": "590.502, 6082.525, -52.164978"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

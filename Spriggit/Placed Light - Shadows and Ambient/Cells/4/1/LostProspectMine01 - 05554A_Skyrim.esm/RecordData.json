@@ -1,11 +1,6 @@
 {
   "FormKey": "05554A:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "LostProspectMine01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Lost Prospect Mine"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -194,8 +189,5 @@
         "Position": "-936.1117, -786.26965, 2342.017"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

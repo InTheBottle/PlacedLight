@@ -1,11 +1,6 @@
 {
   "FormKey": "0165AA:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunHalloftheDead",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hall of the Dead"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -101,8 +96,5 @@
         "Position": "896.0295, -253.10022, -92.58808"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "0161FB:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HollyfrostFarm",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hollyfrost Farm"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -140,8 +135,5 @@
         "Position": "1504.288, -516.1587, 309.41818"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

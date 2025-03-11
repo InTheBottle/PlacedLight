@@ -1,11 +1,6 @@
 {
   "FormKey": "016A09:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeErikursHouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Erikur's House"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -256,8 +251,5 @@
         "Position": "-603.2264, 85.642136, 125.47077"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

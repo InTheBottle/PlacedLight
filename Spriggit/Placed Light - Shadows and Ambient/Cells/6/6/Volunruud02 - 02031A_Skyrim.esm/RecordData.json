@@ -1,11 +1,6 @@
 {
   "FormKey": "02031A:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Volunruud02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Volunruud Elder's Cairn"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -169,8 +164,5 @@
         "Position": "642.716, 579.82556, 293.51"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

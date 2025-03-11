@@ -1,11 +1,6 @@
 {
   "FormKey": "004346:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1DarkfallCave01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Darkfall Cave"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "WaterHeight": 0.0,
   "Location": "00A87A:Dawnguard.esm",
   "Water": "00C7C2:Dawnguard.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
   "AcousticSpace": "006B0D:Dawnguard.esm",
   "EncounterZone": "00A879:Dawnguard.esm",
@@ -434,8 +429,5 @@
         "Position": "4255.6343, 2123.9727, -2641.042"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

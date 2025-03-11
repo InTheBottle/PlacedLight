@@ -1,11 +1,6 @@
 {
   "FormKey": "03FC8F:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "IlinaltasDeep02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ilinalta's Deluge"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -49,7 +44,7 @@
   "LightingTemplate": "08CDDA:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "01919C:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\bleakfallscube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\BleakFallsCube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "03EC3C:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -483,8 +478,5 @@
         "Position": "-887.2688, 382.11282, -332.94138"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

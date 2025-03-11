@@ -1,11 +1,6 @@
 {
   "FormKey": "013871:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RoriksteadRoriksManor",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Rorik's Manor"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -126,8 +121,5 @@
         "Position": "1440.288, 123.84137, 268.57205"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

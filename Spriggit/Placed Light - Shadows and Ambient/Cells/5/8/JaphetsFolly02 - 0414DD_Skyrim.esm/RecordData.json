@@ -1,11 +1,6 @@
 {
   "FormKey": "0414DD:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "JaphetsFolly02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Japhet's Folly Towers"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -167,8 +162,5 @@
         "Position": "505.1982, -2763.0952, 229.45943"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

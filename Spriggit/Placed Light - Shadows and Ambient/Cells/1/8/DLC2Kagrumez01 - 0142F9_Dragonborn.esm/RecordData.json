@@ -1,11 +1,6 @@
 {
   "FormKey": "0142F9:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2Kagrumez01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Kagrumez"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "08810A:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "0142A2:Dragonborn.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "0F993E:Skyrim.esm",
   "EncounterZone": "0142A3:Dragonborn.esm",
   "Music": "05615B:Skyrim.esm",
@@ -311,8 +306,5 @@
         "Position": "7364.5645, 3950.6738, -68.42066"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "0165AB:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunAmrensHouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Amren's House"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -100,8 +95,5 @@
         "Position": "232.13782, 46.328415, 428.43353"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "021594:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "AbandonedPrison01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Abandoned Prison"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "08CDDA:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "0ECF4C:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "0ECF4B:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -244,8 +239,5 @@
         "Position": "1004.9797, -1300.3158, 2051.4207"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

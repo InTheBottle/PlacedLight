@@ -1,11 +1,6 @@
 {
   "FormKey": "0152A8:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "CragwallowSlope01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Cragwallow Slope"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -50,7 +45,7 @@
   "LightingTemplate": "034566:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01915A:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\shinydull_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\ShinyDull_e.dds",
   "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "03EC03:Skyrim.esm",
@@ -300,8 +295,5 @@
         "Position": "-3497.9287, 1797.438, 1710.3022"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

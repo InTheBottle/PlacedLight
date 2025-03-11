@@ -1,11 +1,6 @@
 {
   "FormKey": "013850:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShorsStoneOdfelsandGrogmarsHouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Odfel's House"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -143,8 +138,5 @@
         "Position": "-1709.9121, 4.952202, 77.954285"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

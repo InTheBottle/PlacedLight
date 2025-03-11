@@ -1,11 +1,6 @@
 {
   "FormKey": "0EF324:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathBarracksJail",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Falkreath Jail"
@@ -18,7 +13,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -51,7 +46,7 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "1033AF:Skyrim.esm",
   "Owner": "02EBEC:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\minecube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\MineCube_e.dds",
   "SkyAndWeatherFromRegion": "10474D:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "06D546:Skyrim.esm",
@@ -129,8 +124,5 @@
         "Position": "1565.7318, 380.22116, 170.457"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

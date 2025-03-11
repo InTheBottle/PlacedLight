@@ -1,11 +1,6 @@
 {
   "FormKey": "03D62B:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DA14Interior",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Misty Grove"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -219,8 +214,5 @@
         "Rotation": "0, 0, 1.9400003"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

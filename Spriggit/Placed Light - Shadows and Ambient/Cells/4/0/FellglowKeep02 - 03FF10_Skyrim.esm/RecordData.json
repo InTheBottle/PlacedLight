@@ -1,11 +1,6 @@
 {
   "FormKey": "03FF10:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FellglowKeep02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fellglow Keep"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -137,8 +132,5 @@
         "Position": "-3625.9546, 1989.0941, -1386.7001"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "015229:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RannveigsFast01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Rannveig's Fast"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -780,8 +775,5 @@
         "Position": "-2309.4368, 3182.4736, 120.49399"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

@@ -1,11 +1,6 @@
 {
   "FormKey": "08CDEE:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Valthume00",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Valthume Vestibule"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -114,8 +109,5 @@
         "Position": "-2447.741, 575.39435, -1419.1895"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

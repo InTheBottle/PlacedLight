@@ -1,11 +1,6 @@
 {
   "FormKey": "013A86:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DawnstarMortarandPestle",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Mortar and Pestle"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -127,8 +122,5 @@
         "Position": "1328.2656, -174.05037, 407.36526"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

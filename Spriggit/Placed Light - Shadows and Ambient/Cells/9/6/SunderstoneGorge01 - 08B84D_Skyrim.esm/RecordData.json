@@ -1,11 +1,6 @@
 {
   "FormKey": "08B84D:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SunderstoneGorge01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Sunderstone Gorge"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -310,8 +305,5 @@
         "Position": "-1752.2048, 396.77805, 1055.6013"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

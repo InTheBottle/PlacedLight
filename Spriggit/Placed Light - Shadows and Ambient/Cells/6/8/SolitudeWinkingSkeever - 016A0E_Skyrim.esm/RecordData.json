@@ -1,11 +1,6 @@
 {
   "FormKey": "016A0E:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeWinkingSkeever",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Winking Skeever"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -157,8 +152,5 @@
         "Position": "394.34207, -1116.1643, 404.65582"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

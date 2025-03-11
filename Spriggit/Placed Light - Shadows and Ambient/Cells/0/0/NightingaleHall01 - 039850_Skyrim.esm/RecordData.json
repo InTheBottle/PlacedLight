@@ -1,11 +1,6 @@
 {
   "FormKey": "039850:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "NightingaleHall01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Nightingale Hall"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -299,8 +294,5 @@
         "Position": "4142.132, 8356.776, -372.4115"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

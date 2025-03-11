@@ -1,11 +1,6 @@
 {
   "FormKey": "018276:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRBulwark",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Bulwark"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -118,8 +113,5 @@
         "Rotation": "-1.5707961, -1.0471953, 2.3561945"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

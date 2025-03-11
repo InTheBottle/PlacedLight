@@ -1,11 +1,9 @@
 {
   "FormKey": "037CC6:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 917504,
+  "MajorRecordFlagsRaw": 655360,
   "EditorID": "RiftenMercerFreyHouse",
   "SkyrimMajorRecordFlags": [
     "Dangerous_OffLimits_InteriorCell",
-    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -18,7 +16,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -52,7 +50,7 @@
   "LightingTemplate": "0B2157:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01706E:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0B215C:Skyrim.esm",
@@ -115,7 +113,6 @@
   ],
   "MajorFlags": [
     "OffLimits",
-    "0x40000",
     "CantWait"
   ]
 }

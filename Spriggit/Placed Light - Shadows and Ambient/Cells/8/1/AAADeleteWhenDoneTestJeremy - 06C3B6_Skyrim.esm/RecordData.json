@@ -1,11 +1,6 @@
 {
   "FormKey": "06C3B6:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "AAADeleteWhenDoneTestJeremy",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "TestTony"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -113,8 +108,5 @@
         "Position": "-1988.4897, -3118.8406, 8960.104"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

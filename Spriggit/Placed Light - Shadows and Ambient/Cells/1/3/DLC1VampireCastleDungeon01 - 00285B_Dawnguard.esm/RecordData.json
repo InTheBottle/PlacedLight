@@ -1,11 +1,6 @@
 {
   "FormKey": "00285B:Dawnguard.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1VampireCastleDungeon01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Volkihar Undercroft"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "017776:Dawnguard.esm",
   "WaterHeight": 0.0,
   "Location": "00357E:Dawnguard.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "003580:Dawnguard.esm",
   "Music": "00EEB9:Dawnguard.esm",
@@ -188,8 +183,5 @@
         "Position": "-5122.7817, 3202.153, 6827.448"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

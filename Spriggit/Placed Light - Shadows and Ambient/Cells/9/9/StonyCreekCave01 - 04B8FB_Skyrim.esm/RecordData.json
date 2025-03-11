@@ -1,11 +1,6 @@
 {
   "FormKey": "04B8FB:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "StonyCreekCave01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Stony Creek Cave"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "034566:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "080F28:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "080F29:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
@@ -338,8 +333,5 @@
         "Position": "3599.3916, 1116.4038, -121.76444"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

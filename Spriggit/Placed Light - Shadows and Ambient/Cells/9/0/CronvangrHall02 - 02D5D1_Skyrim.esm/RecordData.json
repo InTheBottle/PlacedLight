@@ -1,11 +1,6 @@
 {
   "FormKey": "02D5D1:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "CronvangrHall02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Cronvangr Broodlair"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -256,8 +251,5 @@
         "Rotation": "0, 0, 4.71239"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

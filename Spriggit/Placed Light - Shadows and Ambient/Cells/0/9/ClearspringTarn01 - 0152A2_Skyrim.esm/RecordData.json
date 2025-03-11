@@ -1,11 +1,6 @@
 {
   "FormKey": "0152A2:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ClearspringTarn01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Clearspring Cave"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "08CDDA:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "019157:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "03EC00:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
@@ -162,8 +157,5 @@
         "Position": "4370.4077, 2762.6162, -29.454494"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

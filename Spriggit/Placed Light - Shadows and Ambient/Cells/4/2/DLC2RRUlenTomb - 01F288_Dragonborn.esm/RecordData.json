@@ -1,11 +1,6 @@
 {
   "FormKey": "01F288:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRUlenTomb",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ulen Ancestral Tomb"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -79,8 +74,5 @@
         "Rotation": "0, 0, 1.5707964"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

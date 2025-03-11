@@ -1,11 +1,6 @@
 {
   "FormKey": "0371DD:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BleakFallsBarrow02",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bleak Falls Sanctum"
@@ -17,7 +12,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -52,7 +47,7 @@
   "WaterHeight": 0.0,
   "Location": "018EE9:Skyrim.esm",
   "Water": "033DA7:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\bleakfallscube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\BleakFallsCube_e.dds",
   "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
   "AcousticSpace": "02B961:Skyrim.esm",
   "EncounterZone": "038AB1:Skyrim.esm",
@@ -205,8 +200,5 @@
         "Rotation": "0, 0, 3.1524045"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

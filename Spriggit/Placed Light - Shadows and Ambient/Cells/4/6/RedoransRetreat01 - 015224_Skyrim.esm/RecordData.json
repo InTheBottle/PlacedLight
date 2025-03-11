@@ -1,11 +1,6 @@
 {
   "FormKey": "015224:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RedoransRetreat01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Redoran's Retreat"
@@ -15,7 +10,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -97,8 +92,5 @@
         "Position": "775.95044, 268.7417, 238.32637"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

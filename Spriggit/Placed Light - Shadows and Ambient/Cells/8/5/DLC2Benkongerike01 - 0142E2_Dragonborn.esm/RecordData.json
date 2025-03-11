@@ -1,11 +1,6 @@
 {
   "FormKey": "0142E2:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2Benkongerike01",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Benkongerike"
@@ -16,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -48,7 +43,7 @@
   "LightingTemplate": "01952F:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "014298:Dragonborn.esm",
-  "WaterEnvironmentMap": "data\\textures\\cubemaps\\glacierice_e.dds",
+  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\glacierice_e.dds",
   "AcousticSpace": "02B3AE:Skyrim.esm",
   "EncounterZone": "014299:Dragonborn.esm",
   "Music": "05228A:Skyrim.esm",
@@ -308,8 +303,5 @@
         "Rotation": "0, 0, 4.712389"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }
