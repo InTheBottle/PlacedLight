@@ -1,6 +1,11 @@
 {
   "FormKey": "013A67:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HelgenHomestead",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Helgen Homestead"
@@ -66,5 +71,8 @@
         "Position": "227.53447, -22.016602, 213.4651"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

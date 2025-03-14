@@ -1,6 +1,11 @@
 {
   "FormKey": "0EEC53:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BlackreachZCell08",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Farm Overseer's House"
@@ -51,25 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EECD2:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "0879AC:Skyrim.esm",
-      "Radius": -54.63234,
-      "LightData": {
-        "FadeOffset": 1.4140546,
-        "ShadowDepthBias": 2.0
-      },
-      "LocationReference": "018EE8:Skyrim.esm",
-      "Placement": {
-        "Position": "244.59875, 370.35202, 2992.571",
-        "Rotation": "0, 0, 6.178985"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "105C87:Skyrim.esm",
       "Base": "0879AF:Skyrim.esm",
       "Radius": 267.93353,
@@ -96,6 +82,28 @@
         "Position": "21.420292, 827.23566, 3061.8481",
         "Rotation": "0, 0, 3.2789896"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EECD2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": -54.63234,
+      "LightData": {
+        "FadeOffset": 1.4140546,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "244.59875, 370.35202, 2992.571",
+        "Rotation": "0, 0, 6.178985"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

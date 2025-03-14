@@ -1,6 +1,11 @@
 {
   "FormKey": "016789:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmCandlehearthHall",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Candlehearth Hall"
@@ -82,5 +87,8 @@
         "Rotation": "-0.004444441, 0.7853982, 3.1415932"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

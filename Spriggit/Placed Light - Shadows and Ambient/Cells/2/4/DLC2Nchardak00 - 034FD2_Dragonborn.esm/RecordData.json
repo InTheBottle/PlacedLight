@@ -1,6 +1,11 @@
 {
   "FormKey": "034FD2:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2Nchardak00",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Nchardak Reading Room"
@@ -53,16 +58,30 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "039BC3:Dragonborn.esm",
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": 202.81555,
+      "FormKey": "038B81:Dragonborn.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": -195.40778,
       "LightData": {
-        "FadeOffset": 0.6415154,
+        "FadeOffset": -0.060962737,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
-        "Position": "-627.28174, 424.854, 145.4754"
+        "Position": "-192.1596, 0.8273878, 1729.4948"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "023F5C:Dragonborn.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 71.35849,
+      "LightData": {
+        "FadeOffset": 0.5485486,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142B4:Dragonborn.esm",
+      "Placement": {
+        "Position": "-831.18567, -1106.1013, 129.65956"
       }
     },
     {
@@ -81,16 +100,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "038B81:Dragonborn.esm",
-      "Base": "088248:Skyrim.esm",
-      "Radius": -195.40778,
+      "FormKey": "039BC5:Dragonborn.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 80.308136,
       "LightData": {
-        "FadeOffset": -0.060962737,
+        "FadeOffset": 0.5485486,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
-        "Position": "-192.1596, 0.8273878, 1729.4948"
+        "Position": "-286.96674, -647.1883, 111.59138"
       }
     },
     {
@@ -109,31 +128,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "039BC5:Dragonborn.esm",
+      "FormKey": "039BC3:Dragonborn.esm",
       "Base": "0897B4:Skyrim.esm",
-      "Radius": 80.308136,
+      "Radius": 202.81555,
       "LightData": {
-        "FadeOffset": 0.5485486,
+        "FadeOffset": 0.6415154,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0142B4:Dragonborn.esm",
       "Placement": {
-        "Position": "-286.96674, -647.1883, 111.59138"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "023F5C:Dragonborn.esm",
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": 71.35849,
-      "LightData": {
-        "FadeOffset": 0.5485486,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142B4:Dragonborn.esm",
-      "Placement": {
-        "Position": "-831.18567, -1106.1013, 129.65956"
+        "Position": "-627.28174, 424.854, 145.4754"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

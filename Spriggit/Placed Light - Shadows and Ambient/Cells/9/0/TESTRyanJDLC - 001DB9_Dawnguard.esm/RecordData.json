@@ -1,6 +1,11 @@
 {
   "FormKey": "001DB9:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "TESTRyanJDLC",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Swindler's Den"
@@ -54,34 +59,12 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0021AB:Dawnguard.esm",
-      "Base": "074ED2:Skyrim.esm",
-      "Radius": 1639.1333,
-      "LocationReference": "018EE2:Skyrim.esm",
-      "Placement": {
-        "Position": "516.61395, -1080.0764, 576",
-        "Rotation": "0, 0, 4.712389"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0022A4:Dawnguard.esm",
       "Base": "074ED2:Skyrim.esm",
       "Radius": 333.16992,
       "LocationReference": "018EE2:Skyrim.esm",
       "Placement": {
         "Position": "882.7417, 2766.2205, 169.10046",
-        "Rotation": "0, 0, 4.5373898"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0022A2:Dawnguard.esm",
-      "Base": "074ED2:Skyrim.esm",
-      "Radius": 842.8207,
-      "LocationReference": "018EE2:Skyrim.esm",
-      "Placement": {
-        "Position": "327.02478, 1965.2517, 372.6433",
         "Rotation": "0, 0, 4.5373898"
       }
     },
@@ -98,13 +81,13 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002288:Dawnguard.esm",
+      "FormKey": "0022A2:Dawnguard.esm",
       "Base": "074ED2:Skyrim.esm",
-      "Radius": 1639.1333,
+      "Radius": 842.8207,
       "LocationReference": "018EE2:Skyrim.esm",
       "Placement": {
-        "Position": "996.5098, -1689.2161, 576",
-        "Rotation": "0, 0, 4.712389"
+        "Position": "327.02478, 1965.2517, 372.6433",
+        "Rotation": "0, 0, 4.5373898"
       }
     },
     {
@@ -117,6 +100,31 @@
         "Position": "2338.234, 3525.0752, 4.7575455",
         "Rotation": "0, 0, 4.5373898"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0021AB:Dawnguard.esm",
+      "Base": "074ED2:Skyrim.esm",
+      "Radius": 1639.1333,
+      "LocationReference": "018EE2:Skyrim.esm",
+      "Placement": {
+        "Position": "516.61395, -1080.0764, 576",
+        "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002288:Dawnguard.esm",
+      "Base": "074ED2:Skyrim.esm",
+      "Radius": 1639.1333,
+      "LocationReference": "018EE2:Skyrim.esm",
+      "Placement": {
+        "Position": "996.5098, -1689.2161, 576",
+        "Rotation": "0, 0, 4.712389"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

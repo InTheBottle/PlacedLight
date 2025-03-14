@@ -1,6 +1,11 @@
 {
   "FormKey": "01526F:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MovarthsLair01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Movarth's Lair"
@@ -81,16 +86,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "038D62:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 233.66754,
+      "FormKey": "038D61:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 245.68915,
+      "Emittance": "0668F2:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.5313632,
-        "ShadowDepthBias": 49.0
+        "FadeOffset": 1.0893466,
+        "ShadowDepthBias": 21.955383
       },
       "LocationReference": "01BDFC:Skyrim.esm",
       "Placement": {
-        "Position": "4460.07, 2802.7063, 5449.1494"
+        "Position": "4013.5227, 2612.0056, 5403.985"
       }
     },
     {
@@ -109,6 +115,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "038D62:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 233.66754,
+      "LightData": {
+        "FadeOffset": 1.5313632,
+        "ShadowDepthBias": 49.0
+      },
+      "LocationReference": "01BDFC:Skyrim.esm",
+      "Placement": {
+        "Position": "4460.07, 2802.7063, 5449.1494"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "038CAB:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
       "Radius": 188.68408,
@@ -120,21 +140,9 @@
       "Placement": {
         "Position": "297.99786, -478.7265, 6069.7544"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "038D61:Skyrim.esm",
-      "Base": "0668F2:Skyrim.esm",
-      "Radius": 245.68915,
-      "Emittance": "0668F2:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 1.0893466,
-        "ShadowDepthBias": 21.955383
-      },
-      "LocationReference": "01BDFC:Skyrim.esm",
-      "Placement": {
-        "Position": "4013.5227, 2612.0056, 5403.985"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

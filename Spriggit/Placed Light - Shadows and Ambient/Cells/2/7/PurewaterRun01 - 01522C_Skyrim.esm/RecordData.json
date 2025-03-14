@@ -1,6 +1,11 @@
 {
   "FormKey": "01522C:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "PurewaterRun01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Purewater Run"
@@ -45,7 +50,7 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "01928D:Skyrim.esm",
   "Water": "033DA7:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
   "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "03EC55:Skyrim.esm",
@@ -55,17 +60,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F2566:Skyrim.esm",
-      "Base": "0B7DE5:Skyrim.esm",
-      "Radius": 392.38953,
-      "Emittance": "075DE6:Skyrim.esm",
+      "FormKey": "0F44B1:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 51.725647,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 5.160422,
-        "ShadowDepthBias": 32.67
+        "FadeOffset": 5.013844,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "01928D:Skyrim.esm",
       "Placement": {
-        "Position": "219.83032, -1001.9567, -61.840378"
+        "Position": "459.40018, 595.1118, -222.42892"
       }
     },
     {
@@ -85,45 +90,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F44B1:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 51.725647,
-      "Emittance": "075492:Skyrim.esm",
+      "FormKey": "0F2566:Skyrim.esm",
+      "Base": "0B7DE5:Skyrim.esm",
+      "Radius": 392.38953,
+      "Emittance": "075DE6:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 5.013844,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 5.160422,
+        "ShadowDepthBias": 32.67
       },
       "LocationReference": "01928D:Skyrim.esm",
       "Placement": {
-        "Position": "459.40018, 595.1118, -222.42892"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F256A:Skyrim.esm",
-      "Base": "01FD9B:Skyrim.esm",
-      "Radius": 97.56555,
-      "LightData": {
-        "FadeOffset": 0.8531523,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01928D:Skyrim.esm",
-      "Placement": {
-        "Position": "1143.0063, -912.2118, -304.6957"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F2569:Skyrim.esm",
-      "Base": "01FD9B:Skyrim.esm",
-      "Radius": 97.56555,
-      "LightData": {
-        "FadeOffset": 0.8531523,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01928D:Skyrim.esm",
-      "Placement": {
-        "Position": "2027.0446, -924.19806, -627.32916"
+        "Position": "219.83032, -1001.9567, -61.840378"
       }
     },
     {
@@ -157,6 +134,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F2569:Skyrim.esm",
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 97.56555,
+      "LightData": {
+        "FadeOffset": 0.8531523,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01928D:Skyrim.esm",
+      "Placement": {
+        "Position": "2027.0446, -924.19806, -627.32916"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F2575:Skyrim.esm",
       "Base": "01FD9B:Skyrim.esm",
       "Radius": 223.89236,
@@ -168,6 +159,23 @@
       "Placement": {
         "Position": "240.56038, -189.53468, -121.032104"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F256A:Skyrim.esm",
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 97.56555,
+      "LightData": {
+        "FadeOffset": 0.8531523,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01928D:Skyrim.esm",
+      "Placement": {
+        "Position": "1143.0063, -912.2118, -304.6957"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

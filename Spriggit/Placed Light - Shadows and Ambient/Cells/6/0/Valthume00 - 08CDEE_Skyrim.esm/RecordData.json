@@ -1,6 +1,11 @@
 {
   "FormKey": "08CDEE:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Valthume00",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Valthume Vestibule"
@@ -53,16 +58,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "08F3CD:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 205.35602,
+      "FormKey": "0E39FE:Skyrim.esm",
+      "Base": "088247:Skyrim.esm",
+      "Radius": 201.3417,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 2.6210577,
-        "ShadowDepthBias": 20.61182
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 20.46498
       },
       "LocationReference": "033DA0:Skyrim.esm",
       "Placement": {
-        "Position": "-5017.642, 2098.1707, -1952.3135"
+        "Position": "-2444.7908, 576.7552, -1989.3651"
       }
     },
     {
@@ -81,17 +87,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E39FE:Skyrim.esm",
-      "Base": "088247:Skyrim.esm",
-      "Radius": 201.3417,
-      "Emittance": "075492:Skyrim.esm",
+      "FormKey": "08F3CD:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 205.35602,
       "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 20.46498
+        "FadeOffset": 2.6210577,
+        "ShadowDepthBias": 20.61182
       },
       "LocationReference": "033DA0:Skyrim.esm",
       "Placement": {
-        "Position": "-2444.7908, 576.7552, -1989.3651"
+        "Position": "-5017.642, 2098.1707, -1952.3135"
       }
     },
     {
@@ -109,5 +114,8 @@
         "Position": "-2447.741, 575.39435, -1419.1895"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

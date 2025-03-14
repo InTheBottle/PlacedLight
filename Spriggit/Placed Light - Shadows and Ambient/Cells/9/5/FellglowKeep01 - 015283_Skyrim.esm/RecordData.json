@@ -1,6 +1,11 @@
 {
   "FormKey": "015283:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FellglowKeep01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fellglow Keep Dungeons"
@@ -52,6 +57,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "01940D:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 210.16446,
+      "LightData": {
+        "FadeOffset": 0.5857235,
+        "ShadowDepthBias": 20.784256
+      },
+      "LocationReference": "019177:Skyrim.esm",
+      "Placement": {
+        "Position": "3660.692, 8332.553, 224.81479"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "019255:Skyrim.esm",
       "Base": "0668F2:Skyrim.esm",
       "Radius": 61.325714,
@@ -76,6 +95,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0191E9:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 258.13953,
+      "LocationReference": "019177:Skyrim.esm",
+      "Placement": {
+        "Position": "99.76961, 141.81189, 25.025482"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "01923A:Skyrim.esm",
       "Base": "0668F2:Skyrim.esm",
       "Radius": 448.3498,
@@ -86,20 +115,6 @@
       "LocationReference": "019177:Skyrim.esm",
       "Placement": {
         "Position": "2383.9968, -473.0476, 309.4861"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01940D:Skyrim.esm",
-      "Base": "0668F2:Skyrim.esm",
-      "Radius": 210.16446,
-      "LightData": {
-        "FadeOffset": 0.5857235,
-        "ShadowDepthBias": 20.784256
-      },
-      "LocationReference": "019177:Skyrim.esm",
-      "Placement": {
-        "Position": "3660.692, 8332.553, 224.81479"
       }
     },
     {
@@ -132,16 +147,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0191E9:Skyrim.esm",
-      "Base": "01F8B0:Skyrim.esm",
-      "Radius": 258.13953,
-      "LocationReference": "019177:Skyrim.esm",
-      "Placement": {
-        "Position": "99.76961, 141.81189, 25.025482"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "019392:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
       "Radius": 352.9859,
@@ -154,5 +159,8 @@
         "Position": "5812.201, 3467.8328, -117.82527"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

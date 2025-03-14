@@ -1,6 +1,11 @@
 {
   "FormKey": "000EB8:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1DimHollowCrypt01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dimhollow Crypt"
@@ -45,7 +50,7 @@
   "LightingTemplate": "006AE9:Dawnguard.esm",
   "WaterHeight": 0.0,
   "Location": "004EE8:Dawnguard.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
   "SkyAndWeatherFromRegion": "0191D3:Dawnguard.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "004EE7:Dawnguard.esm",
@@ -84,6 +89,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0083BF:Dawnguard.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 365.03925,
+      "LocationReference": "004EE8:Dawnguard.esm",
+      "Placement": {
+        "Position": "-1270.8855, 31.94199, 371.58716"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0083AA:Dawnguard.esm",
       "Base": "088246:Skyrim.esm",
       "Radius": 577.22345,
@@ -96,16 +111,9 @@
       "Placement": {
         "Position": "3061.5986, -741.024, 410.2975"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0083BF:Dawnguard.esm",
-      "Base": "088246:Skyrim.esm",
-      "Radius": 365.03925,
-      "LocationReference": "004EE8:Dawnguard.esm",
-      "Placement": {
-        "Position": "-1270.8855, 31.94199, 371.58716"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0F5EDC:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WarehouseMapMarkers",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Warehouse Map Markers"
@@ -43,5 +48,8 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "0E9DA7:Skyrim.esm",
   "EncounterZone": "0E9DA8:Skyrim.esm",
-  "ImageSpace": "0A2687:Skyrim.esm"
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "04401B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DruadachRedoubt01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Druadach Redoubt Cave"
@@ -69,6 +74,43 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "083B3E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088248:Skyrim.esm",
+      "Radius": 573.7494,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 14.802103,
+        "ShadowDepthBias": 27.002426
+      },
+      "LocationReference": "01916F:Skyrim.esm",
+      "Placement": {
+        "Position": "6274.3896, 2679.9658, 8275.268"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "083B3F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088248:Skyrim.esm",
+      "Radius": 66.21362,
+      "LightData": {
+        "FadeOffset": 0.011451721,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01916F:Skyrim.esm",
+      "Placement": {
+        "Position": "5474.1206, 2769.9736, 8054.5303"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "083B77:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -90,25 +132,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "083B3E:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "088248:Skyrim.esm",
-      "Radius": 573.7494,
-      "Emittance": "02E2CC:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 14.802103,
-        "ShadowDepthBias": 27.002426
-      },
-      "LocationReference": "01916F:Skyrim.esm",
-      "Placement": {
-        "Position": "6274.3896, 2679.9658, 8275.268"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "083B78:Skyrim.esm",
       "Base": "094E6E:Skyrim.esm",
       "Radius": 678.377,
@@ -121,24 +144,9 @@
       "Placement": {
         "Position": "2064.8835, 2126.1182, 8083.9355"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "083B3F:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "088248:Skyrim.esm",
-      "Radius": 66.21362,
-      "LightData": {
-        "FadeOffset": 0.011451721,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01916F:Skyrim.esm",
-      "Placement": {
-        "Position": "5474.1206, 2769.9736, 8054.5303"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

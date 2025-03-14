@@ -1,6 +1,11 @@
 {
   "FormKey": "01525D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HoneystrandGrove01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Honeystrand Cave"
@@ -53,21 +58,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05AD62:Skyrim.esm",
-      "Base": "088246:Skyrim.esm",
-      "Radius": 1129.4331,
-      "Emittance": "02E2CC:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 2.6269867,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019199:Skyrim.esm",
-      "Placement": {
-        "Position": "164.36853, -1272.899, 339.86142"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "044C79:Skyrim.esm",
       "Base": "088245:Skyrim.esm",
       "Radius": 1202.2979,
@@ -111,6 +101,24 @@
       "Placement": {
         "Position": "1239.7758, 1612.4701, 68.18164"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05AD62:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 1129.4331,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.6269867,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019199:Skyrim.esm",
+      "Placement": {
+        "Position": "164.36853, -1272.899, 339.86142"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

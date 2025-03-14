@@ -1,6 +1,11 @@
 {
   "FormKey": "007D94:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "testPhil",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "There's a spider on your shoulder"
@@ -62,5 +67,8 @@
         "Position": "2084.4902, 2152.2192, 6930.8315"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "05A857:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Bthardamz01a",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bthardamz Dwelling"
@@ -51,16 +56,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "08A20E:Skyrim.esm",
-      "Base": "088C9A:Skyrim.esm",
-      "Radius": 190.41895,
+      "FormKey": "08A209:Skyrim.esm",
+      "Base": "088CF3:Skyrim.esm",
+      "Radius": 271.90936,
       "LightData": {
-        "FadeOffset": 1.3786592,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 1.1734631,
+        "ShadowDepthBias": 21.776062
       },
       "LocationReference": "019152:Skyrim.esm",
       "Placement": {
-        "Position": "350.10715, 2259.4136, 170.62173"
+        "Position": "-87.60916, 1064.6064, 202.56995"
       }
     },
     {
@@ -93,6 +98,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "08A20E:Skyrim.esm",
+      "Base": "088C9A:Skyrim.esm",
+      "Radius": 190.41895,
+      "LightData": {
+        "FadeOffset": 1.3786592,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019152:Skyrim.esm",
+      "Placement": {
+        "Position": "350.10715, 2259.4136, 170.62173"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "08A212:Skyrim.esm",
       "Base": "088C9A:Skyrim.esm",
       "Radius": 448.93372,
@@ -104,20 +123,9 @@
       "Placement": {
         "Position": "-113.15558, 1773.4172, 125.6969"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "08A209:Skyrim.esm",
-      "Base": "088CF3:Skyrim.esm",
-      "Radius": 271.90936,
-      "LightData": {
-        "FadeOffset": 1.1734631,
-        "ShadowDepthBias": 21.776062
-      },
-      "LocationReference": "019152:Skyrim.esm",
-      "Placement": {
-        "Position": "-87.60916, 1064.6064, 202.56995"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

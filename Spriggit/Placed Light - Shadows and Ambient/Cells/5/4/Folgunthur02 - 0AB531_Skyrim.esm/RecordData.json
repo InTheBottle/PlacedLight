@@ -1,6 +1,11 @@
 {
   "FormKey": "0AB531:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Folgunthur02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Folgunthur Crypt"
@@ -76,5 +81,8 @@
         "Position": "513.6438, -1399.5085, -255.46617"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

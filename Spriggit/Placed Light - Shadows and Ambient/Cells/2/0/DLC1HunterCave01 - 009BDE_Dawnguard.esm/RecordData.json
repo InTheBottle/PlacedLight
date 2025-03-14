@@ -1,6 +1,11 @@
 {
   "FormKey": "009BDE:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1HunterCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dead Drop Falls"
@@ -50,12 +55,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "014563:Dawnguard.esm",
-      "Base": "0CB626:Skyrim.esm",
-      "Radius": 340.93787,
+      "FormKey": "01456B:Dawnguard.esm",
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 98.342865,
+      "LightData": {
+        "FadeOffset": 0.91269433,
+        "ShadowDepthBias": 1.0
+      },
       "LocationReference": "019C8E:Dawnguard.esm",
       "Placement": {
-        "Position": "-249.1828, -6328.868, 7185.406"
+        "Position": "2811.0752, -5609.745, 7259.1836"
       }
     },
     {
@@ -89,17 +98,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01456B:Dawnguard.esm",
-      "Base": "01FD9B:Skyrim.esm",
-      "Radius": 98.342865,
-      "LightData": {
-        "FadeOffset": 0.91269433,
-        "ShadowDepthBias": 1.0
-      },
+      "FormKey": "014563:Dawnguard.esm",
+      "Base": "0CB626:Skyrim.esm",
+      "Radius": 340.93787,
       "LocationReference": "019C8E:Dawnguard.esm",
       "Placement": {
-        "Position": "2811.0752, -5609.745, 7259.1836"
+        "Position": "-249.1828, -6328.868, 7185.406"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

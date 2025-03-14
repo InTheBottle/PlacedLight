@@ -1,6 +1,11 @@
 {
   "FormKey": "017729:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2TelMithrynStewardsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Tel Mithryn Steward's House"
@@ -52,20 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "034F4A:Dragonborn.esm",
-      "Base": "0F7CBF:Skyrim.esm",
-      "Radius": 311.2552,
-      "LightData": {
-        "FadeOffset": -0.41648924,
-        "ShadowDepthBias": 14.637871
-      },
-      "LocationReference": "01CDED:Dragonborn.esm",
-      "Placement": {
-        "Position": "420.94235, -268.46472, 217.44687"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "032245:Dragonborn.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 110.24075,
@@ -76,6 +67,20 @@
       "LocationReference": "01CDED:Dragonborn.esm",
       "Placement": {
         "Position": "436.55557, -258.8555, 86.38942"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "034F4A:Dragonborn.esm",
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 311.2552,
+      "LightData": {
+        "FadeOffset": -0.41648924,
+        "ShadowDepthBias": 14.637871
+      },
+      "LocationReference": "01CDED:Dragonborn.esm",
+      "Placement": {
+        "Position": "420.94235, -268.46472, 217.44687"
       }
     },
     {
@@ -92,5 +97,8 @@
         "Position": "233.38426, 52.516273, 135.81068"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

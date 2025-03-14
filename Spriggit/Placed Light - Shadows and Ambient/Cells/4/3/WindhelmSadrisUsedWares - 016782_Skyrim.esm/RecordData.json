@@ -1,6 +1,11 @@
 {
   "FormKey": "016782:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmSadrisUsedWares",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Sadri's Used Wares"
@@ -52,18 +57,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DA55E:Skyrim.esm",
-      "Base": "02EE07:Skyrim.esm",
-      "Radius": 315.0052,
+      "FormKey": "0D62A1:Skyrim.esm",
+      "Base": "05C677:Skyrim.esm",
+      "Radius": 88.01404,
       "LightData": {
-        "FovOffset": 52.0141,
-        "FadeOffset": 3.3983893,
-        "ShadowDepthBias": 50.0
+        "FadeOffset": 1.505903,
+        "ShadowDepthBias": 14.566555
       },
       "LocationReference": "0209F4:Skyrim.esm",
       "Placement": {
-        "Position": "-1404.6873, -1009.7267, -44.338314",
-        "Rotation": "0, -0.37079614, 0"
+        "Position": "-964.082, -1665.753, 47.8301"
       }
     },
     {
@@ -82,20 +85,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D62A1:Skyrim.esm",
-      "Base": "05C677:Skyrim.esm",
-      "Radius": 88.01404,
-      "LightData": {
-        "FadeOffset": 1.505903,
-        "ShadowDepthBias": 14.566555
-      },
-      "LocationReference": "0209F4:Skyrim.esm",
-      "Placement": {
-        "Position": "-964.082, -1665.753, 47.8301"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D62A4:Skyrim.esm",
       "Base": "05C677:Skyrim.esm",
       "Radius": 36.098694,
@@ -107,6 +96,25 @@
       "Placement": {
         "Position": "-977.4144, -2018.232, -10.961514"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DA55E:Skyrim.esm",
+      "Base": "02EE07:Skyrim.esm",
+      "Radius": 315.0052,
+      "LightData": {
+        "FovOffset": 52.0141,
+        "FadeOffset": 3.3983893,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0209F4:Skyrim.esm",
+      "Placement": {
+        "Position": "-1404.6873, -1009.7267, -44.338314",
+        "Rotation": "0, -0.37079614, 0"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

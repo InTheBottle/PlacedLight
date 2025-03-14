@@ -1,6 +1,11 @@
 {
   "FormKey": "017EC1:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRMorvaynManor",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Morvayn Manor"
@@ -51,16 +56,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03504F:Dragonborn.esm",
+      "FormKey": "03501B:Dragonborn.esm",
       "Base": "02EDFC:Skyrim.esm",
-      "Radius": 54.599762,
+      "Radius": -12.661484,
       "LightData": {
-        "FadeOffset": 0.5,
+        "FadeOffset": 1.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A1C:Dragonborn.esm",
       "Placement": {
-        "Position": "-1576.1217, 147.15741, 98.02597"
+        "Position": "-1535.8673, -342.0142, 184.45459",
+        "Rotation": "0, 0, 1.5707964"
       }
     },
     {
@@ -79,18 +85,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03501B:Dragonborn.esm",
+      "FormKey": "03504F:Dragonborn.esm",
       "Base": "02EDFC:Skyrim.esm",
-      "Radius": -12.661484,
+      "Radius": 54.599762,
       "LightData": {
-        "FadeOffset": 1.0,
+        "FadeOffset": 0.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A1C:Dragonborn.esm",
       "Placement": {
-        "Position": "-1535.8673, -342.0142, 184.45459",
-        "Rotation": "0, 0, 1.5707964"
+        "Position": "-1576.1217, 147.15741, 98.02597"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

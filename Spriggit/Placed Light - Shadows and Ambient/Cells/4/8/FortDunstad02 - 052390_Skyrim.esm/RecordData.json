@@ -1,6 +1,11 @@
 {
   "FormKey": "052390:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortDunstad02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Dunstad Prison"
@@ -78,5 +83,8 @@
         "Position": "277.69547, 216.39003, 2029.4183"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

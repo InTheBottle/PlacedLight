@@ -1,6 +1,11 @@
 {
   "FormKey": "015295:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DeadCroneRock01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dead Crone Rock"
@@ -53,20 +58,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C8035:Skyrim.esm",
-      "Base": "036464:Skyrim.esm",
-      "Radius": 297.9992,
-      "LightData": {
-        "FadeOffset": 1.7698534,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019160:Skyrim.esm",
-      "Placement": {
-        "Position": "-518.2286, -765.4005, -1580.1182"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C8032:Skyrim.esm",
       "Base": "0668F2:Skyrim.esm",
       "Radius": 509.77136,
@@ -78,6 +69,20 @@
       "Placement": {
         "Position": "397.59662, -961.1052, -1814.8237",
         "Rotation": "0, 1.5400199, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8035:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 297.9992,
+      "LightData": {
+        "FadeOffset": 1.7698534,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019160:Skyrim.esm",
+      "Placement": {
+        "Position": "-518.2286, -765.4005, -1580.1182"
       }
     },
     {
@@ -109,5 +114,8 @@
         "Rotation": "0, 0.83, 0"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

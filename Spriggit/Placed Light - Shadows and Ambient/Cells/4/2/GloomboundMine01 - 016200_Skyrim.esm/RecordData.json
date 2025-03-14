@@ -1,6 +1,11 @@
 {
   "FormKey": "016200:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "GloomboundMine01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Gloombound Mine"
@@ -53,6 +58,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E65F9:Skyrim.esm",
+      "Base": "0691D2:Skyrim.esm",
+      "Radius": 86.68353,
+      "LightData": {
+        "FadeOffset": 1.7034895,
+        "ShadowDepthBias": 42.936707
+      },
+      "LocationReference": "018E31:Skyrim.esm",
+      "Placement": {
+        "Position": "-700.80646, 1153.4844, 273.7461"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E65F5:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
       "Radius": 721.515,
@@ -82,16 +101,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E65F9:Skyrim.esm",
-      "Base": "0691D2:Skyrim.esm",
-      "Radius": 86.68353,
+      "FormKey": "0E65F7:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 12.926666,
       "LightData": {
-        "FadeOffset": 1.7034895,
-        "ShadowDepthBias": 42.936707
+        "FadeOffset": 0.649413,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "018E31:Skyrim.esm",
       "Placement": {
-        "Position": "-700.80646, 1153.4844, 273.7461"
+        "Position": "376.4285, 307.1827, 267.0235"
       }
     },
     {
@@ -107,20 +126,9 @@
       "Placement": {
         "Position": "1071.7217, 1615.6818, 710.9074"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E65F7:Skyrim.esm",
-      "Base": "0668F2:Skyrim.esm",
-      "Radius": 12.926666,
-      "LightData": {
-        "FadeOffset": 0.649413,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "018E31:Skyrim.esm",
-      "Placement": {
-        "Position": "376.4285, 307.1827, 267.0235"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "043FAB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HaltedStreamCamp01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Halted Stream Camp"
@@ -51,30 +56,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D28AF:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 141.33029,
-      "LightData": {
-        "FadeOffset": 3.330915,
-        "ShadowDepthBias": 17.874905
-      },
-      "LocationReference": "019193:Skyrim.esm",
-      "Placement": {
-        "Position": "2557.9805, 1802.1381, -645.9954"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F29FE:Skyrim.esm",
+      "FormKey": "0F2A08:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
-      "Radius": 124.29108,
+      "Radius": 578.6649,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 8.0,
+        "FadeOffset": 7.0,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "019193:Skyrim.esm",
       "Placement": {
-        "Position": "-678.91815, -883.12415, 645.09546"
+        "Position": "2818.998, -989.9835, -237.60065"
       }
     },
     {
@@ -108,18 +100,34 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F2A08:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 578.6649,
-      "Emittance": "075492:Skyrim.esm",
+      "FormKey": "0D28AF:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 141.33029,
       "LightData": {
-        "FadeOffset": 7.0,
+        "FadeOffset": 3.330915,
+        "ShadowDepthBias": 17.874905
+      },
+      "LocationReference": "019193:Skyrim.esm",
+      "Placement": {
+        "Position": "2557.9805, 1802.1381, -645.9954"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F29FE:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 124.29108,
+      "LightData": {
+        "FadeOffset": 8.0,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "019193:Skyrim.esm",
       "Placement": {
-        "Position": "2818.998, -989.9835, -237.60065"
+        "Position": "-678.91815, -883.12415, 645.09546"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

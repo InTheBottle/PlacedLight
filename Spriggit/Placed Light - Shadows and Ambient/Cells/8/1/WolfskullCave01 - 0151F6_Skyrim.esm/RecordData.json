@@ -1,6 +1,11 @@
 {
   "FormKey": "0151F6:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WolfskullCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Wolfskull Cave"
@@ -53,36 +58,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "02BB91:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 469.61908,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 3.9558687,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0192C8:Skyrim.esm",
-      "Placement": {
-        "Position": "-416.10278, -995.8248, 912.2333"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02BEB3:Skyrim.esm",
-      "Base": "036464:Skyrim.esm",
-      "Radius": 809.7739,
-      "LightData": {
-        "FadeOffset": 1.072108,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0192C8:Skyrim.esm",
-      "Placement": {
-        "Position": "679.91797, 535.09235, 218.399",
-        "Rotation": "0, 0, 4.8539863"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "02BB97:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
       "Radius": 116.92932,
@@ -125,6 +100,39 @@
         "Position": "-1548.1619, 5504.113, 382.30005",
         "Rotation": "-1.5707967, -1.4707965, 1.5707967"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02BB91:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 469.61908,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.9558687,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0192C8:Skyrim.esm",
+      "Placement": {
+        "Position": "-416.10278, -995.8248, 912.2333"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02BEB3:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 809.7739,
+      "LightData": {
+        "FadeOffset": 1.072108,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0192C8:Skyrim.esm",
+      "Placement": {
+        "Position": "679.91797, 535.09235, 218.399",
+        "Rotation": "0, 0, 4.8539863"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0ED8E0:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BlackreachZcell07",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Derelict Pumphouse"
@@ -52,7 +57,7 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "105C86:Skyrim.esm",
+      "FormKey": "105C85:Skyrim.esm",
       "Base": "01F8B0:Skyrim.esm",
       "Radius": 712.57574,
       "LightData": {
@@ -61,7 +66,7 @@
       },
       "LocationReference": "018EE8:Skyrim.esm",
       "Placement": {
-        "Position": "-1172.1565, -729.1426, 2941.4639"
+        "Position": "-75.06977, -764.1179, 2941.4639"
       }
     },
     {
@@ -81,7 +86,7 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "105C85:Skyrim.esm",
+      "FormKey": "105C86:Skyrim.esm",
       "Base": "01F8B0:Skyrim.esm",
       "Radius": 712.57574,
       "LightData": {
@@ -90,8 +95,11 @@
       },
       "LocationReference": "018EE8:Skyrim.esm",
       "Placement": {
-        "Position": "-75.06977, -764.1179, 2941.4639"
+        "Position": "-1172.1565, -729.1426, 2941.4639"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

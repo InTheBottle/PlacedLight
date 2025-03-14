@@ -1,6 +1,11 @@
 {
   "FormKey": "0152AD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrucasLeapRedoubt01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bruca's Leap Redoubt"
@@ -53,6 +58,25 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F341C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088249:Skyrim.esm",
+      "Radius": 13.441406,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 4.298955,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019151:Skyrim.esm",
+      "Placement": {
+        "Position": "1172.5283, 1965.7074, 223.14902"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F7CC0:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
       "Radius": 543.29486,
@@ -82,25 +106,9 @@
         "Position": "1152.3346, 1963.334, 148.15768",
         "Rotation": "2.417703E-07, -1.2957914, 6.2831855"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F341C:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "088249:Skyrim.esm",
-      "Radius": 13.441406,
-      "Emittance": "02E2CC:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 4.298955,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019151:Skyrim.esm",
-      "Placement": {
-        "Position": "1172.5283, 1965.7074, 223.14902"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

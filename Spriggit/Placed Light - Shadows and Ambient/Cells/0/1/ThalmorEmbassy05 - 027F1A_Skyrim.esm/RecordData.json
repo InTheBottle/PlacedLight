@@ -1,6 +1,11 @@
 {
   "FormKey": "027F1A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ThalmorEmbassy05",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Reeking Cave"
@@ -83,6 +88,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D0B9D:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 340.27094,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 7.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018C92:Skyrim.esm",
+      "Placement": {
+        "Position": "1231.5762, -965.7114, 717.46045"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D0C66:Skyrim.esm",
       "Base": "05C777:Skyrim.esm",
       "Radius": 815.1223,
@@ -96,6 +116,20 @@
       "Placement": {
         "Position": "2883.5269, 759.1571, 1204.7914",
         "Rotation": "2.3390155, -0.5681353, 4.2623396"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D0B9A:Skyrim.esm",
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 374.4319,
+      "LightData": {
+        "FadeOffset": -0.44496155,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018C92:Skyrim.esm",
+      "Placement": {
+        "Position": "1078.7498, 1049.1606, 854.9992"
       }
     },
     {
@@ -125,35 +159,9 @@
       "Placement": {
         "Position": "1701.2659, 908.76306, 568.05536"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D0B9D:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 340.27094,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 7.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "018C92:Skyrim.esm",
-      "Placement": {
-        "Position": "1231.5762, -965.7114, 717.46045"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D0B9A:Skyrim.esm",
-      "Base": "08E796:Skyrim.esm",
-      "Radius": 374.4319,
-      "LightData": {
-        "FadeOffset": -0.44496155,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "018C92:Skyrim.esm",
-      "Placement": {
-        "Position": "1078.7498, 1049.1606, 854.9992"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

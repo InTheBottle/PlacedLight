@@ -1,6 +1,11 @@
 {
   "FormKey": "0EEC55:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BlackreachZCell10",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Sinderion's Field Laboratory"
@@ -91,5 +96,8 @@
         "Rotation": "0, 0, 5.0539875"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "016BD8:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenBlackBriarManor",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Black-Briar Manor"
@@ -51,20 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "094DCC:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 213.29507,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "022480:Skyrim.esm",
-      "Placement": {
-        "Position": "-1344, -256, 528"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "10AFC6:Skyrim.esm",
       "Base": "0B2160:Skyrim.esm",
       "Radius": 56.98108,
@@ -74,21 +65,6 @@
       "LocationReference": "022480:Skyrim.esm",
       "Placement": {
         "Position": "-1607.0182, -246.83533, 180.63164"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "094DC5:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 216.25034,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 15.724823
-      },
-      "LocationReference": "022480:Skyrim.esm",
-      "Placement": {
-        "Position": "-1098.7751, 379.35114, 224.97128",
-        "Rotation": "0, 0, 3.1415927"
       }
     },
     {
@@ -105,6 +81,38 @@
         "Position": "-849.2146, -305.66187, 357.24567",
         "Rotation": "0, 0, 3.1415927"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094DCC:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 213.29507,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022480:Skyrim.esm",
+      "Placement": {
+        "Position": "-1344, -256, 528"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094DC5:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 216.25034,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 15.724823
+      },
+      "LocationReference": "022480:Skyrim.esm",
+      "Placement": {
+        "Position": "-1098.7751, 379.35114, 224.97128",
+        "Rotation": "0, 0, 3.1415927"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

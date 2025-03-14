@@ -1,6 +1,11 @@
 {
   "FormKey": "016786:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmHalloftheDead",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hall of the Dead"
@@ -51,20 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F5234:Skyrim.esm",
-      "Base": "02F363:Skyrim.esm",
-      "Radius": 236.07245,
-      "LightData": {
-        "FadeOffset": 0.47534096,
-        "ShadowDepthBias": 21.65477
-      },
-      "LocationReference": "0209EF:Skyrim.esm",
-      "Placement": {
-        "Position": "1346.8324, 112.438835, -12.442518"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F5221:Skyrim.esm",
       "Base": "02F363:Skyrim.esm",
       "Radius": 176.47577,
@@ -76,6 +67,23 @@
       "Placement": {
         "Position": "23.102766, -3719.0327, -300.3771"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5234:Skyrim.esm",
+      "Base": "02F363:Skyrim.esm",
+      "Radius": 236.07245,
+      "LightData": {
+        "FadeOffset": 0.47534096,
+        "ShadowDepthBias": 21.65477
+      },
+      "LocationReference": "0209EF:Skyrim.esm",
+      "Placement": {
+        "Position": "1346.8324, 112.438835, -12.442518"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

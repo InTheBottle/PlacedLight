@@ -1,6 +1,11 @@
 {
   "FormKey": "02031A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Volunruud02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Volunruud Elder's Cairn"
@@ -62,6 +67,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F2B:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 243.47379,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LocationReference": "0192C3:Skyrim.esm",
+      "Placement": {
+        "Position": "642.716, 579.82556, 293.51"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "075488:Skyrim.esm",
       "Base": "075489:Skyrim.esm",
       "Radius": 1111.8391,
@@ -98,31 +114,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "04DCED:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 221.26355,
-      "LightData": {
-        "FadeOffset": 0.65541613,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0192C3:Skyrim.esm",
-      "Placement": {
-        "Position": "469.11676, -567.2131, 1161.6398"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "066F49:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 243.47379,
-      "Emittance": "02E2CC:Skyrim.esm",
-      "LocationReference": "0192C3:Skyrim.esm",
-      "Placement": {
-        "Position": "-663.8544, -211.24449, 227.6948"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "066AD7:Skyrim.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -135,6 +126,17 @@
       "Placement": {
         "Position": "401.9006, -402.42822, 701.9152",
         "Rotation": "-0.88522846, -0.4835496, 0.1286738"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F49:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 243.47379,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LocationReference": "0192C3:Skyrim.esm",
+      "Placement": {
+        "Position": "-663.8544, -211.24449, 227.6948"
       }
     },
     {
@@ -155,14 +157,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "066F2B:Skyrim.esm",
+      "FormKey": "04DCED:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
-      "Radius": 243.47379,
-      "Emittance": "02E2CC:Skyrim.esm",
+      "Radius": 221.26355,
+      "LightData": {
+        "FadeOffset": 0.65541613,
+        "ShadowDepthBias": 1.0
+      },
       "LocationReference": "0192C3:Skyrim.esm",
       "Placement": {
-        "Position": "642.716, 579.82556, 293.51"
+        "Position": "469.11676, -567.2131, 1161.6398"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

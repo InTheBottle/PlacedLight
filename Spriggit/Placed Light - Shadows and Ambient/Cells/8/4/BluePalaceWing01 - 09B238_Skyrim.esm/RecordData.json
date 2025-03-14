@@ -1,6 +1,11 @@
 {
   "FormKey": "09B238:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BluePalaceWing01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Pelagius Wing"
@@ -51,12 +56,12 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09BD1E:Skyrim.esm",
+      "FormKey": "0E4635:Skyrim.esm",
       "Base": "057A6B:Skyrim.esm",
       "Radius": 201.71643,
       "LocationReference": "01914A:Skyrim.esm",
       "Placement": {
-        "Position": "7661.86, 1977.9551, 4528",
+        "Position": "7680, 2544, 4528",
         "Rotation": "0, 0, 1.5707964"
       }
     },
@@ -73,12 +78,12 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E4635:Skyrim.esm",
+      "FormKey": "09BD1E:Skyrim.esm",
       "Base": "057A6B:Skyrim.esm",
       "Radius": 201.71643,
       "LocationReference": "01914A:Skyrim.esm",
       "Placement": {
-        "Position": "7680, 2544, 4528",
+        "Position": "7661.86, 1977.9551, 4528",
         "Rotation": "0, 0, 1.5707964"
       }
     },
@@ -93,5 +98,8 @@
         "Rotation": "0, 0, 1.5707964"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "09CCDD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenValindorsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Valindor's House"
@@ -63,5 +68,8 @@
         "Position": "1896.7946, 3278.6104, 264.8058"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

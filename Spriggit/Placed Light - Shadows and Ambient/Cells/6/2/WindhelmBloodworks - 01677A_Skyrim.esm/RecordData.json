@@ -1,6 +1,11 @@
 {
   "FormKey": "01677A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmBloodworks",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Windhelm Barracks"
@@ -81,5 +86,8 @@
         "Position": "-1408, 3728, 208"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

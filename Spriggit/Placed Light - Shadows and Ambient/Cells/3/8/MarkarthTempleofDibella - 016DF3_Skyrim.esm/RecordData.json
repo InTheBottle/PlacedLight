@@ -1,6 +1,11 @@
 {
   "FormKey": "016DF3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthTempleofDibella",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Temple of Dibella"
@@ -54,20 +59,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "068772:Skyrim.esm",
+      "FormKey": "0DE110:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
-      "Base": "0DA626:Skyrim.esm",
-      "Radius": 313.8584,
+      "Base": "08E796:Skyrim.esm",
+      "Radius": -148.8499,
       "LightData": {
-        "FadeOffset": 0.06937337,
-        "ShadowDepthBias": 50.0
+        "FadeOffset": 0.06987977,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F317:Skyrim.esm",
       "Placement": {
-        "Position": "-1864, 345.52325, 327.47617",
+        "Position": "-1708.0269, -1192.4651, 196.59209",
         "Rotation": "0, 0, 1.5707963"
       }
     },
@@ -92,22 +97,25 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DE110:Skyrim.esm",
+      "FormKey": "068772:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
-      "Base": "08E796:Skyrim.esm",
-      "Radius": -148.8499,
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": 313.8584,
       "LightData": {
-        "FadeOffset": 0.06987977,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 0.06937337,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "01F317:Skyrim.esm",
       "Placement": {
-        "Position": "-1708.0269, -1192.4651, 196.59209",
+        "Position": "-1864, 345.52325, 327.47617",
         "Rotation": "0, 0, 1.5707963"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

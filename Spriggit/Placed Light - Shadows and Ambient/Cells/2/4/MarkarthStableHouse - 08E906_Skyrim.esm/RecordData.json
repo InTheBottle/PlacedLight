@@ -1,6 +1,11 @@
 {
   "FormKey": "08E906:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthStableHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Markarth Stables"
@@ -47,5 +52,8 @@
   "LockList": "04C447:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "0B9DCB:Skyrim.esm",
-  "ImageSpace": "09F282:Skyrim.esm"
+  "ImageSpace": "09F282:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

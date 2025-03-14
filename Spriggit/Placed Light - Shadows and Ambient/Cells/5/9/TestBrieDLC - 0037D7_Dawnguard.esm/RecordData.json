@@ -1,6 +1,11 @@
 {
   "FormKey": "0037D7:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "TestBrieDLC",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Swindler's Den"
@@ -65,17 +70,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "00BD35:Dawnguard.esm",
-      "Base": "074ED2:Skyrim.esm",
-      "Radius": 273.60577,
-      "LocationReference": "018EE2:Skyrim.esm",
-      "Placement": {
-        "Position": "2338.234, 3525.0752, 4.7575455",
-        "Rotation": "0, 0, 4.5373898"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "00BBD0:Dawnguard.esm",
       "Base": "074ED2:Skyrim.esm",
       "Radius": 1898.3022,
@@ -83,6 +77,17 @@
       "Placement": {
         "Position": "318.86664, -1162.5276, 467.118",
         "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00BD35:Dawnguard.esm",
+      "Base": "074ED2:Skyrim.esm",
+      "Radius": 273.60577,
+      "LocationReference": "018EE2:Skyrim.esm",
+      "Placement": {
+        "Position": "2338.234, 3525.0752, 4.7575455",
+        "Rotation": "0, 0, 4.5373898"
       }
     },
     {
@@ -96,5 +101,8 @@
         "Rotation": "0, 0, 4.5373898"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

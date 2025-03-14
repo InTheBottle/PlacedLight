@@ -1,6 +1,11 @@
 {
   "FormKey": "016BD2:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenMistveilKeep",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Mistveil Keep"
@@ -54,17 +59,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03C86F:Skyrim.esm",
+      "FormKey": "03CBC1:Skyrim.esm",
       "Base": "0B2160:Skyrim.esm",
-      "Radius": 332.49844,
+      "Radius": 168.0719,
       "LightData": {
-        "FadeOffset": 1.5,
+        "FadeOffset": 1.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "022646:Skyrim.esm",
       "Placement": {
-        "Position": "-1408, 864, 368",
-        "Rotation": "0, 0, 1.5707964"
+        "Position": "-1789.4054, 2173.1492, 244.98221"
       }
     },
     {
@@ -83,16 +87,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E1B93:Skyrim.esm",
-      "Base": "0B215E:Skyrim.esm",
-      "Radius": 100.49548,
+      "FormKey": "03C86F:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 332.49844,
       "LightData": {
-        "FadeOffset": 1.0,
+        "FadeOffset": 1.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "022646:Skyrim.esm",
       "Placement": {
-        "Position": "-834.20624, 2072.5312, 278.33017"
+        "Position": "-1408, 864, 368",
+        "Rotation": "0, 0, 1.5707964"
       }
     },
     {
@@ -111,17 +116,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03CBC1:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 168.0719,
+      "FormKey": "0E1B93:Skyrim.esm",
+      "Base": "0B215E:Skyrim.esm",
+      "Radius": 100.49548,
       "LightData": {
         "FadeOffset": 1.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "022646:Skyrim.esm",
       "Placement": {
-        "Position": "-1789.4054, 2173.1492, 244.98221"
+        "Position": "-834.20624, 2072.5312, 278.33017"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

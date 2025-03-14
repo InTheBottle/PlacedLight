@@ -1,6 +1,11 @@
 {
   "FormKey": "0B9BC6:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Elsweyr",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "holding cell"
@@ -42,5 +47,8 @@
   "LightingTemplate": "0300E2:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "10D4BA:Skyrim.esm",
-  "ImageSpace": "000167:Skyrim.esm"
+  "ImageSpace": "000167:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

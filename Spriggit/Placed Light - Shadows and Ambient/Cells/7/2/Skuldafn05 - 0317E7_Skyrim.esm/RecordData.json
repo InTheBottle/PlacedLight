@@ -1,6 +1,11 @@
 {
   "FormKey": "0317E7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Skuldafn05",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Skuldafn North Tower"
@@ -63,5 +68,8 @@
         "Position": "58.638535, 622.195, 898.0583"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "013A8C:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DarkwaterCrossingVernersHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Verner and Annekke's House"
@@ -82,6 +87,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E554A:Skyrim.esm",
+      "Base": "059B5F:Skyrim.esm",
+      "Radius": -251.42969,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020A11:Skyrim.esm",
+      "Placement": {
+        "Position": "-1677.9121, -763.0478, 77.954285"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E554C:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -242.9921,
@@ -108,21 +128,9 @@
       "Placement": {
         "Position": "-1250.7568, -706.13214, 315.53015"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E554A:Skyrim.esm",
-      "Base": "059B5F:Skyrim.esm",
-      "Radius": -251.42969,
-      "Emittance": "02A72D:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "020A11:Skyrim.esm",
-      "Placement": {
-        "Position": "-1677.9121, -763.0478, 77.954285"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

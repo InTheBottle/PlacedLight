@@ -1,6 +1,11 @@
 {
   "FormKey": "056E88:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeJail01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Castle Dour Dungeon"
@@ -53,22 +58,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03681E:Skyrim.esm",
-      "Base": "0C65CA:Skyrim.esm",
-      "Radius": 66.15024,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0BED97:Skyrim.esm",
-      "Placement": {
-        "Position": "645.51984, 738.2134, -148",
-        "Rotation": "0, 0, 4.712389"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C6E5F:Skyrim.esm",
       "Base": "0C65CA:Skyrim.esm",
       "Radius": 80.07118,
@@ -82,6 +71,25 @@
         "Position": "376, 996, -148",
         "Rotation": "0, 0, 4.712389"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03681E:Skyrim.esm",
+      "Base": "0C65CA:Skyrim.esm",
+      "Radius": 66.15024,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0BED97:Skyrim.esm",
+      "Placement": {
+        "Position": "645.51984, 738.2134, -148",
+        "Rotation": "0, 0, 4.712389"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

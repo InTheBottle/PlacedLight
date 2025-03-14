@@ -1,6 +1,11 @@
 {
   "FormKey": "015208:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SnowVeilSanctum01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Snow Veil Catacombs"
@@ -47,22 +52,9 @@
   "EncounterZone": "03EC74:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "UnknownGroupData": 1,
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "067475:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 183.4924,
-      "LightData": {
-        "FadeOffset": 2.9844441,
-        "ShadowDepthBias": 19.777607
-      },
-      "LocationReference": "0192AF:Skyrim.esm",
-      "Placement": {
-        "Position": "-2053.8232, 2489.4072, -140.03557"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0674CE:Skyrim.esm",
@@ -76,6 +68,23 @@
       "Placement": {
         "Position": "1579.2114, 1682.761, -474.0651"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "067475:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 183.4924,
+      "LightData": {
+        "FadeOffset": 2.9844441,
+        "ShadowDepthBias": 19.777607
+      },
+      "LocationReference": "0192AF:Skyrim.esm",
+      "Placement": {
+        "Position": "-2053.8232, 2489.4072, -140.03557"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

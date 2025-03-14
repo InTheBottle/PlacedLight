@@ -1,6 +1,11 @@
 {
   "FormKey": "0138CD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MorthalGuardhouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Guardhouse"
@@ -68,21 +73,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DFE2A:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -71.42676,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01EB98:Skyrim.esm",
-      "Placement": {
-        "Position": "859.57495, 578.91693, 294.96307",
-        "Rotation": "0, 0, 6.2081857"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DFE27:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -300.27557,
@@ -98,16 +88,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DFE28:Skyrim.esm",
+      "FormKey": "0DFE2A:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -238.03479,
+      "Radius": -71.42676,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01EB98:Skyrim.esm",
       "Placement": {
-        "Position": "643.6276, 92.027725, 430.12177",
+        "Position": "859.57495, 578.91693, 294.96307",
         "Rotation": "0, 0, 6.2081857"
       }
     },
@@ -125,6 +115,24 @@
         "Position": "993.3381, -103.53143, 540.7889",
         "Rotation": "0, 0, 6.2081857"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DFE28:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -238.03479,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01EB98:Skyrim.esm",
+      "Placement": {
+        "Position": "643.6276, 92.027725, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

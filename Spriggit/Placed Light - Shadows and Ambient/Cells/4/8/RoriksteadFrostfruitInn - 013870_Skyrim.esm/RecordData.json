@@ -1,6 +1,11 @@
 {
   "FormKey": "013870:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RoriksteadFrostfruitInn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Frostfruit Inn"
@@ -49,8 +54,23 @@
   "AcousticSpace": "0C5D0A:Skyrim.esm",
   "Music": "0622AB:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "UnknownGroupData": 1,
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0AA5:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -260.9919,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F883:Skyrim.esm",
+      "Placement": {
+        "Position": "1070.7607, -912.2749, 177.45407"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0E0AA4:Skyrim.esm",
@@ -81,6 +101,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E09AA:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -42.152527,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F883:Skyrim.esm",
+      "Placement": {
+        "Position": "916.89996, -172.64076, 285.28503"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E09A9:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": -14.808105,
@@ -95,16 +129,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E09AA:Skyrim.esm",
+      "FormKey": "0E0AA2:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -42.152527,
+      "Radius": -260.9919,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F883:Skyrim.esm",
       "Placement": {
-        "Position": "916.89996, -172.64076, 285.28503"
+        "Position": "1319.5771, -926.77905, 177.45407"
       }
     },
     {
@@ -121,34 +155,9 @@
         "Position": "1186.6011, 701.1791, 119.99955",
         "Rotation": "0, 0, 1.6000005"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0AA5:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -260.9919,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F883:Skyrim.esm",
-      "Placement": {
-        "Position": "1070.7607, -912.2749, 177.45407"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0AA2:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -260.9919,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F883:Skyrim.esm",
-      "Placement": {
-        "Position": "1319.5771, -926.77905, 177.45407"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

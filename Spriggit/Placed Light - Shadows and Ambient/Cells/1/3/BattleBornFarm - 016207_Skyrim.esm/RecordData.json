@@ -1,6 +1,11 @@
 {
   "FormKey": "016207:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BattleBornFarm",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Battle-Born Farm"
@@ -76,22 +81,22 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D4880:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": -27.271698,
+      "LocationReference": "03AFE8:Skyrim.esm",
+      "Placement": {
+        "Position": "210.05362, 272.05652, 202.68623"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D487D:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
       "Radius": -6.192322,
       "LocationReference": "03AFE8:Skyrim.esm",
       "Placement": {
         "Position": "4.3420486, -191.08629, 213.54636"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D487E:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": -6.192322,
-      "LocationReference": "03AFE8:Skyrim.esm",
-      "Placement": {
-        "Position": "-299.68677, -175.05801, 213.54636"
       }
     },
     {
@@ -116,12 +121,12 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D4880:Skyrim.esm",
+      "FormKey": "0D487E:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
-      "Radius": -27.271698,
+      "Radius": -6.192322,
       "LocationReference": "03AFE8:Skyrim.esm",
       "Placement": {
-        "Position": "210.05362, 272.05652, 202.68623"
+        "Position": "-299.68677, -175.05801, 213.54636"
       }
     },
     {
@@ -134,5 +139,8 @@
         "Position": "177.79102, 542.9507, 208.77754"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

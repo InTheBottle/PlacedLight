@@ -1,6 +1,11 @@
 {
   "FormKey": "03A184:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathDeadMansDrink",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dead Man's Drink"
@@ -54,20 +59,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D17D:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -260.9919,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "05CA26:Skyrim.esm",
-      "Placement": {
-        "Position": "-81.23926, -848.2749, 177.45407"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "09D17E:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -64.6879,
@@ -82,16 +73,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D18C:Skyrim.esm",
+      "FormKey": "09D17D:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -64.6879,
+      "Radius": -260.9919,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "05CA26:Skyrim.esm",
       "Placement": {
-        "Position": "30.091475, 770.99036, 168.33046"
+        "Position": "-81.23926, -848.2749, 177.45407"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D17C:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -111.545166,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "05CA26:Skyrim.esm",
+      "Placement": {
+        "Position": "800.43945, -93.306046, 285.1654"
       }
     },
     {
@@ -110,16 +115,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D17C:Skyrim.esm",
+      "FormKey": "09D18C:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -111.545166,
+      "Radius": -64.6879,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "05CA26:Skyrim.esm",
       "Placement": {
-        "Position": "800.43945, -93.306046, 285.1654"
+        "Position": "30.091475, 770.99036, 168.33046"
       }
     },
     {
@@ -154,5 +159,8 @@
         "Position": "422.2652, -101.1095, 158.96646"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

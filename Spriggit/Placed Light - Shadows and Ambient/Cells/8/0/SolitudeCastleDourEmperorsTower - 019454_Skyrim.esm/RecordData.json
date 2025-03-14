@@ -1,6 +1,11 @@
 {
   "FormKey": "019454:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeCastleDourEmperorsTower",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Castle Dour, Emperor's Tower"
@@ -52,21 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03629A:Skyrim.esm",
-      "Base": "0C65CA:Skyrim.esm",
-      "Radius": 171.39435,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "084281:Skyrim.esm",
-      "Placement": {
-        "Position": "2168, 1424, 740"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0362B7:Skyrim.esm",
       "Base": "0C65CA:Skyrim.esm",
       "Radius": 143.52835,
@@ -82,9 +72,9 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "036312:Skyrim.esm",
+      "FormKey": "03629A:Skyrim.esm",
       "Base": "0C65CA:Skyrim.esm",
-      "Radius": 83.10791,
+      "Radius": 171.39435,
       "Emittance": "075492:Skyrim.esm",
       "LightData": {
         "FadeOffset": 2.0,
@@ -92,7 +82,21 @@
       },
       "LocationReference": "084281:Skyrim.esm",
       "Placement": {
-        "Position": "2214.1636, 62.050346, 359.1055"
+        "Position": "2168, 1424, 740"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0653C0:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Radius": -95.327805,
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "084281:Skyrim.esm",
+      "Placement": {
+        "Position": "1824, 1588, 388"
       }
     },
     {
@@ -112,16 +116,33 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0653C0:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Radius": -95.327805,
+      "FormKey": "036312:Skyrim.esm",
+      "Base": "0C65CA:Skyrim.esm",
+      "Radius": 83.10791,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": -0.5,
+        "FadeOffset": 2.0,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "084281:Skyrim.esm",
       "Placement": {
-        "Position": "1824, 1588, 388"
+        "Position": "2214.1636, 62.050346, 359.1055"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C57A1:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": -206.4617,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "FadeOffset": 7.2436876,
+        "ShadowDepthBias": 10.891155
+      },
+      "LocationReference": "084281:Skyrim.esm",
+      "Placement": {
+        "Position": "1255.2391, 1599.3372, 96.18683",
+        "Rotation": "-1.5707964, 6.7561146E-08, 4.712389"
       }
     },
     {
@@ -182,20 +203,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C5713:Skyrim.esm",
-      "Base": "0625E0:Skyrim.esm",
-      "Radius": 219.70917,
-      "LightData": {
-        "FadeOffset": 3.5,
-        "ShadowDepthBias": 21.115993
-      },
-      "LocationReference": "084281:Skyrim.esm",
-      "Placement": {
-        "Position": "1677.4263, 490.58447, 411.7506"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0653C3:Skyrim.esm",
       "Base": "0C65CA:Skyrim.esm",
       "Radius": 171.60123,
@@ -207,19 +214,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C57A1:Skyrim.esm",
-      "Base": "0A56A9:Skyrim.esm",
-      "Radius": -206.4617,
+      "FormKey": "0C5713:Skyrim.esm",
+      "Base": "0625E0:Skyrim.esm",
+      "Radius": 219.70917,
       "LightData": {
-        "FovOffset": -22.082169,
-        "FadeOffset": 7.2436876,
-        "ShadowDepthBias": 10.891155
+        "FadeOffset": 3.5,
+        "ShadowDepthBias": 21.115993
       },
       "LocationReference": "084281:Skyrim.esm",
       "Placement": {
-        "Position": "1255.2391, 1599.3372, 96.18683",
-        "Rotation": "-1.5707964, 6.7561146E-08, 4.712389"
+        "Position": "1677.4263, 490.58447, 411.7506"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

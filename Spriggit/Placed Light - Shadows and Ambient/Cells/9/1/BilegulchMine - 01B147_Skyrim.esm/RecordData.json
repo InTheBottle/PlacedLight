@@ -1,6 +1,11 @@
 {
   "FormKey": "01B147:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BilegulchMine",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bilegulch Mine"
@@ -66,20 +71,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D3C77:Skyrim.esm",
-      "Base": "0668F2:Skyrim.esm",
-      "Radius": 133.65567,
-      "LightData": {
-        "FadeOffset": 1.9340501,
-        "ShadowDepthBias": 17.474499
-      },
-      "LocationReference": "019269:Skyrim.esm",
-      "Placement": {
-        "Position": "114.58506, 490.24985, -382.93622"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D3C74:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
       "Radius": 372.78986,
@@ -105,6 +96,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3C77:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 133.65567,
+      "LightData": {
+        "FadeOffset": 1.9340501,
+        "ShadowDepthBias": 17.474499
+      },
+      "LocationReference": "019269:Skyrim.esm",
+      "Placement": {
+        "Position": "114.58506, 490.24985, -382.93622"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D3C76:Skyrim.esm",
       "Base": "0668F2:Skyrim.esm",
       "Radius": 133.65567,
@@ -117,5 +122,8 @@
         "Position": "1722.6831, 1029.8843, -347.3967"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

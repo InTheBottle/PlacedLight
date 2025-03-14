@@ -1,6 +1,11 @@
 {
   "FormKey": "05B88B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortGreenwall02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Greenwall Prison"
@@ -86,5 +91,8 @@
         "Position": "2345.8752, 1169.8055, -613.36255"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "013A7B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DragonBridgePenitusOculatusOutpost",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Penitus Oculatus Outpost"
@@ -67,21 +72,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5208:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -71.42676,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "020074:Skyrim.esm",
-      "Placement": {
-        "Position": "993.3381, -103.53143, 540.7889",
-        "Rotation": "0, 0, 6.2081857"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E5207:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -238.03479,
@@ -92,6 +82,21 @@
       "LocationReference": "020074:Skyrim.esm",
       "Placement": {
         "Position": "643.6276, 92.027725, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5208:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -71.42676,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020074:Skyrim.esm",
+      "Placement": {
+        "Position": "993.3381, -103.53143, 540.7889",
         "Rotation": "0, 0, 6.2081857"
       }
     },
@@ -110,5 +115,8 @@
         "Rotation": "0, 0, 6.2081857"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

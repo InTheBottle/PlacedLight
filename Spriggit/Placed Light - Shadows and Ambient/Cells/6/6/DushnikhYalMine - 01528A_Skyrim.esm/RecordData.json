@@ -1,6 +1,11 @@
 {
   "FormKey": "01528A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DushnikhYalMine",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dushnikh Mine"
@@ -52,6 +57,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C80D8:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 187.32602,
+      "LightData": {
+        "FadeOffset": 1.759697,
+        "ShadowDepthBias": 19.93026
+      },
+      "LocationReference": "01F7FE:Skyrim.esm",
+      "Placement": {
+        "Position": "1854.5637, -199.30978, 313.01648"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C80E0:Skyrim.esm",
       "Base": "0668F2:Skyrim.esm",
       "Radius": 206.29953,
@@ -62,21 +81,6 @@
       "LocationReference": "01F7FE:Skyrim.esm",
       "Placement": {
         "Position": "1891.9198, -1175.6191, 238.22469"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C80D5:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 501.01,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 16.381077,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7FE:Skyrim.esm",
-      "Placement": {
-        "Position": "-483.93396, 1012.5881, 863.47626"
       }
     },
     {
@@ -96,16 +100,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C80D8:Skyrim.esm",
-      "Base": "0668F2:Skyrim.esm",
-      "Radius": 187.32602,
+      "FormKey": "0C80D5:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 501.01,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.759697,
-        "ShadowDepthBias": 19.93026
+        "FadeOffset": 16.381077,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F7FE:Skyrim.esm",
       "Placement": {
-        "Position": "1854.5637, -199.30978, 313.01648"
+        "Position": "-483.93396, 1012.5881, 863.47626"
       }
     },
     {
@@ -123,5 +128,8 @@
         "Rotation": "0, 0, 6.0131865"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

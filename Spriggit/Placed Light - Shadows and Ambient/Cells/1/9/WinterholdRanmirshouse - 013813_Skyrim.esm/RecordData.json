@@ -1,6 +1,11 @@
 {
   "FormKey": "013813:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WinterholdRanmirshouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Birna's Oddments"
@@ -51,20 +56,6 @@
   "ImageSpace": "059B60:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DDB8C:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -123.92496,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01EB7B:Skyrim.esm",
-      "Placement": {
-        "Position": "-1173.3645, -105.321594, 162.15858"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0DDB81:Skyrim.esm",
@@ -121,6 +112,23 @@
       "Placement": {
         "Position": "-1539.3726, 39.940033, 144.25206"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DDB8C:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -123.92496,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01EB7B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1173.3645, -105.321594, 162.15858"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

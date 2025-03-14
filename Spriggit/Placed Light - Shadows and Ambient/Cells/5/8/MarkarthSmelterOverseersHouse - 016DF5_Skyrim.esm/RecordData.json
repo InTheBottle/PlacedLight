@@ -1,6 +1,11 @@
 {
   "FormKey": "016DF5:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthSmelterOverseersHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Smelter Overseer's House"
@@ -68,5 +73,8 @@
         "Position": "-1425.0654, -236.18317, 122.245834"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

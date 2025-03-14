@@ -1,6 +1,11 @@
 {
   "FormKey": "0A9194:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RebelsCairn01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Rebel's Cairn"
@@ -53,6 +58,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F93F1:Skyrim.esm",
+      "Base": "02F363:Skyrim.esm",
+      "Radius": 592.1026,
+      "LightData": {
+        "FadeOffset": 0.31224823,
+        "ShadowDepthBias": 28.735085
+      },
+      "LocationReference": "0A828B:Skyrim.esm",
+      "Placement": {
+        "Position": "1056, 1120, 480"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F93FF:Skyrim.esm",
       "Base": "03C5A5:Skyrim.esm",
       "Radius": 205.78293,
@@ -79,20 +98,9 @@
         "Position": "2719.8835, -4587.351, 567.73364",
         "Rotation": "1.5118978, -0.42539254, 1.7127234"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F93F1:Skyrim.esm",
-      "Base": "02F363:Skyrim.esm",
-      "Radius": 592.1026,
-      "LightData": {
-        "FadeOffset": 0.31224823,
-        "ShadowDepthBias": 28.735085
-      },
-      "LocationReference": "0A828B:Skyrim.esm",
-      "Placement": {
-        "Position": "1056, 1120, 480"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

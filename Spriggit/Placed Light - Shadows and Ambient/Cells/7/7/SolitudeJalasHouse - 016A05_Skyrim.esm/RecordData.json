@@ -1,6 +1,11 @@
 {
   "FormKey": "016A05:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeJalasHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Jala's House"
@@ -76,5 +81,8 @@
         "Position": "646.0855, -1267.7401, 140.22058"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

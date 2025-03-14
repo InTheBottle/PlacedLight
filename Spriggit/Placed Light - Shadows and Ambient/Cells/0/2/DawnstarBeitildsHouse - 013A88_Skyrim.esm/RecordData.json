@@ -1,6 +1,11 @@
 {
   "FormKey": "013A88:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DawnstarBeitildsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Beitild's House"
@@ -66,17 +71,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E0299:Skyrim.esm",
+      "FormKey": "0E02C2:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -294.25485,
+      "Radius": -140.18274,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "02005D:Skyrim.esm",
       "Placement": {
-        "Position": "1283.345, -444.30457, 430.12177",
-        "Rotation": "0, 0, 6.2081857"
+        "Position": "894.77637, -627.70593, 543.9248"
       }
     },
     {
@@ -96,6 +100,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0299:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -294.25485,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "02005D:Skyrim.esm",
+      "Placement": {
+        "Position": "1283.345, -444.30457, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E0295:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -172.7529,
@@ -107,20 +126,9 @@
       "Placement": {
         "Position": "1149.8833, -627.70593, 543.9248"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E02C2:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -140.18274,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "02005D:Skyrim.esm",
-      "Placement": {
-        "Position": "894.77637, -627.70593, 543.9248"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

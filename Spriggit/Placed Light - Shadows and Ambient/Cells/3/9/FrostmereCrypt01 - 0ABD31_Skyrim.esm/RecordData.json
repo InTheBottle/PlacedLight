@@ -1,6 +1,11 @@
 {
   "FormKey": "0ABD31:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FrostmereCrypt01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Frostmere Crypt"
@@ -51,19 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0155F9:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 3.183372,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0192B8:Skyrim.esm",
-      "Placement": {
-        "Position": "-283.50644, 2510.6858, -1235.0358"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0155E0:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 69.50012,
@@ -103,6 +95,22 @@
       "Placement": {
         "Position": "3322.7883, 778.3443, 378.65976"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0155F9:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.183372,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0192B8:Skyrim.esm",
+      "Placement": {
+        "Position": "-283.50644, 2510.6858, -1235.0358"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

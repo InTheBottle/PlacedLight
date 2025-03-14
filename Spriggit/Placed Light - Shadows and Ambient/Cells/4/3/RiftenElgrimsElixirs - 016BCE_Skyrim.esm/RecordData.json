@@ -1,6 +1,11 @@
 {
   "FormKey": "016BCE:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenElgrimsElixirs",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Elgrim's Elixirs"
@@ -51,6 +56,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "016DC9:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 122.66519,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022487:Skyrim.esm",
+      "Placement": {
+        "Position": "325.51123, 1234.9358, 244.17006"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "016D77:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": 411.69238,
@@ -63,20 +82,9 @@
         "Position": "481.9577, 764.3099, 221.55443",
         "Rotation": "0, 0, 3.1415927"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "016DC9:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 122.66519,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "022487:Skyrim.esm",
-      "Placement": {
-        "Position": "325.51123, 1234.9358, 244.17006"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0133C8:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiverwoodAlvorsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Alvor and Sigrid's House"
@@ -67,21 +72,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05C014:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01CB88:Skyrim.esm",
-      "Placement": {
-        "Position": "-219.70007, -88.47378, 398.12177",
-        "Rotation": "0, 0, 6.2081857"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "05B5C9:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -323.75314,
@@ -97,16 +87,32 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05B540:Skyrim.esm",
+      "FormKey": "05AD0D:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -318.11313,
+      "Radius": -262.49255,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01CB88:Skyrim.esm",
       "Placement": {
-        "Position": "-513.88904, 105.4919, 124.58598"
+        "Position": "-724.9192, -72.957466, 131.40175",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C014:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -280.2317,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01CB88:Skyrim.esm",
+      "Placement": {
+        "Position": "-219.70007, -88.47378, 398.12177",
+        "Rotation": "0, 0, 6.2081857"
       }
     },
     {
@@ -125,18 +131,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05AD0D:Skyrim.esm",
+      "FormKey": "05B540:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -262.49255,
+      "Radius": -318.11313,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01CB88:Skyrim.esm",
       "Placement": {
-        "Position": "-724.9192, -72.957466, 131.40175",
-        "Rotation": "0, 0, 6.2081857"
+        "Position": "-513.88904, 105.4919, 124.58598"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

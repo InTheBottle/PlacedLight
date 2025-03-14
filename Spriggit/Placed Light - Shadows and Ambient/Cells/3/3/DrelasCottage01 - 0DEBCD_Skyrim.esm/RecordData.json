@@ -1,9 +1,11 @@
 {
   "FormKey": "0DEBCD:Skyrim.esm",
-  "MajorRecordFlagsRaw": 131072,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 393216,
   "EditorID": "DrelasCottage01",
   "SkyrimMajorRecordFlags": [
-    "Dangerous_OffLimits_InteriorCell"
+    "Dangerous_OffLimits_InteriorCell",
+    "Compressed"
   ],
   "Name": {
     "TargetLanguage": "English",
@@ -53,6 +55,7 @@
   "EncounterZone": "0E66AC:Skyrim.esm",
   "Music": "0B9DCB:Skyrim.esm",
   "ImageSpace": "036ED2:Skyrim.esm",
+  "UnknownGroupData": 1,
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
@@ -66,6 +69,16 @@
       "LocationReference": "0E66AB:Skyrim.esm",
       "Placement": {
         "Position": "239.20682, 18.207714, 128"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DEC02:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "0E66AB:Skyrim.esm",
+      "Placement": {
+        "Position": "2.3651145, 18.28596, 237.1164"
       }
     },
     {
@@ -91,19 +104,10 @@
       "Placement": {
         "Position": "-386.89148, 191.84308, 263.57077"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DEC02:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Emittance": "07548E:Skyrim.esm",
-      "LocationReference": "0E66AB:Skyrim.esm",
-      "Placement": {
-        "Position": "2.3651145, 18.28596, 237.1164"
-      }
     }
   ],
   "MajorFlags": [
-    "OffLimits"
+    "OffLimits",
+    "0x40000"
   ]
 }

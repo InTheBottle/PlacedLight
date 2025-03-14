@@ -1,6 +1,11 @@
 {
   "FormKey": "097299:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmPalaceUpstairs01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Palace of the Kings, Upstairs"
@@ -52,30 +57,15 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C3BFC:Skyrim.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": 41.08966,
-      "Emittance": "02E2CC:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": -0.2916575,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0209F2:Skyrim.esm",
-      "Placement": {
-        "Position": "-3664, -768, 976"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C3BEC:Skyrim.esm",
+      "FormKey": "0C3BEB:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "LightData": {
         "FadeOffset": 2.116355,
-        "ShadowDepthBias": 18.028736
+        "ShadowDepthBias": 4.7281575
       },
       "LocationReference": "0209F2:Skyrim.esm",
       "Placement": {
-        "Position": "-1856, -1952, 912"
+        "Position": "-1856, -736, 928"
       }
     },
     {
@@ -95,13 +85,15 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C3BFA:Skyrim.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": 61.789185,
-      "Emittance": "02E2CC:Skyrim.esm",
+      "FormKey": "0C3BEC:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.116355,
+        "ShadowDepthBias": 18.028736
+      },
       "LocationReference": "0209F2:Skyrim.esm",
       "Placement": {
-        "Position": "-1664, -816, 960"
+        "Position": "-1856, -1952, 912"
       }
     },
     {
@@ -149,16 +141,32 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C3BEB:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
+      "FormKey": "0C3BFC:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": 41.08966,
+      "Emittance": "02E2CC:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 2.116355,
-        "ShadowDepthBias": 4.7281575
+        "FadeOffset": -0.2916575,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "0209F2:Skyrim.esm",
       "Placement": {
-        "Position": "-1856, -736, 928"
+        "Position": "-3664, -768, 976"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C3BFA:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": 61.789185,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LocationReference": "0209F2:Skyrim.esm",
+      "Placement": {
+        "Position": "-1664, -816, 960"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0161F7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "KatlasFarm",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Katla's Farm"
@@ -67,21 +72,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0163C0:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Radius": 28.97525,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": -1.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01705C:Skyrim.esm",
-      "Placement": {
-        "Position": "576.4131, -970.0981, 439.0704"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DE2E2:Skyrim.esm",
       "Base": "0A56A9:Skyrim.esm",
       "Radius": 43.13022,
@@ -94,6 +84,24 @@
         "Position": "118.35185, -694.7047, 28.692743",
         "Rotation": "3.6410658, 4.712389, 5.77704"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0163C0:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Radius": 28.97525,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01705C:Skyrim.esm",
+      "Placement": {
+        "Position": "576.4131, -970.0981, 439.0704"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

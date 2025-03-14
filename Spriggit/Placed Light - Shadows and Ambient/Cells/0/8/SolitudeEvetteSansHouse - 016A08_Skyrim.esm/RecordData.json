@@ -1,6 +1,11 @@
 {
   "FormKey": "016A08:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeEvetteSansHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Evette San's House"
@@ -66,6 +71,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "036231:Skyrim.esm",
+      "Base": "0C65CA:Skyrim.esm",
+      "Radius": 32.524323,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020092:Skyrim.esm",
+      "Placement": {
+        "Position": "216.0247, -977.9536, 109.753296"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0361AD:Skyrim.esm",
       "Base": "0C65CA:Skyrim.esm",
       "Radius": 110.37714,
@@ -96,17 +116,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "036231:Skyrim.esm",
+      "FormKey": "0361FC:Skyrim.esm",
       "Base": "0C65CA:Skyrim.esm",
-      "Radius": 32.524323,
+      "Radius": 75.26172,
       "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.0,
+        "FadeOffset": 2.0,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "020092:Skyrim.esm",
       "Placement": {
-        "Position": "216.0247, -977.9536, 109.753296"
+        "Position": "208.1943, -1249.834, 109.753296"
       }
     },
     {
@@ -123,21 +143,9 @@
       "Placement": {
         "Position": "424.2339, -1283.2821, 451.98407"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0361FC:Skyrim.esm",
-      "Base": "0C65CA:Skyrim.esm",
-      "Radius": 75.26172,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "020092:Skyrim.esm",
-      "Placement": {
-        "Position": "208.1943, -1249.834, 109.753296"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

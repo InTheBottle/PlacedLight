@@ -1,6 +1,11 @@
 {
   "FormKey": "016BD1:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenHouseofMjolltheLioness",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Aerin's House"
@@ -51,16 +56,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05F877:Skyrim.esm",
+      "FormKey": "05EDE2:Skyrim.esm",
       "Base": "0B2160:Skyrim.esm",
-      "Radius": 118.4147,
+      "Radius": 297.02902,
       "LightData": {
-        "FadeOffset": 0.5,
+        "FadeOffset": 1.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "022642:Skyrim.esm",
       "Placement": {
-        "Position": "-127.00947, -385.01724, 456.68695"
+        "Position": "-128, -72, 235.7486"
       }
     },
     {
@@ -80,17 +85,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05EDE2:Skyrim.esm",
+      "FormKey": "05F877:Skyrim.esm",
       "Base": "0B2160:Skyrim.esm",
-      "Radius": 297.02902,
+      "Radius": 118.4147,
       "LightData": {
-        "FadeOffset": 1.0,
+        "FadeOffset": 0.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "022642:Skyrim.esm",
       "Placement": {
-        "Position": "-128, -72, 235.7486"
+        "Position": "-127.00947, -385.01724, 456.68695"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

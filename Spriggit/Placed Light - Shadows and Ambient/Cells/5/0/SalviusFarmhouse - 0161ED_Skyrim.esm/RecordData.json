@@ -1,6 +1,11 @@
 {
   "FormKey": "0161ED:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SalviusFarmhouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Salvius Farmhouse"
@@ -67,5 +72,8 @@
         "Rotation": "0, 0, 1.5707964"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0139D2:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "KarthwastenEnmonsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Enmon's House"
@@ -53,6 +58,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E33E0:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -65.305756,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01F7C1:Skyrim.esm",
+      "Placement": {
+        "Position": "-1271.9944, -108.25159, 478.58386"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E33E1:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -340.54486,
+      "LightData": {
+        "FadeOffset": 0.29999995,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7C1:Skyrim.esm",
+      "Placement": {
+        "Position": "-1475.3726, 7.940033, 144.25206"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E33D3:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -298.6499,
@@ -81,34 +114,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E33E1:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -340.54486,
-      "LightData": {
-        "FadeOffset": 0.29999995,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7C1:Skyrim.esm",
-      "Placement": {
-        "Position": "-1475.3726, 7.940033, 144.25206"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E33E0:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -65.305756,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01F7C1:Skyrim.esm",
-      "Placement": {
-        "Position": "-1271.9944, -108.25159, 478.58386"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E33DD:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": 63.838074,
@@ -122,5 +127,8 @@
         "Rotation": "0, 0, 4.508191"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

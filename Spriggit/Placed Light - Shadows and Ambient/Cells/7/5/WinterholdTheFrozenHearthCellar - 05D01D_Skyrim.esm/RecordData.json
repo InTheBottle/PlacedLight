@@ -1,6 +1,11 @@
 {
   "FormKey": "05D01D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WinterholdTheFrozenHearthCellar",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Frozen Hearth Cellar"
@@ -51,6 +56,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D1DB:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -203.62067,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1557.886, 33.65222, 160.94221"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "05D1D9:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -84.92871,
@@ -72,20 +91,6 @@
       "Placement": {
         "Position": "1412.0637, 541.31793, 119.99955",
         "Rotation": "0, 0, 1.6000005"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "05D1DB:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -203.62067,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01EB7C:Skyrim.esm",
-      "Placement": {
-        "Position": "1557.886, 33.65222, 160.94221"
       }
     },
     {
@@ -116,5 +121,8 @@
         "Position": "2078.0706, -222.23691, 155.44986"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

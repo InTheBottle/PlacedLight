@@ -1,6 +1,11 @@
 {
   "FormKey": "01A68A:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "TestJoelDLC01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Quick Test Cell"
@@ -97,5 +102,8 @@
         "Position": "-145.76743, 131.83035, 778.9172"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

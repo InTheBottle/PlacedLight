@@ -1,6 +1,11 @@
 {
   "FormKey": "01F359:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Pinewatch02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Pinewatch Bandit's Sanctuary"
@@ -51,6 +56,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "068E1B:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 421.08002,
+      "LightData": {
+        "FovOffset": 10.322166,
+        "FadeOffset": 3.773594,
+        "ShadowDepthBias": 26.078041
+      },
+      "LocationReference": "01928A:Skyrim.esm",
+      "Placement": {
+        "Position": "2637.2295, -764.70557, 6815.8467"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "068E1E:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 123.16867,
@@ -76,21 +96,9 @@
       "Placement": {
         "Position": "5872.0947, 4474.8677, 6536.8516"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "068E1B:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 421.08002,
-      "LightData": {
-        "FovOffset": 10.322166,
-        "FadeOffset": 3.773594,
-        "ShadowDepthBias": 26.078041
-      },
-      "LocationReference": "01928A:Skyrim.esm",
-      "Placement": {
-        "Position": "2637.2295, -764.70557, 6815.8467"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

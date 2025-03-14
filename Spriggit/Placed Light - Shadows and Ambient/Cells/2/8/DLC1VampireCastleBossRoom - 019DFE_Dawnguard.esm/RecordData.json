@@ -1,8 +1,10 @@
 {
   "FormKey": "019DFE:Dawnguard.esm",
-  "MajorRecordFlagsRaw": 524288,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 786432,
   "EditorID": "DLC1VampireCastleBossRoom",
   "SkyrimMajorRecordFlags": [
+    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -74,20 +76,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "019E32:Dawnguard.esm",
-      "Base": "088248:Skyrim.esm",
-      "Radius": 428.07495,
-      "LightData": {
-        "FadeOffset": -0.29426628,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00357D:Dawnguard.esm",
-      "Placement": {
-        "Position": "2180.772, 2636.4912, 9361.271"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "019E31:Dawnguard.esm",
       "Base": "088248:Skyrim.esm",
       "Radius": 351.72546,
@@ -98,6 +86,31 @@
       "LocationReference": "00357D:Dawnguard.esm",
       "Placement": {
         "Position": "2108.9233, 1086.5164, 9381.793"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019E30:Dawnguard.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 499.47638,
+      "Emittance": "075DE6:Skyrim.esm",
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "1565.3337, 1818.5747, 9369.484"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019E32:Dawnguard.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": 428.07495,
+      "LightData": {
+        "FadeOffset": -0.29426628,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "2180.772, 2636.4912, 9361.271"
       }
     },
     {
@@ -116,20 +129,10 @@
         "Position": "938.08154, 1641.2412, 9724.549",
         "Rotation": "5.7595863, 5.358161, 0"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "019E30:Dawnguard.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 499.47638,
-      "Emittance": "075DE6:Skyrim.esm",
-      "LocationReference": "00357D:Dawnguard.esm",
-      "Placement": {
-        "Position": "1565.3337, 1818.5747, 9369.484"
-      }
     }
   ],
   "MajorFlags": [
+    "0x40000",
     "CantWait"
   ]
 }

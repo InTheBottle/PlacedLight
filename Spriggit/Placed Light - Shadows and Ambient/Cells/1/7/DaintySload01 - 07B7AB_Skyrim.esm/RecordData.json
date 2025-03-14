@@ -1,6 +1,11 @@
 {
   "FormKey": "07B7AB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DaintySload01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dainty Sload"
@@ -46,5 +51,8 @@
   "AcousticSpace": "0D78B3:Skyrim.esm",
   "EncounterZone": "07B919:Skyrim.esm",
   "Music": "0B9DCE:Skyrim.esm",
-  "ImageSpace": "000167:Skyrim.esm"
+  "ImageSpace": "000167:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

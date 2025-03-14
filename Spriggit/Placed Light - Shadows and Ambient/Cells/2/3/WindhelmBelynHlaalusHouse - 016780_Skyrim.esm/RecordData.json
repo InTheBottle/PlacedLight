@@ -1,6 +1,11 @@
 {
   "FormKey": "016780:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmBelynHlaalusHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Belyn Hlaalu's House"
@@ -52,30 +57,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C951B:Skyrim.esm",
+      "FormKey": "0C951D:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
-      "Radius": -32.773666,
+      "Radius": 44.06122,
       "LightData": {
-        "FadeOffset": 2.6201787,
-        "ShadowDepthBias": 2.0
+        "FadeOffset": 2.8945236,
+        "ShadowDepthBias": 10.199486
       },
       "LocationReference": "0209E6:Skyrim.esm",
       "Placement": {
-        "Position": "553.4029, -1973.4658, 426.22076"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C951A:Skyrim.esm",
-      "Base": "036464:Skyrim.esm",
-      "Radius": 32.410065,
-      "LightData": {
-        "FadeOffset": 4.32495,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0209E6:Skyrim.esm",
-      "Placement": {
-        "Position": "464.92215, -1928.0919, 130.62057"
+        "Position": "1367.1827, -1768.2026, 396.77283"
       }
     },
     {
@@ -94,17 +85,34 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C951D:Skyrim.esm",
+      "FormKey": "0C951A:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
-      "Radius": 44.06122,
+      "Radius": 32.410065,
       "LightData": {
-        "FadeOffset": 2.8945236,
-        "ShadowDepthBias": 10.199486
+        "FadeOffset": 4.32495,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "0209E6:Skyrim.esm",
       "Placement": {
-        "Position": "1367.1827, -1768.2026, 396.77283"
+        "Position": "464.92215, -1928.0919, 130.62057"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C951B:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": -32.773666,
+      "LightData": {
+        "FadeOffset": 2.6201787,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "0209E6:Skyrim.esm",
+      "Placement": {
+        "Position": "553.4029, -1973.4658, 426.22076"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0165B1:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunCarlottaValentiasHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Carlotta Valentia's House"
@@ -64,13 +69,23 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CA052:Skyrim.esm",
+      "FormKey": "0CA05E:Skyrim.esm",
+      "Base": "0B9BE6:Skyrim.esm",
+      "Radius": 34.428833,
+      "LocationReference": "01F870:Skyrim.esm",
+      "Placement": {
+        "Position": "-406.0734, -293.32098, 428.37128"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CA051:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
-      "Radius": 12.176666,
+      "Radius": -26.476547,
       "Emittance": "07548E:Skyrim.esm",
       "LocationReference": "01F870:Skyrim.esm",
       "Placement": {
-        "Position": "-266.37097, -311.7293, 207.37991"
+        "Position": "-5.5070457, 35.054375, 178.86198"
       }
     },
     {
@@ -89,24 +104,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CA051:Skyrim.esm",
+      "FormKey": "0CA052:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
-      "Radius": -26.476547,
+      "Radius": 12.176666,
       "Emittance": "07548E:Skyrim.esm",
       "LocationReference": "01F870:Skyrim.esm",
       "Placement": {
-        "Position": "-5.5070457, 35.054375, 178.86198"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CA05E:Skyrim.esm",
-      "Base": "0B9BE6:Skyrim.esm",
-      "Radius": 34.428833,
-      "LocationReference": "01F870:Skyrim.esm",
-      "Placement": {
-        "Position": "-406.0734, -293.32098, 428.37128"
+        "Position": "-266.37097, -311.7293, 207.37991"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

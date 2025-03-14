@@ -1,6 +1,11 @@
 {
   "FormKey": "01529F:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DarklightTower01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Darklight Tower"
@@ -51,20 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "068D93:Skyrim.esm",
-      "Base": "036464:Skyrim.esm",
-      "Radius": 519.9273,
-      "LightData": {
-        "FadeOffset": 1.2100718,
-        "ShadowDepthBias": 27.718277
-      },
-      "LocationReference": "01915D:Skyrim.esm",
-      "Placement": {
-        "Position": "287.56683, -204.92596, 1631.4177"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "068B5F:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 160.98544,
@@ -90,6 +81,23 @@
       "Placement": {
         "Position": "-1012.8812, -4745.447, 853.6813"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "068D93:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 519.9273,
+      "LightData": {
+        "FadeOffset": 1.2100718,
+        "ShadowDepthBias": 27.718277
+      },
+      "LocationReference": "01915D:Skyrim.esm",
+      "Placement": {
+        "Position": "287.56683, -204.92596, 1631.4177"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

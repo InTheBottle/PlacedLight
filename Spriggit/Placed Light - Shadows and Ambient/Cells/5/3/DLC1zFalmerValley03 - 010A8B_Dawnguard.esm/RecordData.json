@@ -1,6 +1,11 @@
 {
   "FormKey": "010A8B:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1zFalmerValley03",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Forgotten Vale Cave"
@@ -51,30 +56,12 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "010AAF:Dawnguard.esm",
-      "Base": "03C5A5:Skyrim.esm",
-      "Radius": 517.30396,
-      "Emittance": "005099:Dawnguard.esm",
-      "LightData": {
-        "FadeOffset": -3.9569254,
-        "ShadowDepthBias": 1.1754944E-38
-      },
+      "FormKey": "01A49C:Dawnguard.esm",
+      "Base": "00EFE3:Dawnguard.esm",
+      "Radius": 21.156982,
       "LocationReference": "0162B4:Dawnguard.esm",
       "Placement": {
-        "Position": "-3660.668, -354.62054, -688"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01A46D:Dawnguard.esm",
-      "Base": "0655EB:Skyrim.esm",
-      "Radius": 438.7541,
-      "LightData": {
-        "ShadowDepthBias": 26.396893
-      },
-      "LocationReference": "0162B4:Dawnguard.esm",
-      "Placement": {
-        "Position": "-1160.2843, 4081.3623, -1190.2826"
+        "Position": "-1556.1201, -459.14368, -746.1326"
       }
     },
     {
@@ -103,16 +90,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01A49C:Dawnguard.esm",
-      "Base": "00EFE3:Dawnguard.esm",
-      "Radius": 21.156982,
-      "LocationReference": "0162B4:Dawnguard.esm",
-      "Placement": {
-        "Position": "-1556.1201, -459.14368, -746.1326"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "010AAE:Dawnguard.esm",
       "Base": "03C5A5:Skyrim.esm",
       "Radius": 32.467194,
@@ -127,16 +104,15 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "012AA8:Dawnguard.esm",
-      "Base": "0B9E25:Skyrim.esm",
-      "Radius": 589.7786,
+      "FormKey": "01A46D:Dawnguard.esm",
+      "Base": "0655EB:Skyrim.esm",
+      "Radius": 438.7541,
       "LightData": {
-        "FadeOffset": 0.04039991,
-        "ShadowDepthBias": 28.704262
+        "ShadowDepthBias": 26.396893
       },
       "LocationReference": "0162B4:Dawnguard.esm",
       "Placement": {
-        "Position": "-1027.9269, -280.28723, -1042.0889"
+        "Position": "-1160.2843, 4081.3623, -1190.2826"
       }
     },
     {
@@ -152,6 +128,38 @@
       "Placement": {
         "Position": "-1734.4043, 1433.8391, -868.38605"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "010AAF:Dawnguard.esm",
+      "Base": "03C5A5:Skyrim.esm",
+      "Radius": 517.30396,
+      "Emittance": "005099:Dawnguard.esm",
+      "LightData": {
+        "FadeOffset": -3.9569254,
+        "ShadowDepthBias": 1.1754944E-38
+      },
+      "LocationReference": "0162B4:Dawnguard.esm",
+      "Placement": {
+        "Position": "-3660.668, -354.62054, -688"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "012AA8:Dawnguard.esm",
+      "Base": "0B9E25:Skyrim.esm",
+      "Radius": 589.7786,
+      "LightData": {
+        "FadeOffset": 0.04039991,
+        "ShadowDepthBias": 28.704262
+      },
+      "LocationReference": "0162B4:Dawnguard.esm",
+      "Placement": {
+        "Position": "-1027.9269, -280.28723, -1042.0889"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "032AE7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "QASmoke",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Editor Smoke Test Cell"
@@ -47,25 +52,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF1:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "088242:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "2496, 2304, -30000"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C2CF4:Skyrim.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -81,44 +67,6 @@
       },
       "Placement": {
         "Position": "2240, 1792, -30000"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF5:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "088242:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "2752, 2304, -30000"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C2CF2:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "088242:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "2752, 1792, -30000"
       }
     },
     {
@@ -142,6 +90,44 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2CF1:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088242:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2496, 2304, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2CF2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088242:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2752, 1792, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C2CF6:Skyrim.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -158,6 +144,28 @@
       "Placement": {
         "Position": "2240, 2304, -30000"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2CF5:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088242:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2752, 2304, -30000"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

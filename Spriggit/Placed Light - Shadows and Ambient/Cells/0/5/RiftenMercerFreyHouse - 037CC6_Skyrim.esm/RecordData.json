@@ -1,9 +1,11 @@
 {
   "FormKey": "037CC6:Skyrim.esm",
-  "MajorRecordFlagsRaw": 655360,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 917504,
   "EditorID": "RiftenMercerFreyHouse",
   "SkyrimMajorRecordFlags": [
     "Dangerous_OffLimits_InteriorCell",
+    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -50,38 +52,11 @@
   "LightingTemplate": "0B2157:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01706E:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0B215C:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "050A02:Skyrim.esm",
-      "Base": "0B3489:Skyrim.esm",
-      "Radius": 351.77728,
-      "LightData": {
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01706E:Skyrim.esm",
-      "Placement": {
-        "Position": "-2045.7213, 2527.9956, -375.0507"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D5F9:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 255.01263,
-      "LightData": {
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01706E:Skyrim.esm",
-      "Placement": {
-        "Position": "-1528, 1344, 136",
-        "Rotation": "0, 0, 2.8797932"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0A2E14:Skyrim.esm",
@@ -109,10 +84,38 @@
         "Position": "-2794.2512, 1586.9369, -381.46017",
         "Rotation": "0, 0, 3.1415927"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "050A02:Skyrim.esm",
+      "Base": "0B3489:Skyrim.esm",
+      "Radius": 351.77728,
+      "LightData": {
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01706E:Skyrim.esm",
+      "Placement": {
+        "Position": "-2045.7213, 2527.9956, -375.0507"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D5F9:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 255.01263,
+      "LightData": {
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01706E:Skyrim.esm",
+      "Placement": {
+        "Position": "-1528, 1344, 136",
+        "Rotation": "0, 0, 2.8797932"
+      }
     }
   ],
   "MajorFlags": [
     "OffLimits",
+    "0x40000",
     "CantWait"
   ]
 }

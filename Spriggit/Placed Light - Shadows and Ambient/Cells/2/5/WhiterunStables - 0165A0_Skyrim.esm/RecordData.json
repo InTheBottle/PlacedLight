@@ -1,6 +1,11 @@
 {
   "FormKey": "0165A0:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunStables",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Whiterun Stables"
@@ -53,6 +58,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D58B9:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "01F87C:Skyrim.esm",
+      "Placement": {
+        "Position": "-647.53516, 281.8991, 216.8071"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D58B4:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
       "Emittance": "07548E:Skyrim.esm",
@@ -73,6 +88,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D58B6:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 74.770355,
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "01F87C:Skyrim.esm",
+      "Placement": {
+        "Position": "-317.71564, 517.8382, 216.8071"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D58BA:Skyrim.esm",
       "Base": "077FCE:Skyrim.esm",
       "Radius": -243.46307,
@@ -87,16 +113,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D58B9:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Emittance": "07548E:Skyrim.esm",
-      "LocationReference": "01F87C:Skyrim.esm",
-      "Placement": {
-        "Position": "-647.53516, 281.8991, 216.8071"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D58B5:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
       "Radius": -9.859024,
@@ -105,17 +121,9 @@
       "Placement": {
         "Position": "34.832367, 487.23862, 216.8071"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D58B6:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": 74.770355,
-      "Emittance": "07548E:Skyrim.esm",
-      "LocationReference": "01F87C:Skyrim.esm",
-      "Placement": {
-        "Position": "-317.71564, 517.8382, 216.8071"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

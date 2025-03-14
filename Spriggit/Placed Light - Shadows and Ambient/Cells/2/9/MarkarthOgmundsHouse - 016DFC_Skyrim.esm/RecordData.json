@@ -1,6 +1,11 @@
 {
   "FormKey": "016DFC:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthOgmundsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ogmund's House"
@@ -47,5 +52,8 @@
   "LockList": "0133AD:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
-  "ImageSpace": "09F282:Skyrim.esm"
+  "ImageSpace": "09F282:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

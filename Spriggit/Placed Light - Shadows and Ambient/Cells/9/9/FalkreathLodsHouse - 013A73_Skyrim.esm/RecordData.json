@@ -1,6 +1,11 @@
 {
   "FormKey": "013A73:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathLodsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Lod's House"
@@ -52,17 +57,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "082172:Skyrim.esm",
+      "FormKey": "0821DE:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -323.75314,
+      "Radius": -104.77844,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0200C3:Skyrim.esm",
       "Placement": {
-        "Position": "1675.7622, -147.74937, 131.40175",
-        "Rotation": "0, 0, 6.2081857"
+        "Position": "1342.7764, 44.294014, 511.9248"
       }
     },
     {
@@ -81,16 +85,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0821DE:Skyrim.esm",
+      "FormKey": "082172:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -104.77844,
+      "Radius": -323.75314,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0200C3:Skyrim.esm",
       "Placement": {
-        "Position": "1342.7764, 44.294014, 511.9248"
+        "Position": "1675.7622, -147.74937, 131.40175",
+        "Rotation": "0, 0, 6.2081857"
       }
     },
     {
@@ -110,21 +115,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "082129:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0200C3:Skyrim.esm",
-      "Placement": {
-        "Position": "1613.7302, 200.16429, 398.12177",
-        "Rotation": "0, 0, 6.2081857"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0823CA:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -323.75314,
@@ -137,6 +127,24 @@
         "Position": "1185.7195, 165.56996, 143.83063",
         "Rotation": "0, 0, 6.2081857"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "082129:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -280.2317,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0200C3:Skyrim.esm",
+      "Placement": {
+        "Position": "1613.7302, 200.16429, 398.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0161F1:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MixwaterMillGilfresHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Gilfre's House"
@@ -53,6 +58,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5B64:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -280.2317,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020A18:Skyrim.esm",
+      "Placement": {
+        "Position": "1065.6267, -297.18628, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E5B4B:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "LightData": {
@@ -77,21 +97,6 @@
       "LocationReference": "020A18:Skyrim.esm",
       "Placement": {
         "Position": "1135.3485, 35.67387, 430.12177",
-        "Rotation": "0, 0, 6.2081857"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5B64:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "020A18:Skyrim.esm",
-      "Placement": {
-        "Position": "1065.6267, -297.18628, 430.12177",
         "Rotation": "0, 0, 6.2081857"
       }
     },
@@ -123,5 +128,8 @@
         "Position": "1021.8833, -115.70593, 543.9248"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

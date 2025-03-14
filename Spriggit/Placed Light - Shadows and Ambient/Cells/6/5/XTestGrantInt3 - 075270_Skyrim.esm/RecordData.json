@@ -1,6 +1,11 @@
 {
   "FormKey": "075270:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "XTestGrantInt3",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Magic Visuals Test Hall"
@@ -45,7 +50,7 @@
     ]
   },
   "WaterHeight": -2.1474836E+09,
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
   "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
   "ImageSpace": "04E261:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
@@ -68,6 +73,15 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C7B52:Skyrim.esm",
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 200.85901,
+      "Placement": {
+        "Position": "112, -4128, 1616"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0B9401:Skyrim.esm",
       "Base": "0B9402:Skyrim.esm",
       "Radius": 1956.7788,
@@ -80,15 +94,9 @@
         "Position": "-183.15941, 4166.1216, 1474.9602",
         "Rotation": "-0.28697306, -1.3127375, 0.724818"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C7B52:Skyrim.esm",
-      "Base": "08E796:Skyrim.esm",
-      "Radius": 200.85901,
-      "Placement": {
-        "Position": "112, -4128, 1616"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0280C2:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WarehouseMasterPackage",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Warehouse Master Package"
@@ -42,5 +47,8 @@
   },
   "LightingTemplate": "0300E2:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
-  "ImageSpace": "02EDEB:Skyrim.esm"
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

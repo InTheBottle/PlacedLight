@@ -1,6 +1,11 @@
 {
   "FormKey": "015262:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HighGateRuins01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "High Gate Ruins"
@@ -52,21 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EDAB6:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 476.43823,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 3.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019195:Skyrim.esm",
-      "Placement": {
-        "Position": "249.32765, 4202.473, 3115.4438"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "050DDF:Skyrim.esm",
       "Base": "08824C:Skyrim.esm",
       "Radius": 103.06128,
@@ -77,16 +67,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EDA93:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 145.73605,
+      "FormKey": "0EDAB0:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 577.2578,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.2735052,
-        "ShadowDepthBias": 18.096085
+        "FadeOffset": 3.0,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "019195:Skyrim.esm",
       "Placement": {
-        "Position": "254.00111, 508.98416, 265.6805"
+        "Position": "249.32765, 4202.473, 1655.1892"
       }
     },
     {
@@ -116,9 +107,23 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EDAB0:Skyrim.esm",
+      "FormKey": "0EDA93:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 145.73605,
+      "LightData": {
+        "FadeOffset": 1.2735052,
+        "ShadowDepthBias": 18.096085
+      },
+      "LocationReference": "019195:Skyrim.esm",
+      "Placement": {
+        "Position": "254.00111, 508.98416, 265.6805"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EDAB6:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
-      "Radius": 577.2578,
+      "Radius": 476.43823,
       "Emittance": "075492:Skyrim.esm",
       "LightData": {
         "FadeOffset": 3.0,
@@ -126,7 +131,7 @@
       },
       "LocationReference": "019195:Skyrim.esm",
       "Placement": {
-        "Position": "249.32765, 4202.473, 1655.1892"
+        "Position": "249.32765, 4202.473, 3115.4438"
       }
     },
     {
@@ -139,5 +144,8 @@
         "Position": "-448, 5664, 672"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

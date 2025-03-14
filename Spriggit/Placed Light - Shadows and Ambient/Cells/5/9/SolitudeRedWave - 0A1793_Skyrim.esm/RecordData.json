@@ -1,6 +1,11 @@
 {
   "FormKey": "0A1793:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeRedWave",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Red Wave"
@@ -47,5 +52,8 @@
   "Owner": "085DBF:Skyrim.esm",
   "AcousticSpace": "0D78B3:Skyrim.esm",
   "Music": "0B9DCB:Skyrim.esm",
-  "ImageSpace": "0A2687:Skyrim.esm"
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

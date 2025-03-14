@@ -1,6 +1,11 @@
 {
   "FormKey": "0152AF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrokenTowerRedoubt01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Broken Tower Redoubt"
@@ -51,6 +56,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "035F6A:Skyrim.esm",
+      "Base": "0346CF:Skyrim.esm",
+      "Radius": 272.3181,
+      "LightData": {
+        "FadeOffset": 1.7081611,
+        "ShadowDepthBias": 22.73368
+      },
+      "LocationReference": "01914F:Skyrim.esm",
+      "Placement": {
+        "Position": "3921.3982, -1845.2638, 1626.8938"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "035E9B:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -84,20 +103,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "035F6A:Skyrim.esm",
-      "Base": "0346CF:Skyrim.esm",
-      "Radius": 272.3181,
-      "LightData": {
-        "FadeOffset": 1.7081611,
-        "ShadowDepthBias": 22.73368
-      },
-      "LocationReference": "01914F:Skyrim.esm",
-      "Placement": {
-        "Position": "3921.3982, -1845.2638, 1626.8938"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "035F58:Skyrim.esm",
       "Base": "0346CF:Skyrim.esm",
       "Radius": 389.54895,
@@ -125,5 +130,8 @@
         "Rotation": "0, 0, 0.84"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

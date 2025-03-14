@@ -1,6 +1,11 @@
 {
   "FormKey": "01D502:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2Fahlbtharz02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fahlbtharz Corridor"
@@ -79,20 +84,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03A68B:Dragonborn.esm",
-      "Base": "0897B4:Skyrim.esm",
-      "Radius": 10.81842,
-      "LightData": {
-        "FadeOffset": 1.017344,
-        "ShadowDepthBias": 30.86223
-      },
-      "LocationReference": "0142A0:Dragonborn.esm",
-      "Placement": {
-        "Position": "2624.7974, 2275.8894, 7402.975"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "03A68C:Dragonborn.esm",
       "Base": "0897B4:Skyrim.esm",
       "Radius": 621.4787,
@@ -105,6 +96,23 @@
         "Position": "2204.0825, 3143.4443, 7414.04",
         "Rotation": "0, -1.5707964, 0"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A68B:Dragonborn.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 10.81842,
+      "LightData": {
+        "FadeOffset": 1.017344,
+        "ShadowDepthBias": 30.86223
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "2624.7974, 2275.8894, 7402.975"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

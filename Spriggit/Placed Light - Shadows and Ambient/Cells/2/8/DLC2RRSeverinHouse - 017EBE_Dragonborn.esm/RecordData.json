@@ -1,6 +1,11 @@
 {
   "FormKey": "017EBE:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRSeverinHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Severin Manor"
@@ -52,16 +57,31 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "036EA9:Dragonborn.esm",
-      "Base": "0336E8:Dragonborn.esm",
-      "Radius": -57.541687,
+      "FormKey": "033D2E:Dragonborn.esm",
+      "Base": "0336E7:Dragonborn.esm",
+      "Radius": 359.38232,
       "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 20.714321
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 29.037468
       },
       "LocationReference": "019A20:Dragonborn.esm",
       "Placement": {
-        "Position": "72.75862, -983.2997, -208"
+        "Position": "-419.77036, -2.6026707, 166.42186",
+        "Rotation": "0, 0.9749997, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "034A02:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": 238.27771,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 27.323654
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "-2378.5408, -9.862395, -208"
       }
     },
     {
@@ -108,32 +128,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "033D2E:Dragonborn.esm",
-      "Base": "0336E7:Dragonborn.esm",
-      "Radius": 359.38232,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 29.037468
-      },
-      "LocationReference": "019A20:Dragonborn.esm",
-      "Placement": {
-        "Position": "-419.77036, -2.6026707, 166.42186",
-        "Rotation": "0, 0.9749997, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "034A02:Dragonborn.esm",
-      "Base": "03523F:Dragonborn.esm",
-      "Radius": 238.27771,
+      "FormKey": "036EA9:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -57.541687,
       "LightData": {
         "FadeOffset": 1.5,
-        "ShadowDepthBias": 27.323654
+        "ShadowDepthBias": 20.714321
       },
       "LocationReference": "019A20:Dragonborn.esm",
       "Placement": {
-        "Position": "-2378.5408, -9.862395, -208"
+        "Position": "72.75862, -983.2997, -208"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

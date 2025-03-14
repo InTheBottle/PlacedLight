@@ -1,6 +1,11 @@
 {
   "FormKey": "017A00:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2SVShamansHutInterior",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Shaman's Hut"
@@ -53,49 +58,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "02B4DD:Dragonborn.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": 14.427048,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": -0.40165675,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01D936:Dragonborn.esm",
-      "Placement": {
-        "Position": "1412.9053, 1579.4131, 261.4464",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02B4DC:Dragonborn.esm",
-      "Base": "077FCE:Skyrim.esm",
-      "Radius": -416.84348,
-      "LightData": {
-        "FadeOffset": -0.7010517,
-        "ShadowDepthBias": 15.096684
-      },
-      "LocationReference": "01D936:Dragonborn.esm",
-      "Placement": {
-        "Position": "1198.802, 1588.5356, 239.41788",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02B4DA:Dragonborn.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": 25.29918,
-      "Emittance": "07548E:Skyrim.esm",
-      "LocationReference": "01D936:Dragonborn.esm",
-      "Placement": {
-        "Position": "1410.4059, 2022.227, 330.49207",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "02B4DF:Dragonborn.esm",
       "Base": "0B9522:Skyrim.esm",
       "Radius": 22.99974,
@@ -103,6 +65,18 @@
       "LocationReference": "01D936:Dragonborn.esm",
       "Placement": {
         "Position": "917.5705, 1414.1896, 302.95978",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B4E1:Dragonborn.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": -33.866623,
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "01D936:Dragonborn.esm",
+      "Placement": {
+        "Position": "877.47046, 1724.9309, 304.8816",
         "Rotation": "0, 0, 3.1415927"
       }
     },
@@ -124,6 +98,49 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B4DC:Dragonborn.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -416.84348,
+      "LightData": {
+        "FadeOffset": -0.7010517,
+        "ShadowDepthBias": 15.096684
+      },
+      "LocationReference": "01D936:Dragonborn.esm",
+      "Placement": {
+        "Position": "1198.802, 1588.5356, 239.41788",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B4DD:Dragonborn.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 14.427048,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -0.40165675,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01D936:Dragonborn.esm",
+      "Placement": {
+        "Position": "1412.9053, 1579.4131, 261.4464",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B4DA:Dragonborn.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 25.29918,
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "01D936:Dragonborn.esm",
+      "Placement": {
+        "Position": "1410.4059, 2022.227, 330.49207",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "02B4DB:Dragonborn.esm",
       "Base": "0B9BE6:Skyrim.esm",
       "Radius": 22.520905,
@@ -136,18 +153,9 @@
         "Position": "1283.9087, 1971.9655, 311.94452",
         "Rotation": "0, 0, 3.1415927"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02B4E1:Dragonborn.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": -33.866623,
-      "Emittance": "07548E:Skyrim.esm",
-      "LocationReference": "01D936:Dragonborn.esm",
-      "Placement": {
-        "Position": "877.47046, 1724.9309, 304.8816",
-        "Rotation": "0, 0, 3.1415927"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

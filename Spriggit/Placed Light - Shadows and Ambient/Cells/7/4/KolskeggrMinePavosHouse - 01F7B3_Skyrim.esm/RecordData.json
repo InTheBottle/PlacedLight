@@ -1,6 +1,11 @@
 {
   "FormKey": "01F7B3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "KolskeggrMinePavosHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Pavo's House"
@@ -52,16 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5D81:Skyrim.esm",
-      "Base": "059B5F:Skyrim.esm",
-      "Radius": -245.4241,
-      "LocationReference": "01F7D3:Skyrim.esm",
-      "Placement": {
-        "Position": "-297.0233, -183.47588, 337.72156"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E5D7E:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -267.04352,
@@ -71,6 +66,35 @@
       "LocationReference": "01F7D3:Skyrim.esm",
       "Placement": {
         "Position": "59.445835, -271.44037, 187.93794"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08BEB2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 512,
+      "SkyrimMajorRecordFlags": [
+        "0x200"
+      ],
+      "Base": "088245:Skyrim.esm",
+      "Radius": 367.78815,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 47.03
+      },
+      "LocationReference": "01F7D3:Skyrim.esm",
+      "Placement": {
+        "Position": "-635.7781, -146.18857, 627.26263",
+        "Rotation": "0.015755681, -0.59524685, 6.200494"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5D81:Skyrim.esm",
+      "Base": "059B5F:Skyrim.esm",
+      "Radius": -245.4241,
+      "LocationReference": "01F7D3:Skyrim.esm",
+      "Placement": {
+        "Position": "-297.0233, -183.47588, 337.72156"
       }
     },
     {
@@ -95,25 +119,9 @@
       "Placement": {
         "Position": "-240.58842, 35.212357, 427.82678"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "08BEB2:Skyrim.esm",
-      "MajorRecordFlagsRaw": 512,
-      "SkyrimMajorRecordFlags": [
-        "0x200"
-      ],
-      "Base": "088245:Skyrim.esm",
-      "Radius": 367.78815,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 47.03
-      },
-      "LocationReference": "01F7D3:Skyrim.esm",
-      "Placement": {
-        "Position": "-635.7781, -146.18857, 627.26263",
-        "Rotation": "0.015755681, -0.59524685, 6.200494"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

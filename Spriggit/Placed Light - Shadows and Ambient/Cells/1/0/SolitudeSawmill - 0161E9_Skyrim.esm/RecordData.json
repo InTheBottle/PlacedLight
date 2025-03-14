@@ -1,6 +1,11 @@
 {
   "FormKey": "0161E9:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeSawmill",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Solitude Sawmill"
@@ -52,17 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "015F42:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Radius": 7.0729675,
-      "Emittance": "075492:Skyrim.esm",
-      "LocationReference": "10FE2C:Skyrim.esm",
-      "Placement": {
-        "Position": "225.26996, -694.48285, 460"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "10FAA5:Skyrim.esm",
       "Base": "0D4C27:Skyrim.esm",
       "Radius": 232.26743,
@@ -70,6 +64,17 @@
       "LocationReference": "10FE2C:Skyrim.esm",
       "Placement": {
         "Position": "491.93835, -1521.2257, 416.22275"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015F42:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Radius": 7.0729675,
+      "Emittance": "075492:Skyrim.esm",
+      "LocationReference": "10FE2C:Skyrim.esm",
+      "Placement": {
+        "Position": "225.26996, -694.48285, 460"
       }
     },
     {
@@ -98,5 +103,8 @@
         "Rotation": "-2.642119, -1.5707964, 5.77704"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

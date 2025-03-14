@@ -1,6 +1,11 @@
 {
   "FormKey": "0030E4:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ccPlaceholder20Interior01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Creation Club Cell"
@@ -40,5 +45,8 @@
   },
   "LightingTemplate": "0300E2:Skyrim.esm",
   "WaterHeight": 0.0,
-  "ImageSpace": "013B32:Skyrim.esm"
+  "ImageSpace": "013B32:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

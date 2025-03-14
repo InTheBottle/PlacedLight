@@ -1,6 +1,11 @@
 {
   "FormKey": "013A7E:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DragonBridgeFarm",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Lylvieve Family's House"
@@ -49,21 +54,8 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "06D546:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
+  "UnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5318:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": 16.970093,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "020006:Skyrim.esm",
-      "Placement": {
-        "Position": "1128.0056, -44.251587, 475.63644"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0E537B:Skyrim.esm",
@@ -105,6 +97,23 @@
       "Placement": {
         "Position": "1420.7635, -158.26604, 414.37878"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5318:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": 16.970093,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "020006:Skyrim.esm",
+      "Placement": {
+        "Position": "1128.0056, -44.251587, 475.63644"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

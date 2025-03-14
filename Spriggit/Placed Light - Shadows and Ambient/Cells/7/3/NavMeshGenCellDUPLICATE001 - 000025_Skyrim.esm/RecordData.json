@@ -1,6 +1,11 @@
 {
   "FormKey": "000025:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "NavMeshGenCellDUPLICATE001",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "IsInteriorCell"
   ],
@@ -36,5 +41,8 @@
       "LightFadeDistances"
     ]
   },
-  "WaterHeight": 3.4028235E+38
+  "WaterHeight": 3.4028235E+38,
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

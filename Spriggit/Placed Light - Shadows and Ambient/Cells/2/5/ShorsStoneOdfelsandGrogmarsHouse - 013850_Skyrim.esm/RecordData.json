@@ -1,6 +1,11 @@
 {
   "FormKey": "013850:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShorsStoneOdfelsandGrogmarsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Odfel's House"
@@ -83,20 +88,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09F408:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -363.44537,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0226B1:Skyrim.esm",
-      "Placement": {
-        "Position": "-1311.7069, -98.93408, 113.187"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "09F2D2:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": -106.58423,
@@ -107,20 +98,6 @@
       "LocationReference": "0226B1:Skyrim.esm",
       "Placement": {
         "Position": "-1408.331, 267.60483, 90.0348"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "09F2C1:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -205.38544,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0226B1:Skyrim.esm",
-      "Placement": {
-        "Position": "-1282.7568, 61.867836, 315.53015"
       }
     },
     {
@@ -137,6 +114,37 @@
       "Placement": {
         "Position": "-1709.9121, 4.952202, 77.954285"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09F408:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -363.44537,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0226B1:Skyrim.esm",
+      "Placement": {
+        "Position": "-1311.7069, -98.93408, 113.187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09F2C1:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -205.38544,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0226B1:Skyrim.esm",
+      "Placement": {
+        "Position": "-1282.7568, 61.867836, 315.53015"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

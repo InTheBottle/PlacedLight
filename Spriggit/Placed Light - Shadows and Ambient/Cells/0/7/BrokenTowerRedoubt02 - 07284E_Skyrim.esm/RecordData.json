@@ -1,6 +1,11 @@
 {
   "FormKey": "07284E:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BrokenTowerRedoubt02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Broken Tower Redoubt"
@@ -62,5 +67,8 @@
         "Position": "-824.1015, -2436.6624, 2474.9006"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

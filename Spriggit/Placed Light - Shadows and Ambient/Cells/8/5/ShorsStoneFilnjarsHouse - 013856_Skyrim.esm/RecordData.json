@@ -1,6 +1,11 @@
 {
   "FormKey": "013856:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShorsStoneFilnjarsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Filnjar's House"
@@ -53,16 +58,30 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09FAC6:Skyrim.esm",
+      "FormKey": "09FB03:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0226AE:Skyrim.esm",
+      "Placement": {
+        "Position": "1026.2686, 125.99408, 316.6947",
+        "Rotation": "0, 0, 4.7081904"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09FA8F:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -262.49255,
+      "Radius": -280.2317,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0226AE:Skyrim.esm",
       "Placement": {
-        "Position": "1067.081, -200.95746, 131.40175",
+        "Position": "1572.2998, -216.47379, 398.12177",
         "Rotation": "0, 0, 6.2081857"
       }
     },
@@ -96,16 +115,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09FA8F:Skyrim.esm",
+      "FormKey": "09FAC6:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
+      "Radius": -262.49255,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0226AE:Skyrim.esm",
       "Placement": {
-        "Position": "1572.2998, -216.47379, 398.12177",
+        "Position": "1067.081, -200.95746, 131.40175",
         "Rotation": "0, 0, 6.2081857"
       }
     },
@@ -123,20 +142,9 @@
         "Position": "1483.7622, -307.7494, 131.40175",
         "Rotation": "0, 0, 6.2081857"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "09FB03:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0226AE:Skyrim.esm",
-      "Placement": {
-        "Position": "1026.2686, 125.99408, 316.6947",
-        "Rotation": "0, 0, 4.7081904"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

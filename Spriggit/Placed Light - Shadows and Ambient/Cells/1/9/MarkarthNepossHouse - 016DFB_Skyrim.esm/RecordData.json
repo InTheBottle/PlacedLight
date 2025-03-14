@@ -1,6 +1,11 @@
 {
   "FormKey": "016DFB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthNepossHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Nepos' House"
@@ -53,6 +58,25 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "07BEA4:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": 154.65417,
+      "LightData": {
+        "FadeOffset": 1.0962107,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01F315:Skyrim.esm",
+      "Placement": {
+        "Position": "-1242.9689, 540.78625, 249.62439",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DE187:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -88,25 +112,9 @@
         "Position": "-1314.1055, 1971.4146, 228.83142",
         "Rotation": "0, 0, 3.1415927"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "07BEA4:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "0DA626:Skyrim.esm",
-      "Radius": 154.65417,
-      "LightData": {
-        "FadeOffset": 1.0962107,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01F315:Skyrim.esm",
-      "Placement": {
-        "Position": "-1242.9689, 540.78625, 249.62439",
-        "Rotation": "0, 0, 3.1415927"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

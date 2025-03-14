@@ -1,6 +1,11 @@
 {
   "FormKey": "01521B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Icerunner01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Icerunner"
@@ -65,5 +70,8 @@
         "Position": "-49.209442, 197.66895, 153.626"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

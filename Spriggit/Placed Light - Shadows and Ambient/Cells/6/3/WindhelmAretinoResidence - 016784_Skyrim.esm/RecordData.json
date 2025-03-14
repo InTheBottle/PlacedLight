@@ -1,6 +1,11 @@
 {
   "FormKey": "016784:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmAretinoResidence",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Aretino Residence"
@@ -51,17 +56,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DA55B:Skyrim.esm",
+      "FormKey": "0DA55A:Skyrim.esm",
       "Base": "03C5A5:Skyrim.esm",
-      "Radius": -71.313324,
+      "Radius": -77.068054,
       "Emittance": "0703C2:Skyrim.esm",
       "LightData": {
-        "FadeOffset": -2.4357553,
+        "FadeOffset": -2.404452,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0209CB:Skyrim.esm",
       "Placement": {
-        "Position": "398.4303, -2559.554, 912.1898"
+        "Position": "-767.314, -3288.2778, 620.5701"
       }
     },
     {
@@ -80,6 +85,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DA55B:Skyrim.esm",
+      "Base": "03C5A5:Skyrim.esm",
+      "Radius": -71.313324,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -2.4357553,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0209CB:Skyrim.esm",
+      "Placement": {
+        "Position": "398.4303, -2559.554, 912.1898"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "07D0B8:Skyrim.esm",
       "Base": "05C677:Skyrim.esm",
       "Radius": 238.6217,
@@ -91,21 +111,9 @@
       "Placement": {
         "Position": "-767.9876, -2695.9043, 413.79544"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DA55A:Skyrim.esm",
-      "Base": "03C5A5:Skyrim.esm",
-      "Radius": -77.068054,
-      "Emittance": "0703C2:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": -2.404452,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0209CB:Skyrim.esm",
-      "Placement": {
-        "Position": "-767.314, -3288.2778, 620.5701"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0139E7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "IvarsteadKlimmeksHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Klimmek's House"
@@ -53,30 +58,30 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D39F:Skyrim.esm",
+      "FormKey": "09E17D:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -155.97574,
+      "Radius": -234.38235,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0226A4:Skyrim.esm",
       "Placement": {
-        "Position": "800.28796, 59.84131, 309.41818"
+        "Position": "951.40564, 364.59003, 158.88333"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D397:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -236.79593,
+      "FormKey": "09E17E:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -229.62811,
       "LightData": {
         "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "0226A4:Skyrim.esm",
       "Placement": {
-        "Position": "-94.06721, 414.96088, 160.00233"
+        "Position": "646.1166, -132.99957, 147.3096"
       }
     },
     {
@@ -109,30 +114,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09E17D:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -234.38235,
+      "FormKey": "09D397:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -236.79593,
       "LightData": {
         "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "0226A4:Skyrim.esm",
       "Placement": {
-        "Position": "951.40564, 364.59003, 158.88333"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "09D39D:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -144.121,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0226A4:Skyrim.esm",
-      "Placement": {
-        "Position": "792.2377, 561.0586, 310.19547"
+        "Position": "-94.06721, 414.96088, 160.00233"
       }
     },
     {
@@ -151,17 +142,34 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09E17E:Skyrim.esm",
+      "FormKey": "09D39D:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -229.62811,
+      "Radius": -144.121,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0226A4:Skyrim.esm",
       "Placement": {
-        "Position": "646.1166, -132.99957, 147.3096"
+        "Position": "792.2377, 561.0586, 310.19547"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D39F:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -155.97574,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0226A4:Skyrim.esm",
+      "Placement": {
+        "Position": "800.28796, 59.84131, 309.41818"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

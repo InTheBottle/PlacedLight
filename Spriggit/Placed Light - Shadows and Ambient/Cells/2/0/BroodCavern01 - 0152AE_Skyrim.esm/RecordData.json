@@ -1,6 +1,11 @@
 {
   "FormKey": "0152AE:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BroodCavern01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Brood Cavern"
@@ -51,12 +56,22 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "08A1A9:Skyrim.esm",
+      "FormKey": "08A1A6:Skyrim.esm",
       "Base": "01F8B0:Skyrim.esm",
       "Radius": 439.06506,
       "LocationReference": "019150:Skyrim.esm",
       "Placement": {
-        "Position": "880.6739, 368.61993, 26.322159"
+        "Position": "993.9505, 1295.28, 26.322159"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08A1AA:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 439.06506,
+      "LocationReference": "019150:Skyrim.esm",
+      "Placement": {
+        "Position": "883.0263, 2406.4224, 38.36521"
       }
     },
     {
@@ -87,26 +102,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "08A1A6:Skyrim.esm",
-      "Base": "01F8B0:Skyrim.esm",
-      "Radius": 439.06506,
-      "LocationReference": "019150:Skyrim.esm",
-      "Placement": {
-        "Position": "993.9505, 1295.28, 26.322159"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "08A1AA:Skyrim.esm",
-      "Base": "01F8B0:Skyrim.esm",
-      "Radius": 439.06506,
-      "LocationReference": "019150:Skyrim.esm",
-      "Placement": {
-        "Position": "883.0263, 2406.4224, 38.36521"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "030002:Skyrim.esm",
       "Base": "02EDEC:Skyrim.esm",
       "Radius": 1838.0303,
@@ -120,6 +115,19 @@
         "Position": "-226.63863, 1092.4025, 1242.6987",
         "Rotation": "1.5707964, 0.99999917, 4.9123898"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08A1A9:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 439.06506,
+      "LocationReference": "019150:Skyrim.esm",
+      "Placement": {
+        "Position": "880.6739, 368.61993, 26.322159"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

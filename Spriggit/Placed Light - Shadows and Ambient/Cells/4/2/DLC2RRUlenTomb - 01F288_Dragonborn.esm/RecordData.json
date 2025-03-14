@@ -1,6 +1,11 @@
 {
   "FormKey": "01F288:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRUlenTomb",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ulen Ancestral Tomb"
@@ -48,20 +53,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0359F0:Dragonborn.esm",
-      "Base": "03523F:Dragonborn.esm",
-      "Radius": 279.70233,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 27.951729
-      },
-      "Placement": {
-        "Position": "-2192, 960, -138.96576",
-        "Rotation": "0, 0, 1.5707964"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0359EF:Dragonborn.esm",
       "Base": "03523F:Dragonborn.esm",
       "Radius": -53.215576,
@@ -73,6 +64,23 @@
         "Position": "-2190, -36, -216",
         "Rotation": "0, 0, 1.5707964"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0359F0:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": 279.70233,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 27.951729
+      },
+      "Placement": {
+        "Position": "-2192, 960, -138.96576",
+        "Rotation": "0, 0, 1.5707964"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

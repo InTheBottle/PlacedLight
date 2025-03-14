@@ -1,6 +1,11 @@
 {
   "FormKey": "05015C:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "LargashburBasement",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Largashbur Cellar"
@@ -52,20 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C814C:Skyrim.esm",
-      "Base": "0691D2:Skyrim.esm",
-      "Radius": 211.71378,
-      "LightData": {
-        "FadeOffset": 1.4316711,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "03BC2B:Skyrim.esm",
-      "Placement": {
-        "Position": "1650.9349, 2053.7944, 135.23502"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C8150:Skyrim.esm",
       "Base": "0691D2:Skyrim.esm",
       "Radius": 192.48508,
@@ -77,6 +68,23 @@
       "Placement": {
         "Position": "2054.482, 2171.0032, 200.4464"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C814C:Skyrim.esm",
+      "Base": "0691D2:Skyrim.esm",
+      "Radius": 211.71378,
+      "LightData": {
+        "FadeOffset": 1.4316711,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "03BC2B:Skyrim.esm",
+      "Placement": {
+        "Position": "1650.9349, 2053.7944, 135.23502"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

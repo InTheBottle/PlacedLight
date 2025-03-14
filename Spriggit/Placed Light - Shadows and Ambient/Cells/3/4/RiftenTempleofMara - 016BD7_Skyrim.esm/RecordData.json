@@ -1,6 +1,11 @@
 {
   "FormKey": "016BD7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenTempleofMara",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Temple of Mara"
@@ -77,5 +82,8 @@
         "Position": "-512, -128, 224"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

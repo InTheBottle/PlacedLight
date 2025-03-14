@@ -1,6 +1,11 @@
 {
   "FormKey": "047817:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SkyboundPass01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Skybound Watch Pass"
@@ -45,7 +50,7 @@
   "LightingTemplate": "03128C:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "04B679:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
   "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "04B677:Skyrim.esm",
@@ -53,19 +58,6 @@
   "ImageSpace": "061AE4:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0ACA31:Skyrim.esm",
-      "Base": "0B345A:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 7.280119,
-        "ShadowDepthBias": 23.71
-      },
-      "LocationReference": "04B679:Skyrim.esm",
-      "Placement": {
-        "Position": "2.6551948, -2612.4707, -693.8275"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0AC8FA:Skyrim.esm",
@@ -78,6 +70,21 @@
       "LocationReference": "04B679:Skyrim.esm",
       "Placement": {
         "Position": "-896, -4224, -1056"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0AC330:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 336.69232,
+      "LightData": {
+        "FadeOffset": 0.8424562,
+        "ShadowDepthBias": 24.353127
+      },
+      "LocationReference": "04B679:Skyrim.esm",
+      "Placement": {
+        "Position": "-1542.1063, -12014.348, -967.4413",
+        "Rotation": "0.017857824, 0.06327135, 4.3493395"
       }
     },
     {
@@ -97,6 +104,19 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0ACA31:Skyrim.esm",
+      "Base": "0B345A:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 7.280119,
+        "ShadowDepthBias": 23.71
+      },
+      "LocationReference": "04B679:Skyrim.esm",
+      "Placement": {
+        "Position": "2.6551948, -2612.4707, -693.8275"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C4398:Skyrim.esm",
       "Base": "03C5A5:Skyrim.esm",
       "Radius": 368.80902,
@@ -108,21 +128,6 @@
       "LocationReference": "04B679:Skyrim.esm",
       "Placement": {
         "Position": "-1024, -5248, -1056"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0AC330:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 336.69232,
-      "LightData": {
-        "FadeOffset": 0.8424562,
-        "ShadowDepthBias": 24.353127
-      },
-      "LocationReference": "04B679:Skyrim.esm",
-      "Placement": {
-        "Position": "-1542.1063, -12014.348, -967.4413",
-        "Rotation": "0.017857824, 0.06327135, 4.3493395"
       }
     },
     {
@@ -156,5 +161,8 @@
         "Rotation": "0, 0, 6.047787"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

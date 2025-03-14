@@ -1,6 +1,11 @@
 {
   "FormKey": "015273:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "GallowsRock01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Gallows Rock"
@@ -44,7 +49,7 @@
   "LightingTemplate": "0345A4:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "019187:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "EncounterZone": "03EC25:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -53,30 +58,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0304FD:Skyrim.esm",
-      "Base": "0668F2:Skyrim.esm",
-      "Radius": 161.95786,
-      "LightData": {
-        "FadeOffset": 0.95502853,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019187:Skyrim.esm",
-      "Placement": {
-        "Position": "2689.4124, -2734.2007, 179.37637"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02EAAD:Skyrim.esm",
+      "FormKey": "02EAAC:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
-      "Radius": 87.447845,
+      "Radius": 1062.7859,
       "LightData": {
-        "FadeOffset": 1.2413495,
-        "ShadowDepthBias": 50.0
+        "FadeOffset": 1.4515362,
+        "ShadowDepthBias": 33.35099
       },
       "LocationReference": "019187:Skyrim.esm",
       "Placement": {
-        "Position": "4830.0596, 449.33368, 94.92387"
+        "Position": "5685.799, 246.02715, 164.12112"
       }
     },
     {
@@ -95,30 +86,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "02E75A:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 431.3448,
-      "LightData": {
-        "FadeOffset": 1.1067424,
-        "ShadowDepthBias": 26.264755
-      },
-      "LocationReference": "019187:Skyrim.esm",
-      "Placement": {
-        "Position": "4922.5376, 2494.9805, 600.86755"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "030AAB:Skyrim.esm",
+      "FormKey": "02EAAD:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
-      "Radius": 204.61197,
+      "Radius": 87.447845,
       "LightData": {
-        "FadeOffset": 0.89069533,
-        "ShadowDepthBias": 20.5848
+        "FadeOffset": 1.2413495,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "019187:Skyrim.esm",
       "Placement": {
-        "Position": "4377.867, 41.894302, 128.42648"
+        "Position": "4830.0596, 449.33368, 94.92387"
       }
     },
     {
@@ -137,17 +114,48 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "02EAAC:Skyrim.esm",
+      "FormKey": "030AAB:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
-      "Radius": 1062.7859,
+      "Radius": 204.61197,
       "LightData": {
-        "FadeOffset": 1.4515362,
-        "ShadowDepthBias": 33.35099
+        "FadeOffset": 0.89069533,
+        "ShadowDepthBias": 20.5848
       },
       "LocationReference": "019187:Skyrim.esm",
       "Placement": {
-        "Position": "5685.799, 246.02715, 164.12112"
+        "Position": "4377.867, 41.894302, 128.42648"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E75A:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 431.3448,
+      "LightData": {
+        "FadeOffset": 1.1067424,
+        "ShadowDepthBias": 26.264755
+      },
+      "LocationReference": "019187:Skyrim.esm",
+      "Placement": {
+        "Position": "4922.5376, 2494.9805, 600.86755"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0304FD:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 161.95786,
+      "LightData": {
+        "FadeOffset": 0.95502853,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019187:Skyrim.esm",
+      "Placement": {
+        "Position": "2689.4124, -2734.2007, 179.37637"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

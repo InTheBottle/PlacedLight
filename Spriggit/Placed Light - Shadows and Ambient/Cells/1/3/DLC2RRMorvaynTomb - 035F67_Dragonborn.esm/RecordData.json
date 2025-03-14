@@ -1,6 +1,11 @@
 {
   "FormKey": "035F67:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRMorvaynTomb",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Morvayn Ancestral Tomb"
@@ -73,5 +78,8 @@
         "Rotation": "0, 0, 1.5707964"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

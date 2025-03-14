@@ -1,6 +1,11 @@
 {
   "FormKey": "016A03:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeHalloftheDead",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hall of the Dead"
@@ -53,6 +58,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DD27D:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Emittance": "075492:Skyrim.esm",
+      "LocationReference": "0200A1:Skyrim.esm",
+      "Placement": {
+        "Position": "669.2555, -965.1887, 420.7901"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DD27E:Skyrim.esm",
       "Base": "057A43:Skyrim.esm",
       "Emittance": "075492:Skyrim.esm",
@@ -63,17 +78,12 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD3D8:Skyrim.esm",
-      "Base": "0A56A9:Skyrim.esm",
-      "Radius": -66.25836,
-      "LightData": {
-        "FovOffset": -22.082169,
-        "ShadowDepthBias": 25.0
-      },
+      "FormKey": "0DD280:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Emittance": "075492:Skyrim.esm",
       "LocationReference": "0200A1:Skyrim.esm",
       "Placement": {
-        "Position": "-171.01859, -1131.1503, 172.22641",
-        "Rotation": "0, 0, 3.1415927"
+        "Position": "576, -336, 272"
       }
     },
     {
@@ -93,32 +103,13 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD27D:Skyrim.esm",
+      "FormKey": "0DD274:Skyrim.esm",
       "Base": "057A43:Skyrim.esm",
+      "Radius": 4.4795227,
       "Emittance": "075492:Skyrim.esm",
       "LocationReference": "0200A1:Skyrim.esm",
       "Placement": {
-        "Position": "669.2555, -965.1887, 420.7901"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD27C:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Emittance": "075492:Skyrim.esm",
-      "LocationReference": "0200A1:Skyrim.esm",
-      "Placement": {
-        "Position": "592, -1616, 416"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD280:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Emittance": "075492:Skyrim.esm",
-      "LocationReference": "0200A1:Skyrim.esm",
-      "Placement": {
-        "Position": "576, -336, 272"
+        "Position": "550.25616, -982.07666, 128"
       }
     },
     {
@@ -147,14 +138,31 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD274:Skyrim.esm",
+      "FormKey": "0DD27C:Skyrim.esm",
       "Base": "057A43:Skyrim.esm",
-      "Radius": 4.4795227,
       "Emittance": "075492:Skyrim.esm",
       "LocationReference": "0200A1:Skyrim.esm",
       "Placement": {
-        "Position": "550.25616, -982.07666, 128"
+        "Position": "592, -1616, 416"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DD3D8:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": -66.25836,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "ShadowDepthBias": 25.0
+      },
+      "LocationReference": "0200A1:Skyrim.esm",
+      "Placement": {
+        "Position": "-171.01859, -1131.1503, 172.22641",
+        "Rotation": "0, 0, 3.1415927"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

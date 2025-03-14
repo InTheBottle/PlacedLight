@@ -1,6 +1,11 @@
 {
   "FormKey": "01382E:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShorsStoneRedbellyMine",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Redbelly Mine"
@@ -80,5 +85,8 @@
         "Position": "1017.8654, -260.2304, 175.3337"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0336FB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Valthume02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Valthume Catacombs"
@@ -51,21 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EFDC6:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 170.79794,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 19.250439
-      },
-      "LocationReference": "033DA0:Skyrim.esm",
-      "Placement": {
-        "Position": "1670.0679, -738.401, 7633.085",
-        "Rotation": "0, 0, 2.0831978"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "04CBCD:Skyrim.esm",
       "Base": "02EDFC:Skyrim.esm",
       "Radius": 224.80356,
@@ -76,20 +66,6 @@
       "LocationReference": "033DA0:Skyrim.esm",
       "Placement": {
         "Position": "-3225.6855, -4746.8315, 7182.5806"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0352A1:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 81.263855,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 14.0313225
-      },
-      "LocationReference": "033DA0:Skyrim.esm",
-      "Placement": {
-        "Position": "4857.0776, 2326.5186, 7697.9766"
       }
     },
     {
@@ -106,6 +82,38 @@
         "Position": "4055.3706, -1235.4305, 7488.0786",
         "Rotation": "0, 0, 2.0831978"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EFDC6:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 170.79794,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 19.250439
+      },
+      "LocationReference": "033DA0:Skyrim.esm",
+      "Placement": {
+        "Position": "1670.0679, -738.401, 7633.085",
+        "Rotation": "0, 0, 2.0831978"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0352A1:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 81.263855,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 14.0313225
+      },
+      "LocationReference": "033DA0:Skyrim.esm",
+      "Placement": {
+        "Position": "4857.0776, 2326.5186, 7697.9766"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

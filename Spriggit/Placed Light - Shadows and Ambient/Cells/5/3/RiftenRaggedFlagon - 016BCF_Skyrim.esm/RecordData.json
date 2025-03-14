@@ -1,6 +1,11 @@
 {
   "FormKey": "016BCF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenRaggedFlagon",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Ragged Flagon"
@@ -49,7 +54,7 @@
   "WaterHeight": 0.0,
   "Location": "02264A:Skyrim.esm",
   "Owner": "0A2522:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\wrtemple_e.dds",
   "SkyAndWeatherFromRegion": "07042E:Skyrim.esm",
   "AcousticSpace": "108E60:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
@@ -77,6 +82,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "05F3EE:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -51.783386,
+      "LightData": {
+        "FadeOffset": 1.76349,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "02264A:Skyrim.esm",
+      "Placement": {
+        "Position": "210.13397, 1874.0082, 34.93219"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "03125C:Skyrim.esm",
       "Base": "03C5A7:Skyrim.esm",
       "Radius": 562.209,
@@ -91,20 +110,9 @@
         "Position": "-1261.6921, 1841.9414, 163.27899",
         "Rotation": "-1.5707965, 1.3292065, 1.5707961"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "05F3EE:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -51.783386,
-      "LightData": {
-        "FadeOffset": 1.76349,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "02264A:Skyrim.esm",
-      "Placement": {
-        "Position": "210.13397, 1874.0082, 34.93219"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

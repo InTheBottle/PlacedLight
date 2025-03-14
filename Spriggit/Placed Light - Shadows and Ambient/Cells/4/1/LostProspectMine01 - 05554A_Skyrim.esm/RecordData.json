@@ -1,6 +1,11 @@
 {
   "FormKey": "05554A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "LostProspectMine01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Lost Prospect Mine"
@@ -75,6 +80,31 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0561C5:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": 42.663635,
+      "LightData": {
+        "FadeOffset": 0.31879485,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0D566B:Skyrim.esm",
+      "Placement": {
+        "Position": "50.174404, -358.76865, 1126.032"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5B17:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": -17.015366,
+      "Emittance": "068853:Skyrim.esm",
+      "LocationReference": "0D566B:Skyrim.esm",
+      "Placement": {
+        "Position": "-948.9048, -1099.3142, 1059.1094"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F5B19:Skyrim.esm",
       "Base": "088245:Skyrim.esm",
       "Radius": 189.27933,
@@ -92,16 +122,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05614F:Skyrim.esm",
+      "FormKey": "0561C0:Skyrim.esm",
       "Base": "088249:Skyrim.esm",
-      "Radius": 138.27203,
+      "Radius": 42.236603,
+      "Emittance": "068853:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 0.2814262,
+        "FadeOffset": 8.42776,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "0D566B:Skyrim.esm",
       "Placement": {
-        "Position": "769.2208, 522.9426, 1105.6699"
+        "Position": "-936.1117, -786.26965, 2342.017"
       }
     },
     {
@@ -117,6 +148,20 @@
       "Placement": {
         "Position": "22.40778, 26.920542, 1364.8837",
         "Rotation": "0, 5.148721, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05614F:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": 138.27203,
+      "LightData": {
+        "FadeOffset": 0.2814262,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0D566B:Skyrim.esm",
+      "Placement": {
+        "Position": "769.2208, 522.9426, 1105.6699"
       }
     },
     {
@@ -148,46 +193,9 @@
         "Position": "616.7242, 672.40106, 1291.9062",
         "Rotation": "0, -1.5707964, 0"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0561C5:Skyrim.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": 42.663635,
-      "LightData": {
-        "FadeOffset": 0.31879485,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0D566B:Skyrim.esm",
-      "Placement": {
-        "Position": "50.174404, -358.76865, 1126.032"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F5B17:Skyrim.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": -17.015366,
-      "Emittance": "068853:Skyrim.esm",
-      "LocationReference": "0D566B:Skyrim.esm",
-      "Placement": {
-        "Position": "-948.9048, -1099.3142, 1059.1094"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0561C0:Skyrim.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": 42.236603,
-      "Emittance": "068853:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 8.42776,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0D566B:Skyrim.esm",
-      "Placement": {
-        "Position": "-936.1117, -786.26965, 2342.017"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "011CB3:HearthFires.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BYOHHouse2Hjaalmarch",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Windstad Manor"
@@ -53,26 +58,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000BA2:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "088246:Skyrim.esm",
-      "Radius": 338.28033,
-      "Emittance": "07548E:Skyrim.esm",
+      "FormKey": "01231B:HearthFires.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -238.74817,
       "LightData": {
-        "FadeOffset": -0.23804122,
+        "FadeOffset": 0.028655887,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE0A:HearthFires.esm",
       "EnableParent": {
-        "Reference": "011D09:HearthFires.esm",
+        "Reference": "011D21:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "-584.478, 23.008026, 172.63228",
-        "Rotation": "0, 0, 4.712389"
+        "Position": "2.4327102, 933.7616, 294.16077"
       }
     },
     {
@@ -113,20 +112,26 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01231B:HearthFires.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -238.74817,
+      "FormKey": "000BA2:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088246:Skyrim.esm",
+      "Radius": 338.28033,
+      "Emittance": "07548E:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 0.028655887,
+        "FadeOffset": -0.23804122,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE0A:HearthFires.esm",
       "EnableParent": {
-        "Reference": "011D21:HearthFires.esm",
+        "Reference": "011D09:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "2.4327102, 933.7616, 294.16077"
+        "Position": "-584.478, 23.008026, 172.63228",
+        "Rotation": "0, 0, 4.712389"
       }
     },
     {
@@ -147,5 +152,8 @@
         "Position": "2.4327102, 1064.7987, 98.45056"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

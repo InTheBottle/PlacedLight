@@ -1,6 +1,11 @@
 {
   "FormKey": "0DB070:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "LundsHut01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Lund's Hut"
@@ -65,17 +70,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DDDFF:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -342.54254,
-      "LocationReference": "0E66A5:Skyrim.esm",
-      "Placement": {
-        "Position": "476.62506, 615.9359, 163.29224",
-        "Rotation": "0, 0, 3.8831856"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DB1D8:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -330.54742,
@@ -84,6 +78,20 @@
         "Position": "249.18878, 530.70734, 163.29224",
         "Rotation": "0, 0, 3.8831856"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DDDFF:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -342.54254,
+      "LocationReference": "0E66A5:Skyrim.esm",
+      "Placement": {
+        "Position": "476.62506, 615.9359, 163.29224",
+        "Rotation": "0, 0, 3.8831856"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

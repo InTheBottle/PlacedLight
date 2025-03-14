@@ -1,6 +1,11 @@
 {
   "FormKey": "0918D3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunUthgerdTheUnbrokensHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Uthgerd's House"
@@ -53,20 +58,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CD272:Skyrim.esm",
-      "Base": "077FCE:Skyrim.esm",
-      "Radius": -460.09058,
-      "LightData": {
-        "FadeOffset": -1.0,
-        "ShadowDepthBias": 11.173115
-      },
-      "LocationReference": "09B9D2:Skyrim.esm",
-      "Placement": {
-        "Position": "2088.6106, 2355.1587, 361.49908"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0CD26F:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
       "Radius": 121.84561,
@@ -82,12 +73,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CD271:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Emittance": "07548E:Skyrim.esm",
+      "FormKey": "0CD272:Skyrim.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -460.09058,
+      "LightData": {
+        "FadeOffset": -1.0,
+        "ShadowDepthBias": 11.173115
+      },
       "LocationReference": "09B9D2:Skyrim.esm",
       "Placement": {
-        "Position": "1865.1755, 1972.0098, 457.49908"
+        "Position": "2088.6106, 2355.1587, 361.49908"
       }
     },
     {
@@ -100,6 +95,19 @@
       "Placement": {
         "Position": "2366.825, 2232.3904, 457.49908"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CD271:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "09B9D2:Skyrim.esm",
+      "Placement": {
+        "Position": "1865.1755, 1972.0098, 457.49908"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "016DFE:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthSilverBloodInn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Silver-Blood Inn"
@@ -54,20 +59,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD1FE:Skyrim.esm",
+      "FormKey": "09E23E:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "088C9A:Skyrim.esm",
-      "Radius": 120.82477,
+      "Radius": 87.85336,
       "LightData": {
-        "FadeOffset": 1.2542086,
+        "FadeOffset": 1.036221,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F30E:Skyrim.esm",
       "Placement": {
-        "Position": "-6905.5635, -1599.4072, 331.28366",
+        "Position": "-6555.909, -2010.8448, 123.298325",
         "Rotation": "0, 0, 3.1415927"
       }
     },
@@ -111,25 +116,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD20D:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "088C9A:Skyrim.esm",
-      "Radius": 123.68289,
-      "LightData": {
-        "FadeOffset": 0.82113755,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F30E:Skyrim.esm",
-      "Placement": {
-        "Position": "-4664.0635, -2008.1534, 142.34007",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DD208:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -149,20 +135,39 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DD1FF:Skyrim.esm",
+      "FormKey": "0DD1FE:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "088C9A:Skyrim.esm",
-      "Radius": 84.15271,
+      "Radius": 120.82477,
       "LightData": {
-        "FadeOffset": -0.14568073,
+        "FadeOffset": 1.2542086,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F30E:Skyrim.esm",
       "Placement": {
-        "Position": "-7234.5312, -1566.6177, 355.87515",
+        "Position": "-6905.5635, -1599.4072, 331.28366",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DD20D:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088C9A:Skyrim.esm",
+      "Radius": 123.68289,
+      "LightData": {
+        "FadeOffset": 0.82113755,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F30E:Skyrim.esm",
+      "Placement": {
+        "Position": "-4664.0635, -2008.1534, 142.34007",
         "Rotation": "0, 0, 3.1415927"
       }
     },
@@ -187,22 +192,25 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "09E23E:Skyrim.esm",
+      "FormKey": "0DD1FF:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "088C9A:Skyrim.esm",
-      "Radius": 87.85336,
+      "Radius": 84.15271,
       "LightData": {
-        "FadeOffset": 1.036221,
+        "FadeOffset": -0.14568073,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F30E:Skyrim.esm",
       "Placement": {
-        "Position": "-6555.909, -2010.8448, 123.298325",
+        "Position": "-7234.5312, -1566.6177, 355.87515",
         "Rotation": "0, 0, 3.1415927"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

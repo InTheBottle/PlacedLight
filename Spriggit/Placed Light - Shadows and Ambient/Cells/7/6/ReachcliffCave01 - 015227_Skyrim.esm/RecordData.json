@@ -1,6 +1,11 @@
 {
   "FormKey": "015227:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ReachcliffCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Reachcliff Cave"
@@ -52,17 +57,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01552F:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 399.86047,
-      "Emittance": "075492:Skyrim.esm",
+      "FormKey": "015598:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 349.16364,
       "LightData": {
-        "FadeOffset": 11.079194,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 1.1530113,
+        "ShadowDepthBias": 24.632462
       },
       "LocationReference": "019292:Skyrim.esm",
       "Placement": {
-        "Position": "-1574.1499, 10217.207, 1995.5253"
+        "Position": "-1109.7184, 90.400055, 239.41019",
+        "Rotation": "0, 0.5600001, 0"
       }
     },
     {
@@ -77,6 +82,21 @@
       "LocationReference": "019292:Skyrim.esm",
       "Placement": {
         "Position": "640.34393, 3958.8564, 953.9739"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01558E:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 349.16364,
+      "LightData": {
+        "FadeOffset": 1.1530113,
+        "ShadowDepthBias": 24.632462
+      },
+      "LocationReference": "019292:Skyrim.esm",
+      "Placement": {
+        "Position": "-199.30453, 58.05105, 239.41019",
+        "Rotation": "0, 0.9900003, 0"
       }
     },
     {
@@ -96,33 +116,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "015598:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 349.16364,
+      "FormKey": "01552F:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 399.86047,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.1530113,
-        "ShadowDepthBias": 24.632462
+        "FadeOffset": 11.079194,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "019292:Skyrim.esm",
       "Placement": {
-        "Position": "-1109.7184, 90.400055, 239.41019",
-        "Rotation": "0, 0.5600001, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01558E:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 349.16364,
-      "LightData": {
-        "FadeOffset": 1.1530113,
-        "ShadowDepthBias": 24.632462
-      },
-      "LocationReference": "019292:Skyrim.esm",
-      "Placement": {
-        "Position": "-199.30453, 58.05105, 239.41019",
-        "Rotation": "0, 0.9900003, 0"
+        "Position": "-1574.1499, 10217.207, 1995.5253"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

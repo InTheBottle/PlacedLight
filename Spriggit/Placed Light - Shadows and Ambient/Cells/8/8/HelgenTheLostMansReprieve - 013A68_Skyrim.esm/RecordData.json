@@ -1,6 +1,11 @@
 {
   "FormKey": "013A68:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HelgenTheLostMansReprieve",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Lost Man's Reprieve"
@@ -66,5 +71,8 @@
         "Position": "-307.8435, -66.73744, 274.59982"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

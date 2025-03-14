@@ -1,6 +1,11 @@
 {
   "FormKey": "015294:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "NorthwindMine01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Northwind Mine"
@@ -50,6 +55,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E9892:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 338.65955,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.32050312,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0FDBDF:Skyrim.esm",
+      "Placement": {
+        "Position": "199.68985, -415.35492, -28.151169"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E9EC4:Skyrim.esm",
       "Base": "088246:Skyrim.esm",
       "Radius": 175.19348,
@@ -80,21 +100,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E9892:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 338.65955,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.32050312,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0FDBDF:Skyrim.esm",
-      "Placement": {
-        "Position": "199.68985, -415.35492, -28.151169"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E9891:Skyrim.esm",
       "Base": "088246:Skyrim.esm",
       "Radius": 190.79288,
@@ -109,5 +114,8 @@
         "Rotation": "0, 1.3634562E-06, 4.8831897"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

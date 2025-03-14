@@ -1,6 +1,11 @@
 {
   "FormKey": "0AF227:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Mzulft04z",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dwarven Storeroom"
@@ -50,20 +55,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "08BEDF:Skyrim.esm",
-      "Base": "0879AC:Skyrim.esm",
-      "Radius": 241.47357,
-      "LightData": {
-        "FadeOffset": 0.69105625,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019281:Skyrim.esm",
-      "Placement": {
-        "Position": "301.6674, -1771.561, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C6FA0:Skyrim.esm",
       "Base": "0879AD:Skyrim.esm",
       "Radius": 1071.8378,
@@ -75,6 +66,20 @@
       "Placement": {
         "Position": "662.522, -1023.10913, -27.762802",
         "Rotation": "3.1415927, 1.0915931, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08BEDF:Skyrim.esm",
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 241.47357,
+      "LightData": {
+        "FadeOffset": 0.69105625,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019281:Skyrim.esm",
+      "Placement": {
+        "Position": "301.6674, -1771.561, 0"
       }
     },
     {
@@ -91,5 +96,8 @@
         "Position": "-309.05795, -18.375412, 81.17975"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

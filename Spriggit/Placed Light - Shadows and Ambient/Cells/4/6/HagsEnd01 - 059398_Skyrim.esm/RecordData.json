@@ -1,6 +1,11 @@
 {
   "FormKey": "059398:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HagsEnd01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Hag's End"
@@ -55,30 +60,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C811A:Skyrim.esm",
-      "Base": "0194F3:Skyrim.esm",
-      "Radius": -5.485733,
+      "FormKey": "0C8127:Skyrim.esm",
+      "Base": "0C8126:Skyrim.esm",
+      "Radius": 49.51544,
       "LightData": {
-        "FadeOffset": -0.44185215,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 2.1113536,
+        "ShadowDepthBias": 10.888386
       },
       "LocationReference": "019191:Skyrim.esm",
       "Placement": {
-        "Position": "-846.6428, 307.84406, -2488.1094"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C8113:Skyrim.esm",
-      "Base": "019526:Skyrim.esm",
-      "Radius": 232.50375,
-      "LightData": {
-        "FadeOffset": 2.1865497,
-        "ShadowDepthBias": 21.540298
-      },
-      "LocationReference": "019191:Skyrim.esm",
-      "Placement": {
-        "Position": "1374.5007, 247.4375, -2616.7346"
+        "Position": "1865.9758, -585.4238, -1988.1754"
       }
     },
     {
@@ -97,30 +88,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C811C:Skyrim.esm",
-      "Base": "01950D:Skyrim.esm",
-      "Radius": 86.76105,
+      "FormKey": "0C811A:Skyrim.esm",
+      "Base": "0194F3:Skyrim.esm",
+      "Radius": -5.485733,
       "LightData": {
-        "FadeOffset": 2.6988614,
-        "ShadowDepthBias": 14.469849
+        "FadeOffset": -0.44185215,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "019191:Skyrim.esm",
       "Placement": {
-        "Position": "539.14166, 1731.5265, -2174.9504"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C8127:Skyrim.esm",
-      "Base": "0C8126:Skyrim.esm",
-      "Radius": 49.51544,
-      "LightData": {
-        "FadeOffset": 2.1113536,
-        "ShadowDepthBias": 10.888386
-      },
-      "LocationReference": "019191:Skyrim.esm",
-      "Placement": {
-        "Position": "1865.9758, -585.4238, -1988.1754"
+        "Position": "-846.6428, 307.84406, -2488.1094"
       }
     },
     {
@@ -135,6 +112,21 @@
       "LocationReference": "019191:Skyrim.esm",
       "Placement": {
         "Position": "-1722.161, 760.46277, -1297.8269"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C813B:Skyrim.esm",
+      "Base": "01950C:Skyrim.esm",
+      "Radius": 726.08215,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 8.057764,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019191:Skyrim.esm",
+      "Placement": {
+        "Position": "-888.32117, 1473.7023, 1312.9618"
       }
     },
     {
@@ -154,18 +146,34 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C813B:Skyrim.esm",
-      "Base": "01950C:Skyrim.esm",
-      "Radius": 726.08215,
-      "Emittance": "075492:Skyrim.esm",
+      "FormKey": "0C8113:Skyrim.esm",
+      "Base": "019526:Skyrim.esm",
+      "Radius": 232.50375,
       "LightData": {
-        "FadeOffset": 8.057764,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 2.1865497,
+        "ShadowDepthBias": 21.540298
       },
       "LocationReference": "019191:Skyrim.esm",
       "Placement": {
-        "Position": "-888.32117, 1473.7023, 1312.9618"
+        "Position": "1374.5007, 247.4375, -2616.7346"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C811C:Skyrim.esm",
+      "Base": "01950D:Skyrim.esm",
+      "Radius": 86.76105,
+      "LightData": {
+        "FadeOffset": 2.6988614,
+        "ShadowDepthBias": 14.469849
+      },
+      "LocationReference": "019191:Skyrim.esm",
+      "Placement": {
+        "Position": "539.14166, 1731.5265, -2174.9504"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

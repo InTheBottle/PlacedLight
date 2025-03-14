@@ -1,6 +1,11 @@
 {
   "FormKey": "09CCDF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenRomlynDrethsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Romlyn Dreth's House"
@@ -63,5 +68,8 @@
         "Position": "2663.0872, 3325.7173, 208"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

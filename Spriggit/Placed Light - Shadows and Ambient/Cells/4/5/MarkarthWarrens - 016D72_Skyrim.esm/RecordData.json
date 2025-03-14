@@ -1,6 +1,11 @@
 {
   "FormKey": "016D72:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthWarrens",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Warrens"
@@ -46,5 +51,8 @@
   "Owner": "0656E6:Skyrim.esm",
   "AcousticSpace": "0FD93A:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
-  "ImageSpace": "09F282:Skyrim.esm"
+  "ImageSpace": "09F282:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

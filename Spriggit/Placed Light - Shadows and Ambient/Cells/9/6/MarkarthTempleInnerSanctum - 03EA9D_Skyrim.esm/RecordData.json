@@ -1,6 +1,11 @@
 {
   "FormKey": "03EA9D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthTempleInnerSanctum",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Inner Sanctum"
@@ -55,25 +60,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DE125:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "01F5B8:Skyrim.esm",
-      "Radius": 39.433746,
-      "LightData": {
-        "FadeOffset": -0.03794402,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F317:Skyrim.esm",
-      "Placement": {
-        "Position": "-1987.3231, -1706.7778, -619.63776",
-        "Rotation": "0, 0, 1.5707963"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "08A304:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -93,20 +79,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0DE11F:Skyrim.esm",
+      "FormKey": "06DCC4:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "01F5B8:Skyrim.esm",
-      "Radius": -17.985565,
+      "Radius": 38.134064,
       "LightData": {
-        "FadeOffset": -0.0053839087,
+        "FadeOffset": -0.07147002,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F317:Skyrim.esm",
       "Placement": {
-        "Position": "-1861.5598, 1419.9207, -328.1216",
+        "Position": "-1364.6716, 1957.7676, -32.566162",
         "Rotation": "0, 0, 1.5707963"
       }
     },
@@ -150,20 +136,39 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "06DCC4:Skyrim.esm",
+      "FormKey": "0DE11F:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "01F5B8:Skyrim.esm",
-      "Radius": 38.134064,
+      "Radius": -17.985565,
       "LightData": {
-        "FadeOffset": -0.07147002,
+        "FadeOffset": -0.0053839087,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F317:Skyrim.esm",
       "Placement": {
-        "Position": "-1364.6716, 1957.7676, -32.566162",
+        "Position": "-1861.5598, 1419.9207, -328.1216",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE125:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "01F5B8:Skyrim.esm",
+      "Radius": 39.433746,
+      "LightData": {
+        "FadeOffset": -0.03794402,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1987.3231, -1706.7778, -619.63776",
         "Rotation": "0, 0, 1.5707963"
       }
     },
@@ -186,5 +191,8 @@
         "Rotation": "0, 0, 1.5707963"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

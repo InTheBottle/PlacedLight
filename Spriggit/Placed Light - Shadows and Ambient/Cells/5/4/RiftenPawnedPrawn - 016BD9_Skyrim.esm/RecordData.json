@@ -1,6 +1,11 @@
 {
   "FormKey": "016BD9:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenPawnedPrawn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Pawned Prawn"
@@ -52,20 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "075849:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -150.12677,
-      "LightData": {
-        "FadeOffset": 1.4654641,
-        "ShadowDepthBias": 15.831955
-      },
-      "LocationReference": "022648:Skyrim.esm",
-      "Placement": {
-        "Position": "-325.6374, 64.45898, 103.44549"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "06A373:Skyrim.esm",
       "Base": "0B2160:Skyrim.esm",
       "Radius": 97.334366,
@@ -77,6 +68,20 @@
       "LocationReference": "022648:Skyrim.esm",
       "Placement": {
         "Position": "-493.27423, -248.2768, -83.12795"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "075849:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -150.12677,
+      "LightData": {
+        "FadeOffset": 1.4654641,
+        "ShadowDepthBias": 15.831955
+      },
+      "LocationReference": "022648:Skyrim.esm",
+      "Placement": {
+        "Position": "-325.6374, 64.45898, 103.44549"
       }
     },
     {
@@ -96,5 +101,8 @@
         "Rotation": "0.7853982, 0, 4.71239"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "029EEB:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2HoldingCellBard",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bard Holding Cell"
@@ -48,21 +53,24 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "029F0E:Dragonborn.esm",
-      "Base": "059A93:Skyrim.esm",
-      "LocationReference": "03A4A1:Dragonborn.esm",
-      "Placement": {
-        "Position": "422.39078, -349.13562, -6.1035156E-05"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "029F0F:Dragonborn.esm",
       "Base": "059A93:Skyrim.esm",
       "LocationReference": "03A4A1:Dragonborn.esm",
       "Placement": {
         "Position": "102.04343, -155.145, -6.1035156E-05"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "029F0E:Dragonborn.esm",
+      "Base": "059A93:Skyrim.esm",
+      "LocationReference": "03A4A1:Dragonborn.esm",
+      "Placement": {
+        "Position": "422.39078, -349.13562, -6.1035156E-05"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

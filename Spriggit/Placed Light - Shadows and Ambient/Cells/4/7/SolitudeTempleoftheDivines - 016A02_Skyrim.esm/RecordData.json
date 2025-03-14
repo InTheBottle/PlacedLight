@@ -1,6 +1,11 @@
 {
   "FormKey": "016A02:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeTempleoftheDivines",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Temple of the Divines"
@@ -47,5 +52,8 @@
   "Owner": "0C13FD:Skyrim.esm",
   "AcousticSpace": "10F90D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
-  "ImageSpace": "02EDEB:Skyrim.esm"
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

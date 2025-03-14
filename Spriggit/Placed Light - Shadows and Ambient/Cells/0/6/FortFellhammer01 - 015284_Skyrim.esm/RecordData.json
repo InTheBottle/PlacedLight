@@ -1,6 +1,11 @@
 {
   "FormKey": "015284:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortFellhammer01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Fellhammer Garrison"
@@ -50,20 +55,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E65E1:Skyrim.esm",
-      "Base": "0194F5:Skyrim.esm",
-      "Radius": 255.51541,
-      "LightData": {
-        "FadeOffset": 1.089767,
-        "ShadowDepthBias": 22.251396
-      },
-      "LocationReference": "01917F:Skyrim.esm",
-      "Placement": {
-        "Position": "551.60266, 206.2095, 189.16785"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E65E3:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
       "Radius": 359.91858,
@@ -90,6 +81,23 @@
       "Placement": {
         "Position": "55.149536, 339.81107, 147.63046"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E65E1:Skyrim.esm",
+      "Base": "0194F5:Skyrim.esm",
+      "Radius": 255.51541,
+      "LightData": {
+        "FadeOffset": 1.089767,
+        "ShadowDepthBias": 22.251396
+      },
+      "LocationReference": "01917F:Skyrim.esm",
+      "Placement": {
+        "Position": "551.60266, 206.2095, 189.16785"
+      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

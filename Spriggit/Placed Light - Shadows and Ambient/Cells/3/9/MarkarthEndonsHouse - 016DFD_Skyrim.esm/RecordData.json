@@ -1,6 +1,11 @@
 {
   "FormKey": "016DFD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthEndonsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Endon's House"
@@ -68,5 +73,8 @@
         "Position": "2424.6104, 574.55707, 132.9742"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "013A76:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathGrayPineGoods",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Gray Pine Goods"
@@ -53,6 +58,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "081DF9:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -123.92496,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0200C5:Skyrim.esm",
+      "Placement": {
+        "Position": "-1286.716, -135.34218, 162.15858"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "081D10:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": 63.838074,
@@ -64,20 +83,6 @@
       "Placement": {
         "Position": "-1508.612, 175.4974, 85.05529",
         "Rotation": "0, 0, 4.508191"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "081DFC:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -340.54486,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0200C5:Skyrim.esm",
-      "Placement": {
-        "Position": "-1699.3726, 71.94003, 144.25206"
       }
     },
     {
@@ -96,16 +101,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "081DF9:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -123.92496,
+      "FormKey": "081DFC:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -340.54486,
       "LightData": {
         "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "0200C5:Skyrim.esm",
       "Placement": {
-        "Position": "-1286.716, -135.34218, 162.15858"
+        "Position": "-1699.3726, 71.94003, 144.25206"
       }
     },
     {
@@ -122,5 +127,8 @@
         "Position": "-1205.4988, -232.45538, 407.36526"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

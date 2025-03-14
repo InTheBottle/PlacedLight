@@ -1,6 +1,11 @@
 {
   "FormKey": "01677D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmHouseofClanCruelSea",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "House of Clan Cruel-Sea"
@@ -61,34 +66,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D65F8:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "02EDEC:Skyrim.esm",
-      "Radius": 589.7684,
-      "Emittance": "0703C2:Skyrim.esm",
-      "LightData": {
-        "FovOffset": 17.23912,
-        "FadeOffset": -1.6843038,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0209ED:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-2468.6812, -3196.9414, -30000",
-        "Rotation": "0, -1.5707964, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D65FE:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 121.34836,
@@ -131,6 +108,34 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D65F8:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 589.7684,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "FovOffset": 17.23912,
+        "FadeOffset": -1.6843038,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0209ED:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2468.6812, -3196.9414, -30000",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "016889:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -50.77295,
@@ -139,5 +144,8 @@
         "Position": "-307.8435, -66.73744, 274.59982"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

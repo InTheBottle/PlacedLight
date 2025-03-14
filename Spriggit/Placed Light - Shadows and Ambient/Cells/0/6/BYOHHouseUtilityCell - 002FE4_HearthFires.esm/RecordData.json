@@ -1,6 +1,11 @@
 {
   "FormKey": "002FE4:HearthFires.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BYOHHouseUtilityCell",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "IsInteriorCell"
   ],
@@ -35,5 +40,8 @@
       "LightFadeDistances"
     ]
   },
-  "WaterHeight": 0.0
+  "WaterHeight": 0.0,
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

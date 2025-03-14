@@ -1,6 +1,11 @@
 {
   "FormKey": "0DBF12:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarasEyePond01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Mara's Eye Den"
@@ -63,5 +68,8 @@
         "Position": "2354.2969, 2796.5754, -730.2935"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

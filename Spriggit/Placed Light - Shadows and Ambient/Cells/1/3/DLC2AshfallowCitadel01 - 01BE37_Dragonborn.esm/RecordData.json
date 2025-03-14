@@ -1,6 +1,11 @@
 {
   "FormKey": "01BE37:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2AshfallowCitadel01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ashfallow Citadel"
@@ -51,6 +56,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0345F2:Dragonborn.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 168.36523,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.71124196,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142C5:Dragonborn.esm",
+      "Placement": {
+        "Position": "964.274, 323.83282, 285.39456"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "03787A:Dragonborn.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 22.865204,
@@ -61,6 +81,21 @@
       "LocationReference": "0142C5:Dragonborn.esm",
       "Placement": {
         "Position": "339.7038, -8155.1865, -493.0547"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0345F0:Dragonborn.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 51.841187,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.64414716,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142C5:Dragonborn.esm",
+      "Placement": {
+        "Position": "-617.4188, 455.79175, 226.78235"
       }
     },
     {
@@ -92,36 +127,9 @@
       "Placement": {
         "Position": "160.8711, 687.3314, 211.1668"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0345F0:Dragonborn.esm",
-      "Base": "088246:Skyrim.esm",
-      "Radius": 51.841187,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.64414716,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142C5:Dragonborn.esm",
-      "Placement": {
-        "Position": "-617.4188, 455.79175, 226.78235"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0345F2:Dragonborn.esm",
-      "Base": "088246:Skyrim.esm",
-      "Radius": 168.36523,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.71124196,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0142C5:Dragonborn.esm",
-      "Placement": {
-        "Position": "964.274, 323.83282, 285.39456"
-      }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

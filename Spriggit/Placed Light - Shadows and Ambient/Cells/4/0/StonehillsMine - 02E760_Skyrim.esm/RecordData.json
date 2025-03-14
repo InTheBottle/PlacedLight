@@ -1,6 +1,11 @@
 {
   "FormKey": "02E760:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "StonehillsMine",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Rockwallow Mine"
@@ -50,6 +55,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "06B011:Skyrim.esm",
+      "Base": "0194F3:Skyrim.esm",
+      "Radius": 192.59601,
+      "LightData": {
+        "FadeOffset": -0.73136806,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "02E770:Skyrim.esm",
+      "Placement": {
+        "Position": "178.29428, -981.9197, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06B012:Skyrim.esm",
+      "Base": "08E797:Skyrim.esm",
+      "Radius": 427.76587,
+      "LightData": {
+        "FadeOffset": 0.40687847,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "02E770:Skyrim.esm",
+      "Placement": {
+        "Position": "448.30182, -1324.0134, -96"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F5759:Skyrim.esm",
       "Base": "08E7A0:Skyrim.esm",
       "Radius": 281.2008,
@@ -93,20 +126,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "06B014:Skyrim.esm",
-      "Base": "0194F3:Skyrim.esm",
-      "Radius": 131.39978,
-      "LightData": {
-        "FadeOffset": -0.4436375,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "02E770:Skyrim.esm",
-      "Placement": {
-        "Position": "1516.3306, 34.75831, 32"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "06B010:Skyrim.esm",
       "Base": "0194F3:Skyrim.esm",
       "Radius": 812.7938,
@@ -121,30 +140,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "06B012:Skyrim.esm",
-      "Base": "08E797:Skyrim.esm",
-      "Radius": 427.76587,
-      "LightData": {
-        "FadeOffset": 0.40687847,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "02E770:Skyrim.esm",
-      "Placement": {
-        "Position": "448.30182, -1324.0134, -96"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "06B011:Skyrim.esm",
+      "FormKey": "06B014:Skyrim.esm",
       "Base": "0194F3:Skyrim.esm",
-      "Radius": 192.59601,
+      "Radius": 131.39978,
       "LightData": {
-        "FadeOffset": -0.73136806,
+        "FadeOffset": -0.4436375,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "02E770:Skyrim.esm",
       "Placement": {
-        "Position": "178.29428, -981.9197, 0"
+        "Position": "1516.3306, 34.75831, 32"
       }
     },
     {
@@ -161,5 +166,8 @@
         "Position": "2141.9114, 123.352036, -113.00992"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

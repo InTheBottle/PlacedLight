@@ -1,6 +1,11 @@
 {
   "FormKey": "0243DF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WarehouseTraps",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Warehouse Traps"
@@ -46,5 +51,8 @@
   "WaterHeight": 0.0,
   "Location": "0E9DA7:Skyrim.esm",
   "EncounterZone": "0E9DA8:Skyrim.esm",
-  "ImageSpace": "0A2687:Skyrim.esm"
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

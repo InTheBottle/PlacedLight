@@ -1,6 +1,11 @@
 {
   "FormKey": "089D51:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenBeggarsRow",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Beggar's Row"
@@ -45,7 +50,7 @@
   "LightingTemplate": "05C735:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "05E0FC:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\MineCube_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\minecube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
@@ -79,5 +84,8 @@
         "Rotation": "0, 0, 5.703189"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

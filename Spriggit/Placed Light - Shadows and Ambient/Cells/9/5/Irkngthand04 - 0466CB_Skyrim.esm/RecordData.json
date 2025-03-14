@@ -1,8 +1,10 @@
 {
   "FormKey": "0466CB:Skyrim.esm",
-  "MajorRecordFlagsRaw": 524288,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 786432,
   "EditorID": "Irkngthand04",
   "SkyrimMajorRecordFlags": [
+    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -48,34 +50,13 @@
   "LightingTemplate": "034566:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01919D:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
   "AcousticSpace": "02B961:Skyrim.esm",
   "EncounterZone": "03EC3E:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "0C686A:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CB61E:Skyrim.esm",
-      "Base": "075489:Skyrim.esm",
-      "Radius": 214.96112,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FovOffset": -57.323456,
-        "FadeOffset": 47.05864,
-        "ShadowDepthBias": 26.947357
-      },
-      "LocationReference": "01919D:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "0C225D:Skyrim.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "10899.057, 15730.344, -5783.4565",
-        "Rotation": "-5.6383744E-08, -1.4007969, 0.22000048"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0C21F9:Skyrim.esm",
@@ -136,9 +117,31 @@
       "Placement": {
         "Position": "11024.996, 17306.473, -5602.3457"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB61E:Skyrim.esm",
+      "Base": "075489:Skyrim.esm",
+      "Radius": 214.96112,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -57.323456,
+        "FadeOffset": 47.05864,
+        "ShadowDepthBias": 26.947357
+      },
+      "LocationReference": "01919D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0C225D:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "10899.057, 15730.344, -5783.4565",
+        "Rotation": "-5.6383744E-08, -1.4007969, 0.22000048"
+      }
     }
   ],
   "MajorFlags": [
+    "0x40000",
     "CantWait"
   ]
 }

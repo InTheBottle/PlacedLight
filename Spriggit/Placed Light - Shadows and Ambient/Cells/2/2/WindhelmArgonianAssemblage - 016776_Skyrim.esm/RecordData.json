@@ -1,6 +1,11 @@
 {
   "FormKey": "016776:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmArgonianAssemblage",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Argonian Assemblage"
@@ -52,20 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C9363:Skyrim.esm",
-      "Base": "0346CF:Skyrim.esm",
-      "Radius": -86.91881,
-      "LightData": {
-        "FadeOffset": 0.17257857,
-        "ShadowDepthBias": 2.0
-      },
-      "LocationReference": "0209E4:Skyrim.esm",
-      "Placement": {
-        "Position": "2050.307, -460.03848, 184.35252"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0168F1:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -50.77295,
@@ -86,6 +77,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C9363:Skyrim.esm",
+      "Base": "0346CF:Skyrim.esm",
+      "Radius": -86.91881,
+      "LightData": {
+        "FadeOffset": 0.17257857,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "0209E4:Skyrim.esm",
+      "Placement": {
+        "Position": "2050.307, -460.03848, 184.35252"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "096636:Skyrim.esm",
       "Base": "02EDFC:Skyrim.esm",
       "Radius": 515.15204,
@@ -99,5 +104,8 @@
         "Rotation": "0, 0, 5.7431903"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

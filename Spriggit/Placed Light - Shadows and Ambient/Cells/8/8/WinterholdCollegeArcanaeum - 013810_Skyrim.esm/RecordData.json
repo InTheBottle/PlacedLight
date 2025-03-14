@@ -1,6 +1,11 @@
 {
   "FormKey": "013810:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WinterholdCollegeArcanaeum",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Arcanaeum"
@@ -51,20 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "077D88:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -248.31671,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01EB79:Skyrim.esm",
-      "Placement": {
-        "Position": "549.0516, -332.63083, 130.61139"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "077D84:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": 7.258667,
@@ -89,6 +80,34 @@
       "LocationReference": "01EB79:Skyrim.esm",
       "Placement": {
         "Position": "-558.9278, -333.4004, 130.61139"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "077D88:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -248.31671,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01EB79:Skyrim.esm",
+      "Placement": {
+        "Position": "549.0516, -332.63083, 130.61139"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "077D85:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": 214.27893,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01EB79:Skyrim.esm",
+      "Placement": {
+        "Position": "0, 0, 224"
       }
     },
     {
@@ -121,20 +140,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "077D85:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": 214.27893,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01EB79:Skyrim.esm",
-      "Placement": {
-        "Position": "0, 0, 224"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "077D8D:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -253.5123,
@@ -147,5 +152,8 @@
         "Position": "-565.5526, 318.1008, 130.61139"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

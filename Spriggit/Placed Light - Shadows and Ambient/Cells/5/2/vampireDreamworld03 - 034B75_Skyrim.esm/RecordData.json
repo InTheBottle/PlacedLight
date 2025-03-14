@@ -1,6 +1,11 @@
 {
   "FormKey": "034B75:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "vampireDreamworld03",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dreamworld"
@@ -49,15 +54,12 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03517E:Skyrim.esm",
-      "Base": "077FCE:Skyrim.esm",
-      "Radius": -213.32458,
-      "LightData": {
-        "FadeOffset": -1.0,
-        "ShadowDepthBias": 23.436478
-      },
+      "FormKey": "035188:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 10.201996,
+      "Emittance": "07548E:Skyrim.esm",
       "Placement": {
-        "Position": "-55.276398, -177.57468, -187.65785"
+        "Position": "-245.83002, -428.1296, -85.00241"
       }
     },
     {
@@ -82,13 +84,19 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "035188:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": 10.201996,
-      "Emittance": "07548E:Skyrim.esm",
+      "FormKey": "03517E:Skyrim.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -213.32458,
+      "LightData": {
+        "FadeOffset": -1.0,
+        "ShadowDepthBias": 23.436478
+      },
       "Placement": {
-        "Position": "-245.83002, -428.1296, -85.00241"
+        "Position": "-55.276398, -177.57468, -187.65785"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }
