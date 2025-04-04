@@ -11,9 +11,9 @@
         "points": [[0, 25, 30]],
         "data": {
           "light": "PL_Candle",
-          "radius": 300.0,
           "fade": 0.8,
-          "flags": "NoExternalEmittance"
+          "cutoff": 0.1,
+          "flags": "NoExternalEmittance|InverseSquare"
         }
       }
     ]

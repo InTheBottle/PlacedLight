@@ -11,18 +11,18 @@
         "points": [[0.0, 0.0, 10.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 256.0,
+          "cutoff": 0.1,
           "fade": 1.0,
-          "flags": "PortalStrict|NoExternalEmittance"
+          "flags": "PortalStrict|NoExternalEmittance|InverseSquare"
         }
       },
       {
         "points": [[0.0, 0.0, -25.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 350.0,
+          "cutoff": 0.1,
           "fade": 0.7,
-          "flags": "PortalStrict|NoExternalEmittance"
+          "flags": "PortalStrict|NoExternalEmittance|InverseSquare"
         }
       }
     ]
@@ -37,18 +37,18 @@
         "points": [[0.0, 0.0, 10.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 128.0,
+          "cutoff": 0.1,
           "fade": 0.8,
-          "flags": "PortalStrict|NoExternalEmittance"
+          "flags": "PortalStrict|NoExternalEmittance|InverseSquare"
         }
       },
       {
         "points": [[0.0, 0.0, -50.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 300.0,
+          "cutoff": 0.1,
           "fade": 0.7,
-          "flags": "PortalStrict|NoExternalEmittance"
+          "flags": "PortalStrict|NoExternalEmittance|InverseSquare"
         }
       }
     ]

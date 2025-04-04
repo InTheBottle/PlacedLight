@@ -10,9 +10,9 @@
         "points": [[0.0, -10.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 50.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -24,9 +24,9 @@
         "points": [[0.0, -25.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 50.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -38,9 +38,9 @@
         "points": [[0.0, -25.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 50.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -71,9 +71,9 @@
         "points": [[0.0, -10.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 50.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -111,9 +111,9 @@
         "points": [[0.0, 0.0, 22.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 60.0,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "cutoff": 0.7,
+          "fade": 0.5,
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -128,9 +128,9 @@
         "points": [[-23.0, 0.0, 30.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 120.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -160,9 +160,9 @@
         "points": [[0.0, 0.0, 50.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 120.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -178,9 +178,9 @@
         "points": [[0.0, 0.0, 30.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 120.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -197,9 +197,9 @@
         "points": [[0.0, 0.0, 100.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 120.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -211,9 +211,9 @@
         "points": [[0.0, 0.0, 130.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 120.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -237,9 +237,9 @@
         "points": [[-20.0, 0.0, 40.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 120.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -270,9 +270,9 @@
         "points": [[0.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 50.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
@@ -299,9 +299,9 @@
         "points": [[-20.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 50.0,
+          "cutoff": 0.5,
           "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale"
+          "flags": "PortalStrict|IgnoreScale|InverseSquare"
         }
       }
     ]
