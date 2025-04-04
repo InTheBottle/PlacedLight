@@ -11,13 +11,12 @@
   "Flags": [
     "Dynamic",
     "Flicker",
-    "PortalStrict"
+    "PortalStrict",
+    "0x4000"
   ],
   "FalloffExponent": 1.0,
   "FOV": 90.0,
   "NearClip": 2.7052,
-  "FlickerPeriod": 0.3333,
-  "FlickerIntensityAmplitude": 0.2,
-  "FlickerMovementAmplitude": 8.0,
+  "FlickerPeriod": 0.1,
   "FadeValue": 1.0
 }

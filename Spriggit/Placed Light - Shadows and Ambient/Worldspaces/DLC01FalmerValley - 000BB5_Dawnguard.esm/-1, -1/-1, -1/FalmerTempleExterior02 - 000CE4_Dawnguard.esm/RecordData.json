@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "-4, -3",
-    "Flags": "1069776640"
+    "Flags": "2014261504"
   },
   "MaxHeightData": {
     "Offset": 9088.0,
@@ -52,38 +52,15 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "00A262:Dawnguard.esm",
-    "018C4E:Dawnguard.esm",
-    "0191D3:Dawnguard.esm",
+    "0029E5:Dawnguard.esm",
     "01A880:Dawnguard.esm",
-    "0029E5:Dawnguard.esm"
+    "0191D3:Dawnguard.esm",
+    "018C4E:Dawnguard.esm",
+    "00A262:Dawnguard.esm"
   ],
   "Location": "00A87C:Dawnguard.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01A3FC:Dawnguard.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0195A1:Dawnguard.esm",
-      "Radius": -469.01855,
-      "LightData": {
-        "FadeOffset": -2.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00A87C:Dawnguard.esm",
-      "EnableParent": {
-        "Reference": "002886:Dawnguard.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-14578.152, -11412.667, 9094.084"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0195A4:Dawnguard.esm",
@@ -105,6 +82,29 @@
       },
       "Placement": {
         "Position": "-12309.045, -10568.819, 8991.005"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01A3FC:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0195A1:Dawnguard.esm",
+      "Radius": -469.01855,
+      "LightData": {
+        "FadeOffset": -2.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00A87C:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "002886:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-14578.152, -11412.667, 9094.084"
       }
     }
   ],

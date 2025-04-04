@@ -58,16 +58,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E04FA:Skyrim.esm",
+      "FormKey": "0E052A:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -294.25485,
+      "Radius": -280.2317,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "020064:Skyrim.esm",
       "Placement": {
-        "Position": "1315.345, -476.30457, 430.12177",
+        "Position": "1225.6267, -841.1863, 430.12177",
         "Rotation": "0, 0, 6.2081857"
       }
     },
@@ -87,20 +87,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E04F6:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -172.7529,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "020064:Skyrim.esm",
-      "Placement": {
-        "Position": "1181.8833, -659.70593, 543.9248"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E0518:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -140.18274,
@@ -115,16 +101,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E052A:Skyrim.esm",
+      "FormKey": "0E04F6:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -280.2317,
+      "Radius": -172.7529,
       "LightData": {
         "FadeOffset": 0.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "020064:Skyrim.esm",
       "Placement": {
-        "Position": "1225.6267, -841.1863, 430.12177",
+        "Position": "1181.8833, -659.70593, 543.9248"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E04FA:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -294.25485,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020064:Skyrim.esm",
+      "Placement": {
+        "Position": "1315.345, -476.30457, 430.12177",
         "Rotation": "0, 0, 6.2081857"
       }
     }

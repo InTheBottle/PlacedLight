@@ -1,11 +1,16 @@
 {
   "FormKey": "0237C9:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater"
   ],
   "Grid": {
     "Point": "2, 5",
-    "Flags": "1069780224"
+    "Flags": "2014265856"
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
@@ -31,5 +36,8 @@
         "Position": "10024.733, 22076.453, 2234.2761"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

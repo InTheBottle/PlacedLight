@@ -73,6 +73,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E34CB:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -104.77844,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7BD:Skyrim.esm",
+      "Placement": {
+        "Position": "1150.7764, -115.705986, 543.9248"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E346D:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "LightData": {
@@ -97,35 +111,6 @@
       "LocationReference": "01F7BD:Skyrim.esm",
       "Placement": {
         "Position": "1258.8895, 11.728722, 156.58598"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E34CA:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -262.49255,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7BD:Skyrim.esm",
-      "Placement": {
-        "Position": "1067.081, -200.95747, 163.40175",
-        "Rotation": "0, 0, 6.2081857"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E34CB:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -104.77844,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7BD:Skyrim.esm",
-      "Placement": {
-        "Position": "1150.7764, -115.705986, 543.9248"
       }
     },
     {
@@ -155,6 +140,21 @@
       "LocationReference": "01F7BD:Skyrim.esm",
       "Placement": {
         "Position": "1580.3727, -222.45663, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E34CA:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -262.49255,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7BD:Skyrim.esm",
+      "Placement": {
+        "Position": "1067.081, -200.95747, 163.40175",
         "Rotation": "0, 0, 6.2081857"
       }
     }

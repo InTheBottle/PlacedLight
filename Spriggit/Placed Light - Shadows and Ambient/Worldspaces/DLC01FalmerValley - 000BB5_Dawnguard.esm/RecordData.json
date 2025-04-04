@@ -26,8 +26,8 @@
   "DistantLodMultiplier": 1.0,
   "ObjectBoundsMin": "-16, -13",
   "ObjectBoundsMax": "12, 15",
-  "HdLodDiffuseTexture": "data\\textures\\landscape\\mountains\\mountainslab02.dds",
-  "HdLodNormalTexture": "data\\textures\\landscape\\mountains\\mountainslab02_n.dds",
+  "HdLodDiffuseTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02.dds",
+  "HdLodNormalTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02_N.dds",
   "TopCell": {
     "FormKey": "000EA6:Dawnguard.esm",
     "IsCompressed": true,
@@ -40,7 +40,7 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "1069776640"
+      "Flags": "2014261504"
     },
     "WaterHeight": 3.4028235E+38,
     "Regions": [
@@ -48,6 +48,23 @@
     ],
     "PersistentUnknownGroupData": 1,
     "Persistent": [
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00D25A:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073744896,
+        "EditorID": "DLC1TempleDoorLightLowerRef",
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "0x40000000"
+        ],
+        "Base": "00D259:Dawnguard.esm",
+        "Radius": 27.128693,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-22422.568, -13285.49, 8327.511"
+        }
+      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "00D258:Dawnguard.esm",
@@ -103,23 +120,6 @@
         "Placement": {
           "Position": "-8794.712, -9109.768, 8926.788",
           "Rotation": "0, 0, 0.0071998467"
-        }
-      },
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "00D25A:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073744896,
-        "EditorID": "DLC1TempleDoorLightLowerRef",
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "0x40000000"
-        ],
-        "Base": "00D259:Dawnguard.esm",
-        "Radius": 27.128693,
-        "LocationReference": "00A87C:Dawnguard.esm",
-        "Placement": {
-          "Position": "-22422.568, -13285.49, 8327.511"
         }
       }
     ],

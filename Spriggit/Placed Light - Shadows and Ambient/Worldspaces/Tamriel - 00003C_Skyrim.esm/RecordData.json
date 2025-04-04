@@ -25,8 +25,8 @@
   "ObjectBoundsMin": "-57, -43",
   "ObjectBoundsMax": "62, 51",
   "Music": "01BA72:Skyrim.esm",
-  "HdLodDiffuseTexture": "data\\textures\\landscape\\mountains\\mountainslab02.dds",
-  "HdLodNormalTexture": "data\\textures\\landscape\\mountains\\mountainslab02_n.dds",
+  "HdLodDiffuseTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02.dds",
+  "HdLodNormalTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02_N.dds",
   "TopCell": {
     "FormKey": "000D74:Skyrim.esm",
     "IsCompressed": true,
@@ -39,38 +39,19 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "1069777408"
+      "Flags": "2014262272"
     },
     "OcclusionData": "0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001880000000000000000000000040000C102370020AEFFAF01D83B0009FC3FF60B0C100000000000000000000004000041010300000000000000000000000000000000000000000000000000001E73F9FFFE3F001BACBFFEFBFA030000FCEB6F0000F09FF9EDFF7F0000101C00FE63C70024F055F02E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
     "WaterHeight": -2.1474836E+09,
     "Regions": [
-      "041449:Skyrim.esm",
-      "08EED7:Skyrim.esm",
-      "0C5858:Skyrim.esm",
+      "0CAD0A:Skyrim.esm",
       "0C5859:Skyrim.esm",
-      "0CAD0A:Skyrim.esm"
+      "0C5858:Skyrim.esm",
+      "08EED7:Skyrim.esm",
+      "041449:Skyrim.esm"
     ],
     "PersistentUnknownGroupData": 1,
     "Persistent": [
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "0351DE:Skyrim.esm",
-        "MajorRecordFlagsRaw": 1073744896,
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "0x40000000"
-        ],
-        "Base": "0E2172:Skyrim.esm",
-        "Radius": -111.444305,
-        "LightData": {
-          "FadeOffset": 15.524454,
-          "ShadowDepthBias": 1.0
-        },
-        "Placement": {
-          "Position": "-58848.68, -14049.731, -6143.534"
-        }
-      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "10AB4B:Skyrim.esm",
@@ -90,6 +71,25 @@
         "Placement": {
           "Position": "163788.56, 25892.14, -3634.3308",
           "Rotation": "1.5836226, -0.15218401, 1.7963821"
+        }
+      },
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "0351DE:Skyrim.esm",
+        "MajorRecordFlagsRaw": 1073744896,
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "0x40000000"
+        ],
+        "Base": "0E2172:Skyrim.esm",
+        "Radius": -111.444305,
+        "LightData": {
+          "FadeOffset": 15.524454,
+          "ShadowDepthBias": 1.0
+        },
+        "Placement": {
+          "Position": "-58848.68, -14049.731, -6143.534"
         }
       }
     ],

@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "-2, 10",
-    "Flags": "1069776384"
+    "Flags": "2014261248"
   },
   "WaterHeight": 0.0,
   "Location": "0EAA62:Skyrim.esm",
@@ -32,32 +32,6 @@
       "Placement": {
         "Position": "-8064, 40960, 3712",
         "Rotation": "0.91999996, 0, 4.71239"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "015870:Skyrim.esm",
-      "Base": "088245:Skyrim.esm",
-      "Radius": 425.07092,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FovOffset": -55.506695,
-        "FadeOffset": 7.135584,
-        "ShadowDepthBias": 26.151146
-      },
-      "LocationReference": "0EAA62:Skyrim.esm",
-      "Placement": {
-        "Position": "-6485.6494, 42324.566, 3958.0662",
-        "Rotation": "1.5707948, -0.7853982, 4.71239"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01D44C:Skyrim.esm",
-      "Base": "013CA1:Skyrim.esm",
-      "LocationReference": "0EAA62:Skyrim.esm",
-      "Placement": {
-        "Position": "-6539.6143, 42919.86, 3692.3074"
       }
     },
     {
@@ -87,6 +61,32 @@
       "Placement": {
         "Position": "-6386.444, 43391.645, 3840.177",
         "Rotation": "-3.141592, -1.4854056, 3.1415923"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01D44C:Skyrim.esm",
+      "Base": "013CA1:Skyrim.esm",
+      "LocationReference": "0EAA62:Skyrim.esm",
+      "Placement": {
+        "Position": "-6539.6143, 42919.86, 3692.3074"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015870:Skyrim.esm",
+      "Base": "088245:Skyrim.esm",
+      "Radius": 425.07092,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -55.506695,
+        "FadeOffset": 7.135584,
+        "ShadowDepthBias": 26.151146
+      },
+      "LocationReference": "0EAA62:Skyrim.esm",
+      "Placement": {
+        "Position": "-6485.6494, 42324.566, 3958.0662",
+        "Rotation": "1.5707948, -0.7853982, 4.71239"
       }
     }
   ],

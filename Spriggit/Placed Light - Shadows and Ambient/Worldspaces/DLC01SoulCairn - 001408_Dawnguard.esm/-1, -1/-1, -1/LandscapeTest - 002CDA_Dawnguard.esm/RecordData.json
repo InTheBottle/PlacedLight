@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "-2, -4",
-    "Flags": "1069776640"
+    "Flags": "2014261504"
   },
   "MaxHeightData": {
     "Offset": 128.0,
@@ -52,24 +52,14 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "0139B4:Dawnguard.esm",
-    "00C639:Dawnguard.esm",
-    "019219:Dawnguard.esm",
+    "013ECE:Dawnguard.esm",
     "007013:Dawnguard.esm",
-    "013ECE:Dawnguard.esm"
+    "019219:Dawnguard.esm",
+    "00C639:Dawnguard.esm",
+    "0139B4:Dawnguard.esm"
   ],
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "008ADC:Dawnguard.esm",
-      "Base": "0059C2:Dawnguard.esm",
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "-6991.521, -15021.284, 652.8697",
-        "Rotation": "0.20815735, 0.2958791, 5.5244646"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "008ADB:Dawnguard.esm",
@@ -77,6 +67,16 @@
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
         "Position": "-7269.589, -14408.116, 391.89407",
+        "Rotation": "0.20815735, 0.2958791, 5.5244646"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "008ADC:Dawnguard.esm",
+      "Base": "0059C2:Dawnguard.esm",
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-6991.521, -15021.284, 652.8697",
         "Rotation": "0.20815735, 0.2958791, 5.5244646"
       }
     }
