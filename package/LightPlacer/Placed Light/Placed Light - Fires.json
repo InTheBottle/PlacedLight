@@ -13,7 +13,13 @@
     ],
     "lights": [
       {
-        "points": [[0, 0, 75]],
+        "points": [
+          [
+            0,
+            0,
+            75
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
@@ -24,10 +30,18 @@
     ]
   },
   {
-    "models": ["effects\\fxfirepit01.nif"],
+    "models": [
+      "effects\\fxfirepit01.nif"
+    ],
     "lights": [
       {
-        "points": [[0, 0, 90]],
+        "points": [
+          [
+            0,
+            0,
+            90
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
           "radius": 320.0,
@@ -45,7 +59,13 @@
     ],
     "lights": [
       {
-        "points": [[0, 0, 60]],
+        "points": [
+          [
+            0,
+            0,
+            60
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
@@ -56,13 +76,25 @@
     ]
   },
   {
-    "models": ["effects\\c06fxfirebluewithembersheavy.nif"],
+    "models": [
+      "effects\\c06fxfirebluewithembersheavy.nif"
+    ],
     "lights": [
       {
-        "points": [[0, 0, 25]],
+        "points": [
+          [
+            0,
+            0,
+            25
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
-          "color": [0, 127, 255],
+          "color": [
+            0,
+            127,
+            255
+          ],
           "radius": 256.0,
           "fade": 0.8,
           "flags": "IgnoreScale"
@@ -80,7 +112,13 @@
     ],
     "lights": [
       {
-        "points": [[0, 0, 50]],
+        "points": [
+          [
+            0,
+            0,
+            50
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
           "radius": 400.0,
@@ -126,7 +164,13 @@
     ],
     "lights": [
       {
-        "points": [[0, 0, 60]],
+        "points": [
+          [
+            0,
+            0,
+            60
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
           "radius": 512.0,
@@ -135,67 +179,5 @@
         }
       }
     ]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [203, 144, 78],
-          "fade": 2.0,
-          "light": "MagicLightWhite01",
-          "radius": 98
-        },
-        "points": [[-0.31, -0.0, 2.16]]
-      }
-    ],
-    "models": ["!kenan\\realistic fireplaces\\rf-ember-log.nif"]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [203, 144, 78],
-          "fade": 1.2,
-          "shadowDepthBias": 26.0,
-          "light": "WRFireLightShadow01",
-          "radius": 512,
-          "flags": "Shadow"
-        },
-        "points": [[0.0, 0.0, 50]]
-      }
-    ],
-    "models": ["!kenan\\realistic fireplaces\\rf-FIREPLACE-ON.nif"]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [203, 144, 78],
-          "fade": 1.2,
-          "shadowDepthBias": 26.0,
-          "light": "WRFireLightShadow01",
-          "radius": 512,
-          "flags": "Shadow|IgnoreScale"
-        },
-        "points": [[0.0, 0.0, 50.0]]
-      }
-    ],
-    "models": ["!kenan\\realistic fireplaces\\rf-campfire-on.nif"]
-  },
-  {
-    "lights": [
-      {
-        "data": {
-          "color": [203, 144, 78],
-          "fade": 2.0,
-          "shadowDepthBias": 26.0,
-          "light": "WRFireLightShadow01",
-          "radius": 512,
-          "flags": "Shadow|IgnoreScale"
-        },
-        "points": [[0.0, 20.0, 80.0]]
-      }
-    ],
-    "models": ["!kenan\\realistic fireplaces\\rf-campfire-land-on.nif"]
   }
 ]
