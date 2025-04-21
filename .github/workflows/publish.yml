@@ -5,6 +5,7 @@ on:
   release:
     types: [published]
 
+
 jobs:
   validate_and_publish:
     runs-on: windows-latest
@@ -16,17 +17,18 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      - name: Choco install xmlstarlet
+        uses: crazy-max/ghaction-chocolatey@v3
+        with:
+          args: install xmlstarlet
+
+      # Same as Validate - not sure how to just call Validate
       - name: Validate json
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: https://raw.githubusercontent.com/FlayaN/LightPlacer-VR/refs/heads/json-schema/schema.json
           file: package/**/LightPlacer/**/*.json
-      
-      - name: Install xmlstarlet
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xmlstarlet
-
+            
       - name: Download release archive
         uses: robinraju/release-downloader@v1
         with:
@@ -39,93 +41,58 @@ jobs:
       - name: Extract archive
         run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
 
-      - name: Prepare dist directory
-        run: |
-          if [ -d "dist" ]; then
-            rm -rf dist
-          else
-            mkdir dist
-          fi
-
-      - name: Copy package to dist excluding files
-        run: |
-          mkdir -p dist
-          rsync -av --exclude-from='exclusions.txt' package/ dist/
-
-      - name: Set permissions for Spriggit executable
-        run: chmod +x ./SpriggitCLI/Spriggit.CLI
-
-      - name: List directory contents for debugging
-        run: |
-          echo "Contents of ./SpriggitCLI:"
-          ls -l ./SpriggitCLI
-          echo "Contents of current directory:"
-          pwd
-          ls -l
-
-      - name: Run Spriggit fake deserialization until Spriggit bug is fixed
-        continue-on-error: true
-        run: |
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
-
-      - name: Fake Spriggit until Spriggit bug is fixed
-        continue-on-error: true
-        run: |
-          cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
-          chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
-      
-      - name: Run Spriggit templates deserialization
-        run: |
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Dark" -o "./dist/PL - Dark.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Default" -o "./dist/PL - Default.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Nightmare" -o "./dist/PL - Nightmare.esp"
-      
-      - name: Run Spriggit main deserialization
-        run: |
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light" -o "./dist/Placed Light.esm"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light - Shadows and Ambient" -o "./dist/Placed Light - Shadows and Ambient.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light Exteriors" -o "./dist/Placed Light Exteriors.esp"
-          
-      - name: Run Spriggit misc deserialization
-        run: |          
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Carbon LightBulbs Edit" -o "./dist/Misc Patches/Carbon LightBulbs Edit.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/NOTWL - Lanterns" -o "./dist/Misc Patches/NOTWL - Lanterns.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light - Creation Club" -o "./dist/Misc Patches/Placed Light - Creation Club.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light Exteriors - NOTWL 3 patch" -o "./dist/Misc Patches/Placed Light Exteriors - NOTWL 3 patch.esp"
-
-      - name: List dist contents for debugging
-        run: |
-          echo "Contents of ./dist:"
-          ls -lR ./dist
-
       # Extract version from the tag
       - name: Extract version from tag
-        id: extract_version
+        id: version_extraction
         run: |
-          echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
-     
-      - name: Get current  FOMOD version
+          if ($env:GITHUB_REF -match '\d+\.\d+\.\d+.*') {
+            $versionTag = $matches[0]
+            Add-Content -Path $env:GITHUB_ENV -Value "VERSION_TAG=$versionTag"
+          } else {
+            Write-Error "No valid version found in GITHUB_REF: $env:GITHUB_REF"
+          }
+        shell: pwsh    
+
+      - name: Show TAG Version
+        run: | 
+          Write-Host "VERSION_TAG=$env:VERSION_TAG"
+        shell: pwsh
+      
+      - name: Run Spriggit main deserialization
+        run: ./deserialize.bat
+        shell: cmd
+ 
+      - name: Get current FOMOD version
         id: fomod_version
         run: | 
-          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
+          $fomodVersionTag = xml sel -t -m '//Version' -v . ./dist/fomod/info.xml
+          Add-Content -Path $env:GITHUB_ENV -Value "FOMOD_VERSION=$fomodVersionTag"
+        shell: pwsh              
 
-
-      - name: Update FOMOD XML with version
-        if: ${{ steps.fomod_version.outputs.FOMOD_VERSION !=  steps.extract_version.outputs.VERSION }}
+      - name: Show FOMOD Version
         run: | 
-          xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
-          cp ./package/fomod/info.xml ./dist/fomod/info.xml
-          cat ./dist/fomod/info.xml
-
+          Write-Host "FOMOD_VERSION=$env:FOMOD_VERSION"
+        shell: pwsh
+           
+      - name: Update FOMOD XML with version        
+        run: | 
+          if ($env:FOMOD_VERSION -ne $env:VERSION_TAG) 
+          {
+            xml ed --inplace -u '//Version' -v "$env:VERSION_TAG" ./dist/fomod/info.xml
+            type ./dist/fomod/info.xml
+          } else {
+            Write-Host "FOMOD version is already up to date."
+          }
+        shell: pwsh
+           
       # Archive dist directory
       - name: Archive dist directory
         run: |          
-          cd ./dist ; zip -r ../downloads/PlacedLight.zip *
+          cd ./dist ; tar --format zip -cf ..\downloads\PlacedLight.zip *
 
       # Upload artifact
       - name: Upload artifact
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run:
-          gh release upload ${{ steps.extract_version.outputs.VERSION }} ./downloads/PlacedLight.zip
+          gh release upload ${{github.event.release.tag_name}} ./downloads/PlacedLight.zip

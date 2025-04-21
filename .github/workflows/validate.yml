@@ -35,58 +35,8 @@ jobs:
       
       - name: Extract archive
         run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
-
-      - name: Prepare dist directory
-        run: |
-          if [ -d "dist" ]; then
-            rm -rf dist
-          else
-            mkdir dist
-          fi
-
-      - name: Copy package to dist excluding files
-        run: |
-          mkdir -p dist
-          rsync -av --exclude-from='exclusions.txt' package/ dist/
-
-      - name: Set permissions for Spriggit executable
-        run: chmod +x ./SpriggitCLI/Spriggit.CLI
-
-      - name: List directory contents for debugging
-        run: |
-          echo "Contents of ./SpriggitCLI:"
-          ls -l ./SpriggitCLI
-          echo "Contents of current directory:"
-          pwd
-          ls -l
-
-      - name: Run Spriggit fake deserialization until Spriggit bug is fixed
-        continue-on-error: true
-        run: |
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
-
-      - name: Fake Spriggit until Spriggit bug is fixed
-        continue-on-error: true
-        run: |
-          cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
-          chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
       
-      - name: Run Spriggit templates deserialization
-        run: |
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Dark" -o "./dist/PL - Dark.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Default" -o "./dist/PL - Default.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Nightmare" -o "./dist/PL - Nightmare.esp"
-        
       - name: Run Spriggit main deserialization
-        run: |
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light" -o "./dist/Placed Light.esm"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light - Shadows and Ambient" -o "./dist/Placed Light - Shadows and Ambient.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light Exteriors" -o "./dist/Placed Light Exteriors.esp"
-            
-      - name: Run Spriggit misc deserialization
-        run: |          
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Carbon LightBulbs Edit" -o "./dist/Misc Patches/Carbon LightBulbs Edit.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/NOTWL - Lanterns" -o "./dist/Misc Patches/NOTWL - Lanterns.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light - Creation Club" -o "./dist/Misc Patches/Placed Light - Creation Club.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light Exteriors - NOTWL 3 patch" -o "./dist/Misc Patches/Placed Light Exteriors - NOTWL 3 patch.esp"
+        run: ./deserialize.bat
+        shell: cmd
+
