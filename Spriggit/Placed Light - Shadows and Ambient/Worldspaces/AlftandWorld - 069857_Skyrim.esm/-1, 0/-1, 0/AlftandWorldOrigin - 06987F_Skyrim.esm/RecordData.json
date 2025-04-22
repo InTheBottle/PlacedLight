@@ -6,7 +6,7 @@
   ],
   "Grid": {
     "Point": "-2, 0",
-    "Flags": "2014261248"
+    "Flags": "2044408832"
   },
   "WaterHeight": 3.4028235E+38,
   "AcousticSpace": "0E3247:Skyrim.esm",
@@ -29,6 +29,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "093D89:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0897B5:Skyrim.esm",
+      "Radius": 168.87854,
+      "LocationReference": "018EE1:Skyrim.esm",
+      "Placement": {
+        "Position": "-4856.3955, 932.2566, 1917.6932",
+        "Rotation": "0, 0, 5.633188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "093D8A:Skyrim.esm",
       "MajorRecordFlagsRaw": 131072,
       "SkyrimMajorRecordFlags": [
@@ -40,22 +55,6 @@
       "Placement": {
         "Position": "-4358.2783, 177.85052, 1917.6932",
         "Rotation": "0, 0, 5.633188"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "069A3C:Skyrim.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0897B5:Skyrim.esm",
-      "Radius": 397.50317,
-      "LocationReference": "018EE1:Skyrim.esm",
-      "Placement": {
-        "Position": "-4410.49, 727.84485, 3866.754",
-        "Rotation": "0, 0, 5.6723204"
       }
     },
     {
@@ -75,17 +74,18 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "093D89:Skyrim.esm",
-      "MajorRecordFlagsRaw": 131072,
+      "FormKey": "069A3C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
       "SkyrimMajorRecordFlags": [
+        "0x10000",
         "Dangerous_OffLimits_InteriorCell"
       ],
       "Base": "0897B5:Skyrim.esm",
-      "Radius": 168.87854,
+      "Radius": 397.50317,
       "LocationReference": "018EE1:Skyrim.esm",
       "Placement": {
-        "Position": "-4856.3955, 932.2566, 1917.6932",
-        "Rotation": "0, 0, 5.633188"
+        "Position": "-4410.49, 727.84485, 3866.754",
+        "Rotation": "0, 0, 5.6723204"
       }
     },
     {

@@ -55,6 +55,20 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0351AC:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": 194.51074,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A1F:Dragonborn.esm",
+      "Placement": {
+        "Position": "-627.5993, 1046.3793, -197.67639"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0349F9:Dragonborn.esm",
       "Base": "0336E8:Dragonborn.esm",
       "Radius": -200.98157,
@@ -69,16 +83,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "033D1C:Dragonborn.esm",
+      "FormKey": "035240:Dragonborn.esm",
       "Base": "03523F:Dragonborn.esm",
-      "Radius": -203.55594,
+      "Radius": 53.72931,
       "LightData": {
         "FadeOffset": 1.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A1F:Dragonborn.esm",
       "Placement": {
-        "Position": "-885.3692, -414.8684, -208"
+        "Position": "-1424.027, -13.668202, -208",
+        "Rotation": "0, 1.0249995, 0"
       }
     },
     {
@@ -98,16 +113,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0351AC:Dragonborn.esm",
+      "FormKey": "033D1C:Dragonborn.esm",
       "Base": "03523F:Dragonborn.esm",
-      "Radius": 194.51074,
+      "Radius": -203.55594,
       "LightData": {
         "FadeOffset": 1.5,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A1F:Dragonborn.esm",
       "Placement": {
-        "Position": "-627.5993, 1046.3793, -197.67639"
+        "Position": "-885.3692, -414.8684, -208"
       }
     },
     {
@@ -122,21 +137,6 @@
       "LocationReference": "019A1F:Dragonborn.esm",
       "Placement": {
         "Position": "58.70749, -404.56778, 131.30154"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "035240:Dragonborn.esm",
-      "Base": "03523F:Dragonborn.esm",
-      "Radius": 53.72931,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A1F:Dragonborn.esm",
-      "Placement": {
-        "Position": "-1424.027, -13.668202, -208",
-        "Rotation": "0, 1.0249995, 0"
       }
     }
   ],

@@ -7,12 +7,12 @@
     ],
     "lights": [
       {
-        "points": [[0.0, -10.0, 45.0]],
+        "points": [[0.0, -25.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.35,
+          "cutoff": 0.08,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -24,23 +24,26 @@
         "points": [[0.0, -25.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.35,
+          "cutoff": 0.08,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
   },
   {
-    "models": ["clutter\\candles\\candlehornwall01.nif"],
+    "models": [
+      "clutter\\candles\\candlehornwall01.nif",
+      "clutter\\candles\\candlehorntable01.nif"
+  ],
     "lights": [
       {
         "points": [[0.0, -25.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.35,
+          "cutoff": 0.08,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -63,17 +66,16 @@
       "clutter\\sovngarde\\sovcandlestick01.nif",
       "clutter\\sovngarde\\sovcandlestick03.nif",
       "clutter\\sovngarde\\sovcandlestick01static.nif",
-      "clutter\\sovngarde\\sovcandlestick03static.nif",
-      "clutter\\candles\\candlehorntable01.nif"
+      "clutter\\sovngarde\\sovcandlestick03static.nif"
     ],
     "lights": [
       {
-        "points": [[0.0, -10.0, 45.0]],
+        "points": [[0.0, 0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.2,
+          "cutoff": 0.15,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -111,9 +113,9 @@
         "points": [[0.0, 0.0, 22.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.7,
-          "fade": 0.5,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.2,
+          "cutoff": 0.15,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -128,9 +130,9 @@
         "points": [[-23.0, 0.0, 30.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "radius": 200.0,
+          "fade": 1.2,
+          "flags": "IgnoreScale"
         }
       }
     ]
@@ -160,9 +162,9 @@
         "points": [[0.0, 0.0, 50.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.2,
+          "cutoff": 0.15,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -178,9 +180,41 @@
         "points": [[0.0, 0.0, 30.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.2,
+          "cutoff": 0.15,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\ruins\\RuinSmallFloorSconce.nif"
+    ],
+    "lights": [
+      {
+        "whiteList": ["WhiterunHalloftheDeadCatacombs"],
+        "blackList": ["0xE4AF5"],
+        "points": [[0.0, 0.0, 40.0]],
+        "data": {
+          "light": "PL_Candle",
+          "fade": 1.4,
+          "flags": "InverseSquare|Flicker|IgnoreScale|PortalStrict|Shadow"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\ruins\\RuinWallSconce01.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 120.0]],
+        "data": {
+          "light": "PL_Candle",
+          "fade": 1.1,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -197,9 +231,9 @@
         "points": [[0.0, 0.0, 100.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.25,
+          "cutoff": 0.04,
+          "flags": "InverseSquare|IgnoreScale"
         }
       }
     ]
@@ -211,9 +245,9 @@
         "points": [[0.0, 0.0, 130.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.25,
+          "cutoff": 0.04,
+          "flags": "InverseSquare|IgnoreScale"
         }
       }
     ]
@@ -237,9 +271,9 @@
         "points": [[-20.0, 0.0, 40.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.9,
+          "cutoff": 0.2,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
@@ -270,9 +304,9 @@
         "points": [[0.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "radius": 64.0,
+          "fade": 1.2,
+          "flags": "IgnoreScale"
         }
       }
     ]
@@ -299,9 +333,9 @@
         "points": [[-20.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.5,
-          "fade": 0.8,
-          "flags": "PortalStrict|IgnoreScale|InverseSquare"
+          "fade": 0.2,
+          "cutoff": 0.15,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
     ]
