@@ -3,12 +3,17 @@
     "models": [
       "clutter\\common\\removabletorch01.nif",
       "clutter\\common\\torchpermanent01.nif",
-      "clutter\\common\\torchsconce01.nif",
-      "weapons\\torch\\torch.nif"
+      "clutter\\common\\torchsconce01.nif"
     ],
     "lights": [
       {
-        "points": [[0, 25, 30]],
+        "points": [
+          [
+            0,
+            25,
+            30
+          ]
+        ],
         "data": {
           "light": "PL_Candle",
           "fade": 0.5,
