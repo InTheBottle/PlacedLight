@@ -24,4 +24,4 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light Exteriors - NOTWL 3 patch" -o "dist\Misc Patches\Placed Light Exteriors - NOTWL 3 patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - USSEP Patch" -o "dist\Misc Patches\Placed Light - USSEP Patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Lumo - Placed Light Exteriors" -o "dist\Misc Patches\Lumo - Placed Light Exteriors.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Embers XD Patched Meshes" -o "dist\meshes"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\meshes" -o "dist\Misc Patches\meshes"
