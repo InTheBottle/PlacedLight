@@ -9,16 +9,10 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0,
-            0,
-            60
-          ]
-        ],
+        "points": [[0, 0, 60]],
         "data": {
           "light": "PL_Candle",
-          "cutoff": 0.15,
+          "cutoff": 0.1,
           "fade": 1.0,
           "flags": "IgnoreScale|InverseSquare"
         }
@@ -35,18 +29,11 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0,
-            0,
-            50
-          ]
-        ],
+        "points": [[0, 0, 50]],
         "data": {
           "light": "PL_Candle",
-          "fade": 3.0,
-          "cutoff": 0.15,
-          "shadowDepthBias": 26.0,
+          "fade": 3.5,
+          "cutoff": 0.1,
           "flags": "InverseSquare|IgnoreScale"
         }
       }
@@ -88,18 +75,12 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0,
-            0,
-            60
-          ]
-        ],
+        "points": [[0, 0, 60]],
         "data": {
           "light": "PL_Candle",
-          "radius": 512.0,
-          "fade": 0.8,
-          "flags": "IgnoreScale"
+          "fade": 3.0,
+          "cutoff": 0.1,
+          "flags": "IgnoreScale|InverseSquare"
         }
       }
     ]
