@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "5, 3",
-    "Flags": "2014261504"
+    "Flags": "2044409088"
   },
   "MaxHeightData": {
     "Offset": -128.0,
@@ -60,26 +60,12 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0179BD:Dawnguard.esm",
-      "Base": "0059C2:Dawnguard.esm",
-      "Radius": 146.56235,
-      "LightData": {
-        "FadeOffset": 6.9563556,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "22640, 16096, 384"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "011AB1:Dawnguard.esm",
+      "FormKey": "011AA9:Dawnguard.esm",
       "Base": "0059C2:Dawnguard.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "24363.293, 14394.91, 123.066185",
-        "Rotation": "-0.09754986, 0.1545084, 0.99833804"
+        "Position": "22264.6, 13800.744, 134.07732",
+        "Rotation": "-0.17388974, 0.055737462, 0.30103555"
       }
     },
     {
@@ -89,6 +75,16 @@
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
         "Position": "23873.559, 13903.916, 158.35538",
+        "Rotation": "-0.09754986, 0.1545084, 0.99833804"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "011AB1:Dawnguard.esm",
+      "Base": "0059C2:Dawnguard.esm",
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "24363.293, 14394.91, 123.066185",
         "Rotation": "-0.09754986, 0.1545084, 0.99833804"
       }
     },
@@ -104,12 +100,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "011AA9:Dawnguard.esm",
+      "FormKey": "0179BD:Dawnguard.esm",
       "Base": "0059C2:Dawnguard.esm",
+      "Radius": 146.56235,
+      "LightData": {
+        "FadeOffset": 6.9563556,
+        "ShadowDepthBias": 1.0
+      },
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "22264.6, 13800.744, 134.07732",
-        "Rotation": "-0.17388974, 0.055737462, 0.30103555"
+        "Position": "22640, 16096, 384"
       }
     }
   ],
