@@ -57,20 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "036E78:Dragonborn.esm",
-      "Base": "0336E8:Dragonborn.esm",
-      "Radius": -79.786285,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 19.479565
-      },
-      "LocationReference": "019A20:Dragonborn.esm",
-      "Placement": {
-        "Position": "92.276405, 885.9751, -258.81412"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "033D2E:Dragonborn.esm",
       "Base": "0336E7:Dragonborn.esm",
       "Radius": 359.38232,
@@ -138,6 +124,20 @@
       "LocationReference": "019A20:Dragonborn.esm",
       "Placement": {
         "Position": "72.75862, -983.2997, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "036E78:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -79.786285,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 19.479565
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "92.276405, 885.9751, -258.81412"
       }
     }
   ],
