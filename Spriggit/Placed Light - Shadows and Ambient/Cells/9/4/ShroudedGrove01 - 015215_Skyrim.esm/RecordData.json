@@ -57,36 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03C2B0:Skyrim.esm",
-      "Base": "08E796:Skyrim.esm",
-      "Radius": 829.3906,
-      "LightData": {
-        "FadeOffset": 0.4710555,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0192A6:Skyrim.esm",
-      "Placement": {
-        "Position": "1268.7488, 632.708, -128"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EC2E3:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 769.0504,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 1.6409147,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0192A6:Skyrim.esm",
-      "Placement": {
-        "Position": "-984.23505, -845.9715, 130.49937",
-        "Rotation": "0.12410278, -0.08245031, 0.4961987"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "03B80F:Skyrim.esm",
       "Base": "08E796:Skyrim.esm",
       "Radius": 348.0755,
@@ -113,6 +83,36 @@
       "Placement": {
         "Position": "1227.8502, 1933.4468, 602.11847",
         "Rotation": "0, 0, 1.3250014"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03C2B0:Skyrim.esm",
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 829.3906,
+      "LightData": {
+        "FadeOffset": 0.4710555,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0192A6:Skyrim.esm",
+      "Placement": {
+        "Position": "1268.7488, 632.708, -128"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EC2E3:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 769.0504,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.6409147,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0192A6:Skyrim.esm",
+      "Placement": {
+        "Position": "-984.23505, -845.9715, 130.49937",
+        "Rotation": "0.12410278, -0.08245031, 0.4961987"
       }
     }
   ],
