@@ -54,34 +54,19 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "0B9DCE:Skyrim.esm",
   "ImageSpace": "059B60:Skyrim.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5D02:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -136.61478,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.1
-      },
-      "LocationReference": "02004C:Skyrim.esm",
-      "Placement": {
-        "Position": "937.6577, 637.3841, 322.87045"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5D07:Skyrim.esm",
+      "FormKey": "0E5D05:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
-      "Radius": -236.79593,
+      "Radius": -114.80826,
       "LightData": {
         "FadeOffset": 0.5,
-        "ShadowDepthBias": 12.0
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "02004C:Skyrim.esm",
       "Placement": {
-        "Position": "560.8192, 591.3642, 160.00233"
+        "Position": "1457.8789, 120.28061, 218.63824"
       }
     },
     {
@@ -114,16 +99,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5D05:Skyrim.esm",
+      "FormKey": "0E5D07:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
-      "Radius": -114.80826,
+      "Radius": -236.79593,
       "LightData": {
         "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
+        "ShadowDepthBias": 12.0
       },
       "LocationReference": "02004C:Skyrim.esm",
       "Placement": {
-        "Position": "1457.8789, 120.28061, 218.63824"
+        "Position": "560.8192, 591.3642, 160.00233"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5D02:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -136.61478,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.1
+      },
+      "LocationReference": "02004C:Skyrim.esm",
+      "Placement": {
+        "Position": "937.6577, 637.3841, 322.87045"
       }
     }
   ],

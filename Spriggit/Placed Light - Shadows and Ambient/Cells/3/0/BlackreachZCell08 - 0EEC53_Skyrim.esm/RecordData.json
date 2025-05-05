@@ -52,7 +52,6 @@
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
   "UnknownGroupData": 1,
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -75,6 +74,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "105C87:Skyrim.esm",
+      "Base": "0879AF:Skyrim.esm",
+      "Radius": 267.93353,
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "246.11667, 728.3367, 3060.938"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0EECCB:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -90,16 +99,6 @@
       "Placement": {
         "Position": "21.420292, 827.23566, 3061.8481",
         "Rotation": "0, 0, 3.2789896"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "105C87:Skyrim.esm",
-      "Base": "0879AF:Skyrim.esm",
-      "Radius": 267.93353,
-      "LocationReference": "018EE8:Skyrim.esm",
-      "Placement": {
-        "Position": "246.11667, 728.3367, 3060.938"
       }
     }
   ],

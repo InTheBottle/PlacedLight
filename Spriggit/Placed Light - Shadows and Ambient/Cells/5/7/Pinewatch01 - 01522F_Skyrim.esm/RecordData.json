@@ -99,6 +99,22 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0784DC:Skyrim.esm",
+      "Base": "059B5F:Skyrim.esm",
+      "Radius": -56.47412,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.2926681,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01928A:Skyrim.esm",
+      "Placement": {
+        "Position": "-1636.7775, -58.311577, 722",
+        "Rotation": "0, 0, 4.7123985"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0784DB:Skyrim.esm",
       "Base": "036464:Skyrim.esm",
       "Radius": 182.30774,
@@ -114,22 +130,6 @@
       "Placement": {
         "Position": "-1931.0071, -188.97821, 432",
         "Rotation": "0, 0, 4.7123985"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02D076:Skyrim.esm",
-      "Base": "079AB6:Skyrim.esm",
-      "Radius": 541.9119,
-      "LightData": {
-        "FovOffset": -28.369465,
-        "FadeOffset": 4.9398136,
-        "ShadowDepthBias": 25.793968
-      },
-      "LocationReference": "01928A:Skyrim.esm",
-      "Placement": {
-        "Position": "436.81943, 3118.2065, -114.42574",
-        "Rotation": "0, -1.5707964, 0"
       }
     },
     {
@@ -170,18 +170,18 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0784DC:Skyrim.esm",
-      "Base": "059B5F:Skyrim.esm",
-      "Radius": -56.47412,
-      "Emittance": "02E2CC:Skyrim.esm",
+      "FormKey": "02D076:Skyrim.esm",
+      "Base": "079AB6:Skyrim.esm",
+      "Radius": 541.9119,
       "LightData": {
-        "FadeOffset": 0.2926681,
-        "ShadowDepthBias": 1.0
+        "FovOffset": -28.369465,
+        "FadeOffset": 4.9398136,
+        "ShadowDepthBias": 25.793968
       },
       "LocationReference": "01928A:Skyrim.esm",
       "Placement": {
-        "Position": "-1636.7775, -58.311577, 722",
-        "Rotation": "0, 0, 4.7123985"
+        "Position": "436.81943, 3118.2065, -114.42574",
+        "Rotation": "0, -1.5707964, 0"
       }
     }
   ],

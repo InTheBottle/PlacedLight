@@ -70,20 +70,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "011CAA:Dawnguard.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": 415.75238,
+      "FormKey": "0106A0:Dawnguard.esm",
+      "Base": "02F363:Skyrim.esm",
+      "Radius": 201.97559,
       "LightData": {
-        "FadeOffset": -0.46493608,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 1.4248917,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "00357D:Dawnguard.esm",
-      "EnableParent": {
-        "Reference": "011C02:Dawnguard.esm",
-        "Unknown": "0x000000"
-      },
       "Placement": {
-        "Position": "3543.7002, -1883.7217, 7317.3716"
+        "Position": "1649.5864, -1279.4288, 7175.7734",
+        "Rotation": "0, 0, 4.38319"
       }
     },
     {
@@ -117,17 +114,34 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01777B:Dawnguard.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 84.35153,
+      "FormKey": "011CAA:Dawnguard.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": 415.75238,
       "LightData": {
-        "FadeOffset": 3.1687202,
-        "ShadowDepthBias": 50.0
+        "FadeOffset": -0.46493608,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "011C02:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3543.7002, -1883.7217, 7317.3716"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00642D:Dawnguard.esm",
+      "Base": "0B6466:Skyrim.esm",
+      "Radius": 65.19806,
+      "LightData": {
+        "FadeOffset": 4.3479085,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "00357D:Dawnguard.esm",
       "Placement": {
-        "Position": "4465.1846, -4057.8088, 6556.8325",
-        "Rotation": "0, -1.5707964, 5.783187"
+        "Position": "4706.4976, -5111.988, 6506.955"
       }
     },
     {
@@ -149,6 +163,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "01777B:Dawnguard.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 84.35153,
+      "LightData": {
+        "FadeOffset": 3.1687202,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "4465.1846, -4057.8088, 6556.8325",
+        "Rotation": "0, -1.5707964, 5.783187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0106E4:Dawnguard.esm",
       "Base": "03C5A5:Skyrim.esm",
       "Radius": 269.04626,
@@ -161,21 +190,6 @@
       "Placement": {
         "Position": "2657.4863, -5576.58, 7204.84",
         "Rotation": "0, 0, 4.712389"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0106A0:Dawnguard.esm",
-      "Base": "02F363:Skyrim.esm",
-      "Radius": 201.97559,
-      "LightData": {
-        "FadeOffset": 1.4248917,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "00357D:Dawnguard.esm",
-      "Placement": {
-        "Position": "1649.5864, -1279.4288, 7175.7734",
-        "Rotation": "0, 0, 4.38319"
       }
     },
     {
@@ -205,31 +219,6 @@
       "LocationReference": "00357D:Dawnguard.esm",
       "Placement": {
         "Position": "81.05383, -3235.885, 7822.056"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "00642D:Dawnguard.esm",
-      "Base": "0B6466:Skyrim.esm",
-      "Radius": 65.19806,
-      "LightData": {
-        "FadeOffset": 4.3479085,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00357D:Dawnguard.esm",
-      "Placement": {
-        "Position": "4706.4976, -5111.988, 6506.955"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "017781:Dawnguard.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 499.47638,
-      "Emittance": "075DE6:Skyrim.esm",
-      "LocationReference": "00357D:Dawnguard.esm",
-      "Placement": {
-        "Position": "-462.53564, -2503.8267, 7809.7485"
       }
     }
   ],

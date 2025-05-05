@@ -55,21 +55,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "04A320:Skyrim.esm",
-      "Base": "09250B:Skyrim.esm",
-      "Radius": 456.3498,
-      "LightData": {
-        "FadeOffset": 3.7843108,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7D4:Skyrim.esm",
-      "Placement": {
-        "Position": "-4352, 2880, -32",
-        "Rotation": "0, 0, 5.4977875"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "01EDC5:Skyrim.esm",
       "Base": "09250B:Skyrim.esm",
       "Radius": 283.45343,
@@ -80,6 +65,21 @@
       "LocationReference": "01F7D4:Skyrim.esm",
       "Placement": {
         "Position": "-4296.274, 1269.1849, 21.37024",
+        "Rotation": "0, 0, 5.4977875"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01EDC2:Skyrim.esm",
+      "Base": "09250B:Skyrim.esm",
+      "Radius": 247.50748,
+      "LightData": {
+        "FadeOffset": 7.5950184,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7D4:Skyrim.esm",
+      "Placement": {
+        "Position": "-3480.9492, 1179.8545, 128",
         "Rotation": "0, 0, 5.4977875"
       }
     },
@@ -111,6 +111,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "01EDA5:Skyrim.esm",
+      "Base": "09250B:Skyrim.esm",
+      "Radius": 488.55865,
+      "LightData": {
+        "FadeOffset": 4.5062227,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7D4:Skyrim.esm",
+      "Placement": {
+        "Position": "-2413.3428, 949.31494, 138.3219",
+        "Rotation": "0, 0, 5.4977875"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "01EDCC:Skyrim.esm",
       "Base": "09250B:Skyrim.esm",
       "Radius": 126.697784,
@@ -126,16 +141,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01ED9B:Skyrim.esm",
+      "FormKey": "04A320:Skyrim.esm",
       "Base": "09250B:Skyrim.esm",
-      "Radius": 662.508,
+      "Radius": 456.3498,
       "LightData": {
-        "FadeOffset": 7.283539,
+        "FadeOffset": 3.7843108,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F7D4:Skyrim.esm",
       "Placement": {
-        "Position": "-1313.382, 28.738892, 565.1968",
+        "Position": "-4352, 2880, -32",
         "Rotation": "0, 0, 5.4977875"
       }
     },
@@ -156,16 +171,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "04A346:Skyrim.esm",
+      "FormKey": "01ED9B:Skyrim.esm",
       "Base": "09250B:Skyrim.esm",
-      "Radius": 255.32108,
+      "Radius": 662.508,
       "LightData": {
-        "FadeOffset": 7.3578806,
+        "FadeOffset": 7.283539,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F7D4:Skyrim.esm",
       "Placement": {
-        "Position": "-3505.27, 3081.4673, 51.18129",
+        "Position": "-1313.382, 28.738892, 565.1968",
         "Rotation": "0, 0, 5.4977875"
       }
     },
@@ -186,31 +201,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01EDA5:Skyrim.esm",
+      "FormKey": "04A346:Skyrim.esm",
       "Base": "09250B:Skyrim.esm",
-      "Radius": 488.55865,
+      "Radius": 255.32108,
       "LightData": {
-        "FadeOffset": 4.5062227,
+        "FadeOffset": 7.3578806,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01F7D4:Skyrim.esm",
       "Placement": {
-        "Position": "-2413.3428, 949.31494, 138.3219",
-        "Rotation": "0, 0, 5.4977875"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01EDC2:Skyrim.esm",
-      "Base": "09250B:Skyrim.esm",
-      "Radius": 247.50748,
-      "LightData": {
-        "FadeOffset": 7.5950184,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7D4:Skyrim.esm",
-      "Placement": {
-        "Position": "-3480.9492, 1179.8545, 128",
+        "Position": "-3505.27, 3081.4673, 51.18129",
         "Rotation": "0, 0, 5.4977875"
       }
     }
