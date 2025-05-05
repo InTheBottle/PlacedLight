@@ -59,6 +59,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "03CBC1:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 168.0719,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022646:Skyrim.esm",
+      "Placement": {
+        "Position": "-1789.4054, 2173.1492, 244.98221"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E1B93:Skyrim.esm",
+      "Base": "0B215E:Skyrim.esm",
+      "Radius": 100.49548,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022646:Skyrim.esm",
+      "Placement": {
+        "Position": "-834.20624, 2072.5312, 278.33017"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "03C871:Skyrim.esm",
       "Base": "0B2160:Skyrim.esm",
       "Radius": 157.1203,
@@ -88,20 +116,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E1B93:Skyrim.esm",
-      "Base": "0B215E:Skyrim.esm",
-      "Radius": 100.49548,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "022646:Skyrim.esm",
-      "Placement": {
-        "Position": "-834.20624, 2072.5312, 278.33017"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0DFB43:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": -8.563446,
@@ -112,20 +126,6 @@
       "LocationReference": "022646:Skyrim.esm",
       "Placement": {
         "Position": "-1408, 144, 136"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "03CBC1:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 168.0719,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "022646:Skyrim.esm",
-      "Placement": {
-        "Position": "-1789.4054, 2173.1492, 244.98221"
       }
     }
   ],

@@ -9,7 +9,9 @@
       "effects\\fxfirewithemberslogs01.nif",
       "effects\\fxfirewithemberslogs02.nif",
       "effects\\fxfirewithemberslogs03.nif",
-      "effects\\fxfirewithemberslogs04.nif"
+      "effects\\fxfirewithemberslogs04.nif",
+      "pg1\\clutter\\woodfires\\fireplacewood01burning.nif",
+      "clutter\\woodfires\\fireplacewood01burning.nif"
     ],
     "lights": [
       {
@@ -25,11 +27,10 @@
   },
   {
     "models": [
-      "clutter\\woodfires\\campfire01burning.nif",
-      "clutter\\woodfires\\campfire01landburning.nif",
       "clutter\\giant\\giantcampfire01burning.nif",
       "clutter\\giant\\giantcampfire01burningnoland.nif",
-      "clutter\\woodfires\\fireplacewood01burning.nif"
+      "pg1\\clutter\\giant\\giantcampfire01burning.nif",
+      "pg1\\clutter\\giant\\giantcampfire01burningnoland.nif"
     ],
     "lights": [
       {
@@ -45,6 +46,21 @@
   },
   {
     "models": [
+      "clutter\\woodfires\\campfire01burning.nif",
+      "clutter\\woodfires\\campfire01landburning.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning.nif",
+      "pg1\\clutter\\woodfires\\campfire01landburning.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX01.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX02.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX03.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX04.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX05.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX06.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX07.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX08.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX09.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX10.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_FORESTMX11.nif",
       "clutter\\woodfires\\campfire01burning_FORESTMX01.nif",
       "clutter\\woodfires\\campfire01burning_FORESTMX02.nif",
       "clutter\\woodfires\\campfire01burning_FORESTMX03.nif",
@@ -57,6 +73,14 @@
       "clutter\\woodfires\\campfire01burning_FORESTMX10.nif",
       "clutter\\woodfires\\campfire01burning_FORESTMX11.nif",
       "clutter\\woodfires\\campfire01burning_NOROCKS.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_NOROCKS.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX01.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX01B.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX02.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX05.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX06.nif",
+      "pg1\\clutter\\woodfires\\campfire01burning_ROCKS_MX09.nif",
       "clutter\\woodfires\\campfire01burning_ROCKS_MX.nif",
       "clutter\\woodfires\\campfire01burning_ROCKS_MX01.nif",
       "clutter\\woodfires\\campfire01burning_ROCKS_MX01B.nif",
@@ -64,6 +88,18 @@
       "clutter\\woodfires\\campfire01burning_ROCKS_MX05.nif",
       "clutter\\woodfires\\campfire01burning_ROCKS_MX06.nif",
       "clutter\\woodfires\\campfire01burning_ROCKS_MX09.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX01.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX02.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX03.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX04.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX05.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX06.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX07.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX08.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX09.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX10.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX11.nif",
+      "pg1\\clutter\\woodfires\\campfire01burningMX12.nif",
       "clutter\\woodfires\\campfire01burningMX01.nif",
       "clutter\\woodfires\\campfire01burningMX02.nif",
       "clutter\\woodfires\\campfire01burningMX03.nif",
@@ -84,7 +120,7 @@
           "light": "PL_Candle",
           "fade": 3.0,
           "cutoff": 0.1,
-          "flags": "IgnoreScale|InverseSquare"
+          "flags": "IgnoreScale|InverseSquare|Shadow"
         }
       }
     ]

@@ -12,7 +12,7 @@
   ],
   "Grid": {
     "Point": "1, 2",
-    "Flags": "2014261504"
+    "Flags": "836588800"
   },
   "MaxHeightData": {
     "Offset": 1024.0,
@@ -53,15 +53,35 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "007013:Dawnguard.esm",
+    "0139B4:Dawnguard.esm",
     "00C639:Dawnguard.esm",
-    "0139B4:Dawnguard.esm"
+    "007013:Dawnguard.esm"
   ],
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0153AC:Dawnguard.esm",
+      "FormKey": "0153A8:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0059C2:Dawnguard.esm",
+      "Radius": 545.6597,
+      "LightData": {
+        "FadeOffset": 2.7748446,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "6845.7017, 10272.252, 1852.0148",
+        "Rotation": "0, 0, 0.70000607"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01455D:Dawnguard.esm",
       "MajorRecordFlagsRaw": 196608,
       "SkyrimMajorRecordFlags": [
         "0x10000",
@@ -70,12 +90,12 @@
       "Base": "0059C2:Dawnguard.esm",
       "Radius": 667.0686,
       "LightData": {
-        "FadeOffset": 17.338652,
+        "FadeOffset": 1.1111515,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "8042.7646, 11449.883, 4140.0146",
+        "Position": "7928.502, 11362.609, 2180.9604",
         "Rotation": "0, 0, 0.70000607"
       }
     },
@@ -100,50 +120,6 @@
       },
       "Placement": {
         "Position": "7370.7646, 11529.883, 2444.0146",
-        "Rotation": "0, 0, 0.70000607"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0153A8:Dawnguard.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0059C2:Dawnguard.esm",
-      "Radius": 545.6597,
-      "LightData": {
-        "FadeOffset": 2.7748446,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "6845.7017, 10272.252, 1852.0148",
-        "Rotation": "0, 0, 0.70000607"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0153AA:Dawnguard.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0059C2:Dawnguard.esm",
-      "Radius": 364.13007,
-      "LightData": {
-        "FadeOffset": 2.1853132,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "EnableParent": {
-        "Reference": "0154B6:Dawnguard.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "8186.7646, 10857.883, 2476.0146",
         "Rotation": "0, 0, 0.70000607"
       }
     },
@@ -174,7 +150,31 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01455D:Dawnguard.esm",
+      "FormKey": "0153AA:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0059C2:Dawnguard.esm",
+      "Radius": 364.13007,
+      "LightData": {
+        "FadeOffset": 2.1853132,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "0154B6:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "8186.7646, 10857.883, 2476.0146",
+        "Rotation": "0, 0, 0.70000607"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0153AC:Dawnguard.esm",
       "MajorRecordFlagsRaw": 196608,
       "SkyrimMajorRecordFlags": [
         "0x10000",
@@ -183,12 +183,12 @@
       "Base": "0059C2:Dawnguard.esm",
       "Radius": 667.0686,
       "LightData": {
-        "FadeOffset": 1.1111515,
+        "FadeOffset": 17.338652,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "7928.502, 11362.609, 2180.9604",
+        "Position": "8042.7646, 11449.883, 4140.0146",
         "Rotation": "0, 0, 0.70000607"
       }
     }

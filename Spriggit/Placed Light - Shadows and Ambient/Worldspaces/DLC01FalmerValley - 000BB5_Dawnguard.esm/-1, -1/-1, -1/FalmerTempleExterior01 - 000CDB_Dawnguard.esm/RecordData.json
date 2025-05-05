@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "-3, -3",
-    "Flags": "2014261504"
+    "Flags": "836588800"
   },
   "MaxHeightData": {
     "Offset": 3200.0,
@@ -52,34 +52,15 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "0029E5:Dawnguard.esm",
-    "01A880:Dawnguard.esm",
-    "0191D3:Dawnguard.esm",
+    "00A262:Dawnguard.esm",
     "018C4E:Dawnguard.esm",
-    "00A262:Dawnguard.esm"
+    "0191D3:Dawnguard.esm",
+    "01A880:Dawnguard.esm",
+    "0029E5:Dawnguard.esm"
   ],
   "Water": "00CE72:Dawnguard.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0195A3:Dawnguard.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0195A1:Dawnguard.esm",
-      "Radius": -665.02,
-      "LocationReference": "00A87C:Dawnguard.esm",
-      "EnableParent": {
-        "Reference": "002886:Dawnguard.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-10880, -9920, 9131.922"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0195A2:Dawnguard.esm",
@@ -100,6 +81,25 @@
       },
       "Placement": {
         "Position": "-11415.528, -10147.832, 8991.005"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0195A3:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0195A1:Dawnguard.esm",
+      "Radius": -665.02,
+      "LocationReference": "00A87C:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "002886:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-10880, -9920, 9131.922"
       }
     }
   ],
