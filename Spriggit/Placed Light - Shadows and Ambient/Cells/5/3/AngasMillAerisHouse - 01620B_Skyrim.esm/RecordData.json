@@ -88,20 +88,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5C49:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -311.99585,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "02004B:Skyrim.esm",
-      "Placement": {
-        "Position": "-1488.4517, -0.7739868, 144.01764"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E5C4A:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -233.05585,
@@ -126,6 +112,20 @@
       "LocationReference": "02004B:Skyrim.esm",
       "Placement": {
         "Position": "-1120.3242, -132.75409, 304.7489"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5C49:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -311.99585,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "02004B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1488.4517, -0.7739868, 144.01764"
       }
     }
   ],

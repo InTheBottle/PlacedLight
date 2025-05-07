@@ -5,8 +5,33 @@
   ],
   "Grid": {
     "Point": "28, -6",
-    "Flags": "836588544"
+    "Flags": "970787328"
   },
   "WaterHeight": 3.4028235E+38,
-  "ImageSpace": "0A2687:Skyrim.esm"
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E6599:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "FormVersion": 34,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 467.17346,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": 16.452446,
+        "FadeOffset": 24.907879,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "118768.12, -22914.695, 273.188"
+      }
+    }
+  ]
 }
