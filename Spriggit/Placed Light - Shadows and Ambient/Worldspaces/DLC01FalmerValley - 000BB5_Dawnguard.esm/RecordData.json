@@ -40,7 +40,7 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "836588800"
+      "Flags": "970787584"
     },
     "WaterHeight": 3.4028235E+38,
     "Regions": [
@@ -48,24 +48,6 @@
     ],
     "PersistentUnknownGroupData": 1,
     "Persistent": [
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "00505E:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073875968,
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "Dangerous_OffLimits_InteriorCell",
-          "0x40000000"
-        ],
-        "Base": "08824C:Skyrim.esm",
-        "Radius": -168.72134,
-        "LocationReference": "00A87C:Dawnguard.esm",
-        "Placement": {
-          "Position": "-8794.712, -9109.768, 8926.788",
-          "Rotation": "0, 0, 0.0071998467"
-        }
-      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "00D25A:Dawnguard.esm",
@@ -120,6 +102,24 @@
         "LocationReference": "00A87C:Dawnguard.esm",
         "Placement": {
           "Position": "-22422.568, -13285.49, 8931.317"
+        }
+      },
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00505E:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073875968,
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "Dangerous_OffLimits_InteriorCell",
+          "0x40000000"
+        ],
+        "Base": "08824C:Skyrim.esm",
+        "Radius": -168.72134,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-8794.712, -9109.768, 8926.788",
+          "Rotation": "0, 0, 0.0071998467"
         }
       }
     ],

@@ -56,16 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01688A:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -247.84323,
-      "LocationReference": "0209ED:Skyrim.esm",
-      "Placement": {
-        "Position": "227.53447, -22.016602, 213.4651"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0D65FE:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 121.34836,
@@ -76,6 +66,34 @@
       "LocationReference": "0209ED:Skyrim.esm",
       "Placement": {
         "Position": "-2800.161, -3208.4739, 1289.6533"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D65F8:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 589.7684,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "FovOffset": 17.23912,
+        "FadeOffset": -1.6843038,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0209ED:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2468.6812, -3196.9414, -30000",
+        "Rotation": "0, -1.5707964, 0"
       }
     },
     {
@@ -118,30 +136,12 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D65F8:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "02EDEC:Skyrim.esm",
-      "Radius": 589.7684,
-      "Emittance": "0703C2:Skyrim.esm",
-      "LightData": {
-        "FovOffset": 17.23912,
-        "FadeOffset": -1.6843038,
-        "ShadowDepthBias": 50.0
-      },
+      "FormKey": "01688A:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -247.84323,
       "LocationReference": "0209ED:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
       "Placement": {
-        "Position": "-2468.6812, -3196.9414, -30000",
-        "Rotation": "0, -1.5707964, 0"
+        "Position": "227.53447, -22.016602, 213.4651"
       }
     }
   ],

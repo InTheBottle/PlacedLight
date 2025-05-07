@@ -14,12 +14,13 @@
     "Value": "Torch"
   },
   "Time": 240,
-  "Radius": 512,
-  "Color": "#00F5984C",
+  "Radius": 1024,
+  "Color": "#008B470B",
   "Flags": [
     "Dynamic",
     "CanBeCarried",
-    "Flicker"
+    "Flicker",
+    "PortalStrict"
   ],
   "FalloffExponent": 1.0,
   "FOV": 90.0,
