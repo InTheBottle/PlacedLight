@@ -1,6 +1,11 @@
 {
   "FormKey": "0EF324:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FalkreathBarracksJail",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Falkreath Jail"
@@ -17,7 +22,6 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -29,7 +33,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -50,5 +53,8 @@
   "SkyAndWeatherFromRegion": "10474D:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "06D546:Skyrim.esm",
-  "ImageSpace": "059B60:Skyrim.esm"
+  "ImageSpace": "059B60:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

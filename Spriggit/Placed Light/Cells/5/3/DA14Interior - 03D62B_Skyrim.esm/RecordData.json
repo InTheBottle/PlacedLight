@@ -1,6 +1,11 @@
 {
   "FormKey": "03D62B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DA14Interior",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Misty Grove"
@@ -12,37 +17,36 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
     "DirectionalFade": 1.0,
-    "FogPower": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00213038",
-      "DirectionalXMinus": "#00213038",
-      "DirectionalYPlus": "#00213038",
-      "DirectionalYMinus": "#00213038",
-      "DirectionalZPlus": "#00213038",
-      "DirectionalZMinus": "#00213038",
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
       "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogMax"
     ]
   },
   "LightingTemplate": "0B9E23:Skyrim.esm",
-  "WaterHeight": 0.0,
+  "WaterHeight": -2.1474836E+09,
   "AcousticSpace": "0FECFB:Skyrim.esm",
   "Music": "0622AB:Skyrim.esm",
-  "ImageSpace": "0EB136:Skyrim.esm"
+  "ImageSpace": "0EB136:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

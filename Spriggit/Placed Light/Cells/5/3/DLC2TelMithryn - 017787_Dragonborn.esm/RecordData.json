@@ -1,6 +1,11 @@
 {
   "FormKey": "017787:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2TelMithryn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Tel Mithryn"
@@ -17,7 +22,6 @@
     "FogFar": 10000.0,
     "DirectionalRotationZ": 180,
     "FogClipDistance": 7000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -29,7 +33,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -49,5 +52,8 @@
   "AcousticSpace": "03974D:Dragonborn.esm",
   "EncounterZone": "01D751:Dragonborn.esm",
   "Music": "033917:Dragonborn.esm",
-  "ImageSpace": "000167:Skyrim.esm"
+  "ImageSpace": "000167:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

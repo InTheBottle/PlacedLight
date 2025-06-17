@@ -1,6 +1,11 @@
 {
   "FormKey": "017728:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2TelMithrynKitchen",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Tel Mithryn Kitchen"
@@ -13,9 +18,7 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
+    "FogFar": 2500.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,16 +30,13 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
-      "FogNear",
-      "FogFar",
       "FogPower",
-      "FogMax",
       "LightFadeDistances"
     ]
   },
@@ -47,5 +47,8 @@
   "AcousticSpace": "039751:Dragonborn.esm",
   "EncounterZone": "01D751:Dragonborn.esm",
   "Music": "033917:Dragonborn.esm",
-  "ImageSpace": "000167:Skyrim.esm"
+  "ImageSpace": "000167:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

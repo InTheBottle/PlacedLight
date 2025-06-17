@@ -1,6 +1,11 @@
 {
   "FormKey": "016BD3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenHonorhallOrphanage",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Honorhall Orphanage"
@@ -17,7 +22,6 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "FogClipDistance": 4000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -29,7 +33,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -48,5 +51,8 @@
   "Owner": "0A251A:Skyrim.esm",
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
-  "ImageSpace": "0B215C:Skyrim.esm"
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

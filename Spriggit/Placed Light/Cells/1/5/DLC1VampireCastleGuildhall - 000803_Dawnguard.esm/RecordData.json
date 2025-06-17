@@ -1,6 +1,11 @@
 {
   "FormKey": "000803:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1VampireCastleGuildhall",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Volkihar Keep"
@@ -16,7 +21,6 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -28,7 +32,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -46,5 +49,8 @@
   "Location": "00357D:Dawnguard.esm",
   "AcousticSpace": "00F695:Dawnguard.esm",
   "Music": "00EEB9:Dawnguard.esm",
-  "ImageSpace": "019964:Dawnguard.esm"
+  "ImageSpace": "019964:Dawnguard.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

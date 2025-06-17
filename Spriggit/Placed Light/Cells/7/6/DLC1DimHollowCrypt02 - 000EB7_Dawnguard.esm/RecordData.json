@@ -1,6 +1,11 @@
 {
   "FormKey": "000EB7:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1DimHollowCrypt02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Dimhollow Cavern"
@@ -18,7 +23,6 @@
     "FogFar": 10000.0,
     "DirectionalRotationZ": 90,
     "FogClipDistance": 100000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -30,7 +34,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -46,10 +49,13 @@
   "LightingTemplate": "006AE9:Dawnguard.esm",
   "WaterHeight": 0.0,
   "Location": "004EE8:Dawnguard.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\cavegreencube_e.dds",
   "SkyAndWeatherFromRegion": "09C487:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "004EE7:Dawnguard.esm",
   "Music": "05228A:Skyrim.esm",
-  "ImageSpace": "02EDEB:Skyrim.esm"
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

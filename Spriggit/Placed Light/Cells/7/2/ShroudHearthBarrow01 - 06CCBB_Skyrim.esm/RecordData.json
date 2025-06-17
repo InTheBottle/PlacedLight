@@ -1,6 +1,11 @@
 {
   "FormKey": "06CCBB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ShroudHearthBarrow01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Shroud Hearth Barrow"
@@ -14,10 +19,9 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogNear": 340.0,
+    "FogFar": 5000.0,
     "DirectionalRotationZ": 90,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -29,16 +33,11 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
-      "FogColor",
       "FogNear",
       "FogFar",
-      "FogPower",
-      "FogMax",
       "LightFadeDistances"
     ]
   },
@@ -50,5 +49,8 @@
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "06CCC7:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
-  "ImageSpace": "09F363:Skyrim.esm"
+  "ImageSpace": "09F363:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

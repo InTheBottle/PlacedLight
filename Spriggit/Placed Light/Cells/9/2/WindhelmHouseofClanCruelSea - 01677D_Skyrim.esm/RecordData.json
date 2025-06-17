@@ -1,6 +1,11 @@
 {
   "FormKey": "01677D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WindhelmHouseofClanCruelSea",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "House of Clan Cruel-Sea"
@@ -15,7 +20,6 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "DirectionalRotationZ": 90,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -46,5 +49,8 @@
   "Owner": "045F62:Skyrim.esm",
   "LockList": "09C86B:Skyrim.esm",
   "AcousticSpace": "0C5B6B:Skyrim.esm",
-  "Music": "02C3CA:Skyrim.esm"
+  "Music": "02C3CA:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

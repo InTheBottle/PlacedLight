@@ -1,6 +1,11 @@
 {
   "FormKey": "01521B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "Icerunner01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Icerunner"
@@ -13,10 +18,8 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogFar": 3000.0,
     "FogClipDistance": 3000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -28,25 +31,21 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
-      "FogColor",
-      "FogNear",
-      "FogFar",
-      "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "DirectionalColor"
     ]
   },
   "LightingTemplate": "0300E2:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01929E:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\Ore_Ebony_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\ore_ebony_e.dds",
   "AcousticSpace": "0D78B3:Skyrim.esm",
   "EncounterZone": "03EC66:Skyrim.esm",
   "Music": "0B9DCE:Skyrim.esm",
-  "ImageSpace": "0A0328:Skyrim.esm"
+  "ImageSpace": "0A0328:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

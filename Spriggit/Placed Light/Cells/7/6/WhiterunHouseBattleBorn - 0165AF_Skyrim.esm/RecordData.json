@@ -1,6 +1,11 @@
 {
   "FormKey": "0165AF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunHouseBattleBorn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "House of Clan Battle-Born"
@@ -15,7 +20,6 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -48,5 +51,8 @@
   "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
   "AcousticSpace": "0C5D0A:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
-  "ImageSpace": "036ED2:Skyrim.esm"
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }
