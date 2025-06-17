@@ -1,6 +1,11 @@
 {
   "FormKey": "02D3E8:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "GoldenglowEstate02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Goldenglow Estate Second Floor"
@@ -16,7 +21,6 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "DirectionalFade": 1.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -28,7 +32,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -48,5 +51,8 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "EncounterZone": "03EC2B:Skyrim.esm",
   "Music": "06D546:Skyrim.esm",
-  "ImageSpace": "0A2687:Skyrim.esm"
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

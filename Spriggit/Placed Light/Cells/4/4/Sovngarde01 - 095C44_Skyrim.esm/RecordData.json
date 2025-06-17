@@ -1,8 +1,10 @@
 {
   "FormKey": "095C44:Skyrim.esm",
-  "MajorRecordFlagsRaw": 524288,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 786432,
   "EditorID": "Sovngarde01",
   "SkyrimMajorRecordFlags": [
+    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -22,19 +24,17 @@
     "DirectionalRotationZ": 300,
     "DirectionalFade": 1.0,
     "FogClipDistance": 15000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00647D82",
-      "DirectionalXMinus": "#00647D82",
-      "DirectionalYPlus": "#00647D82",
-      "DirectionalYMinus": "#00647D82",
-      "DirectionalZPlus": "#00647D82",
-      "DirectionalZMinus": "#00647D82",
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -55,6 +55,7 @@
   "Music": "01714A:Skyrim.esm",
   "ImageSpace": "0C82AC:Skyrim.esm",
   "MajorFlags": [
+    "0x40000",
     "CantWait"
   ]
 }

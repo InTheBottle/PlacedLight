@@ -1,6 +1,11 @@
 {
   "FormKey": "016DFE:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MarkarthSilverBloodInn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Silver-Blood Inn"
@@ -13,12 +18,10 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogFar": 4000.0,
     "DirectionalRotationZ": 90,
     "DirectionalFade": 1.0,
     "FogClipDistance": 4000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -30,24 +33,21 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
-      "FogColor",
-      "FogNear",
-      "FogFar",
-      "FogPower",
-      "FogMax",
+      "DirectionalColor",
       "LightFadeDistances"
     ]
   },
   "LightingTemplate": "09F281:Skyrim.esm",
-  "WaterHeight": 0.0,
+  "WaterHeight": -2.1474836E+09,
   "Location": "01F30E:Skyrim.esm",
   "Owner": "06566F:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "017035:Skyrim.esm",
-  "ImageSpace": "09F282:Skyrim.esm"
+  "ImageSpace": "09F282:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

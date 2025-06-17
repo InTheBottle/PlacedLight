@@ -1,6 +1,11 @@
 {
   "FormKey": "0161F3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MerryfairFarm",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Merryfair Farm"
@@ -15,7 +20,6 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "DirectionalRotationZ": 30,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -47,5 +50,8 @@
   "LockList": "06BBB4:Skyrim.esm",
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "06D546:Skyrim.esm",
-  "ImageSpace": "0B215C:Skyrim.esm"
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

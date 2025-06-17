@@ -1,6 +1,11 @@
 {
   "FormKey": "0371DE:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BleakFallsBarrow01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Bleak Falls Temple"
@@ -19,7 +24,6 @@
     "DirectionalRotationXY": 270,
     "DirectionalRotationZ": 240,
     "FogClipDistance": 12000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -31,7 +35,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -51,5 +54,8 @@
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "038AB1:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
-  "ImageSpace": "02EDEB:Skyrim.esm"
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

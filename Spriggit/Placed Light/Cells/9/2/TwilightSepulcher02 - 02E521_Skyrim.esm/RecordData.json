@@ -1,6 +1,11 @@
 {
   "FormKey": "02E521:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "TwilightSepulcher02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Twilight Sepulcher Inner Sanctum"
@@ -12,10 +17,8 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogFar": 2500.0,
     "DirectionalRotationZ": 90,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,24 +30,23 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
-      "FogColor",
       "FogNear",
-      "FogFar",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
   },
   "LightingTemplate": "068EC9:Skyrim.esm",
-  "WaterHeight": 0.0,
+  "WaterHeight": -2.1474836E+09,
   "Location": "01914B:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "EncounterZone": "03EBF3:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
-  "ImageSpace": "0EB136:Skyrim.esm"
+  "ImageSpace": "0EB136:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

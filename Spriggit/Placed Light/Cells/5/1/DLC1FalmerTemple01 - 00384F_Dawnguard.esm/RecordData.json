@@ -1,6 +1,11 @@
 {
   "FormKey": "00384F:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1FalmerTemple01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Inner Sanctum"
@@ -13,12 +18,10 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogFar": 3400.0,
     "DirectionalRotationZ": 90,
     "DirectionalFade": 0.5,
     "FogClipDistance": 13000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -30,15 +33,9 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
-      "FogColor",
-      "FogNear",
-      "FogFar",
-      "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
@@ -49,5 +46,8 @@
   "SkyAndWeatherFromRegion": "0029E5:Dawnguard.esm",
   "AcousticSpace": "02B3AE:Skyrim.esm",
   "EncounterZone": "01379D:Dawnguard.esm",
-  "Music": "00EF94:Dawnguard.esm"
+  "Music": "00EF94:Dawnguard.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

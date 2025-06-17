@@ -1,8 +1,10 @@
 {
   "FormKey": "05DE24:Skyrim.esm",
-  "MajorRecordFlagsRaw": 524288,
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 786432,
   "EditorID": "HelgenKeep01",
   "SkyrimMajorRecordFlags": [
+    "Compressed",
     "CantWait"
   ],
   "Name": {
@@ -18,10 +20,9 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogNear": 750.0,
+    "FogFar": 6000.0,
     "DirectionalFade": 1.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -33,17 +34,16 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
       "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogMax"
     ]
   },
   "LightingTemplate": "0B7DB8:Skyrim.esm",
@@ -55,6 +55,7 @@
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "0B7ED9:Skyrim.esm",
   "MajorFlags": [
+    "0x40000",
     "CantWait"
   ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "0165A6:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "WhiterunUnderforge",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "The Underforge"
@@ -15,19 +20,17 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00372F24",
-      "DirectionalXMinus": "#00372F24",
-      "DirectionalYPlus": "#00372F24",
-      "DirectionalYMinus": "#00372F24",
-      "DirectionalZPlus": "#00372F24",
-      "DirectionalZMinus": "#00372F24",
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -46,5 +49,8 @@
   "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
   "AcousticSpace": "01989F:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
-  "ImageSpace": "036ED2:Skyrim.esm"
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

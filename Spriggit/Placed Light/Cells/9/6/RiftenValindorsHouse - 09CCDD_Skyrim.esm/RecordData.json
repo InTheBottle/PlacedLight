@@ -1,6 +1,11 @@
 {
   "FormKey": "09CCDD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "RiftenValindorsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Valindor's House"
@@ -12,10 +17,7 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
     "DirectionalRotationZ": 30,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,17 +29,15 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
       "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogMax"
     ]
   },
   "LightingTemplate": "05C735:Skyrim.esm",
@@ -46,5 +46,8 @@
   "Owner": "01337F:Skyrim.esm",
   "LockList": "01337F:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
-  "Music": "02C3CA:Skyrim.esm"
+  "Music": "02C3CA:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

@@ -1,6 +1,11 @@
 {
   "FormKey": "016A04:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SolitudeBluePalace",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Blue Palace"
@@ -17,19 +22,17 @@
     "FogFar": 10000.0,
     "DirectionalRotationZ": 90,
     "FogClipDistance": 5000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00646464",
-      "DirectionalXMinus": "#00646464",
-      "DirectionalYPlus": "#00646464",
-      "DirectionalYMinus": "#00646464",
-      "DirectionalZPlus": "#00646464",
-      "DirectionalZMinus": "#00646464",
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -48,5 +51,8 @@
   "Owner": "0C13D0:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "Music": "06D542:Skyrim.esm",
-  "ImageSpace": "0E461F:Skyrim.esm"
+  "ImageSpace": "0E461F:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

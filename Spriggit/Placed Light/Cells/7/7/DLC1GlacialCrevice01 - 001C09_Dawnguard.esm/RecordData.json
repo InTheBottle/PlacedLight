@@ -1,6 +1,11 @@
 {
   "FormKey": "001C09:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1GlacialCrevice01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Glacial Crevice"
@@ -14,29 +19,24 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
+    "FogFar": 17000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00283E58",
-      "DirectionalXMinus": "#00283E58",
-      "DirectionalYPlus": "#00283E58",
-      "DirectionalYMinus": "#00283E58",
-      "DirectionalZPlus": "#00283E58",
-      "DirectionalZMinus": "#00283E58",
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
-      "FogNear",
-      "FogFar",
-      "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
@@ -50,5 +50,8 @@
   "AcousticSpace": "0FD942:Skyrim.esm",
   "EncounterZone": "0162AE:Dawnguard.esm",
   "Music": "05228A:Skyrim.esm",
-  "ImageSpace": "0F1CB8:Skyrim.esm"
+  "ImageSpace": "0F1CB8:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

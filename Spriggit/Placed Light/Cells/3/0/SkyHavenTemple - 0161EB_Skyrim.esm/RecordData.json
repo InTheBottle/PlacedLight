@@ -1,6 +1,11 @@
 {
   "FormKey": "0161EB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SkyHavenTemple",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Sky Haven Temple"
@@ -14,11 +19,9 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogFar": 8500.0,
     "DirectionalRotationZ": 90,
     "FogClipDistance": 12000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -30,17 +33,14 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
-      "FogFar",
-      "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogFar"
     ]
   },
   "WaterHeight": 0.0,
@@ -48,5 +48,8 @@
   "Owner": "072834:Skyrim.esm",
   "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
   "AcousticSpace": "0FD942:Skyrim.esm",
-  "ImageSpace": "0614E1:Skyrim.esm"
+  "ImageSpace": "0614E1:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

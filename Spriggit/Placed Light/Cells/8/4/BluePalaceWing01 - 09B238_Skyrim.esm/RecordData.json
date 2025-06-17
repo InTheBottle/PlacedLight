@@ -1,6 +1,11 @@
 {
   "FormKey": "09B238:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "BluePalaceWing01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Pelagius Wing"
@@ -15,7 +20,6 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "FogClipDistance": 6000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -46,5 +49,8 @@
   "AcousticSpace": "0C5B6D:Skyrim.esm",
   "EncounterZone": "03EBF4:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
-  "ImageSpace": "02EDEB:Skyrim.esm"
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

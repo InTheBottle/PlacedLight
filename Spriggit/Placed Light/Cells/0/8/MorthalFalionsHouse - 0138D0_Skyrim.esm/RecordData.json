@@ -1,6 +1,11 @@
 {
   "FormKey": "0138D0:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "MorthalFalionsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Falion's House"
@@ -15,7 +20,6 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -27,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -47,5 +50,8 @@
   "SkyAndWeatherFromRegion": "0C5855:Skyrim.esm",
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "0B9DCE:Skyrim.esm",
-  "ImageSpace": "059B60:Skyrim.esm"
+  "ImageSpace": "059B60:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

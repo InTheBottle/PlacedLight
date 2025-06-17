@@ -1,6 +1,11 @@
 {
   "FormKey": "018277:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RRIenthFarm",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Ienth Farm"
@@ -12,9 +17,6 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -26,11 +28,10 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
@@ -45,5 +46,8 @@
   "Owner": "018426:Dragonborn.esm",
   "LockList": "01845D:Dragonborn.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
-  "Music": "033917:Dragonborn.esm"
+  "Music": "033917:Dragonborn.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }
