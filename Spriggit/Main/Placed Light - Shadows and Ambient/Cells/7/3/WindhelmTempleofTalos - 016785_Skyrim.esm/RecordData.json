@@ -1,0 +1,122 @@
+{
+  "FormKey": "016785:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WindhelmTempleofTalos",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Temple of Talos"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#003C3228",
+      "DirectionalXMinus": "#0032281E",
+      "DirectionalYPlus": "#003C3228",
+      "DirectionalYMinus": "#0032281E",
+      "DirectionalZPlus": "#0032281E",
+      "DirectionalZMinus": "#003C3228",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0C3D39:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209F6:Skyrim.esm",
+  "Owner": "045F61:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0703C2:Skyrim.esm",
+  "AcousticSpace": "0FF495:Skyrim.esm",
+  "Music": "01BA72:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D1861:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0D1878:Skyrim.esm",
+      "Radius": 945.28345,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.9633021,
+        "ShadowDepthBias": 32.42212
+      },
+      "LocationReference": "0209F6:Skyrim.esm",
+      "Placement": {
+        "Position": "-16, -2160, 1072",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D1860:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 728.7914,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 9.020273,
+        "ShadowDepthBias": 30.367332
+      },
+      "LocationReference": "0209F6:Skyrim.esm",
+      "Placement": {
+        "Position": "15.265123, -3166.3345, 1069.3342",
+        "Rotation": "3.1415927, -1.5707964, 3.0416043"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D185E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "05C677:Skyrim.esm",
+      "Radius": 153.70392,
+      "LightData": {
+        "FadeOffset": 2.790452,
+        "ShadowDepthBias": 8.713089
+      },
+      "LocationReference": "0209F6:Skyrim.esm",
+      "Placement": {
+        "Position": "0, -3072, 192"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

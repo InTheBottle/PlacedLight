@@ -1,0 +1,106 @@
+{
+  "FormKey": "005EAA:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC1RedwaterDen02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Redwater Spring"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0E7C5E:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "004D6F:Dawnguard.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "007779:Dawnguard.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "006100:Dawnguard.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 229.48285,
+      "LightData": {
+        "FadeOffset": 0.49777317,
+        "ShadowDepthBias": 21.442116
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "2848, -3936, 6208.1235",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0062C8:Dawnguard.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 378.40753,
+      "LightData": {
+        "FadeOffset": 2.0094995,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "5617.154, 1304.9246, 6775.1357",
+        "Rotation": "3.1415927, -1.5664018, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0061CA:Dawnguard.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 736.7173,
+      "LightData": {
+        "FadeOffset": 0.6530211,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "4382.6763, -1807.2916, 6700.235",
+        "Rotation": "3.1415927, -1.1165963, 3.1415927"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

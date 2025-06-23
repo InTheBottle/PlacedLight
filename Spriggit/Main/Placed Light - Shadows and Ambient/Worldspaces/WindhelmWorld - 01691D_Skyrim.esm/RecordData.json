@@ -1,0 +1,29 @@
+{
+  "FormKey": "01691D:Skyrim.esm",
+  "EditorID": "WindhelmWorld",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Windhelm"
+  },
+  "Location": "018A57:Skyrim.esm",
+  "Parent": {
+    "Worldspace": "00003C:Skyrim.esm",
+    "Flags": [
+      "UseLandData",
+      "UseLodData",
+      "UseMapData",
+      "UseWaterData",
+      "UseClimateData",
+      "UseSkyCell"
+    ]
+  },
+  "WorldMapOffsetScale": 1.0,
+  "DistantLodMultiplier": 0.25,
+  "Flags": [
+    "SmallWorld"
+  ],
+  "ObjectBoundsMin": "-1, -1",
+  "ObjectBoundsMax": "37, 27",
+  "Music": "02C3CA:Skyrim.esm",
+  "SubCellsUnknown": 1028
+}

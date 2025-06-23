@@ -1,0 +1,75 @@
+{
+  "FormKey": "09CCDF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "RiftenRomlynDrethsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Romlyn Dreth's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 30,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "05C735:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "09CD0F:Skyrim.esm",
+  "Owner": "0F18F6:Skyrim.esm",
+  "LockList": "013377:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0398CE:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": 626.1072,
+      "LightData": {
+        "FadeOffset": 4.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "09CD0F:Skyrim.esm",
+      "Placement": {
+        "Position": "2663.0872, 3325.7173, 208"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

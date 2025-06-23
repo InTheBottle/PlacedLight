@@ -1,0 +1,106 @@
+{
+  "FormKey": "016A07:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "SolitudeVittoriaVicisHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Vittoria Vici's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogClipDistance": 5000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06AB01:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "020096:Skyrim.esm",
+  "Owner": "01327A:Skyrim.esm",
+  "LockList": "01327A:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "04E666:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "057A44:Skyrim.esm",
+      "Base": "057A6B:Skyrim.esm",
+      "Emittance": "04D7FD:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.99172306,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020096:Skyrim.esm",
+      "Placement": {
+        "Position": "16, -1072, 416"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0E97:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": -32.05945,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "FadeOffset": 7.2436876,
+        "ShadowDepthBias": 15.152809
+      },
+      "LocationReference": "020096:Skyrim.esm",
+      "Placement": {
+        "Position": "-774.5495, -826.8557, 47.131218",
+        "Rotation": "-2.642119, -1.5707964, 5.77704"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10FA78:Skyrim.esm",
+      "Base": "0625E0:Skyrim.esm",
+      "Radius": 227.76682,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 21.385796
+      },
+      "LocationReference": "020096:Skyrim.esm",
+      "Placement": {
+        "Position": "-176.08145, -104.769035, 286.80066"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

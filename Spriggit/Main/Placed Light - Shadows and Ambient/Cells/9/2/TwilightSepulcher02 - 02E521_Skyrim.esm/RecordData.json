@@ -1,0 +1,149 @@
+{
+  "FormKey": "02E521:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "TwilightSepulcher02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Twilight Sepulcher Inner Sanctum"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "068EC9:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01914B:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBF3:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0EB136:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10389F:Skyrim.esm",
+      "Base": "10389E:Skyrim.esm",
+      "Radius": 342.29272,
+      "LightData": {
+        "FadeOffset": -3.7650557,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01914B:Skyrim.esm",
+      "Placement": {
+        "Position": "1204.5289, -622.2088, -1445.0088",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0804B0:Skyrim.esm",
+      "Base": "10389D:Skyrim.esm",
+      "Radius": -133.14404,
+      "LightData": {
+        "FadeOffset": -3.9314327,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01914B:Skyrim.esm",
+      "Placement": {
+        "Position": "1218.0437, -677.95, -1385.8986",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E137A:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 101.67169,
+      "LightData": {
+        "FadeOffset": -0.21913207,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01914B:Skyrim.esm",
+      "Placement": {
+        "Position": "1088, -592, -896",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10389A:Skyrim.esm",
+      "Base": "10389E:Skyrim.esm",
+      "Radius": -0.01890564,
+      "LightData": {
+        "FadeOffset": 2.4792647,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01914B:Skyrim.esm",
+      "Placement": {
+        "Position": "1214.209, -593.57684, -1292.6973",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E83CE:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.7347934,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01914B:Skyrim.esm",
+      "Placement": {
+        "Position": "202.96257, -4442.0615, 157.50565"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A346E:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 235.63065,
+      "LightData": {
+        "FadeOffset": 3.596273,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01914B:Skyrim.esm",
+      "Placement": {
+        "Position": "1216, -640, 960",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

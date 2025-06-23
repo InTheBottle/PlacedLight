@@ -1,0 +1,95 @@
+{
+  "FormKey": "007065:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC1TestCellRJ",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "DLC1LD Quest Holding Cell"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0300E2:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "SkyAndWeatherFromRegion": "0C5855:Skyrim.esm",
+  "Music": "01BA72:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "007B0A:Dawnguard.esm",
+      "Base": "0059C2:Dawnguard.esm",
+      "Radius": 678.1315,
+      "Placement": {
+        "Position": "4314.3545, 838.1279, 476.52902"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00E373:Dawnguard.esm",
+      "Base": "02EDED:Skyrim.esm",
+      "Radius": 48.478424,
+      "LightData": {
+        "FadeOffset": 0.5812535,
+        "ShadowDepthBias": 10.761856
+      },
+      "Placement": {
+        "Position": "8240, 1088, 2864"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00E36F:Dawnguard.esm",
+      "Base": "02EDED:Skyrim.esm",
+      "Radius": 636.1276,
+      "LightData": {
+        "FadeOffset": 0.11534011,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "8128, 1280, 2832"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

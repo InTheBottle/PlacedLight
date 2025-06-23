@@ -1,0 +1,76 @@
+{
+  "FormKey": "035A22:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC2MoesringPass01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Strange Vessel"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00383F23",
+      "DirectionalXMinus": "#00383F23",
+      "DirectionalYPlus": "#00383F23",
+      "DirectionalYMinus": "#00383F23",
+      "DirectionalZPlus": "#00383F23",
+      "DirectionalZMinus": "#00383F23",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "08810C:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0142DA:Dragonborn.esm",
+  "AcousticSpace": "0D78B3:Skyrim.esm",
+  "EncounterZone": "0142DB:Dragonborn.esm",
+  "Music": "01BA72:Skyrim.esm",
+  "ImageSpace": "089770:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "035A4A:Dragonborn.esm",
+      "Base": "0879AD:Skyrim.esm",
+      "Radius": 718.06494,
+      "LightData": {
+        "FadeOffset": 0.933287,
+        "ShadowDepthBias": 30.250534
+      },
+      "LocationReference": "0142DA:Dragonborn.esm",
+      "Placement": {
+        "Position": "3941.6958, 2918.5159, 6532.1562",
+        "Rotation": "0, 0, 0.57500184"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "FormKey": "09B238:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "BluePalaceWing01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Pelagius Wing"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogClipDistance": 6000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128C:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01914A:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "EncounterZone": "03EBF4:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E4637:Skyrim.esm",
+      "Base": "057A6B:Skyrim.esm",
+      "Radius": 201.71643,
+      "LocationReference": "01914A:Skyrim.esm",
+      "Placement": {
+        "Position": "7630.3726, 852.6167, 4567.9204",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09BD1E:Skyrim.esm",
+      "Base": "057A6B:Skyrim.esm",
+      "Radius": 201.71643,
+      "LocationReference": "01914A:Skyrim.esm",
+      "Placement": {
+        "Position": "7661.86, 1977.9551, 4528",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E4636:Skyrim.esm",
+      "Base": "057A6B:Skyrim.esm",
+      "Radius": 201.71643,
+      "LocationReference": "01914A:Skyrim.esm",
+      "Placement": {
+        "Position": "7640.7266, 1352.3291, 4567.9204",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E4635:Skyrim.esm",
+      "Base": "057A6B:Skyrim.esm",
+      "Radius": 201.71643,
+      "LocationReference": "01914A:Skyrim.esm",
+      "Placement": {
+        "Position": "7680, 2544, 4528",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
