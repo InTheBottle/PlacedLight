@@ -3,19 +3,21 @@
     "models": ["medieval lanterns\\medieval_lantern_falkreath.nif"],
     "lights": [
       {
-        "points": [[0.0, 0.0, 5.0]],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 100.0,
           "fade": 1.5,
-          "flags": "IgnoreScale"
+          "flags": "IgnoreScale",
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 0 AND"
+          ]
         }
       }
     ]
   },
   {
     "models": [
-      "clutter\\common\\candlelanternwithcandle01.nif",
       "mlos\\mlos_lantern_01.nif",
       "mlos\\mlos_lantern_02.nif",
       "mlos\\mlos_lantern_02b.nif",
@@ -61,12 +63,15 @@
     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 5.0]],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 100.0,
           "fade": 1.5,
-          "flags": "IgnoreScale"
+          "flags": "IgnoreScale",
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 0 AND"
+          ]
         }
       }
     ]
@@ -96,13 +101,19 @@
           "fade": 5.0,
           "shadowDepthBias": 0.0,
           "rotation": [0.0, 180.0, 180.0],
-          "flags": "Shadow|IgnoreScale"
+          "flags": "Shadow|IgnoreScale",
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 0 AND"
+          ]
         }
       }
     ]
   },
   {
-    "models": ["smim\\moveablelantern_smim.nif"],
+    "models": [
+      "smim\\moveablelantern_smim.nif",
+      "clutter\\common\\candlelanternwithcandle01.nif"
+    ],
     "lights": [
       {
         "nodes": ["CandleFlameSm", "CandleFlameLg"],
@@ -110,14 +121,16 @@
           "light": "PL_Candle",
           "radius": 100.0,
           "fade": 1.5,
-          "flags": "IgnoreScale"
+          "flags": "IgnoreScale",
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 0 AND"
+          ]
         }
       }
     ]
   },
   {
     "models": [
-      "clutter\\common\\candlelanternwithcandle01.nif",
       "sialivi\\movablelantern08a.nif",
       "sialivi\\movablelantern09a.nif",
       "sialivi\\movablelantern10a.nif",
@@ -126,12 +139,15 @@
     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 5.0]],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 100.0,
           "fade": 1.5,
-          "flags": "IgnoreScale"
+          "flags": "IgnoreScale",
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 0 AND"
+          ]
         }
       }
     ]
