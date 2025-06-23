@@ -6,19 +6,19 @@ IF exist "dist" (
 
 xcopy /s /d /i /EXCLUDE:exclusions.txt package dist
 
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Even Brighter" -o "dist\PL - Even Brighter.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Bright" -o "dist\PL - Bright.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Dark" -o "dist\PL - Dark.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Default" -o "dist\PL - Default.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Nightmare" -o "dist\PL - Nightmare.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL - Fixed Vanilla -o "dist\PL - Fixed Vanilla.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Even Brighter" -o "dist\Templates\PL - Even Brighter.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Bright" -o "dist\Templates\Templates\PL - Bright.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Dark" -o "dist\Templates\Templates\Templates\PL - Dark.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Default" -o "dist\Templates\Templates\Templates\Templates\PL - Default.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Nightmare" -o "dist\Templates\Templates\Templates\Templates\Templates\PL - Nightmare.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Fixed Vanilla -o "dist\Templates\Templates\Templates\Templates\Templates\Templates\PL - Fixed Vanilla.esp"
 
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light" -o "dist\Placed Light.esm"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light Exteriors" -o "dist\Placed Light Exteriors.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Placed Light - Shadows and Ambient" -o "dist\Placed Light - Shadows and Ambient.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\HDR - Interiors" -o "dist\HDR - Interiors.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL Bulbs" -o "dist\PL Bulbs.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\PL Bulbs ISL" -o "dist\PL Bulbs ISL.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light" -o "dist\Main\Placed Light.esm"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light Exteriors" -o "dist\Main\Placed Light Exteriors.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light - Shadows and Ambient" -o "dist\Main\Placed Light - Shadows and Ambient.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\HDR - Interiors" -o "dist\Main\HDR - Interiors.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\PL Bulbs" -o "dist\Main\PL Bulbs.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\PL Bulbs ISL" -o "dist\Main\PL Bulbs ISL.esp"
 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\NOTWL - Lanterns" -o "dist\Misc Patches\NOTWL - Lanterns.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - Creation Club" -o "dist\Misc Patches\Placed Light - Creation Club.esp"
