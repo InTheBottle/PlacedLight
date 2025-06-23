@@ -11,7 +11,7 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Bright" -o 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Dark" -o "dist\Templates\PL - Dark.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Default" -o "dist\Templates\PL - Default.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Nightmare" -o "dist\Templates\PL - Nightmare.esp"
-SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Fixed Vanilla -o "dist\Templates\PL - Fixed Vanilla.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Fixed Vanilla" -o "dist\Templates\PL - Fixed Vanilla.esp"
 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light" -o "dist\Main\Placed Light.esm"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light Exteriors" -o "dist\Main\Placed Light Exteriors.esp"
