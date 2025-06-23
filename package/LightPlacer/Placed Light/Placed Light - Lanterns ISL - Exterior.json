@@ -9,9 +9,7 @@
           "fade": 1.0,
           "cutoff": 0.1,
           "flags": "InverseSquare|IgnoreScale",
-          "conditions": [
-            "Self GetInWorldspace Tamriel NONE == 1 AND"
-          ]
+          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
         }
       }
     ]
@@ -69,9 +67,7 @@
           "fade": 1.0,
           "cutoff": 0.1,
           "flags": "InverseSquare|IgnoreScale",
-          "conditions": [
-            "Self GetInWorldspace Tamriel NONE == 1 AND"
-          ]
+          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
         }
       }
     ]
@@ -102,9 +98,7 @@
           "rotation": [0.0, 180.0, 180.0],
           "cutoff": 0.1,
           "flags": "InverseSquare|Shadow|IgnoreScale",
-          "conditions": [
-            "Self GetInWorldspace Tamriel NONE == 1 AND"
-          ]
+          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
         }
       }
     ]
@@ -113,7 +107,7 @@
     "models": [
       "smim\\moveablelantern_smim.nif",
       "clutter\\common\\candlelanternwithcandle01.nif"
-  ],
+    ],
     "lights": [
       {
         "nodes": ["CandleFlameSm", "CandleFlameLg"],
@@ -143,9 +137,7 @@
           "fade": 1.0,
           "cutoff": 0.1,
           "flags": "InverseSquare|IgnoreScale",
-          "conditions": [
-            "Self GetInWorldspace Tamriel NONE == 1 AND"
-          ]
+          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
         }
       }
     ]
