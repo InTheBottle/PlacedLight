@@ -1,0 +1,121 @@
+{
+  "FormKey": "04624F:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "KilkreathRuins02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Kilkreath Ruins"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00283E58",
+      "DirectionalXMinus": "#00283E58",
+      "DirectionalYPlus": "#00283E58",
+      "DirectionalYMinus": "#00283E58",
+      "DirectionalZPlus": "#00283E58",
+      "DirectionalZMinus": "#00283E58",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01952F:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019260:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC3F:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069593:Skyrim.esm",
+      "Base": "0194F4:Skyrim.esm",
+      "Radius": 55.48636,
+      "LightData": {
+        "FadeOffset": 1.0154774,
+        "ShadowDepthBias": 30.717087
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "-441.7228, 2625.2432, 2188.2021",
+        "Rotation": "3.1415927, 1.101594, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069574:Skyrim.esm",
+      "Base": "01950D:Skyrim.esm",
+      "Radius": 19.802124,
+      "LightData": {
+        "FadeOffset": 1.9544036,
+        "ShadowDepthBias": 6.1246796
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "-1243.7438, 1108.9614, 1751.7456",
+        "Rotation": "1.4399998, 0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069571:Skyrim.esm",
+      "Base": "01950D:Skyrim.esm",
+      "Radius": 19.802124,
+      "LightData": {
+        "FadeOffset": 1.9544036,
+        "ShadowDepthBias": 6.1246796
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "532.4164, 1108.9614, 1751.7456",
+        "Rotation": "1.4399998, 0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069557:Skyrim.esm",
+      "Base": "0194F4:Skyrim.esm",
+      "Radius": 237.42789,
+      "LightData": {
+        "FadeOffset": 0.7388345,
+        "ShadowDepthBias": 21.697823
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "1927.4696, 1689.2849, 1818.2716"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

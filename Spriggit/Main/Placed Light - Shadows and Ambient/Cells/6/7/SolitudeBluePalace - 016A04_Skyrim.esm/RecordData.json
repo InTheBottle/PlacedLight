@@ -1,0 +1,94 @@
+{
+  "FormKey": "016A04:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "SolitudeBluePalace",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Blue Palace"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 5000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00646464",
+      "DirectionalXMinus": "#00646464",
+      "DirectionalYPlus": "#00646464",
+      "DirectionalYMinus": "#00646464",
+      "DirectionalZPlus": "#00646464",
+      "DirectionalZMinus": "#00646464",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06AB01:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "020086:Skyrim.esm",
+  "Owner": "0C13D0:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "06D542:Skyrim.esm",
+  "ImageSpace": "0E461F:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "016236:Skyrim.esm",
+      "Base": "0A56AE:Skyrim.esm",
+      "Radius": 256.94757,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020086:Skyrim.esm",
+      "Placement": {
+        "Position": "-1181.9148, 21.436644, 786.96045"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CC211:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": -90.30188,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "FadeOffset": 7.0,
+        "ShadowDepthBias": 9.313522
+      },
+      "LocationReference": "020086:Skyrim.esm",
+      "Placement": {
+        "Position": "-2788.1348, -244.14934, 396.9942",
+        "Rotation": "-1.8836664, -1.5707964, 5.0265484"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "FormKey": "015220:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "Saarthal01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Saarthal Excavation"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0E7C5E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019299:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC61:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08997D:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 232.4036,
+      "LightData": {
+        "FadeOffset": 1.71612,
+        "ShadowDepthBias": 21.537064
+      },
+      "LocationReference": "019299:Skyrim.esm",
+      "Placement": {
+        "Position": "19.035698, 4861.6943, -73.98451"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "089903:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 159.70523,
+      "LightData": {
+        "FadeOffset": 1.0999067,
+        "ShadowDepthBias": 18.759762
+      },
+      "LocationReference": "019299:Skyrim.esm",
+      "Placement": {
+        "Position": "2305.4866, -16.258257, 896.5998"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

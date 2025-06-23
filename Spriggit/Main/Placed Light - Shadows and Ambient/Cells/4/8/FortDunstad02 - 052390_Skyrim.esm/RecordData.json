@@ -1,0 +1,90 @@
+{
+  "FormKey": "052390:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "FortDunstad02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Dunstad Prison"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06909B:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917E:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1C:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069109:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 666.1857,
+      "LightData": {
+        "FadeOffset": 0.9706489,
+        "ShadowDepthBias": 29.660446
+      },
+      "LocationReference": "01917E:Skyrim.esm",
+      "Placement": {
+        "Position": "277.69547, 216.39003, 2029.4183"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069111:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 330.4624,
+      "LightData": {
+        "FadeOffset": 1.1904702,
+        "ShadowDepthBias": 24.209862
+      },
+      "LocationReference": "01917E:Skyrim.esm",
+      "Placement": {
+        "Position": "-1895.904, -1411.478, 2809.2007"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

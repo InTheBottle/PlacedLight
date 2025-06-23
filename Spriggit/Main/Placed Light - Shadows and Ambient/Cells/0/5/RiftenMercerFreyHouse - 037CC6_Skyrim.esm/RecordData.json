@@ -1,0 +1,94 @@
+{
+  "FormKey": "037CC6:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 917504,
+  "EditorID": "RiftenMercerFreyHouse",
+  "SkyrimMajorRecordFlags": [
+    "Dangerous_OffLimits_InteriorCell",
+    "Compressed",
+    "CantWait"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Riftweald Manor"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 4000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0B2157:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01706E:Skyrim.esm",
+  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\cavegreencube_e.dds",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D5F9:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 255.01263,
+      "LightData": {
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01706E:Skyrim.esm",
+      "Placement": {
+        "Position": "-1528, 1344, 136",
+        "Rotation": "0, 0, 2.8797932"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A2E14:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -61.345978,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01706E:Skyrim.esm",
+      "Placement": {
+        "Position": "-1282.0721, 2151.6873, -23.087725"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "OffLimits",
+    "0x40000",
+    "CantWait"
+  ]
+}

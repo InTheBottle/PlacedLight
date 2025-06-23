@@ -1,0 +1,154 @@
+{
+  "FormKey": "005EAB:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC1RedwaterDen01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Redwater Den"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0E7C5E:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "004D6F:Dawnguard.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "007779:Dawnguard.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "008BF3:Dawnguard.esm",
+      "Base": "008BF2:Dawnguard.esm",
+      "LevelModifier": "Easy",
+      "LinkedReferences": [
+        {
+          "Reference": "008BF4:Dawnguard.esm"
+        }
+      ],
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "LocationRefTypes": [
+        "0AE309:Skyrim.esm"
+      ],
+      "EnableParent": {
+        "Reference": "014707:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1344.8435, 2469.6802, 6784.258",
+        "Rotation": "0, 0, 6.1289864"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00A5B6:Dawnguard.esm",
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 127.73242,
+      "LightData": {
+        "FadeOffset": 0.47177088,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-2208.7175, -3877.5474, 5886.6333"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00A5B7:Dawnguard.esm",
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": -6.749893,
+      "LightData": {
+        "FadeOffset": -0.28068632,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "94.29013, -3949.7139, 5474.436"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00A5C8:Dawnguard.esm",
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 224.68024,
+      "LightData": {
+        "FadeOffset": -0.06314844,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-1273.8312, -2632.4995, 6272.726"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00A615:Dawnguard.esm",
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 24.407745,
+      "LightData": {
+        "FadeOffset": -0.06314844,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-2090.623, -1324.7207, 6667.0034"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00A67B:Dawnguard.esm",
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 250.82321,
+      "LightData": {
+        "FadeOffset": 0.47177088,
+        "ShadowDepthBias": 21.39656
+      },
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-1778.8704, -4251.4985, 5774.6333"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

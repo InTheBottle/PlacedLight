@@ -1,0 +1,128 @@
+{
+  "FormKey": "015261:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "HillgrundsTomb01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Hillgrund's Tomb"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128B:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019196:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC36:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09B80F:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 182.4155,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 4.2157316,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-3759.5896, 5643.9375, -1519.3976"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09B814:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 501.54327,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -0.074387014,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-3759.5896, 5643.9375, -1607.1799"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09B81D:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 161.01453,
+      "LightData": {
+        "FadeOffset": 7.005746,
+        "ShadowDepthBias": 18.819256
+      },
+      "LocationReference": "019196:Skyrim.esm",
+      "Placement": {
+        "Position": "-6662.715, 3765.634, -1691.4653",
+        "Rotation": "0, 0, 5.1831875"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09B824:Skyrim.esm",
+      "Base": "05C70D:Skyrim.esm",
+      "Radius": -91.15306,
+      "LightData": {
+        "FadeOffset": 1.4053557,
+        "ShadowDepthBias": 35.0
+      },
+      "LocationReference": "019196:Skyrim.esm",
+      "Placement": {
+        "Position": "-4220.765, 1592.9547, -990.051",
+        "Rotation": "0, 1.5300008, 0"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

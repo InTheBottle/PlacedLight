@@ -1,0 +1,95 @@
+{
+  "FormKey": "0165A7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WhiterunTempleofKynareth",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Temple of Kynareth"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "NoLodWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F87D:Skyrim.esm",
+  "Water": "074EEA:Skyrim.esm",
+  "Owner": "0ECC44:Skyrim.esm",
+  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\wrtemple_e.dds",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "10F90D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0D485E:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "073C28:Skyrim.esm",
+      "Base": "073C32:Skyrim.esm",
+      "Radius": 470.1153,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "ShadowDepthBias": 30.0
+      },
+      "LocationReference": "01F87D:Skyrim.esm",
+      "Placement": {
+        "Position": "220.05145, 277.37482, 633.7748"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "074ED7:Skyrim.esm",
+      "Base": "074ED6:Skyrim.esm",
+      "Radius": -23.770233,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F87D:Skyrim.esm",
+      "Placement": {
+        "Position": "223.03027, 262.30905, 87.35417"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
