@@ -1,0 +1,69 @@
+{
+  "FormKey": "005AC8:Dawnguard.esm",
+  "EditorID": "DLC1DarkfallPassageEndStart",
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": {
+    "Point": "-38, 18",
+    "Flags": "1055149056"
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "014C2F:Dawnguard.esm"
+  ],
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01136A:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "00EFE3:Dawnguard.esm",
+      "Radius": 317.23224,
+      "LightData": {
+        "FadeOffset": 3.1131191,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0162AC:Dawnguard.esm",
+      "Placement": {
+        "Position": "-155437.62, 74158.73, -1379.19"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "010637:Dawnguard.esm",
+      "Base": "0897C9:Skyrim.esm",
+      "Radius": 1476.7656,
+      "LightData": {
+        "FadeOffset": 0.48799086,
+        "ShadowDepthBias": 37.24298
+      },
+      "LocationReference": "0162AC:Dawnguard.esm",
+      "Placement": {
+        "Position": "-153497.28, 75955.44, 184.62424",
+        "Rotation": "1.5708004, -1.5608071, 5.497787"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "006FFB:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0B9E2A:Skyrim.esm",
+      "Radius": 188.13922,
+      "LightData": {
+        "FadeOffset": 0.70615494,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0162AC:Dawnguard.esm",
+      "Placement": {
+        "Position": "-153365.42, 76457.34, -162.39925"
+      }
+    }
+  ]
+}

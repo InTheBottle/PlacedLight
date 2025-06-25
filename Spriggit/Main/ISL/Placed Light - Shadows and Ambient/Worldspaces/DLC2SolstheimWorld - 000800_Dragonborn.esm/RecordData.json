@@ -1,0 +1,36 @@
+{
+  "FormKey": "000800:Dragonborn.esm",
+  "EditorID": "DLC2SolstheimWorld",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Solstheim"
+  },
+  "Location": "016E2A:Dragonborn.esm",
+  "Climate": "000812:Skyrim.esm",
+  "Water": "028644:Dragonborn.esm",
+  "LodWater": "028644:Dragonborn.esm",
+  "LodWaterHeight": 256.0,
+  "LandDefaults": {
+    "DefaultLandHeight": -4590.0,
+    "DefaultWaterHeight": 256.0
+  },
+  "CloudModel": {
+    "File": "DLC02\\Sky\\DLC2WorldMapCloudBank_Low.nif",
+    "Data": "0x020000000000000000000000"
+  },
+  "MapData": {
+    "NorthwestCellCoords": "8, 17",
+    "SoutheastCellCoords": "17, 1",
+    "CameraMinHeight": 31000.0,
+    "CameraMaxHeight": 48000.0,
+    "CameraInitialPitch": 70.0
+  },
+  "WorldMapOffsetScale": 1.0,
+  "DistantLodMultiplier": 1.0,
+  "ObjectBoundsMin": "-64, -64",
+  "ObjectBoundsMax": "128, 128",
+  "Music": "033917:Dragonborn.esm",
+  "HdLodDiffuseTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02.dds",
+  "HdLodNormalTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02_N.dds",
+  "SubCellsUnknown": 1028
+}

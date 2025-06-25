@@ -1,0 +1,143 @@
+{
+  "FormKey": "017EBE:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC2RRSeverinHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Severin Manor"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogFar": 4500.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019A20:Dragonborn.esm",
+  "Owner": "018425:Dragonborn.esm",
+  "LockList": "01845C:Dragonborn.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "EncounterZone": "0F90B1:Skyrim.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "033D2E:Dragonborn.esm",
+      "Base": "0336E7:Dragonborn.esm",
+      "Radius": 359.38232,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 29.037468
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "-419.77036, -2.6026707, 166.42186",
+        "Rotation": "0, 0.9749997, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "034A02:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": 238.27771,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 27.323654
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "-2378.5408, -9.862395, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "036DB8:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": -187.91873,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1412.8923, -432.59393, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "036DBB:Dragonborn.esm",
+      "Base": "03523F:Dragonborn.esm",
+      "Radius": -206.61096,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 10.873066
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1403.2314, 407.39923, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "036E78:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -79.786285,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 19.479565
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "92.276405, 885.9751, -258.81412"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "036EA9:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -57.541687,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 20.714321
+      },
+      "LocationReference": "019A20:Dragonborn.esm",
+      "Placement": {
+        "Position": "72.75862, -983.2997, -208"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

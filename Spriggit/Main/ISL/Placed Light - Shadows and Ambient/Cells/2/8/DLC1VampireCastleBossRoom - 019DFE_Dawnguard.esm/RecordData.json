@@ -1,0 +1,125 @@
+{
+  "FormKey": "019DFE:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 786432,
+  "EditorID": "DLC1VampireCastleBossRoom",
+  "SkyrimMajorRecordFlags": [
+    "Compressed",
+    "CantWait"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Volkihar Cathedral"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "DirectionalFade": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01793F:Dawnguard.esm",
+  "WaterHeight": 0.0,
+  "Location": "00357D:Dawnguard.esm",
+  "AcousticSpace": "0FF495:Skyrim.esm",
+  "Music": "00EEB9:Dawnguard.esm",
+  "ImageSpace": "019964:Dawnguard.esm",
+  "PersistentUnknownGroupData": 1,
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00F6A1:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 3072,
+      "EditorID": "DLC1dunHarkonShrineLight",
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "InitiallyDisabled"
+      ],
+      "Base": "00F6A2:Dawnguard.esm",
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "1275.5955, 1894.2561, 9164.566"
+      }
+    }
+  ],
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019E31:Dawnguard.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": 351.72546,
+      "LightData": {
+        "FadeOffset": -0.29426628,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "2108.9233, 1086.5164, 9381.793"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019E32:Dawnguard.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": 428.07495,
+      "LightData": {
+        "FadeOffset": -0.29426628,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "2180.772, 2636.4912, 9361.271"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019E33:Dawnguard.esm",
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 1160.4303,
+      "Emittance": "075DE6:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -55.31886,
+        "FadeOffset": -1.7098703,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "00357D:Dawnguard.esm",
+      "Placement": {
+        "Position": "938.08154, 1641.2412, 9724.549",
+        "Rotation": "5.7595863, 5.358161, 0"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000",
+    "CantWait"
+  ]
+}

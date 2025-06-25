@@ -1,0 +1,103 @@
+{
+  "FormKey": "0165AF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WhiterunHouseBattleBorn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "House of Clan Battle-Born"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F875:Skyrim.esm",
+  "Owner": "093B1B:Skyrim.esm",
+  "LockList": "093AFC:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "0C5D0A:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB6B2:Skyrim.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -251.05206,
+      "LightData": {
+        "FadeOffset": 7.0,
+        "ShadowDepthBias": 22.410507
+      },
+      "LocationReference": "01F875:Skyrim.esm",
+      "Placement": {
+        "Position": "0, 16, 144"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB6C2:Skyrim.esm",
+      "Base": "0B9BE6:Skyrim.esm",
+      "Radius": 103.357086,
+      "LightData": {
+        "FadeOffset": 1.3,
+        "ShadowDepthBias": 22.769999
+      },
+      "LocationReference": "01F875:Skyrim.esm",
+      "Placement": {
+        "Position": "1.749053, 568.68744, 227.82573"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E4C3E:Skyrim.esm",
+      "Base": "0B9BE6:Skyrim.esm",
+      "Radius": -79.48909,
+      "LightData": {
+        "FadeOffset": 0.20000005,
+        "ShadowDepthBias": 26.73
+      },
+      "LocationReference": "01F875:Skyrim.esm",
+      "Placement": {
+        "Position": "-496, -224, 208"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

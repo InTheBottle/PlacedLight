@@ -1,0 +1,34 @@
+{
+  "FormKey": "029AB7:Skyrim.esm",
+  "EditorID": "DeepwoodRedoubtWorld",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Deepwood Vale"
+  },
+  "Parent": {
+    "Worldspace": "00003C:Skyrim.esm",
+    "Flags": [
+      "UseMapData",
+      "UseClimateData",
+      "UseSkyCell"
+    ]
+  },
+  "Water": "0E3812:Skyrim.esm",
+  "LodWater": "0E3812:Skyrim.esm",
+  "LodWaterHeight": 0.0,
+  "LandDefaults": {
+    "DefaultLandHeight": -4940.1973,
+    "DefaultWaterHeight": -500000.0
+  },
+  "WorldMapOffsetScale": 1.0,
+  "DistantLodMultiplier": 1.0,
+  "Flags": [
+    "SmallWorld"
+  ],
+  "ObjectBoundsMin": "-39, -1",
+  "ObjectBoundsMax": "1, 25",
+  "Music": "05615B:Skyrim.esm",
+  "HdLodDiffuseTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02.dds",
+  "HdLodNormalTexture": "Data\\Textures\\Landscape\\Mountains\\MountainSlab02_N.dds",
+  "SubCellsUnknown": 1028
+}

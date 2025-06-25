@@ -1,0 +1,51 @@
+{
+  "FormKey": "021EED:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "LabyrinthianBossChamber",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": {
+    "Point": "-7, 10",
+    "Flags": "1055149056"
+  },
+  "WaterHeight": -2.1474836E+09,
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1009D4:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 423.14246,
+      "LightData": {
+        "FadeOffset": 2.7569098,
+        "ShadowDepthBias": 26.115906
+      },
+      "LocationReference": "019262:Skyrim.esm",
+      "Placement": {
+        "Position": "-25426.611, 44818.637, 1155.2374",
+        "Rotation": "0, 1.2700012, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "087540:Skyrim.esm",
+      "Base": "013CA1:Skyrim.esm",
+      "Radius": 382.6679,
+      "LocationReference": "019262:Skyrim.esm",
+      "Placement": {
+        "Position": "-27486.775, 41500.086, 1021.54663",
+        "Rotation": "0, 0, 6.2831855"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

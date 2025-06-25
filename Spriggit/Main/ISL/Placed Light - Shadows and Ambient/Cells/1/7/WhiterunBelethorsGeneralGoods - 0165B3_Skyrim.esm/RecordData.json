@@ -1,0 +1,91 @@
+{
+  "FormKey": "0165B3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WhiterunBelethorsGeneralGoods",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Belethor's General Goods"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationXY": 180,
+    "FogClipDistance": 2000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F86E:Skyrim.esm",
+  "Owner": "093B17:Skyrim.esm",
+  "LockList": "093AF8:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C83A8:Skyrim.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -261.50116,
+      "LightData": {
+        "FadeOffset": 7.0,
+        "ShadowDepthBias": 41.09
+      },
+      "LocationReference": "01F86E:Skyrim.esm",
+      "Placement": {
+        "Position": "-240, -264, 144",
+        "Rotation": "3.141591, 3.6627745E-07, 3.4208455"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8439:Skyrim.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -228.1861,
+      "LightData": {
+        "FadeOffset": 7.0,
+        "ShadowDepthBias": 30.0
+      },
+      "LocationReference": "01F86E:Skyrim.esm",
+      "Placement": {
+        "Position": "-252.49133, 505.57684, 113.589676"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
