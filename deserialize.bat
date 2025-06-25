@@ -16,6 +16,7 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Templates\PL - Fixed Vanil
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light" -o "dist\Main\Placed Light.esm"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light Exteriors" -o "dist\Main\Placed Light Exteriors.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\Placed Light - Shadows and Ambient" -o "dist\Main\Placed Light - Shadows and Ambient.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\ISL\Placed Light - Shadows and Ambient" -o "dist\Main\ISL\Placed Light - Shadows and Ambient.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\HDR - Interiors" -o "dist\Main\HDR - Interiors.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\PL Bulbs" -o "dist\Main\PL Bulbs.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Main\PL Bulbs ISL" -o "dist\Main\PL Bulbs ISL.esp"
@@ -25,3 +26,4 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light Exteriors - NOTWL 3 patch" -o "dist\Misc Patches\Placed Light Exteriors - NOTWL 3 patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - USSEP Patch" -o "dist\Misc Patches\Placed Light - USSEP Patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Lumo - Placed Light Exteriors" -o "dist\Misc Patches\Lumo - Placed Light Exteriors.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\PL - WSU Patch" -o "dist\Misc Patches\PL - WSU Patch.esp"

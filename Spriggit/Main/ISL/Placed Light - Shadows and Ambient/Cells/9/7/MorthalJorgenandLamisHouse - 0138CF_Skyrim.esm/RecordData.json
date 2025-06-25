@@ -1,0 +1,132 @@
+{
+  "FormKey": "0138CF:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "MorthalJorgenandLamisHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Jorgen and Lami's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01EB94:Skyrim.esm",
+  "Owner": "09E296:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5855:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "0B9DCE:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DFFE1:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 6.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01EB94:Skyrim.esm",
+      "Placement": {
+        "Position": "805.041, 125.99414, 348.6947",
+        "Rotation": "0, 0, 4.7081904"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DFFF9:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -280.2317,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01EB94:Skyrim.esm",
+      "Placement": {
+        "Position": "969.6267, -297.18628, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0012:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -140.18274,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01EB94:Skyrim.esm",
+      "Placement": {
+        "Position": "670.77637, -115.70593, 543.9248"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0036:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -294.25485,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01EB94:Skyrim.esm",
+      "Placement": {
+        "Position": "1059.345, 67.695435, 430.12177",
+        "Rotation": "0, 0, 6.2081857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E003A:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -172.7529,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01EB94:Skyrim.esm",
+      "Placement": {
+        "Position": "925.8833, -115.70593, 543.9248"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

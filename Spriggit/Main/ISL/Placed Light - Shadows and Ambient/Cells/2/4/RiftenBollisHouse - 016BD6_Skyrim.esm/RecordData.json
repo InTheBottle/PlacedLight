@@ -1,0 +1,69 @@
+{
+  "FormKey": "016BD6:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "RiftenBollisHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Bolli's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar"
+    ]
+  },
+  "LightingTemplate": "0B2157:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "022484:Skyrim.esm",
+  "Owner": "0A2516:Skyrim.esm",
+  "LockList": "0A2515:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C85F:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 233.81458,
+      "LightData": {
+        "FovOffset": 109.0,
+        "FadeOffset": 3.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022484:Skyrim.esm",
+      "Placement": {
+        "Position": "66.134544, 0, 363.03342"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

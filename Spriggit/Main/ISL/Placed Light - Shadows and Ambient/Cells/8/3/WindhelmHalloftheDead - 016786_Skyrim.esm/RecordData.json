@@ -1,0 +1,83 @@
+{
+  "FormKey": "016786:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WindhelmHalloftheDead",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Hall of the Dead"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar"
+    ]
+  },
+  "LightingTemplate": "07BA87:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209EF:Skyrim.esm",
+  "Owner": "045F66:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5234:Skyrim.esm",
+      "Base": "02F363:Skyrim.esm",
+      "Radius": 236.07245,
+      "LightData": {
+        "FadeOffset": 0.47534096,
+        "ShadowDepthBias": 21.65477
+      },
+      "LocationReference": "0209EF:Skyrim.esm",
+      "Placement": {
+        "Position": "1346.8324, 112.438835, -12.442518"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5221:Skyrim.esm",
+      "Base": "02F363:Skyrim.esm",
+      "Radius": 176.47577,
+      "LightData": {
+        "FadeOffset": 0.9023392,
+        "ShadowDepthBias": 19.490494
+      },
+      "LocationReference": "0209EF:Skyrim.esm",
+      "Placement": {
+        "Position": "23.102766, -3719.0327, -300.3771"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

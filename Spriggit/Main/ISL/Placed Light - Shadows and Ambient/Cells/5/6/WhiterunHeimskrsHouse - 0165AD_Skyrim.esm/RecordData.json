@@ -1,0 +1,74 @@
+{
+  "FormKey": "0165AD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WhiterunHeimskrsHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Heimskr's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F873:Skyrim.esm",
+  "Owner": "093B1A:Skyrim.esm",
+  "LockList": "093AFB:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB8C9:Skyrim.esm",
+      "Base": "0B9BE6:Skyrim.esm",
+      "Radius": 191.61853,
+      "LightData": {
+        "ShadowDepthBias": 20.097824
+      },
+      "LocationReference": "01F873:Skyrim.esm",
+      "Placement": {
+        "Position": "-61.84375, -68.20715, 236.61551"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

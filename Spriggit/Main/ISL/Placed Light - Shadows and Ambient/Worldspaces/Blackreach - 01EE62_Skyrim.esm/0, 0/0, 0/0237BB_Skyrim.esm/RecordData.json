@@ -1,0 +1,80 @@
+{
+  "FormKey": "0237BB:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": {
+    "Point": "4, 1",
+    "Flags": "1055153920"
+  },
+  "WaterHeight": 980.0,
+  "Regions": [
+    "048C2E:Skyrim.esm"
+  ],
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D8F1F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0B9E2A:Skyrim.esm",
+      "Radius": 523.79675,
+      "LightData": {
+        "FadeOffset": 2.2666335,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "17064.965, 4106.0566, 1348.8456"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D8F1B:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 950.99695,
+      "LightData": {
+        "FadeOffset": 0.73177934,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "16618.695, 7055.273, 1624.7018"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D8F1C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0B9E2A:Skyrim.esm",
+      "Radius": 523.79675,
+      "LightData": {
+        "FadeOffset": 2.2666335,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "18021.266, 6357.0376, 1676.9459"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

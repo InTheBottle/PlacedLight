@@ -1,0 +1,55 @@
+{
+  "FormKey": "03A9E3:Skyrim.esm",
+  "EditorID": "EldergleamSanctuaryTop",
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": {
+    "Point": "28, -5",
+    "Flags": "1055149056"
+  },
+  "WaterHeight": 3.4028235E+38,
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3813:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "03C5A5:Skyrim.esm",
+      "Radius": 672.74036,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -3.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0192AC:Skyrim.esm",
+      "Placement": {
+        "Position": "118295.125, -17871.584, 2376.2393"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3811:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0395FE:Skyrim.esm",
+      "Radius": 4755.611,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "ShadowDepthBias": 30.0
+      },
+      "LocationReference": "0192AC:Skyrim.esm",
+      "Placement": {
+        "Position": "117976.65, -18153.896, 2989.3833",
+        "Rotation": "0.42873886, -1.117115, 5.8127294"
+      }
+    }
+  ]
+}

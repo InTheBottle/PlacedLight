@@ -1,0 +1,76 @@
+{
+  "FormKey": "06DAA0:Skyrim.esm",
+  "MajorRecordFlagsRaw": 131072,
+  "EditorID": "ThalmorEmbassy04",
+  "SkyrimMajorRecordFlags": [
+    "Dangerous_OffLimits_InteriorCell"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Thalmor Embassy, Barracks"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0B37B0:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "018C92:Skyrim.esm",
+  "Owner": "039F26:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "027F6F:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0ABDB4:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CAD6C:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": -206.4617,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "FadeOffset": 9.0,
+        "ShadowDepthBias": 10.891155
+      },
+      "LocationReference": "018C92:Skyrim.esm",
+      "Placement": {
+        "Position": "196.61427, -684.22455, 47.138523",
+        "Rotation": "-2.642119, -1.5707964, 5.77704"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "OffLimits"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "FormKey": "01A68A:Dawnguard.esm",
+  "EditorID": "TestJoelDLC01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Quick Test Cell"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0300E2:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\LavaCubeMap_e.dds",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "PersistentUnknownGroupData": 1,
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "010753:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "0059C2:Dawnguard.esm",
+      "Radius": 635.26874,
+      "LightData": {
+        "FadeOffset": 1.06898,
+        "ShadowDepthBias": 1.0
+      },
+      "EnableParent": {
+        "Reference": "010752:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1002.8523, 1013.9235, 728.3857",
+        "Rotation": "6.2355447, 6.263058, 1.3726097"
+      }
+    }
+  ],
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01A73B:Dawnguard.esm",
+      "Base": "016123:Dawnguard.esm",
+      "Radius": 6537.245,
+      "LightData": {
+        "FadeOffset": 3.2146034,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-145.76743, 131.83035, 778.9172"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01A73A:Dawnguard.esm",
+      "Base": "016123:Dawnguard.esm",
+      "Radius": 240.41272,
+      "LightData": {
+        "FadeOffset": 4.8103027,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "284.22946, 2126.197, 1796.1299"
+      }
+    }
+  ]
+}

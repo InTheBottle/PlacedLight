@@ -1,0 +1,134 @@
+{
+  "FormKey": "01A337:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "LostKnifeHideout02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Lost Knife Hideout"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 340.0,
+    "FogFar": 12000.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 12000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "094E50:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019267:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC45:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01BFD0:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 164.0108,
+      "LightData": {
+        "FadeOffset": 1.3389332,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019267:Skyrim.esm",
+      "Placement": {
+        "Position": "-196.63066, 405.7726, -3.3605347",
+        "Rotation": "0, 0, 1.0500016"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01C1F3:Skyrim.esm",
+      "Base": "094E66:Skyrim.esm",
+      "Radius": -4.3271027,
+      "LocationReference": "019267:Skyrim.esm",
+      "Placement": {
+        "Position": "-1616.0979, 654.7664, 281.39813",
+        "Rotation": "0, 0, 1.0500016"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "049F82:Skyrim.esm",
+      "Base": "094E66:Skyrim.esm",
+      "Radius": 266.7622,
+      "LightData": {
+        "FadeOffset": 2.8354802,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019267:Skyrim.esm",
+      "Placement": {
+        "Position": "-4149.8696, -1288.2748, 326.9166",
+        "Rotation": "0, 0, 3.5831938"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "049F36:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "036464:Skyrim.esm",
+      "Radius": 820.42847,
+      "LightData": {
+        "FadeOffset": 1.2783418,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019267:Skyrim.esm",
+      "Placement": {
+        "Position": "-2713.1106, -119.61086, 319.4179"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "049F3B:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 224.12439,
+      "LightData": {
+        "FadeOffset": 1.9647589,
+        "ShadowDepthBias": 21.26495
+      },
+      "LocationReference": "019267:Skyrim.esm",
+      "Placement": {
+        "Position": "-3756.999, 1195.5553, -149.9224",
+        "Rotation": "0, 0, 5.458187"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

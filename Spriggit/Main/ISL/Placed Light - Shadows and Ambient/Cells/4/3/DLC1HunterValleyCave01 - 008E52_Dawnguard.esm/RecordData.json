@@ -1,0 +1,123 @@
+{
+  "FormKey": "008E52:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC1HunterValleyCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mossy Glen Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogFar": 6000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "SkyAndWeatherFromRegion": "1046CC:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01449A:Dawnguard.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 365.03925,
+      "Placement": {
+        "Position": "-2366.8982, -4795.7383, 228.03615",
+        "Rotation": "0, 0, 6.166385"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0131F2:Dawnguard.esm",
+      "Base": "0B7DE5:Skyrim.esm",
+      "Radius": 78.6828,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 13.816898
+      },
+      "Placement": {
+        "Position": "-1518.2343, -1402.2897, -162.1426"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0131F3:Dawnguard.esm",
+      "Base": "0B7DE5:Skyrim.esm",
+      "Radius": 208.54279,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 20.72651
+      },
+      "Placement": {
+        "Position": "-1541.1226, -3226.491, -35.72812"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014497:Dawnguard.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 365.03925,
+      "Placement": {
+        "Position": "72.67126, 942.8969, 284.1112",
+        "Rotation": "0, 0, 1.6831957"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "009048:Dawnguard.esm",
+      "Base": "0B7DE5:Skyrim.esm",
+      "Radius": 362.54712,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 24.921852
+      },
+      "Placement": {
+        "Position": "76.36499, -3401.1963, -104.74942"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "009049:Dawnguard.esm",
+      "Base": "0B7DE5:Skyrim.esm",
+      "Radius": 262.66168,
+      "LightData": {
+        "FadeOffset": 2.2025146,
+        "ShadowDepthBias": 22.460045
+      },
+      "Placement": {
+        "Position": "553.5693, -761.19086, -77.16087"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

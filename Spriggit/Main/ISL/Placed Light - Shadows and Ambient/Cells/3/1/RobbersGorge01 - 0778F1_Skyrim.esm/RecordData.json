@@ -1,0 +1,118 @@
+{
+  "FormKey": "0778F1:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "RobbersGorge01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Robber's Cove"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar"
+    ]
+  },
+  "LightingTemplate": "0300E2:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01929B:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "SkyAndWeatherFromRegion": "0C5858:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC63:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F3723:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 160.39871,
+      "LightData": {
+        "FadeOffset": 3.0020285,
+        "ShadowDepthBias": 25.74
+      },
+      "LocationReference": "01929B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1185.7428, -123.38284, 1953.8007"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F372D:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 36.799896,
+      "LightData": {
+        "FadeOffset": 3.5141668,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01929B:Skyrim.esm",
+      "Placement": {
+        "Position": "656, -544, 1712"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F372A:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 276.58563,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.0092645,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01929B:Skyrim.esm",
+      "Placement": {
+        "Position": "-928, -1280, 1840"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F372C:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 58.486023,
+      "LightData": {
+        "FadeOffset": 20.192091,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01929B:Skyrim.esm",
+      "Placement": {
+        "Position": "896, -544, 1712"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

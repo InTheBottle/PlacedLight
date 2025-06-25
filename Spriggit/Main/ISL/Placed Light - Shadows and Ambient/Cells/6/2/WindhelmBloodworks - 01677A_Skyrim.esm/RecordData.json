@@ -1,0 +1,91 @@
+{
+  "FormKey": "01677A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WindhelmBloodworks",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Windhelm Barracks"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 250,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0C0C76:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209E7:Skyrim.esm",
+  "Owner": "0D27F3:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "06D542:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0D0C:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 334.4397,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.8375286,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0209E7:Skyrim.esm",
+      "Placement": {
+        "Position": "-1927.3219, 3799.5134, 227.91591"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0D0B:Skyrim.esm",
+      "Base": "088247:Skyrim.esm",
+      "Radius": 303.12244,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.8375286,
+        "ShadowDepthBias": 23.54924
+      },
+      "LocationReference": "0209E7:Skyrim.esm",
+      "Placement": {
+        "Position": "-1408, 3728, 208"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

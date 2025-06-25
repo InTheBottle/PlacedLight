@@ -1,0 +1,100 @@
+{
+  "FormKey": "0A013B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "GoldenglowEstate04",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Goldenglow Estate Sewer"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "DirectionalFade": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "05C734:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018E32:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "03EC2B:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0667A7:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 318.12915,
+      "LightData": {
+        "FadeOffset": 1.2359021,
+        "ShadowDepthBias": 23.918533
+      },
+      "LocationReference": "018E32:Skyrim.esm",
+      "Placement": {
+        "Position": "1181.335, 77.933044, 100.480225"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0667B1:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 336.68854,
+      "LightData": {
+        "FadeOffset": 1.4867516,
+        "ShadowDepthBias": 24.353035
+      },
+      "LocationReference": "018E32:Skyrim.esm",
+      "Placement": {
+        "Position": "3827.7, 1358.0692, 333.27673"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0667AD:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 195.1388,
+      "LightData": {
+        "FadeOffset": 1.5340307,
+        "ShadowDepthBias": 20.232689
+      },
+      "LocationReference": "018E32:Skyrim.esm",
+      "Placement": {
+        "Position": "3391.8752, -68.64628, 332.46667"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

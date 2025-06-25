@@ -1,0 +1,85 @@
+{
+  "FormKey": "0356A3:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "KarthspireRedoubtStart",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": {
+    "Point": "33, -1",
+    "Flags": "1055149056"
+  },
+  "WaterHeight": 0.0,
+  "Regions": [
+    "106631:Skyrim.esm"
+  ],
+  "Music": "01BA72:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05EA59:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "036464:Skyrim.esm",
+      "Radius": 359.55017,
+      "LightData": {
+        "FadeOffset": 2.2645783,
+        "ShadowDepthBias": 24.85794
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "137121.2, -3414.9248, 2178.3162"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05EA05:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "036464:Skyrim.esm",
+      "Radius": 312.4984,
+      "LightData": {
+        "FadeOffset": 2.8809648,
+        "ShadowDepthBias": 23.781944
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "137937.56, -2457.9546, 1971.1046"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05EA5B:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "036464:Skyrim.esm",
+      "Radius": 359.55017,
+      "LightData": {
+        "FadeOffset": 2.2645783,
+        "ShadowDepthBias": 24.85794
+      },
+      "LocationReference": "019260:Skyrim.esm",
+      "Placement": {
+        "Position": "138204.38, -3411.979, 2181.6118",
+        "Rotation": "0, 0, 1.2600075"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
