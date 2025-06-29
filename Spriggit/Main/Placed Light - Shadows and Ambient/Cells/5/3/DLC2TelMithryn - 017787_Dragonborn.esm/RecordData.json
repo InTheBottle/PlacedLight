@@ -22,7 +22,6 @@
     "FogFar": 10000.0,
     "DirectionalRotationZ": 180,
     "FogClipDistance": 7000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -34,7 +33,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -59,24 +57,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03CBA2:Dragonborn.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "036365:Skyrim.esm",
-      "Radius": 25.969482,
-      "LightData": {
-        "FadeOffset": 0.58135736,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01CDEA:Dragonborn.esm",
-      "Placement": {
-        "Position": "199.6067, 1456.9246, -2009.3768"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0391D6:Dragonborn.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -92,6 +72,24 @@
       "Placement": {
         "Position": "207.98245, 1482.2655, 295.0644",
         "Rotation": "0.34906584, 1.5707964, 0.6981317"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03CBA2:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "036365:Skyrim.esm",
+      "Radius": 25.969482,
+      "LightData": {
+        "FadeOffset": 0.58135736,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01CDEA:Dragonborn.esm",
+      "Placement": {
+        "Position": "199.6067, 1456.9246, -2009.3768"
       }
     }
   ],

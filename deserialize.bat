@@ -27,3 +27,5 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light 
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - USSEP Patch" -o "dist\Misc Patches\Placed Light - USSEP Patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Lumo - Placed Light Exteriors" -o "dist\Misc Patches\Lumo - Placed Light Exteriors.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\PL - WSU Patch" -o "dist\Misc Patches\PL - WSU Patch.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\PL - Alternate Perspective GTS Patch" -o "dist\Misc Patches\PL - Alternate Perspective GTS Patch.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\PL - Alternate Perspective Patch" -o "dist\Misc Patches\PL - Alternate Perspective Patch.esp"

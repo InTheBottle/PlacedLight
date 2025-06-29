@@ -18,10 +18,9 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogNear": 340.0,
+    "FogFar": 6000.0,
     "DirectionalFade": 1.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -33,17 +32,14 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "FogColor",
+      "DirectionalColor",
       "FogNear",
-      "FogFar",
       "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogMax"
     ]
   },
   "LightingTemplate": "01FB68:Skyrim.esm",
@@ -53,23 +49,7 @@
   "EncounterZone": "03EC14:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "069C03:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 140.98782,
-      "LightData": {
-        "FadeOffset": 2.0788114,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019175:Skyrim.esm",
-      "Placement": {
-        "Position": "1320.8256, -667.6677, -626.3316",
-        "Rotation": "0, 0, 3.0000002"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "06A06A:Skyrim.esm",
@@ -83,6 +63,21 @@
       "Placement": {
         "Position": "1222.5348, 1816.4648, -85.03458",
         "Rotation": "0, 0, 1.5000011"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "069C03:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 140.98782,
+      "LightData": {
+        "FadeOffset": 2.0788114,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019175:Skyrim.esm",
+      "Placement": {
+        "Position": "1320.8256, -667.6677, -626.3316",
+        "Rotation": "0, 0, 3.0000002"
       }
     },
     {

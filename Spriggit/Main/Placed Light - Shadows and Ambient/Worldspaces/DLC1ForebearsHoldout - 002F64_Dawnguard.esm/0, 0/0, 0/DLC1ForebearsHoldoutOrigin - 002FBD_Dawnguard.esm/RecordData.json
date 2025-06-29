@@ -3,7 +3,6 @@
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC1ForebearsHoldoutOrigin",
-  "FormVersion": 43,
   "SkyrimMajorRecordFlags": [
     "Compressed"
   ],
@@ -11,20 +10,21 @@
     "HasWater"
   ],
   "Grid": {
-    "Flags": "5572096"
+    "Flags": "1757847040"
   },
   "WaterHeight": 3.4028235E+38,
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0031C4:Dawnguard.esm",
-      "FormVersion": 43,
       "Base": "077788:Skyrim.esm",
       "Radius": 2073.1057,
       "LightData": {
         "FadeOffset": 0.84500396,
         "ShadowDepthBias": 1.0
       },
+      "LocationReference": "00357F:Dawnguard.esm",
       "Placement": {
         "Position": "2332.2063, 159.74704, 1223.0018",
         "Rotation": "0, 0, 0.79203856"

@@ -19,9 +19,8 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -33,12 +32,11 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "FogColor",
+      "DirectionalColor",
       "FogNear",
       "FogFar",
       "FogPower",
@@ -54,21 +52,20 @@
   "EncounterZone": "03EC39:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F86FA:Skyrim.esm",
-      "Base": "088249:Skyrim.esm",
-      "Radius": -34.838943,
-      "Emittance": "068853:Skyrim.esm",
+      "FormKey": "05AD62:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 1129.4331,
+      "Emittance": "02E2CC:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.2045412,
-        "ShadowDepthBias": 50.0
+        "FadeOffset": 2.6269867,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "019199:Skyrim.esm",
       "Placement": {
-        "Position": "1374.4204, 2263.9963, 497.72342"
+        "Position": "164.36853, -1272.899, 339.86142"
       }
     },
     {
@@ -104,17 +101,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05AD62:Skyrim.esm",
-      "Base": "088246:Skyrim.esm",
-      "Radius": 1129.4331,
-      "Emittance": "02E2CC:Skyrim.esm",
+      "FormKey": "0F86FA:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": -34.838943,
+      "Emittance": "068853:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 2.6269867,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 1.2045412,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "019199:Skyrim.esm",
       "Placement": {
-        "Position": "164.36853, -1272.899, 339.86142"
+        "Position": "1374.4204, 2263.9963, 497.72342"
       }
     }
   ],

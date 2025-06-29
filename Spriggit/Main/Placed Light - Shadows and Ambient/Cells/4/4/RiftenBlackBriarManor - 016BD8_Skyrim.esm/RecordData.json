@@ -17,9 +17,6 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -31,17 +28,13 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
       "FogColor",
       "FogNear",
-      "FogFar",
-      "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogFar"
     ]
   },
   "LightingTemplate": "0B2157:Skyrim.esm",
@@ -69,26 +62,11 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "094DC5:Skyrim.esm",
-      "Base": "0B2160:Skyrim.esm",
-      "Radius": 216.25034,
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 15.724823
-      },
-      "LocationReference": "022480:Skyrim.esm",
-      "Placement": {
-        "Position": "-1098.7751, 379.35114, 224.97128",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "039683:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": -203.43896,
       "LightData": {
-        "FadeOffset": 2.0,
+        "FadeOffset": 6.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "022480:Skyrim.esm",
@@ -109,6 +87,21 @@
       "LocationReference": "022480:Skyrim.esm",
       "Placement": {
         "Position": "-1344, -256, 528"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094DC5:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 216.25034,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 15.724823
+      },
+      "LocationReference": "022480:Skyrim.esm",
+      "Placement": {
+        "Position": "-1098.7751, 379.35114, 224.97128",
+        "Rotation": "0, 0, 3.1415927"
       }
     }
   ],
