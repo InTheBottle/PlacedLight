@@ -19,10 +19,9 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogNear": 750.0,
+    "FogFar": 4500.0,
     "DirectionalRotationZ": 270,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -34,7 +33,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -74,21 +72,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F3429:Skyrim.esm",
-      "Base": "094E6E:Skyrim.esm",
-      "Radius": 188.91684,
-      "Emittance": "02E2CC:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": -1.8169551,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01916F:Skyrim.esm",
-      "Placement": {
-        "Position": "1865.1586, 3454.4707, 8778.746"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "083B77:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
@@ -106,6 +89,21 @@
       "Placement": {
         "Position": "1813.2191, 3995.3687, 9211.292",
         "Rotation": "2.1001477, 4.960346, 5.017785"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F3429:Skyrim.esm",
+      "Base": "094E6E:Skyrim.esm",
+      "Radius": 188.91684,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -1.8169551,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01916F:Skyrim.esm",
+      "Placement": {
+        "Position": "1865.1586, 3454.4707, 8778.746"
       }
     },
     {

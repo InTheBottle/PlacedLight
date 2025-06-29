@@ -13,8 +13,7 @@
   "Flags": [
     "IsInteriorCell",
     "HasWater",
-    "PublicArea",
-    "ShowSky"
+    "PublicArea"
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
@@ -23,9 +22,7 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "DirectionalRotationZ": 90,
-    "DirectionalFade": 1.0,
     "FogClipDistance": 5000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -37,7 +34,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -54,13 +50,25 @@
   "WaterHeight": 0.0,
   "Location": "02264A:Skyrim.esm",
   "Owner": "0A2522:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\wrtemple_e.dds",
-  "SkyAndWeatherFromRegion": "07042E:Skyrim.esm",
   "AcousticSpace": "108E60:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "05C73D:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05F3EE:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -51.783386,
+      "LightData": {
+        "FadeOffset": 6.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "02264A:Skyrim.esm",
+      "Placement": {
+        "Position": "210.13397, 1874.0082, 34.93219"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "03125C:Skyrim.esm",
@@ -80,25 +88,11 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "05F3EE:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -51.783386,
-      "LightData": {
-        "FadeOffset": 1.76349,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "02264A:Skyrim.esm",
-      "Placement": {
-        "Position": "210.13397, 1874.0082, 34.93219"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0ACA04:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": -143.14008,
       "LightData": {
-        "FadeOffset": 3.2460513,
+        "FadeOffset": 6.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "02264A:Skyrim.esm",

@@ -18,10 +18,8 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogFar": 4000.0,
     "FogClipDistance": 5000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -33,22 +31,12 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
-    "LightFadeEnd": 41000.0,
-    "Inherits": [
-      "AmbientColor",
-      "FogColor",
-      "FogNear",
-      "FogFar",
-      "FogPower",
-      "FogMax",
-      "LightFadeDistances"
-    ]
+    "LightFadeEnd": 41000.0
   },
   "LightingTemplate": "06AB01:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
-  "Location": "0200A1:Skyrim.esm",
+  "Location": "02008C:Skyrim.esm",
   "Owner": "0C13FA:Skyrim.esm",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
@@ -62,7 +50,7 @@
       "LightData": {
         "ShadowDepthBias": 21.026535
       },
-      "LocationReference": "0200A1:Skyrim.esm",
+      "LocationReference": "02008C:Skyrim.esm",
       "Placement": {
         "Position": "-135.06769, -2701.3738, 110.01955",
         "Rotation": "2.7415946, 0.09159246, 1.5707964"

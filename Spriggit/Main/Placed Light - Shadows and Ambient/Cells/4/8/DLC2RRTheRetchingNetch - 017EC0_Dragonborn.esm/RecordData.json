@@ -18,9 +18,7 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
+    "FogFar": 4500.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -32,17 +30,15 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
       "FogPower",
-      "FogMax",
-      "LightFadeDistances"
+      "FogMax"
     ]
   },
   "LightingTemplate": "0A1196:Skyrim.esm",
@@ -56,44 +52,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03827C:Dragonborn.esm",
+      "FormKey": "03499D:Dragonborn.esm",
       "Base": "0336E8:Dragonborn.esm",
-      "Radius": -223.13379,
+      "Radius": -38.315277,
       "LightData": {
         "FadeOffset": 1.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "019A24:Dragonborn.esm",
       "Placement": {
-        "Position": "-2856.1697, 91.62608, -208"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "033D74:Dragonborn.esm",
-      "Base": "03CF1E:Dragonborn.esm",
-      "Radius": 619.5592,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A24:Dragonborn.esm",
-      "Placement": {
-        "Position": "-1424, 0, -176"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "033D5D:Dragonborn.esm",
-      "Base": "0336E8:Dragonborn.esm",
-      "Radius": -116.116486,
-      "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019A24:Dragonborn.esm",
-      "Placement": {
-        "Position": "226.3594, 11.6353445, 190.00473"
+        "Position": "-2477.8953, -507.8504, -208"
       }
     },
     {
@@ -113,30 +81,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03499D:Dragonborn.esm",
+      "FormKey": "033D5D:Dragonborn.esm",
       "Base": "0336E8:Dragonborn.esm",
-      "Radius": -38.315277,
+      "Radius": -116.116486,
       "LightData": {
         "FadeOffset": 1.5,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "019A24:Dragonborn.esm",
       "Placement": {
-        "Position": "-2477.8953, -507.8504, -208"
+        "Position": "226.3594, 11.6353445, 190.00473"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0349AA:Dragonborn.esm",
-      "Base": "0336E8:Dragonborn.esm",
-      "Radius": -76.00867,
+      "FormKey": "033D74:Dragonborn.esm",
+      "Base": "03CF1E:Dragonborn.esm",
+      "Radius": 619.5592,
       "LightData": {
         "FadeOffset": 1.5,
-        "ShadowDepthBias": 1.0
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "019A24:Dragonborn.esm",
       "Placement": {
-        "Position": "-1938.5214, 1037.6187, -208"
+        "Position": "-1424, 0, -176"
       }
     },
     {
@@ -151,6 +119,34 @@
       "LocationReference": "019A24:Dragonborn.esm",
       "Placement": {
         "Position": "-2069.784, 1543.8125, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03827C:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -223.13379,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019A24:Dragonborn.esm",
+      "Placement": {
+        "Position": "-2856.1697, 91.62608, -208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0349AA:Dragonborn.esm",
+      "Base": "0336E8:Dragonborn.esm",
+      "Radius": -76.00867,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019A24:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1938.5214, 1037.6187, -208"
       }
     }
   ],

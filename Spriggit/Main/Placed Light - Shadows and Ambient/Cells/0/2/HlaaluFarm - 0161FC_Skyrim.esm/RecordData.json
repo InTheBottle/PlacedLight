@@ -20,7 +20,6 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -32,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -48,7 +46,7 @@
   "LightingTemplate": "0A1196:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01705D:Skyrim.esm",
-  "Owner": "01411E:Skyrim.esm",
+  "Owner": "105A5B:Skyrim.esm",
   "LockList": "01411E:Skyrim.esm",
   "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",
@@ -71,12 +69,26 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "02AB8D:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -277.83054,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01705D:Skyrim.esm",
+      "Placement": {
+        "Position": "692.32916, -213.08508, 154.48691"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "02AB43:Skyrim.esm",
       "Base": "059B71:Skyrim.esm",
       "Radius": -57.01123,
       "LightData": {
         "FovOffset": -10.0,
-        "FadeOffset": 2.0,
+        "FadeOffset": 6.0,
         "ShadowDepthBias": 50.0
       },
       "LocationReference": "01705D:Skyrim.esm",
@@ -97,20 +109,6 @@
       "LocationReference": "01705D:Skyrim.esm",
       "Placement": {
         "Position": "815.1835, 42.09369, 154.48691"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02AB8D:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -277.83054,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01705D:Skyrim.esm",
-      "Placement": {
-        "Position": "692.32916, -213.08508, 154.48691"
       }
     },
     {

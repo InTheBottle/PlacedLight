@@ -5,7 +5,7 @@
   ],
   "Grid": {
     "Point": "4, 2",
-    "Flags": "970787328"
+    "Flags": "1757846784"
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
@@ -13,6 +13,25 @@
   ],
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D8F17:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0B9E2A:Skyrim.esm",
+      "Radius": 451.48358,
+      "LightData": {
+        "FadeOffset": 2.2666335,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "19903.979, 9946.122, 1740.661"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0D8F10:Skyrim.esm",
@@ -34,21 +53,22 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D8F17:Skyrim.esm",
+      "FormKey": "0D8F3A:Skyrim.esm",
       "MajorRecordFlagsRaw": 196608,
       "SkyrimMajorRecordFlags": [
         "0x10000",
         "Dangerous_OffLimits_InteriorCell"
       ],
-      "Base": "0B9E2A:Skyrim.esm",
-      "Radius": 451.48358,
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 205.43674,
       "LightData": {
-        "FadeOffset": 2.2666335,
+        "FadeOffset": 0.9993955,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "018EE8:Skyrim.esm",
       "Placement": {
-        "Position": "19903.979, 9946.122, 1740.661"
+        "Position": "17913.836, 11958.978, 1819.9868",
+        "Rotation": "0, 0, 3.5300014"
       }
     },
     {
@@ -87,26 +107,6 @@
       "LocationReference": "018EE8:Skyrim.esm",
       "Placement": {
         "Position": "18164.215, 8927.921, 1995.502"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D8F3A:Skyrim.esm",
-      "MajorRecordFlagsRaw": 196608,
-      "SkyrimMajorRecordFlags": [
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0879AC:Skyrim.esm",
-      "Radius": 205.43674,
-      "LightData": {
-        "FadeOffset": 0.9993955,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "018EE8:Skyrim.esm",
-      "Placement": {
-        "Position": "17913.836, 11958.978, 1819.9868",
-        "Rotation": "0, 0, 3.5300014"
       }
     }
   ]

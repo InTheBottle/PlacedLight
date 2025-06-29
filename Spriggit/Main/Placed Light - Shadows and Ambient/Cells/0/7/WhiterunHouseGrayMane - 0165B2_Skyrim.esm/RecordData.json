@@ -20,7 +20,6 @@
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -32,7 +31,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -60,7 +58,7 @@
       "Base": "077FCE:Skyrim.esm",
       "Radius": -173.51837,
       "LightData": {
-        "FadeOffset": -0.5,
+        "FadeOffset": 7.0,
         "ShadowDepthBias": 24.393799
       },
       "LocationReference": "01F874:Skyrim.esm",

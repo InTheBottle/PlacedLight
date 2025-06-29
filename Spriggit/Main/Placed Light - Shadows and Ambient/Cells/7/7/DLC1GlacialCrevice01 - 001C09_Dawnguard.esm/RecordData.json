@@ -19,29 +19,24 @@
     "AmbientColor": "#003C3C3C",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
-    "FogPower": 1.0,
+    "FogFar": 17000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00283E58",
-      "DirectionalXMinus": "#00283E58",
-      "DirectionalYPlus": "#00283E58",
-      "DirectionalYMinus": "#00283E58",
-      "DirectionalZPlus": "#00283E58",
-      "DirectionalZMinus": "#00283E58",
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
-      "FogNear",
-      "FogFar",
-      "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
@@ -58,36 +53,6 @@
   "ImageSpace": "0F1CB8:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "001C88:Dawnguard.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "01950C:Skyrim.esm",
-      "Radius": 3051.7708,
-      "LightData": {
-        "ShadowDepthBias": 37.622253
-      },
-      "LocationReference": "0162AF:Dawnguard.esm",
-      "Placement": {
-        "Position": "3411.3108, 5927.6426, 13933.778"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "001D4C:Dawnguard.esm",
-      "Base": "08E796:Skyrim.esm",
-      "Radius": 1260.8042,
-      "LightData": {
-        "ShadowDepthBias": 30.882332
-      },
-      "LocationReference": "0162AF:Dawnguard.esm",
-      "Placement": {
-        "Position": "12129.119, 7298.245, 11655.879"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "012FC8:Dawnguard.esm",
@@ -123,22 +88,22 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01A4C9:Dawnguard.esm",
-      "Base": "00EFE3:Dawnguard.esm",
-      "Radius": 615.9895,
-      "LocationReference": "0162AF:Dawnguard.esm",
-      "Placement": {
-        "Position": "12219.365, 7724.855, 9526.366"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "01A4CA:Dawnguard.esm",
       "Base": "00EFE3:Dawnguard.esm",
       "Radius": 878.079,
       "LocationReference": "0162AF:Dawnguard.esm",
       "Placement": {
         "Position": "15199.1455, 10940.211, 10948.516"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01A4C9:Dawnguard.esm",
+      "Base": "00EFE3:Dawnguard.esm",
+      "Radius": 615.9895,
+      "LocationReference": "0162AF:Dawnguard.esm",
+      "Placement": {
+        "Position": "12219.365, 7724.855, 9526.366"
       }
     },
     {
@@ -153,6 +118,36 @@
       "LocationReference": "0162AF:Dawnguard.esm",
       "Placement": {
         "Position": "4542.714, 12134.94, 7142.226"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "001C88:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "01950C:Skyrim.esm",
+      "Radius": 3051.7708,
+      "LightData": {
+        "ShadowDepthBias": 37.622253
+      },
+      "LocationReference": "0162AF:Dawnguard.esm",
+      "Placement": {
+        "Position": "3411.3108, 5927.6426, 13933.778"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "001D4C:Dawnguard.esm",
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 1260.8042,
+      "LightData": {
+        "ShadowDepthBias": 30.882332
+      },
+      "LocationReference": "0162AF:Dawnguard.esm",
+      "Placement": {
+        "Position": "12129.119, 7298.245, 11655.879"
       }
     }
   ],

@@ -10,12 +10,27 @@
     "HasWater"
   ],
   "Grid": {
-    "Flags": "970787328"
+    "Flags": "1757846784"
   },
   "WaterHeight": 3.4028235E+38,
   "AcousticSpace": "0E3247:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02EC8A:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 168.03265,
+      "LocationReference": "018EE1:Skyrim.esm",
+      "Placement": {
+        "Position": "3445.5823, 2953.5312, 501.53027",
+        "Rotation": "0, 0, 4.4331365"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "02EC8B:Skyrim.esm",
@@ -48,17 +63,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "02EC8A:Skyrim.esm",
+      "FormKey": "0AC4D1:Skyrim.esm",
       "MajorRecordFlagsRaw": 131072,
       "SkyrimMajorRecordFlags": [
         "Dangerous_OffLimits_InteriorCell"
       ],
       "Base": "0879AC:Skyrim.esm",
-      "Radius": 168.03265,
+      "Radius": 145.45712,
       "LocationReference": "018EE1:Skyrim.esm",
       "Placement": {
-        "Position": "3445.5823, 2953.5312, 501.53027",
-        "Rotation": "0, 0, 4.4331365"
+        "Position": "410.4793, 3461.8074, 1704.1948",
+        "Rotation": "0, 0, 5.993187"
       }
     },
     {
@@ -74,21 +89,6 @@
       "Placement": {
         "Position": "2545.7666, 2039.0264, 519.1593",
         "Rotation": "0, 0, 4.4331365"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0AC4D1:Skyrim.esm",
-      "MajorRecordFlagsRaw": 131072,
-      "SkyrimMajorRecordFlags": [
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0879AC:Skyrim.esm",
-      "Radius": 145.45712,
-      "LocationReference": "018EE1:Skyrim.esm",
-      "Placement": {
-        "Position": "410.4793, 3461.8074, 1704.1948",
-        "Rotation": "0, 0, 5.993187"
       }
     }
   ],

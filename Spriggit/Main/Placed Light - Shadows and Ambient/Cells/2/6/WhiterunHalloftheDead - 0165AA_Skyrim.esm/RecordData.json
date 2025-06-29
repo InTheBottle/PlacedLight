@@ -22,7 +22,6 @@
     "FogNear": 500.0,
     "FogFar": 10000.0,
     "FogClipDistance": 5000.0,
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#00553C1C",
       "DirectionalXMinus": "#00553C1C",
@@ -34,7 +33,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00000000",
-    "FogMax": 0.9,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -55,8 +53,21 @@
   "AcousticSpace": "0C5B6B:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E4266:Skyrim.esm",
+      "Base": "0CD48D:Skyrim.esm",
+      "Radius": -36.31665,
+      "LightData": {
+        "FadeOffset": 0.70000005,
+        "ShadowDepthBias": 15.25
+      },
+      "LocationReference": "01F876:Skyrim.esm",
+      "Placement": {
+        "Position": "896.0295, -253.10022, -92.58808"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0E3EB8:Skyrim.esm",
@@ -70,20 +81,6 @@
       "LocationReference": "01F876:Skyrim.esm",
       "Placement": {
         "Position": "365.87518, -42.853134, 173.40704"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E4266:Skyrim.esm",
-      "Base": "0CD48D:Skyrim.esm",
-      "Radius": -36.31665,
-      "LightData": {
-        "FadeOffset": 0.70000005,
-        "ShadowDepthBias": 15.25
-      },
-      "LocationReference": "01F876:Skyrim.esm",
-      "Placement": {
-        "Position": "896.0295, -253.10022, -92.58808"
       }
     },
     {
