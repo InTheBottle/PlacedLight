@@ -7,9 +7,16 @@
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 1.0,
           "flags": "IgnoreScale",
-          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 1 AND",
+            "Self GetInWorldspace WhiterunWorld NONE == 1 AND",
+            "Self GetInWorldspace RiftenWorld NONE == 1 AND",
+            "Self GetInWorldspace MarkarthWorld NONE == 1 AND",
+            "Self GetInWorldspace SolitudeWorld NONE == 1 AND",
+            "Self GetInWorldspace WindhelmPitWorldspace NONE == 1 AND"
+          ]
         }
       }
     ]
@@ -65,9 +72,16 @@
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 1.0,
           "flags": "IgnoreScale",
-          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 1 AND",
+            "Self GetInWorldspace WhiterunWorld NONE == 1 AND",
+            "Self GetInWorldspace RiftenWorld NONE == 1 AND",
+            "Self GetInWorldspace MarkarthWorld NONE == 1 AND",
+            "Self GetInWorldspace SolitudeWorld NONE == 1 AND",
+            "Self GetInWorldspace WindhelmPitWorldspace NONE == 1 AND"
+          ]
         }
       }
     ]
@@ -98,7 +112,14 @@
           "shadowDepthBias": 0.0,
           "rotation": [0.0, 180.0, 180.0],
           "flags": "Shadow|IgnoreScale",
-          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 1 AND",
+            "Self GetInWorldspace WhiterunWorld NONE == 1 AND",
+            "Self GetInWorldspace RiftenWorld NONE == 1 AND",
+            "Self GetInWorldspace MarkarthWorld NONE == 1 AND",
+            "Self GetInWorldspace SolitudeWorld NONE == 1 AND",
+            "Self GetInWorldspace WindhelmPitWorldspace NONE == 1 AND"
+          ]
         }
       }
     ]
@@ -110,13 +131,20 @@
     ],
     "lights": [
       {
-        "nodes": ["CandleFlameLg"],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 1.0,
           "flags": "IgnoreScale",
-          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 1 AND",
+            "Self GetInWorldspace WhiterunWorld NONE == 1 AND",
+            "Self GetInWorldspace RiftenWorld NONE == 1 AND",
+            "Self GetInWorldspace MarkarthWorld NONE == 1 AND",
+            "Self GetInWorldspace SolitudeWorld NONE == 1 AND",
+            "Self GetInWorldspace WindhelmPitWorldspace NONE == 1 AND"
+          ]
         }
       }
     ]
@@ -135,9 +163,16 @@
         "data": {
           "light": "PL_Candle",
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 1.0,
           "flags": "IgnoreScale",
-          "conditions": ["Self GetInWorldspace Tamriel NONE == 1 AND"]
+          "conditions": [
+            "Self GetInWorldspace Tamriel NONE == 1 AND",
+            "Self GetInWorldspace WhiterunWorld NONE == 1 AND",
+            "Self GetInWorldspace RiftenWorld NONE == 1 AND",
+            "Self GetInWorldspace MarkarthWorld NONE == 1 AND",
+            "Self GetInWorldspace SolitudeWorld NONE == 1 AND",
+            "Self GetInWorldspace WindhelmPitWorldspace NONE == 1 AND"
+          ]
         }
       }
     ]
