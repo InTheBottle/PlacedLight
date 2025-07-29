@@ -1,11 +1,6 @@
 {
   "FormKey": "0198DD:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SoljundsSinkholeMinersHouse",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Miner's House"
@@ -58,20 +53,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5DF7:Skyrim.esm",
-      "Base": "05C009:Skyrim.esm",
-      "Radius": -311.99585,
-      "LightData": {
-        "FadeOffset": 0.100000024,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "030597:Skyrim.esm",
-      "Placement": {
-        "Position": "-1168.4517, -224.77399, 144.01764"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E5DE7:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -226.97034,
@@ -82,6 +63,22 @@
       "LocationReference": "030597:Skyrim.esm",
       "Placement": {
         "Position": "-555.54626, -355.47253, 127.12764"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5DE8:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -57.01123,
+      "LightData": {
+        "FovOffset": -10.0,
+        "FadeOffset": 6.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "030597:Skyrim.esm",
+      "Placement": {
+        "Position": "-926, -136, 90",
+        "Rotation": "0, 0, 4.6831903"
       }
     },
     {
@@ -100,6 +97,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5DF7:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -311.99585,
+      "LightData": {
+        "FadeOffset": 0.100000024,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "030597:Skyrim.esm",
+      "Placement": {
+        "Position": "-1168.4517, -224.77399, 144.01764"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0E5DF8:Skyrim.esm",
       "Base": "05C009:Skyrim.esm",
       "Radius": -233.05585,
@@ -111,25 +122,6 @@
       "Placement": {
         "Position": "-1263.0781, -437.32864, 161.2694"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E5DE8:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -57.01123,
-      "LightData": {
-        "FovOffset": -10.0,
-        "FadeOffset": 6.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "030597:Skyrim.esm",
-      "Placement": {
-        "Position": "-926, -136, 90",
-        "Rotation": "0, 0, 4.6831903"
-      }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

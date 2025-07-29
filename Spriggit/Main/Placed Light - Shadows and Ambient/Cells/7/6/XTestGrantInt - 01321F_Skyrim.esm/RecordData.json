@@ -1,11 +1,6 @@
 {
   "FormKey": "01321F:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "XTestGrantInt",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Magic Visuals Test Hall"
@@ -51,20 +46,6 @@
   "ImageSpace": "014001:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "07274E:Skyrim.esm",
-      "Base": "039C4C:Skyrim.esm",
-      "Radius": 2493.0232,
-      "LightData": {
-        "FovOffset": -44.0,
-        "ShadowDepthBias": 3.0
-      },
-      "Placement": {
-        "Position": "-12.798192, -3449.2842, 950.7634",
-        "Rotation": "0, -1.5707964, 0"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "07274F:Skyrim.esm",
@@ -116,6 +97,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "07274E:Skyrim.esm",
+      "Base": "039C4C:Skyrim.esm",
+      "Radius": 2493.0232,
+      "LightData": {
+        "FovOffset": -44.0,
+        "ShadowDepthBias": 3.0
+      },
+      "Placement": {
+        "Position": "-12.798192, -3449.2842, 950.7634",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "039C4F:Skyrim.esm",
       "Base": "039C4E:Skyrim.esm",
       "Radius": 188.50845,
@@ -124,8 +119,5 @@
         "Position": "-1963.496, -499.4844, 160.49191"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

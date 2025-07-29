@@ -11,42 +11,12 @@
   ],
   "Grid": {
     "Point": "-1, 0",
-    "Flags": "1757846784"
+    "Flags": "1055149056"
   },
   "WaterHeight": 3.4028235E+38,
   "AcousticSpace": "0E3247:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0AC41B:Skyrim.esm",
-      "MajorRecordFlagsRaw": 131072,
-      "SkyrimMajorRecordFlags": [
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0897B5:Skyrim.esm",
-      "Radius": 241.39984,
-      "LocationReference": "018EE1:Skyrim.esm",
-      "Placement": {
-        "Position": "-3334.6995, 2275.4775, 1417.0259",
-        "Rotation": "0, 0, 5.633188"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0AC3A4:Skyrim.esm",
-      "MajorRecordFlagsRaw": 131072,
-      "SkyrimMajorRecordFlags": [
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0879AC:Skyrim.esm",
-      "Radius": 306.5509,
-      "LocationReference": "018EE1:Skyrim.esm",
-      "Placement": {
-        "Position": "-180.73349, 3286.7617, 1635.4067",
-        "Rotation": "0, 0, 5.993187"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "093D7D:Skyrim.esm",
@@ -61,21 +31,6 @@
       "Placement": {
         "Position": "-1771.0894, 1839.1083, 1202.3271",
         "Rotation": "0, 0, 5.633188"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "093D7E:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "0897B5:Skyrim.esm",
-      "Radius": 396.1101,
-      "LocationReference": "018EE1:Skyrim.esm",
-      "Placement": {
-        "Position": "-1764.9512, 2662.6648, 1102.8706",
-        "Rotation": "0, 0, 5.723188"
       }
     },
     {
@@ -96,6 +51,37 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "06998C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 196608,
+      "SkyrimMajorRecordFlags": [
+        "0x10000",
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0897B5:Skyrim.esm",
+      "Radius": 1278.0046,
+      "LocationReference": "018EE1:Skyrim.esm",
+      "Placement": {
+        "Position": "-3125.994, 1713.4371, 1836.3086",
+        "Rotation": "0, 0, 6.083187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0AC3A4:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 306.5509,
+      "LocationReference": "018EE1:Skyrim.esm",
+      "Placement": {
+        "Position": "-180.73349, 3286.7617, 1635.4067",
+        "Rotation": "0, 0, 5.993187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0AC41A:Skyrim.esm",
       "MajorRecordFlagsRaw": 131072,
       "SkyrimMajorRecordFlags": [
@@ -111,18 +97,32 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "06998C:Skyrim.esm",
-      "MajorRecordFlagsRaw": 196608,
+      "FormKey": "0AC41B:Skyrim.esm",
+      "MajorRecordFlagsRaw": 131072,
       "SkyrimMajorRecordFlags": [
-        "0x10000",
         "Dangerous_OffLimits_InteriorCell"
       ],
       "Base": "0897B5:Skyrim.esm",
-      "Radius": 1278.0046,
+      "Radius": 241.39984,
       "LocationReference": "018EE1:Skyrim.esm",
       "Placement": {
-        "Position": "-3125.994, 1713.4371, 1836.3086",
-        "Rotation": "0, 0, 6.083187"
+        "Position": "-3334.6995, 2275.4775, 1417.0259",
+        "Rotation": "0, 0, 5.633188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "093D7E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0897B5:Skyrim.esm",
+      "Radius": 396.1101,
+      "LocationReference": "018EE1:Skyrim.esm",
+      "Placement": {
+        "Position": "-1764.9512, 2662.6648, 1102.8706",
+        "Rotation": "0, 0, 5.723188"
       }
     }
   ],

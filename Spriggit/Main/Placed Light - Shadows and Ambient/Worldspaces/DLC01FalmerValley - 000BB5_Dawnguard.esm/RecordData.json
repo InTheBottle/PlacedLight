@@ -40,7 +40,7 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "1757847040"
+      "Flags": "1055149056"
     },
     "WaterHeight": 3.4028235E+38,
     "Regions": [
@@ -48,6 +48,23 @@
     ],
     "PersistentUnknownGroupData": 1,
     "Persistent": [
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00D25A:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073744896,
+        "EditorID": "DLC1TempleDoorLightLowerRef",
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "0x40000000"
+        ],
+        "Base": "00D259:Dawnguard.esm",
+        "Radius": 27.128693,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-22422.568, -13285.49, 8327.511"
+        }
+      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "019ACC:Dawnguard.esm",
@@ -85,23 +102,6 @@
         "LocationReference": "00A87C:Dawnguard.esm",
         "Placement": {
           "Position": "-22422.568, -13285.49, 8931.317"
-        }
-      },
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "00D25A:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073744896,
-        "EditorID": "DLC1TempleDoorLightLowerRef",
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "0x40000000"
-        ],
-        "Base": "00D259:Dawnguard.esm",
-        "Radius": 27.128693,
-        "LocationReference": "00A87C:Dawnguard.esm",
-        "Placement": {
-          "Position": "-22422.568, -13285.49, 8327.511"
         }
       }
     ],

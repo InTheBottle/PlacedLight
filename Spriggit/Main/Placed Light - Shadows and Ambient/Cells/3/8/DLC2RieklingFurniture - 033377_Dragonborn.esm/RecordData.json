@@ -1,11 +1,6 @@
 {
   "FormKey": "033377:Dragonborn.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RieklingFurniture",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "DLC2 Warehouse Ambushes"
@@ -52,6 +47,15 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "033412:Dragonborn.esm",
+      "Base": "0DA06D:Skyrim.esm",
+      "Radius": 1536.0,
+      "Placement": {
+        "Position": "760.04663, 5637.726, 525.824"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "03A2D2:Dragonborn.esm",
       "Base": "0DA06D:Skyrim.esm",
       "Radius": 1536.0,
@@ -61,11 +65,11 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "033412:Dragonborn.esm",
+      "FormKey": "033414:Dragonborn.esm",
       "Base": "0DA06D:Skyrim.esm",
       "Radius": 1536.0,
       "Placement": {
-        "Position": "760.04663, 5637.726, 525.824"
+        "Position": "71.7742, 4618.2964, 389.13477"
       }
     },
     {
@@ -85,18 +89,6 @@
       "Placement": {
         "Position": "922.9674, 7636.454, -1349.3488"
       }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "033414:Dragonborn.esm",
-      "Base": "0DA06D:Skyrim.esm",
-      "Radius": 1536.0,
-      "Placement": {
-        "Position": "71.7742, 4618.2964, 389.13477"
-      }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

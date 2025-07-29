@@ -51,6 +51,7 @@
   "EncounterZone": "03EC19:Skyrim.esm",
   "Music": "05228A:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "PersistentUnknownGroupData": 1,
   "Persistent": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -68,19 +69,20 @@
       }
     }
   ],
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0195F1:Skyrim.esm",
+      "FormKey": "019695:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
-      "Radius": 302.6989,
+      "Radius": 34.116302,
       "LightData": {
-        "FadeOffset": 0.7908523,
-        "ShadowDepthBias": 23.538574
+        "FadeOffset": 1.0664937,
+        "ShadowDepthBias": 8.76836
       },
       "LocationReference": "01917B:Skyrim.esm",
       "Placement": {
-        "Position": "27.163046, 5494.728, -959.7462"
+        "Position": "-5517.6606, 179.63885, -625.62897"
       }
     },
     {
@@ -99,6 +101,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0195F1:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 302.6989,
+      "LightData": {
+        "FadeOffset": 0.7908523,
+        "ShadowDepthBias": 23.538574
+      },
+      "LocationReference": "01917B:Skyrim.esm",
+      "Placement": {
+        "Position": "27.163046, 5494.728, -959.7462"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "019656:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 446.98492,
@@ -109,20 +125,6 @@
       "LocationReference": "01917B:Skyrim.esm",
       "Placement": {
         "Position": "-2287.2192, 499.08368, -396.58615"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "019695:Skyrim.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 34.116302,
-      "LightData": {
-        "FadeOffset": 1.0664937,
-        "ShadowDepthBias": 8.76836
-      },
-      "LocationReference": "01917B:Skyrim.esm",
-      "Placement": {
-        "Position": "-5517.6606, 179.63885, -625.62897"
       }
     }
   ],

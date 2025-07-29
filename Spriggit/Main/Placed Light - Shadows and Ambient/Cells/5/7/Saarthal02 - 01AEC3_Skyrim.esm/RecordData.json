@@ -56,21 +56,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "089C1C:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 631.1364,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.9102051,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019299:Skyrim.esm",
-      "Placement": {
-        "Position": "643.41284, -5395.733, -680.9097"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "089B02:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 261.56775,
@@ -86,21 +71,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "089C1A:Skyrim.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 235.6452,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 3.1199017,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019299:Skyrim.esm",
-      "Placement": {
-        "Position": "643.41284, -5395.733, -509.40057"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "089C18:Skyrim.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -112,6 +82,36 @@
       "Placement": {
         "Position": "663.8909, -5422.978, 40.801476",
         "Rotation": "-0.0199994, 0.06000001, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "089C1C:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 631.1364,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.9102051,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019299:Skyrim.esm",
+      "Placement": {
+        "Position": "643.41284, -5395.733, -680.9097"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "089C1A:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 235.6452,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.1199017,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019299:Skyrim.esm",
+      "Placement": {
+        "Position": "643.41284, -5395.733, -509.40057"
       }
     },
     {
