@@ -55,6 +55,36 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "01FFFC:Dragonborn.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 7.0057983,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A25:Dragonborn.esm",
+      "Placement": {
+        "Position": "-504.70474, 2342.404, 330.81516",
+        "Rotation": "0, 0, 2.0707972"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0361FD:Dragonborn.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -69.40674,
+      "LightData": {
+        "FadeOffset": 6.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A25:Dragonborn.esm",
+      "Placement": {
+        "Position": "1152, 2212, 300",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "036203:Dragonborn.esm",
       "Base": "088245:Skyrim.esm",
       "Radius": 2115.586,
@@ -82,36 +112,6 @@
       "LocationReference": "019A25:Dragonborn.esm",
       "Placement": {
         "Position": "3.6101038, 2086.9346, 274.23947",
-        "Rotation": "0, 0, 2.0707972"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0361FD:Dragonborn.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -69.40674,
-      "LightData": {
-        "FadeOffset": 6.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A25:Dragonborn.esm",
-      "Placement": {
-        "Position": "1152, 2212, 300",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01FFFC:Dragonborn.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 7.0057983,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "019A25:Dragonborn.esm",
-      "Placement": {
-        "Position": "-504.70474, 2342.404, 330.81516",
         "Rotation": "0, 0, 2.0707972"
       }
     }

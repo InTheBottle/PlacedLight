@@ -1,11 +1,6 @@
 {
   "FormKey": "06C3B6:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "AAADeleteWhenDoneTestJeremy",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "TestTony"
@@ -52,34 +47,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "10D68E:Skyrim.esm",
+      "FormKey": "10D68F:Skyrim.esm",
       "Base": "094E66:Skyrim.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "-2084.2178, -2669.4626, 8960"
+        "Position": "-2556.6882, -2873.0056, 8960"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "10D68D:Skyrim.esm",
-      "Base": "094E66:Skyrim.esm",
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "-1988.4897, -3118.8406, 8960.104"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "10D68B:Skyrim.esm",
-      "Base": "094E66:Skyrim.esm",
-      "LocationReference": "003B8F:Dawnguard.esm",
-      "Placement": {
-        "Position": "-2564.9517, -2532.7007, 8960"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "10D68A:Skyrim.esm",
+      "FormKey": "10D689:Skyrim.esm",
       "Base": "094E66:Skyrim.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
@@ -97,7 +74,7 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "10D689:Skyrim.esm",
+      "FormKey": "10D68A:Skyrim.esm",
       "Base": "094E66:Skyrim.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
@@ -106,15 +83,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "10D68F:Skyrim.esm",
+      "FormKey": "10D68B:Skyrim.esm",
       "Base": "094E66:Skyrim.esm",
       "LocationReference": "003B8F:Dawnguard.esm",
       "Placement": {
-        "Position": "-2556.6882, -2873.0056, 8960"
+        "Position": "-2564.9517, -2532.7007, 8960"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10D68D:Skyrim.esm",
+      "Base": "094E66:Skyrim.esm",
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-1988.4897, -3118.8406, 8960.104"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10D68E:Skyrim.esm",
+      "Base": "094E66:Skyrim.esm",
+      "LocationReference": "003B8F:Dawnguard.esm",
+      "Placement": {
+        "Position": "-2084.2178, -2669.4626, 8960"
       }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

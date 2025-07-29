@@ -1,11 +1,6 @@
 {
   "FormKey": "0C0BBA:Skyrim.esm",
-  "IsCompressed": true,
-  "MajorRecordFlagsRaw": 262144,
   "EditorID": "ThievesGuildHoldingCell",
-  "SkyrimMajorRecordFlags": [
-    "Compressed"
-  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Do Not Delete - Not A Test Cell"
@@ -50,12 +45,12 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C0BD9:Skyrim.esm",
+      "FormKey": "01BACC:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
-      "Radius": -50.77295,
+      "Radius": -247.84323,
       "LocationReference": "0EE3FE:Skyrim.esm",
       "Placement": {
-        "Position": "2371.9275, 1804.2994, 7451.365"
+        "Position": "1949.0146, 2296.3013, 7411.4404"
       }
     },
     {
@@ -80,16 +75,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01BACC:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -247.84323,
-      "LocationReference": "0EE3FE:Skyrim.esm",
-      "Placement": {
-        "Position": "1949.0146, 2296.3013, 7411.4404"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0C0BD8:Skyrim.esm",
       "Base": "059A93:Skyrim.esm",
       "Radius": -50.77295,
@@ -97,9 +82,16 @@
       "Placement": {
         "Position": "1760.7991, 1850.105, 7451.365"
       }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0BD9:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -50.77295,
+      "LocationReference": "0EE3FE:Skyrim.esm",
+      "Placement": {
+        "Position": "2371.9275, 1804.2994, 7451.365"
+      }
     }
-  ],
-  "MajorFlags": [
-    "0x40000"
   ]
 }

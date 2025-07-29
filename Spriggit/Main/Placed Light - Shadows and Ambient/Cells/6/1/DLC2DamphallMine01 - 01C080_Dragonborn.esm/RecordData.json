@@ -45,7 +45,7 @@
   "LightingTemplate": "03128C:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "0296DA:Dragonborn.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "SkyAndWeatherFromRegion": "09B0B1:Skyrim.esm",
   "AcousticSpace": "0FD93A:Skyrim.esm",
   "EncounterZone": "0296DB:Dragonborn.esm",
@@ -55,17 +55,34 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "037719:Dragonborn.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 759.0243,
+      "FormKey": "0317A1:Dragonborn.esm",
+      "Base": "06ED65:Skyrim.esm",
+      "Radius": 229.87631,
+      "Emittance": "07548E:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 0.84872055,
-        "ShadowDepthBias": 30.687706
+        "FadeOffset": 0.36289525,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "0296DA:Dragonborn.esm",
       "Placement": {
-        "Position": "-3037.7788, -524.382, -356.24902",
-        "Rotation": "0, 0, 3.883197"
+        "Position": "-5260.3687, -1207.3656, -48.78067"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "027144:Dragonborn.esm",
+      "Base": "10F52E:Skyrim.esm",
+      "Radius": 2812.5496,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -31.677406,
+        "FadeOffset": -1.4574738,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0296DA:Dragonborn.esm",
+      "Placement": {
+        "Position": "-4785.306, -1748.0686, 1319.6823",
+        "Rotation": "-2.3712525, -0.6585161, 1.780236"
       }
     },
     {
@@ -102,6 +119,64 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "025354:Dragonborn.esm",
+      "Base": "02EDED:Skyrim.esm",
+      "Radius": 676.11914,
+      "LightData": {
+        "FadeOffset": 0.20670664,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0296DA:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1968, 4832, 164.34528"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0253ED:Dragonborn.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": -67.391205,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.2579982,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0296DA:Dragonborn.esm",
+      "Placement": {
+        "Position": "-2082.2976, 4214.8804, 1822.2578"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "037719:Dragonborn.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 759.0243,
+      "LightData": {
+        "FadeOffset": 0.84872055,
+        "ShadowDepthBias": 30.687706
+      },
+      "LocationReference": "0296DA:Dragonborn.esm",
+      "Placement": {
+        "Position": "-3037.7788, -524.382, -356.24902",
+        "Rotation": "0, 0, 3.883197"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "037712:Dragonborn.esm",
+      "Base": "02EDED:Skyrim.esm",
+      "Radius": 48.73889,
+      "LightData": {
+        "FadeOffset": 0.86736584,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0296DA:Dragonborn.esm",
+      "Placement": {
+        "Position": "-3396.6326, 6159.531, 156.86981"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "025356:Dragonborn.esm",
       "Base": "088242:Skyrim.esm",
       "Radius": 212.49197,
@@ -129,67 +204,6 @@
       "Placement": {
         "Position": "-4903.282, -1683.0402, 934.103",
         "Rotation": "-2.3712525, -0.6585161, 1.780236"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0253ED:Dragonborn.esm",
-      "Base": "08824B:Skyrim.esm",
-      "Radius": -67.391205,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 2.2579982,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0296DA:Dragonborn.esm",
-      "Placement": {
-        "Position": "-2082.2976, 4214.8804, 1822.2578"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "027144:Dragonborn.esm",
-      "Base": "10F52E:Skyrim.esm",
-      "Radius": 2812.5496,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FovOffset": -31.677406,
-        "FadeOffset": -1.4574738,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0296DA:Dragonborn.esm",
-      "Placement": {
-        "Position": "-4785.306, -1748.0686, 1319.6823",
-        "Rotation": "-2.3712525, -0.6585161, 1.780236"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "025354:Dragonborn.esm",
-      "Base": "02EDED:Skyrim.esm",
-      "Radius": 676.11914,
-      "LightData": {
-        "FadeOffset": 0.20670664,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0296DA:Dragonborn.esm",
-      "Placement": {
-        "Position": "-1968, 4832, 164.34528"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0317A1:Dragonborn.esm",
-      "Base": "06ED65:Skyrim.esm",
-      "Radius": 229.87631,
-      "Emittance": "07548E:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.36289525,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0296DA:Dragonborn.esm",
-      "Placement": {
-        "Position": "-5260.3687, -1207.3656, -48.78067"
       }
     },
     {
@@ -222,20 +236,6 @@
       "LocationReference": "0296DA:Dragonborn.esm",
       "Placement": {
         "Position": "-1566.0234, 3404.131, 1973.6497"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "037712:Dragonborn.esm",
-      "Base": "02EDED:Skyrim.esm",
-      "Radius": 48.73889,
-      "LightData": {
-        "FadeOffset": 0.86736584,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "0296DA:Dragonborn.esm",
-      "Placement": {
-        "Position": "-3396.6326, 6159.531, 156.86981"
       }
     }
   ],

@@ -51,27 +51,13 @@
   "Location": "01F87D:Skyrim.esm",
   "Water": "074EEA:Skyrim.esm",
   "Owner": "0ECC44:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\wrtemple_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
   "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
   "AcousticSpace": "10F90D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0D485E:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "074ED7:Skyrim.esm",
-      "Base": "074ED6:Skyrim.esm",
-      "Radius": -23.770233,
-      "LightData": {
-        "FadeOffset": 0.5,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F87D:Skyrim.esm",
-      "Placement": {
-        "Position": "223.03027, 262.30905, 87.35417"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "073C28:Skyrim.esm",
@@ -84,6 +70,20 @@
       "LocationReference": "01F87D:Skyrim.esm",
       "Placement": {
         "Position": "220.05145, 277.37482, 633.7748"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "074ED7:Skyrim.esm",
+      "Base": "074ED6:Skyrim.esm",
+      "Radius": -23.770233,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F87D:Skyrim.esm",
+      "Placement": {
+        "Position": "223.03027, 262.30905, 87.35417"
       }
     }
   ],

@@ -46,25 +46,11 @@
   "LightingTemplate": "0B2157:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01706E:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\cavegreencube_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0B215C:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0A2E14:Skyrim.esm",
-      "Base": "059B71:Skyrim.esm",
-      "Radius": -61.345978,
-      "LightData": {
-        "FadeOffset": 6.0,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01706E:Skyrim.esm",
-      "Placement": {
-        "Position": "-1282.0721, 2151.6873, -23.087725"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "09D5F9:Skyrim.esm",
@@ -77,6 +63,20 @@
       "Placement": {
         "Position": "-1528, 1344, 136",
         "Rotation": "0, 0, 2.8797932"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A2E14:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -61.345978,
+      "LightData": {
+        "FadeOffset": 6.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01706E:Skyrim.esm",
+      "Placement": {
+        "Position": "-1282.0721, 2151.6873, -23.087725"
       }
     }
   ],
