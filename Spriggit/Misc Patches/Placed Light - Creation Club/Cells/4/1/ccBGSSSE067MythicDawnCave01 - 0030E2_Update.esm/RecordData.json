@@ -8,7 +8,7 @@
   ],
   "Name": {
     "TargetLanguage": "English",
-    "Value": "Red Scar Cavern"
+    "Value": "Varlais Cavern"
   },
   "Flags": [
     "IsInteriorCell",
@@ -18,7 +18,6 @@
     "AmbientColor": "#00555555",
     "DirectionalColor": "#00050505",
     "FogNearColor": "#00172116",
-    "FogPower": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#001C160B",
       "DirectionalXMinus": "#0017160A",
@@ -30,7 +29,6 @@
       "Scale": 1.0
     },
     "FogFarColor": "#0011110B",
-    "FogMax": 1.0,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -46,13 +44,13 @@
       "LightFadeDistances"
     ]
   },
-  "LightingTemplate": "094EB2:ccbgssse067-daedinv.esm",
+  "LightingTemplate": "000B21:ccbgssse067-daedinv.esm",
   "WaterHeight": 0.0,
-  "Location": "033F35:ccbgssse067-daedinv.esm",
-  "AcousticSpace": "01989F:Skyrim.esm",
-  "EncounterZone": "033F37:ccbgssse067-daedinv.esm",
-  "Music": "094BDD:Skyrim.esm",
-  "ImageSpace": "094EB1:ccbgssse067-daedinv.esm",
+  "Location": "015889:ccbgssse067-daedinv.esm",
+  "AcousticSpace": "000B23:ccbgssse067-daedinv.esm",
+  "EncounterZone": "033F38:ccbgssse067-daedinv.esm",
+  "Music": "003053:Update.esm",
+  "ImageSpace": "000B20:ccbgssse067-daedinv.esm",
   "MajorFlags": [
     "0x40000"
   ]
