@@ -34,7 +34,9 @@
   {
     "models": [
       "clutter\\candles\\candlehornwall01.nif",
-      "clutter\\candles\\candlehorntable01.nif"
+      "clutter\\candles\\candlehorntable01.nif",
+      "Horn Candle Variants\\candlehorntable01_HCV.nif",
+      "Horn Candle Variants\\candlehornwall01_HCV.nif"
     ],
     "lights": [
       {
@@ -229,7 +231,10 @@
     ]
   },
   {
-    "models": ["clutter\\candles\\candlehornfloor01.nif"],
+    "models": [
+      "clutter\\candles\\candlehornfloor01.nif",
+      "Horn Candle Variants\\candlehornfloor01_HCV.nif"
+    ],
     "lights": [
       {
         "points": [[0.0, 0.0, 130.0]],
