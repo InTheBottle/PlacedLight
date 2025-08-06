@@ -1,0 +1,97 @@
+{
+  "FormKey": "016BD1:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "RiftenHouseofMjolltheLioness",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Aerin's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar"
+    ]
+  },
+  "LightingTemplate": "0B2157:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "022642:Skyrim.esm",
+  "Owner": "0A251E:Skyrim.esm",
+  "LockList": "0A251D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05EDE2:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 297.02902,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022642:Skyrim.esm",
+      "Placement": {
+        "Position": "-128, -72, 235.7486"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06A295:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 113.25339,
+      "LightData": {
+        "FadeOffset": 0.75225115,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "022642:Skyrim.esm",
+      "Placement": {
+        "Position": "32.60387, -126.985725, -117.29867",
+        "Rotation": "0, 0, 0.87000924"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05F877:Skyrim.esm",
+      "Base": "0B2160:Skyrim.esm",
+      "Radius": 118.4147,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "022642:Skyrim.esm",
+      "Placement": {
+        "Position": "-127.00947, -385.01724, 456.68695"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

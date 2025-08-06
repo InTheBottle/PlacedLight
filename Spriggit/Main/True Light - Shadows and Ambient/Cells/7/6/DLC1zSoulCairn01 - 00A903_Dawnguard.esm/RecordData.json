@@ -1,0 +1,64 @@
+{
+  "FormKey": "00A903:Dawnguard.esm",
+  "EditorID": "DLC1zSoulCairn01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Cave"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019292:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC5A:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00A944:Dawnguard.esm",
+      "Base": "0F7CBD:Skyrim.esm",
+      "Radius": 435.14954,
+      "LightData": {
+        "ShadowDepthBias": 29.949783
+      },
+      "LocationReference": "019292:Skyrim.esm",
+      "Placement": {
+        "Position": "2196.1626, -190.48157, -20.253723",
+        "Rotation": "0.36880845, -1.0680906, 5.593006"
+      }
+    }
+  ]
+}

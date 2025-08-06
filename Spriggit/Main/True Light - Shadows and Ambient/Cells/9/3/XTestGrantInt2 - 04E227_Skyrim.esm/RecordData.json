@@ -1,0 +1,85 @@
+{
+  "FormKey": "04E227:Skyrim.esm",
+  "EditorID": "XTestGrantInt2",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Magic Visuals Test Hall"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationXY": 45,
+    "DirectionalRotationZ": 210,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 10000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "WaterHeight": -2.1474836E+09,
+  "ImageSpace": "04E261:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "075322:Skyrim.esm",
+      "Base": "07531F:Skyrim.esm",
+      "Radius": 56.862305,
+      "Placement": {
+        "Position": "-1398.4966, -1036.8477, 17.954935"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "075324:Skyrim.esm",
+      "Base": "07531F:Skyrim.esm",
+      "Radius": 56.862305,
+      "Placement": {
+        "Position": "-2559.5896, -421.07855, 17.954935"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07532C:Skyrim.esm",
+      "Base": "07531F:Skyrim.esm",
+      "Radius": 129.8197,
+      "Placement": {
+        "Position": "-597.7866, -1692.9961, 17.954935"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "075321:Skyrim.esm",
+      "Base": "07531F:Skyrim.esm",
+      "Radius": 9.619476,
+      "Placement": {
+        "Position": "-2290.4883, -1389.7725, 17.954935"
+      }
+    }
+  ]
+}

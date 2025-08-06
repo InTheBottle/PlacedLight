@@ -1,0 +1,57 @@
+{
+  "FormKey": "0030E7:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ccASVSSE001Interior03",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Old Attius Farm Cellar"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00555555",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00172116",
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00FFFFFF",
+      "DirectionalXMinus": "#00FFFFFF",
+      "DirectionalYPlus": "#00FFFFFF",
+      "DirectionalYMinus": "#00FFFFFF",
+      "DirectionalZPlus": "#00FFFFFF",
+      "DirectionalZMinus": "#00FFFFFF",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0A2680:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01BFE4:Dragonborn.esm",
+  "LockList": "000F22:ccasvsse001-almsivi.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "033917:Dragonborn.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

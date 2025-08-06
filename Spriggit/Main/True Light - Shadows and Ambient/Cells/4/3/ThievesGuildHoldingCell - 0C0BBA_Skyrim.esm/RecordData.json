@@ -1,0 +1,95 @@
+{
+  "FormKey": "0C0BBA:Skyrim.esm",
+  "EditorID": "ThievesGuildHoldingCell",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Do Not Delete - Not A Test Cell"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0EE3FE:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01BACC:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -247.84323,
+      "LocationReference": "0EE3FE:Skyrim.esm",
+      "Placement": {
+        "Position": "1949.0146, 2296.3013, 7411.4404"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0BC8:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -247.84323,
+      "LocationReference": "0EE3FE:Skyrim.esm",
+      "Placement": {
+        "Position": "2416.863, 2292.9438, 7382.218"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0BCE:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -50.77295,
+      "LocationReference": "0EE3FE:Skyrim.esm",
+      "Placement": {
+        "Position": "1838.3066, 2337.6135, 7459.1084"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0BD8:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -50.77295,
+      "LocationReference": "0EE3FE:Skyrim.esm",
+      "Placement": {
+        "Position": "1760.7991, 1850.105, 7451.365"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0BD9:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -50.77295,
+      "LocationReference": "0EE3FE:Skyrim.esm",
+      "Placement": {
+        "Position": "2371.9275, 1804.2994, 7451.365"
+      }
+    }
+  ]
+}

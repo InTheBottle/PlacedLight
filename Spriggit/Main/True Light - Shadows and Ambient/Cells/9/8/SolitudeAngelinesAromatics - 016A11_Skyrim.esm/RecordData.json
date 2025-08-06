@@ -1,0 +1,90 @@
+{
+  "FormKey": "016A11:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "SolitudeAngelinesAromatics",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Angeline's Aromatics"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogClipDistance": 2200.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06AB01:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "020080:Skyrim.esm",
+  "Owner": "0C13C4:Skyrim.esm",
+  "LockList": "0C13C5:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "04E666:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D4C28:Skyrim.esm",
+      "Base": "0D4C29:Skyrim.esm",
+      "Radius": 33.4317,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020080:Skyrim.esm",
+      "Placement": {
+        "Position": "-1.7475958, -96.63434, 112",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D4C26:Skyrim.esm",
+      "Base": "0625E0:Skyrim.esm",
+      "Radius": 141.91,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "ShadowDepthBias": 17.90435
+      },
+      "LocationReference": "020080:Skyrim.esm",
+      "Placement": {
+        "Position": "-148.35583, -554.1015, 310.1534"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

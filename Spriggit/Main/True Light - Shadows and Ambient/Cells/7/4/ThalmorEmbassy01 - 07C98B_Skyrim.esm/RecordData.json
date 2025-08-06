@@ -1,0 +1,85 @@
+{
+  "FormKey": "07C98B:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ThalmorEmbassy01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Thalmor Embassy"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogFar": 5000.0,
+    "FogClipDistance": 5000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor"
+    ]
+  },
+  "LightingTemplate": "06256A:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018C92:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "EncounterZone": "027F6F:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0E461F:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D0F45:Skyrim.esm",
+      "Base": "0625E0:Skyrim.esm",
+      "Radius": 364.65118,
+      "LightData": {
+        "FadeOffset": 0.20539176,
+        "ShadowDepthBias": 26.73
+      },
+      "LocationReference": "018C92:Skyrim.esm",
+      "Placement": {
+        "Position": "244.20032, -77.043076, 350.7228"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D1369:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": -122.36386,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "FadeOffset": 4.0,
+        "ShadowDepthBias": 2.2181091
+      },
+      "LocationReference": "018C92:Skyrim.esm",
+      "Placement": {
+        "Position": "-1903.0233, -245.44055, 122.69146",
+        "Rotation": "0.49947372, -1.5707964, 5.835452"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

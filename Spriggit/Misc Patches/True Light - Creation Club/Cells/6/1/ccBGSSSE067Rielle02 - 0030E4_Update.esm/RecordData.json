@@ -1,0 +1,61 @@
+{
+  "FormKey": "0030E4:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ccBGSSSE067Rielle02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Rielle Crypt"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00555555",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00172116",
+    "FogFar": 4500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00141C25",
+      "DirectionalXMinus": "#00111C22",
+      "DirectionalYPlus": "#00131D24",
+      "DirectionalYMinus": "#00131A24",
+      "DirectionalZPlus": "#00090D10",
+      "DirectionalZMinus": "#001C2A37",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "000B21:ccbgssse067-daedinv.esm",
+  "WaterHeight": 0.0,
+  "Location": "015889:ccbgssse067-daedinv.esm",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "000B23:ccbgssse067-daedinv.esm",
+  "EncounterZone": "033F38:ccbgssse067-daedinv.esm",
+  "Music": "003053:Update.esm",
+  "ImageSpace": "000B20:ccbgssse067-daedinv.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

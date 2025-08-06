@@ -1,0 +1,60 @@
+{
+  "FormKey": "002F9A:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ccBGSSSE016Interior02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Champion's Rest Amphitheater"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00555555",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00172116",
+    "FogFar": 16000.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00182538",
+      "DirectionalXMinus": "#00132533",
+      "DirectionalYPlus": "#00162636",
+      "DirectionalYMinus": "#00162336",
+      "DirectionalZPlus": "#000A1118",
+      "DirectionalZMinus": "#00213853",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#001C4D71",
+    "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "091930:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "006C48:ccbgssse016-umbra.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "00775D:ccbgssse016-umbra.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0614E1:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "FormKey": "01321F:Skyrim.esm",
+  "EditorID": "XTestGrantInt",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Magic Visuals Test Hall"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationXY": 45,
+    "DirectionalRotationZ": 210,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "WaterHeight": -2.1474836E+09,
+  "ImageSpace": "014001:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07274F:Skyrim.esm",
+      "Base": "039C4E:Skyrim.esm",
+      "Radius": 459.6449,
+      "Placement": {
+        "Position": "4.9579277, -2616.5205, -9.603276"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07274D:Skyrim.esm",
+      "Base": "039C4C:Skyrim.esm",
+      "Radius": 2256.5317,
+      "LightData": {
+        "FovOffset": -44.0,
+        "EndDistanceCap": 1200.0,
+        "ShadowDepthBias": 3.0
+      },
+      "Placement": {
+        "Position": "-10.746248, -2598.8135, 950.7634",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072750:Skyrim.esm",
+      "Base": "039C4E:Skyrim.esm",
+      "Radius": 459.6449,
+      "Placement": {
+        "Position": "-1.3901024, -3400.0464, -3.5726452"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "039C4D:Skyrim.esm",
+      "Base": "039C4C:Skyrim.esm",
+      "Radius": 2069.514,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -47.7374,
+        "EndDistanceCap": 1024.0,
+        "ShadowDepthBias": 3.47
+      },
+      "Placement": {
+        "Position": "-2834.1758, -566.48865, 667.24866",
+        "Rotation": "-0.20788477, -0.6558931, 6.2516723"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07274E:Skyrim.esm",
+      "Base": "039C4C:Skyrim.esm",
+      "Radius": 2493.0232,
+      "LightData": {
+        "FovOffset": -44.0,
+        "ShadowDepthBias": 3.0
+      },
+      "Placement": {
+        "Position": "-12.798192, -3449.2842, 950.7634",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "039C4F:Skyrim.esm",
+      "Base": "039C4E:Skyrim.esm",
+      "Radius": 188.50845,
+      "Emittance": "02A72D:Skyrim.esm",
+      "Placement": {
+        "Position": "-1963.496, -499.4844, 160.49191"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "FormKey": "002FCF:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ccBGSSSE013Lair",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Guardian Vault"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00555555",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00172116",
+    "FogFar": 6000.0,
+    "FogClipDistance": 6000.0,
+    "FogPower": 0.8,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00335549",
+      "DirectionalXMinus": "#002A5542",
+      "DirectionalYPlus": "#002F5846",
+      "DirectionalYMinus": "#002F5146",
+      "DirectionalZPlus": "#0016281F",
+      "DirectionalZMinus": "#0047816C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00486660",
+    "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "05C734:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "000816:ccbgssse013-dawnfang.esl",
+  "Water": "0F2407:Skyrim.esm",
+  "AcousticSpace": "108E60:Skyrim.esm",
+  "EncounterZone": "000807:ccbgssse013-dawnfang.esl",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "05C73D:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

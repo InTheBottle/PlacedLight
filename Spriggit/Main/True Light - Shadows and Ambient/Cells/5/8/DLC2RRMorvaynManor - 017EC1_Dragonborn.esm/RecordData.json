@@ -1,0 +1,101 @@
+{
+  "FormKey": "017EC1:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC2RRMorvaynManor",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Morvayn Manor"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogFar": 4500.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019A1C:Dragonborn.esm",
+  "Owner": "01841E:Dragonborn.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "035018:Dragonborn.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 222.01053,
+      "LightData": {
+        "FadeOffset": 0.75,
+        "ShadowDepthBias": 21.193981
+      },
+      "LocationReference": "019A1C:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1416.4032, -757.2398, 204.03003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03501B:Dragonborn.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": -12.661484,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A1C:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1535.8673, -342.0142, 184.45459",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03504F:Dragonborn.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 54.599762,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019A1C:Dragonborn.esm",
+      "Placement": {
+        "Position": "-1576.1217, 147.15741, 98.02597"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

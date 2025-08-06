@@ -1,0 +1,61 @@
+{
+  "FormKey": "002FD6:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ccKRTSSE001QPInterior01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Pit Dungeon"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00555555",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00172116",
+    "FogFar": 3500.0,
+    "DirectionalRotationXY": 270,
+    "DirectionalRotationZ": 240,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#005E4A34",
+      "DirectionalXMinus": "#004D4A2F",
+      "DirectionalYPlus": "#00564D32",
+      "DirectionalYMinus": "#00564632",
+      "DirectionalZPlus": "#00282316",
+      "DirectionalZMinus": "#0083704D",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06909B:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "000F54:cckrtsse001_altar.esl",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "000A73:cckrtsse001_altar.esl",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "FormKey": "03016A:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "FortHraggstad02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Hraggstad Prison"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019181:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1F:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C6D7:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 276.58704,
+      "LightData": {
+        "FadeOffset": 1.9298613,
+        "ShadowDepthBias": 22.851746
+      },
+      "LocationReference": "019181:Skyrim.esm",
+      "Placement": {
+        "Position": "-166.4776, -1049.403, 164.52455"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C6D5:Skyrim.esm",
+      "Base": "05C70D:Skyrim.esm",
+      "Radius": 233.81772,
+      "LightData": {
+        "FadeOffset": 0.8417697,
+        "ShadowDepthBias": 26.835285
+      },
+      "LocationReference": "019181:Skyrim.esm",
+      "Placement": {
+        "Position": "-252.81636, -1971.4805, 230.69943"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

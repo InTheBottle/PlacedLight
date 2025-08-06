@@ -1,0 +1,99 @@
+{
+  "FormKey": "017787:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC2TelMithryn",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Tel Mithryn"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 180,
+    "FogClipDistance": 7000.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034F4B:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "01CDEA:Dragonborn.esm",
+  "Owner": "017775:Dragonborn.esm",
+  "AcousticSpace": "03974D:Dragonborn.esm",
+  "EncounterZone": "01D751:Dragonborn.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03CBA2:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "036365:Skyrim.esm",
+      "Radius": 25.969482,
+      "LightData": {
+        "FadeOffset": 0.58135736,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01CDEA:Dragonborn.esm",
+      "Placement": {
+        "Position": "199.6067, 1456.9246, -2009.3768"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0391D6:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088247:Skyrim.esm",
+      "Radius": 409.72418,
+      "LightData": {
+        "FadeOffset": 1.7126532,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01CDEA:Dragonborn.esm",
+      "Placement": {
+        "Position": "207.98245, 1482.2655, 295.0644",
+        "Rotation": "0.34906584, 1.5707964, 0.6981317"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

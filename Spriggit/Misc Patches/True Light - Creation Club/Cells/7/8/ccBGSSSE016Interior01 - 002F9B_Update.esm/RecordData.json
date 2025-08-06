@@ -1,0 +1,61 @@
+{
+  "FormKey": "002F9B:Update.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ccBGSSSE016Interior01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Champion's Rest"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00555555",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00172116",
+    "FogFar": 13000.0,
+    "FogClipDistance": 12000.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00273C40",
+      "DirectionalXMinus": "#00203C3B",
+      "DirectionalYPlus": "#00243E3E",
+      "DirectionalYMinus": "#0024393E",
+      "DirectionalZPlus": "#00111C1C",
+      "DirectionalZMinus": "#00365B5F",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#001F3436",
+    "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0C1CBA:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "006C48:ccbgssse016-umbra.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "00775C:ccbgssse016-umbra.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
