@@ -17,23 +17,23 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
+    "AmbientColor": "#003E4426",
     "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "FogNearColor": "#006DA79B",
     "FogNear": 750.0,
     "FogFar": 6000.0,
     "DirectionalFade": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
-      "Specular": "#00000000",
+      "DirectionalXPlus": "#00444427",
+      "DirectionalXMinus": "#00374424",
+      "DirectionalYPlus": "#003E4726",
+      "DirectionalYMinus": "#003E4026",
+      "DirectionalZPlus": "#001D2011",
+      "DirectionalZMinus": "#005E673A",
+      "Specular": "#0088A6A6",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#0088A6A6",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -42,8 +42,12 @@
       "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
-      "FogMax"
+      "FogMax",
+      "LightFadeDistances"
     ]
   },
   "LightingTemplate": "0B7DB8:Skyrim.esm",

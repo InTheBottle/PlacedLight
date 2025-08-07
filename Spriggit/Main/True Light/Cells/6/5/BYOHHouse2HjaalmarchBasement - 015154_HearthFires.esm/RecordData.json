@@ -14,35 +14,41 @@
     "IsInteriorCell"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#0023211D",
+    "DirectionalColor": "#004F5A5B",
+    "FogNearColor": "#003A3730",
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#0026211E",
+      "DirectionalXMinus": "#001F211B",
+      "DirectionalYPlus": "#0023221D",
+      "DirectionalYMinus": "#00231F1D",
+      "DirectionalZPlus": "#00100F0D",
+      "DirectionalZMinus": "#0035322C",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00585347",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "ClipDistance",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
   },
-  "LightingTemplate": "0660A3:Skyrim.esm",
+  "LightingTemplate": "0A1196:Skyrim.esm",
   "WaterHeight": -2.1474836E+09,
   "Location": "00BE0A:HearthFires.esm",
   "Owner": "000DB1:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
   "MajorFlags": [
     "0x40000"
   ]

@@ -16,23 +16,23 @@
     "PublicArea"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#001C1A11",
+    "DirectionalColor": "#00024951",
+    "FogNearColor": "#00B0DCF7",
     "FogNear": 340.0,
     "FogFar": 7000.0,
     "DirectionalFade": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
-      "Specular": "#00000000",
+      "DirectionalXPlus": "#001E1A11",
+      "DirectionalXMinus": "#00191A10",
+      "DirectionalYPlus": "#001C1B11",
+      "DirectionalYMinus": "#001C1811",
+      "DirectionalZPlus": "#000D0C07",
+      "DirectionalZMinus": "#002A271A",
+      "Specular": "#00B0DCF7",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00B0DCF7",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -41,8 +41,12 @@
       "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
-      "FogMax"
+      "FogMax",
+      "LightFadeDistances"
     ]
   },
   "LightingTemplate": "06909B:Skyrim.esm",

@@ -17,10 +17,10 @@
   ],
   "Lighting": {
     "AmbientColor": "#00555555",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00172116",
     "FogFar": 4500.0,
-    "FogPower": 0.6,
+    "DirectionalFade": 1.0,
     "AmbientColors": {
       "DirectionalXPlus": "#002C2418",
       "DirectionalXMinus": "#00232415",
@@ -32,17 +32,13 @@
       "Scale": 1.0
     },
     "FogFarColor": "#00172116",
-    "FogMax": 1.0,
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"

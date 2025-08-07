@@ -16,26 +16,32 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#000A0A0A",
+    "DirectionalColor": "#00415154",
+    "FogNearColor": "#00978866",
     "FogFar": 3000.0,
     "DirectionalRotationZ": 90,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
-      "Specular": "#00000000",
+      "DirectionalXPlus": "#000B0A0A",
+      "DirectionalXMinus": "#00080A09",
+      "DirectionalYPlus": "#000A0A0A",
+      "DirectionalYMinus": "#000A090A",
+      "DirectionalZPlus": "#00040404",
+      "DirectionalZMinus": "#000F0F0F",
+      "Specular": "#009C8858",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#009C8858",
     "LightFadeBegin": 31000.0,
-    "LightFadeEnd": 41000.0
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "LightFadeDistances"
+    ]
   },
-  "LightingTemplate": "0195D3:Skyrim.esm",
+  "LightingTemplate": "002F7E:Dawnguard.esm",
   "WaterHeight": 0.0,
   "Location": "018EED:Skyrim.esm",
   "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",

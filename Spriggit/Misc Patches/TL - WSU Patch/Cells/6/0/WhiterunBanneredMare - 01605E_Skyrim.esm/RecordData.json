@@ -16,32 +16,34 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "AmbientColor": "#000E0D0C",
+    "DirectionalColor": "#0040494A",
+    "FogNearColor": "#00585347",
+    "FogNear": 512.0,
+    "FogFar": 2000.0,
     "DirectionalRotationXY": 180,
     "FogClipDistance": 2000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
-      "Specular": "#00000000",
+      "DirectionalXPlus": "#000F0D0C",
+      "DirectionalXMinus": "#000C0D0B",
+      "DirectionalYPlus": "#000E0D0C",
+      "DirectionalYMinus": "#000E0C0C",
+      "DirectionalZPlus": "#00060605",
+      "DirectionalZMinus": "#00151312",
+      "Specular": "#00585347",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00585347",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "FogPower",
+      "DirectionalRotation",
+      "ClipDistance",
       "FogMax",
       "LightFadeDistances"
     ]
@@ -61,7 +63,7 @@
       "Base": "0BBAE5:Skyrim.esm",
       "Radius": -303.5425,
       "LightData": {
-        "FadeOffset": -5.0,
+        "FadeOffset": 3.0,
         "ShadowDepthBias": 20.723461
       },
       "LocationReference": "01F86D:Skyrim.esm",

@@ -16,28 +16,32 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#00584F34",
+    "DirectionalColor": "#00212E2F",
+    "FogNearColor": "#004B6361",
     "FogFar": 18000.0,
     "FogClipDistance": 50000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#00604F36",
+      "DirectionalXMinus": "#004F4F31",
+      "DirectionalYPlus": "#00585234",
+      "DirectionalYMinus": "#00584B34",
+      "DirectionalZPlus": "#00292517",
+      "DirectionalZMinus": "#00867850",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00787C58",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
       "LightFadeDistances"
     ]
