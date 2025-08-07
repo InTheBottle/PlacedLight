@@ -1,6 +1,11 @@
 {
   "FormKey": "0142F5:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2POIBookLevel02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Apocrypha"
@@ -10,29 +15,31 @@
     "HasWater"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "AmbientColor": "#000D0803",
+    "DirectionalColor": "#001B2426",
+    "FogNearColor": "#0038372C",
+    "FogFar": 6000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#000E0803",
+      "DirectionalXMinus": "#000B0802",
+      "DirectionalYPlus": "#000D0803",
+      "DirectionalYMinus": "#000D0703",
+      "DirectionalZPlus": "#00060301",
+      "DirectionalZMinus": "#00130C04",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#001E1D17",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
-      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -46,5 +53,8 @@
   "AcousticSpace": "039E50:Dragonborn.esm",
   "EncounterZone": "0142AD:Dragonborn.esm",
   "Music": "034281:Dragonborn.esm",
-  "ImageSpace": "000167:Skyrim.esm"
+  "ImageSpace": "000167:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

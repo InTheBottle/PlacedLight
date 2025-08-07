@@ -15,29 +15,32 @@
     "PublicArea"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
+    "AmbientColor": "#00000000",
     "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 9000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00B0DCF7",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
-      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -49,23 +52,6 @@
   "AcousticSpace": "0FD93A:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
-  "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "065259:Skyrim.esm",
-      "Base": "09250B:Skyrim.esm",
-      "Radius": 80.543945,
-      "LightData": {
-        "FadeOffset": 5.8578916,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01F7BF:Skyrim.esm",
-      "Placement": {
-        "Position": "2678.5288, 1316.2766, -317.04678",
-        "Rotation": "0, 0, 5.858187"
-      }
-    }
-  ],
   "MajorFlags": [
     "0x40000"
   ]

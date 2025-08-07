@@ -14,22 +14,22 @@
     "IsInteriorCell"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
+    "AmbientColor": "#00000000",
     "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
     "FogNear": 340.0,
     "FogFar": 14000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
-      "Specular": "#00000000",
+      "DirectionalXPlus": "#00253A40",
+      "DirectionalXMinus": "#001E3A3B",
+      "DirectionalYPlus": "#00223C3E",
+      "DirectionalYMinus": "#0022373E",
+      "DirectionalZPlus": "#003D6A72",
+      "DirectionalZMinus": "#001A2C2F",
+      "Specular": "#00B0DCF7",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00B0DCF7",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -38,6 +38,9 @@
       "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
       "FogMax",
       "LightFadeDistances"

@@ -14,19 +14,17 @@
     "IsInteriorCell"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
+    "AmbientColor": "#006A6A6A",
+    "DirectionalColor": "#00C0C0C0",
     "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
     "DirectionalFade": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#001D1810",
+      "DirectionalXMinus": "#0018180F",
+      "DirectionalYPlus": "#001B1910",
+      "DirectionalYMinus": "#001B1610",
+      "DirectionalZPlus": "#000C0B07",
+      "DirectionalZMinus": "#00292418",
       "Specular": "#00000000",
       "Scale": 1.0
     },
@@ -35,16 +33,20 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
   },
-  "LightingTemplate": "0C0C76:Skyrim.esm",
-  "WaterHeight": -2.1474836E+09,
+  "LightingTemplate": "07BA87:Skyrim.esm",
+  "WaterHeight": 0.0,
   "Location": "0209CB:Skyrim.esm",
   "Owner": "09C754:Skyrim.esm",
   "LockList": "09C866:Skyrim.esm",
@@ -52,26 +54,6 @@
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "07D0DD:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -247.84323,
-      "LocationReference": "0209CB:Skyrim.esm",
-      "Placement": {
-        "Position": "227.53447, -22.016602, 213.4651"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "07D0DE:Skyrim.esm",
-      "Base": "059A93:Skyrim.esm",
-      "Radius": -50.77295,
-      "LocationReference": "0209CB:Skyrim.esm",
-      "Placement": {
-        "Position": "-307.8435, -66.73744, 274.59982"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0C95E9:Skyrim.esm",

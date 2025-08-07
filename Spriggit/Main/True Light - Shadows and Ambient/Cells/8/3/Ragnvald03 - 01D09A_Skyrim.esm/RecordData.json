@@ -15,23 +15,23 @@
     "HasWater"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
+    "AmbientColor": "#00323232",
     "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "FogNearColor": "#001E1E1E",
     "FogNear": 340.0,
     "FogFar": 7000.0,
     "DirectionalFade": 1.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#00483A29",
+      "DirectionalXMinus": "#003B3A26",
+      "DirectionalYPlus": "#00423C28",
+      "DirectionalYMinus": "#00423728",
+      "DirectionalZPlus": "#001F1B12",
+      "DirectionalZMinus": "#0064583D",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#001E1E1E",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
@@ -40,7 +40,12 @@
       "FogColor",
       "FogNear",
       "FogFar",
-      "FogPower"
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
     ]
   },
   "LightingTemplate": "0EDA91:Skyrim.esm",

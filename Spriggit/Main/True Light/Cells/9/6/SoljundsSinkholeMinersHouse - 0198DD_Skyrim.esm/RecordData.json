@@ -1,6 +1,11 @@
 {
   "FormKey": "0198DD:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SoljundsSinkholeMinersHouse",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Miner's House"
@@ -10,30 +15,32 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
+    "AmbientColor": "#00000000",
     "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#00000000",
+      "DirectionalXMinus": "#00000000",
+      "DirectionalYPlus": "#00000000",
+      "DirectionalYMinus": "#00000000",
+      "DirectionalZPlus": "#00000000",
+      "DirectionalZMinus": "#00000000",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00B0DCF7",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "FogPower",
+      "DirectionalRotation",
+      "ClipDistance",
       "FogMax",
       "LightFadeDistances"
     ]
@@ -46,5 +53,8 @@
   "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
   "AcousticSpace": "0E3261:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
-  "ImageSpace": "059B60:Skyrim.esm"
+  "ImageSpace": "059B60:Skyrim.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

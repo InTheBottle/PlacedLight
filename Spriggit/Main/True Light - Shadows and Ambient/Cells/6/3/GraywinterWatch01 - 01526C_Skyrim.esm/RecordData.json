@@ -15,26 +15,30 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#00272721",
+    "DirectionalColor": "#0021211B",
+    "FogNearColor": "#003E4D62",
     "FogNear": 340.0,
     "FogFar": 3500.0,
+    "DirectionalRotationZ": 45,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#00151311",
+      "DirectionalXMinus": "#0011130F",
+      "DirectionalYPlus": "#00131410",
+      "DirectionalYMinus": "#00131210",
+      "DirectionalZPlus": "#00090907",
+      "DirectionalZMinus": "#00131310",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#00DFE8EC",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "FogNear"
+      "FogColor",
+      "FogNear",
+      "ClipDistance",
+      "LightFadeDistances"
     ]
   },
   "LightingTemplate": "0345A4:Skyrim.esm",

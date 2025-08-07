@@ -1,6 +1,11 @@
 {
   "FormKey": "01E9A2:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2POIBookLevel01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Apocrypha"
@@ -11,36 +16,38 @@
     "ShowSky"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
-    "FogNear": 500.0,
-    "FogFar": 10000.0,
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#003F4749",
+    "FogNearColor": "#004B6361",
+    "FogFar": 40000.0,
     "FogClipDistance": 50000.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#004B6361",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "FogPower",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogMax",
       "LightFadeDistances"
     ]
   },
-  "LightingTemplate": "0300E2:Skyrim.esm",
+  "LightingTemplate": "034CE1:Dragonborn.esm",
   "WaterHeight": 0.0,
   "Location": "01EE06:Dragonborn.esm",
   "Water": "01DFF1:Dragonborn.esm",
@@ -49,5 +56,8 @@
   "AcousticSpace": "039E50:Dragonborn.esm",
   "EncounterZone": "01EE16:Dragonborn.esm",
   "Music": "034281:Dragonborn.esm",
-  "ImageSpace": "01C48C:Dragonborn.esm"
+  "ImageSpace": "01C48C:Dragonborn.esm",
+  "MajorFlags": [
+    "0x40000"
+  ]
 }

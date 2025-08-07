@@ -15,28 +15,33 @@
     "HasWater"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#00121718",
+    "DirectionalColor": "#00384E5C",
+    "FogNearColor": "#0099D2EE",
     "FogFar": 4500.0,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#00315053",
+      "DirectionalXMinus": "#0028504C",
+      "DirectionalYPlus": "#002D5350",
+      "DirectionalYMinus": "#002D4C50",
+      "DirectionalZPlus": "#00152624",
+      "DirectionalZMinus": "#0044797B",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#005A80A5",
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
+      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogMax",
       "LightFadeDistances"
     ]
   },

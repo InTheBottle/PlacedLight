@@ -14,26 +14,35 @@
     "IsInteriorCell"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
-    "FogNearColor": "#00000000",
+    "AmbientColor": "#00252927",
+    "DirectionalColor": "#002C3738",
+    "FogNearColor": "#00414435",
     "FogFar": 3000.0,
+    "DirectionalRotationZ": 45,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#00000000",
+      "DirectionalXMinus": "#00000000",
+      "DirectionalYPlus": "#00000000",
+      "DirectionalYMinus": "#00000000",
+      "DirectionalZPlus": "#001D2927",
+      "DirectionalZMinus": "#00707069",
       "Specular": "#00000000",
       "Scale": 1.0
     },
-    "FogFarColor": "#00000000",
+    "FogFarColor": "#0053432D",
     "LightFadeBegin": 31000.0,
-    "LightFadeEnd": 41000.0
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "ClipDistance",
+      "FogMax",
+      "LightFadeDistances"
+    ]
   },
   "LightingTemplate": "0C3D39:Skyrim.esm",
-  "WaterHeight": -2.1474836E+09,
+  "WaterHeight": 0.0,
   "Location": "0209F1:Skyrim.esm",
   "Owner": "014123:Skyrim.esm",
   "LockList": "014123:Skyrim.esm",

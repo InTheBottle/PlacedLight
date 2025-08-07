@@ -15,16 +15,16 @@
     "HasWater"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00000000",
+    "AmbientColor": "#0016293A",
+    "DirectionalColor": "#001C1D23",
     "FogNearColor": "#00000000",
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#000C141E",
+      "DirectionalXMinus": "#0009141B",
+      "DirectionalYPlus": "#000B151D",
+      "DirectionalYMinus": "#000B131D",
+      "DirectionalZPlus": "#0005090D",
+      "DirectionalZMinus": "#000B141D",
       "Specular": "#00000000",
       "Scale": 1.0
     },
@@ -32,16 +32,19 @@
     "LightFadeBegin": 31000.0,
     "LightFadeEnd": 41000.0,
     "Inherits": [
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
       "FogPower",
-      "FogMax"
+      "FogMax",
+      "LightFadeDistances"
     ]
   },
   "LightingTemplate": "08CDDA:Skyrim.esm",
-  "WaterHeight": -2.1474836E+09,
+  "WaterHeight": 0.0,
   "Location": "0ECF4C:Skyrim.esm",
   "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "AcousticSpace": "04075D:Skyrim.esm",

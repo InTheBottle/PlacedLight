@@ -16,16 +16,17 @@
     "PublicArea"
   ],
   "Lighting": {
-    "AmbientColor": "#003C3C3C",
+    "AmbientColor": "#001E1E28",
     "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
+    "DirectionalRotationZ": 45,
     "AmbientColors": {
-      "DirectionalXPlus": "#00553C1C",
-      "DirectionalXMinus": "#00553C1C",
-      "DirectionalYPlus": "#00553C1C",
-      "DirectionalYMinus": "#00553C1C",
-      "DirectionalZPlus": "#00553C1C",
-      "DirectionalZMinus": "#00553C1C",
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
       "Specular": "#00000000",
       "Scale": 1.0
     },
@@ -37,11 +38,14 @@
       "DirectionalColor",
       "FogColor",
       "FogNear",
-      "FogFar"
+      "FogFar",
+      "ClipDistance",
+      "FogMax",
+      "LightFadeDistances"
     ]
   },
-  "LightingTemplate": "0300E2:Skyrim.esm",
-  "WaterHeight": -2.1474836E+09,
+  "LightingTemplate": "05C734:Skyrim.esm",
+  "WaterHeight": 0.0,
   "Location": "0A8C86:Skyrim.esm",
   "Owner": "02816B:Skyrim.esm",
   "AcousticSpace": "108E12:Skyrim.esm",

@@ -6,6 +6,10 @@
   "ModKey": "True Light - Shadows and Ambient.esp",
   "GameRelease": "SkyrimSE",
   "ModHeader": {
+    "Flags": [
+      "Master",
+      "Small"
+    ],
     "Author": "DEFAULT",
     "MasterReferences": [
       {
@@ -26,6 +30,10 @@
       },
       {
         "Master": "Dragonborn.esm",
+        "FileSize": 0
+      },
+      {
+        "Master": "True Light.esm",
         "FileSize": 0
       }
     ],
