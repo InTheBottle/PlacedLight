@@ -21,11 +21,11 @@
     "models": ["DynamicCandles\\candlehornwall01.nif"],
     "lights": [
       {
-        "points": [[0.0, -25.0, 45.0]],
+        "points": [[0.0, -50.0, 45.0]],
         "data": {
           "light": "PL_Candle",
-          "fade": 0.35,
-          "cutoff": 0.08,
+          "fade": 1.0,
+          "cutoff": 0.04,
           "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
@@ -41,6 +41,23 @@
     "lights": [
       {
         "points": [[0.0, -25.0, 45.0]],
+        "data": {
+          "light": "PL_Candle",
+          "fade": 0.35,
+          "cutoff": 0.08,
+          "flags": "InverseSquare|Flicker|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\obs_lightfixtures\\obs_silvercandlesconce_01.nif",
+      "clutter\\obs_lightfixtures\\obs_silvercandlestick_04.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 30.0, 45.0]],
         "data": {
           "light": "PL_Candle",
           "fade": 0.35,
@@ -72,11 +89,11 @@
     ],
     "lights": [
       {
-        "points": [[0.0, 0, 45.0]],
+        "points": [[0.0, 0, 55.0]],
         "data": {
           "light": "PL_Candle",
-          "fade": 0.2,
-          "cutoff": 0.15,
+          "fade": 0.7,
+          "cutoff": 0.1,
           "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
@@ -115,7 +132,7 @@
         "points": [[0.0, 0.0, 22.0]],
         "data": {
           "light": "PL_Candle",
-          "fade": 0.2,
+          "fade": 0.5,
           "cutoff": 0.15,
           "flags": "InverseSquare|Flicker|IgnoreScale"
         }
@@ -214,9 +231,7 @@
       "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
       "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
       "fuzzbeed\\dragoncultbronze\\clutter\\ruins\\ruinsfloorcandlelampmidonbronze.nif",
-      "fuzzbeed\\dragoncultbronze\\clutter\\ruins\\ruinsfloorcandlelampmidon02bronze.nif",
-      "clutter\\imperial\\impcandelabracandle01.nif",
-      "clutter\\imperial\\impcandelabracandle02.nif"
+      "fuzzbeed\\dragoncultbronze\\clutter\\ruins\\ruinsfloorcandlelampmidon02bronze.nif"
     ],
     "lights": [
       {
@@ -225,6 +240,44 @@
           "light": "PL_Candle",
           "fade": 0.5,
           "cutoff": 0.04,
+          "flags": "InverseSquare|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "clutter\\imperial\\impcandelabracandle01.nif",
+      "clutter\\imperial\\impcandelabracandle02.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 100.0]],
+        "data": {
+          "light": "PL_Candle",
+          "fade": 0.9,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale"
+        }
+      }
+    ]
+  },
+    {
+    "models": [
+      "clutter\\obs_lightfixtures\\obs_silvercandelabrapenta_01.nif",
+      "clutter\\obs_lightfixtures\\obs_silvercandelabrasingle_01.nif",
+      "clutter\\obs_lightfixtures\\obs_silvercandelabrasingle_02.nif",
+      "clutter\\obs_lightfixtures\\obs_silvercandelabrasingle_03.nif",
+      "clutter\\obs_lightfixtures\\obs_silvercandelabratriple_01.nif",
+      "clutter\\obs_lightfixtures\\obs_silvercandelabratriple_02.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 100.0]],
+        "data": {
+          "light": "PL_Candle",
+          "fade": 0.9,
+          "cutoff": 0.1,
           "flags": "InverseSquare|IgnoreScale"
         }
       }
@@ -328,8 +381,8 @@
         "points": [[-20.0, 0.0, 15.0]],
         "data": {
           "light": "PL_Candle",
-          "fade": 0.2,
-          "cutoff": 0.15,
+          "fade": 1.2,
+          "cutoff": 0.8,
           "flags": "InverseSquare|Flicker|IgnoreScale"
         }
       }
